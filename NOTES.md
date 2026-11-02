@@ -185,3 +185,10 @@ Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`pyth
 - Requêtes demandant une durée, un délai ou un nombre, prix exclus (filtre par expression régulière, dans le script à venir) : 578 pour le site A, 201 pour le site B. Le site C porte surtout sur la hors domaine, hors domaine.
 - Exemples réels : « botox combien de temps », « paupière tombante après botox combien de temps », « combien de temps sans soleil avant laser », « hyaluronidase combien de temps après injection », « lipofilling visage durée de vie ».
 - Conséquences : l'étude passe en français ; les requêtes sont posées telles quelles, sans réécriture ; plus aucune rédaction de questions.
+
+## Ordre de parcours produit (03/11, après le commit 1cc6813 de la règle)
+
+- Commande : `.venv/bin/python scripts/select_queries.py`
+- Sortie : `{'lues': 50000, 'quantite': 781, 'prix': 0, 'vides': 28} | après dédoublonnage : 593`
+- `data/private/candidates_ordered.jsonl` sha256 f3a0f71a5bd24018f7fca6cefaedbc8cd68ba039895210c843be139fe23c44f6
+- Aucune recherche de sources n'a commencé. Prochaine étape : parcours dans l'ordre, selon PREREG § 2.
