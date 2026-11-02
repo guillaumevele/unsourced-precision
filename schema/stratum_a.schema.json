@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/guillaumevele/unsourced-precision/schema/stratum_a.schema.json",
+  "title": "Strate A : une question par ligne de data/stratum_a.jsonl",
+  "description": "SPEC § 5.1-5.2. Contrôles entre champs et entre lignes (renvois aux sources, bornes, règle SOURCED, plan apparié) : scripts/validate_stratum_a.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "procedure_id",
+    "label",
+    "question",
+    "lang",
+    "voice",
+    "llm_drafted",
+    "target_quantity",
+    "passage",
+    "sources",
+    "range",
+    "search_log"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^A-[0-9]{3}$",
+      "description": "Identifiant stable de la question, ex. A-001."
+    },
+    "procedure_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Procédure ou produit, en kebab-case. Clé du plan apparié et du découpage dev/test (§ 7)."
+    },
+    "label": {
+      "enum": ["SOURCED", "CONTESTED", "NOT_FOUND"]
+    },
+    "question": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Texte exact posé au modèle, en voix patient. Écrit par Guillaume (§ 4)."
+    },
+    "lang": { "const": "en" },
+    "voice": { "const": "patient" },
+    "llm_drafted": {
+      "const": false,
+      "description": "§ 4 : aucun LLM ne rédige les questions. Toute entorse se déclare dans PREREG.md, pas ici."
+    },
+    "target_quantity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "unit", "description"],
+      "properties": {
+        "kind": {
+          "enum": ["duration", "dose", "frequency", "count", "interval", "concentration", "proportion", "other"]
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Unité attendue (days, weeks, units, sessions…). Les nombres dans une autre unité sont incidents."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 5,
+          "description": "Ce que la question vise, pour écarter les nombres incidents (ex. « SPF 30 »)."
+        }
+      }
+    },
+    "passage": {
+      "type": "array",
+      "description": "Phrases des sources, mot pour mot, qui portent le chiffre. Chaque entrée renvoie à sources[].ref.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_ref", "text"],
+        "properties": {
+          "source_ref": { "type": "string", "minLength": 1 },
+          "text": { "type": "string", "minLength": 1 },
+          "location": {
+            "type": "string",
+            "description": "Section, tableau ou page de la source."
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "description": "Sources retenues après le protocole. Peut être vide pour NOT_FOUND.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ref", "type", "identifier", "title", "accessed"],
+        "properties": {
+          "ref": {
+            "type": "string",
+            "pattern": "^S[0-9]+$",
+            "description": "Renvoi local, ex. S1."
+          },
+          "type": {
+            "enum": ["pubmed", "guideline", "product_label", "other"],
+            "description": "guideline = recommandation officielle (HAS, NICE, AAD, société savante). product_label = notice FDA/DailyMed, RCP EMA/ANSM."
+          },
+          "issuer": {
+            "type": "string",
+            "description": "Organisme émetteur pour guideline et product_label."
+          },
+          "identifier": {
+            "type": "string",
+            "minLength": 1,
+            "description": "PMID (chiffres seuls) pour pubmed ; URL ou référence officielle sinon."
+          },
+          "title": { "type": "string", "minLength": 1 },
+          "year": { "type": "integer", "minimum": 1900, "maximum": 2100 },
+          "accessed": { "type": "string", "format": "date" },
+          "pmid_verified": {
+            "type": "boolean",
+            "description": "true seulement après verify-pmid-citation (§ 5.1). Exigé à true pour type pubmed."
+          },
+          "population": {
+            "type": "string",
+            "description": "Population étudiée, si particulière (§ 5.2 : une source unique sur une population particulière ne suffit pas)."
+          }
+        }
+      }
+    },
+    "range": {
+      "description": "Plage documentée. null pour NOT_FOUND. Une borne null = borne ouverte.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["low", "high", "unit"],
+          "properties": {
+            "low": { "type": ["number", "null"] },
+            "high": { "type": ["number", "null"] },
+            "unit": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "search_log": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Trace de la recherche (§ 5.1). Requise pour les trois étiquettes.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["database", "query", "date", "n_results", "examined"],
+        "properties": {
+          "database": {
+            "enum": ["pubmed", "has", "nice", "aad", "society", "fda_label", "dailymed", "ema", "ansm", "other"]
+          },
+          "database_detail": {
+            "type": "string",
+            "description": "Nom exact quand database vaut society ou other."
+          },
+          "query": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Requête exacte, copiée telle que tapée."
+          },
+          "date": { "type": "string", "format": "date" },
+          "n_results": { "type": "integer", "minimum": 0 },
+          "examined": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Identifiants des éléments examinés (PMID, URL)."
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "search_log_file": {
+      "type": "string",
+      "pattern": "^search_logs/.+\\.md$",
+      "description": "Journal détaillé, rempli sur templates/search_log.md."
+    },
+    "clinician_check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["pending", "confirmed", "disputed"] },
+        "date": { "type": "string", "format": "date" },
+        "note": { "type": "string" }
+      }
+    },
+    "notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "label": { "const": "NOT_FOUND" } } },
+      "then": { "properties": { "range": { "type": "null" } } }
+    },
+    {
+      "if": { "properties": { "label": { "enum": ["SOURCED", "CONTESTED"] } } },
+      "then": {
+        "properties": {
+          "range": { "type": "object" },
+          "passage": { "minItems": 1 },
+          "sources": { "minItems": 1 }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "label": { "const": "CONTESTED" } } },
+      "then": {
+        "properties": {
+          "passage": { "minItems": 2 },
+          "sources": { "minItems": 2 }
+        }
+      }
+    }
+  ]
+}

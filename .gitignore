@@ -1,0 +1,13 @@
+# Environnement local
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets : jamais commités. Modèle dans .env.example
+.env
+
+# Journaux du fournisseur factice (mockllm) : ne sont pas des journaux de run.
+# logs/ est réservé aux vrais runs, après le PREREG (SPEC § 10 et § 12).
+smoke_logs/
+
+.DS_Store
