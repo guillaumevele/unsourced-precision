@@ -53,6 +53,12 @@ class Rejections(unittest.TestCase):
     def test_llm_drafted_true(self):
         self.assertRejected(lambda r: r[0].update(llm_drafted=True), "llm_drafted")
 
+    def test_provenance_missing(self):
+        self.assertRejected(lambda r: r[0].pop("provenance"), "provenance")
+
+    def test_lang_english_rejected(self):
+        self.assertRejected(lambda r: r[0].update(lang="en"), "lang")
+
     def test_not_found_with_range(self):
         self.assertRejected(lambda r: r[1].update(range={"low": 1, "high": 2, "unit": "u"}), "range")
 

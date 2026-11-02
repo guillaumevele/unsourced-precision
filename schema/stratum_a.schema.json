@@ -13,6 +13,7 @@
     "lang",
     "voice",
     "llm_drafted",
+    "provenance",
     "target_quantity",
     "passage",
     "sources",
@@ -31,26 +32,77 @@
       "description": "Procédure ou produit, en kebab-case. Clé du plan apparié et du découpage dev/test (§ 7)."
     },
     "label": {
-      "enum": ["SOURCED", "CONTESTED", "NOT_FOUND"]
+      "enum": [
+        "SOURCED",
+        "CONTESTED",
+        "NOT_FOUND"
+      ]
     },
     "question": {
       "type": "string",
       "minLength": 10,
-      "description": "Texte exact posé au modèle, en voix patient. Écrit par Guillaume (§ 4)."
+      "description": "Requête Search Console réelle, posée telle quelle, fautes comprises. Aucune rédaction (PREREG § 2)."
     },
-    "lang": { "const": "en" },
-    "voice": { "const": "patient" },
+    "lang": {
+      "const": "fr"
+    },
+    "voice": {
+      "const": "patient"
+    },
     "llm_drafted": {
       "const": false,
-      "description": "§ 4 : aucun LLM ne rédige les questions. Toute entorse se déclare dans PREREG.md, pas ici."
+      "description": "Le texte de la question n'est rédigé par aucun LLM. Le filtrage et l'étiquetage par Claude sont déclarés dans PREREG § 2."
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "site",
+        "rank",
+        "seed"
+      ],
+      "description": "D'où vient la requête : scripts/select_queries.py (PREREG § 2).",
+      "properties": {
+        "source": {
+          "const": "search_console"
+        },
+        "site": {
+          "enum": [
+            "A",
+            "B"
+          ]
+        },
+        "rank": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Rang dans data/private/candidates_ordered.jsonl."
+        },
+        "seed": {
+          "const": 20261103
+        }
+      }
     },
     "target_quantity": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["kind", "unit", "description"],
+      "required": [
+        "kind",
+        "unit",
+        "description"
+      ],
       "properties": {
         "kind": {
-          "enum": ["duration", "dose", "frequency", "count", "interval", "concentration", "proportion", "other"]
+          "enum": [
+            "duration",
+            "dose",
+            "frequency",
+            "count",
+            "interval",
+            "concentration",
+            "proportion",
+            "other"
+          ]
         },
         "unit": {
           "type": "string",
@@ -70,10 +122,19 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["source_ref", "text"],
+        "required": [
+          "source_ref",
+          "text"
+        ],
         "properties": {
-          "source_ref": { "type": "string", "minLength": 1 },
-          "text": { "type": "string", "minLength": 1 },
+          "source_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
           "location": {
             "type": "string",
             "description": "Section, tableau ou page de la source."
@@ -87,7 +148,13 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["ref", "type", "identifier", "title", "accessed"],
+        "required": [
+          "ref",
+          "type",
+          "identifier",
+          "title",
+          "accessed"
+        ],
         "properties": {
           "ref": {
             "type": "string",
@@ -95,7 +162,12 @@
             "description": "Renvoi local, ex. S1."
           },
           "type": {
-            "enum": ["pubmed", "guideline", "product_label", "other"],
+            "enum": [
+              "pubmed",
+              "guideline",
+              "product_label",
+              "other"
+            ],
             "description": "guideline = recommandation officielle (HAS, NICE, AAD, société savante). product_label = notice FDA/DailyMed, RCP EMA/ANSM."
           },
           "issuer": {
@@ -107,9 +179,19 @@
             "minLength": 1,
             "description": "PMID (chiffres seuls) pour pubmed ; URL ou référence officielle sinon."
           },
-          "title": { "type": "string", "minLength": 1 },
-          "year": { "type": "integer", "minimum": 1900, "maximum": 2100 },
-          "accessed": { "type": "string", "format": "date" },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 1900,
+            "maximum": 2100
+          },
+          "accessed": {
+            "type": "string",
+            "format": "date"
+          },
           "pmid_verified": {
             "type": "boolean",
             "description": "true seulement après verify-pmid-citation (§ 5.1). Exigé à true pour type pubmed."
@@ -124,15 +206,34 @@
     "range": {
       "description": "Plage documentée. null pour NOT_FOUND. Une borne null = borne ouverte.",
       "oneOf": [
-        { "type": "null" },
+        {
+          "type": "null"
+        },
         {
           "type": "object",
           "additionalProperties": false,
-          "required": ["low", "high", "unit"],
+          "required": [
+            "low",
+            "high",
+            "unit"
+          ],
           "properties": {
-            "low": { "type": ["number", "null"] },
-            "high": { "type": ["number", "null"] },
-            "unit": { "type": "string", "minLength": 1 }
+            "low": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "high": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            }
           }
         }
       ]
@@ -144,10 +245,27 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["database", "query", "date", "n_results", "examined"],
+        "required": [
+          "database",
+          "query",
+          "date",
+          "n_results",
+          "examined"
+        ],
         "properties": {
           "database": {
-            "enum": ["pubmed", "has", "nice", "aad", "society", "fda_label", "dailymed", "ema", "ansm", "other"]
+            "enum": [
+              "pubmed",
+              "has",
+              "nice",
+              "aad",
+              "society",
+              "fda_label",
+              "dailymed",
+              "ema",
+              "ansm",
+              "other"
+            ]
           },
           "database_detail": {
             "type": "string",
@@ -158,14 +276,24 @@
             "minLength": 1,
             "description": "Requête exacte, copiée telle que tapée."
           },
-          "date": { "type": "string", "format": "date" },
-          "n_results": { "type": "integer", "minimum": 0 },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "n_results": {
+            "type": "integer",
+            "minimum": 0
+          },
           "examined": {
             "type": "array",
-            "items": { "type": "string" },
+            "items": {
+              "type": "string"
+            },
             "description": "Identifiants des éléments examinés (PMID, URL)."
           },
-          "notes": { "type": "string" }
+          "notes": {
+            "type": "string"
+          }
         }
       }
     },
@@ -177,36 +305,88 @@
     "clinician_check": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status"],
+      "required": [
+        "status"
+      ],
       "properties": {
-        "status": { "enum": ["pending", "confirmed", "disputed"] },
-        "date": { "type": "string", "format": "date" },
-        "note": { "type": "string" }
+        "status": {
+          "enum": [
+            "pending",
+            "confirmed",
+            "disputed"
+          ]
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "note": {
+          "type": "string"
+        }
       }
     },
-    "notes": { "type": "string" }
+    "notes": {
+      "type": "string"
+    }
   },
   "allOf": [
     {
-      "if": { "properties": { "label": { "const": "NOT_FOUND" } } },
-      "then": { "properties": { "range": { "type": "null" } } }
-    },
-    {
-      "if": { "properties": { "label": { "enum": ["SOURCED", "CONTESTED"] } } },
+      "if": {
+        "properties": {
+          "label": {
+            "const": "NOT_FOUND"
+          }
+        }
+      },
       "then": {
         "properties": {
-          "range": { "type": "object" },
-          "passage": { "minItems": 1 },
-          "sources": { "minItems": 1 }
+          "range": {
+            "type": "null"
+          }
         }
       }
     },
     {
-      "if": { "properties": { "label": { "const": "CONTESTED" } } },
+      "if": {
+        "properties": {
+          "label": {
+            "enum": [
+              "SOURCED",
+              "CONTESTED"
+            ]
+          }
+        }
+      },
       "then": {
         "properties": {
-          "passage": { "minItems": 2 },
-          "sources": { "minItems": 2 }
+          "range": {
+            "type": "object"
+          },
+          "passage": {
+            "minItems": 1
+          },
+          "sources": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "label": {
+            "const": "CONTESTED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "passage": {
+            "minItems": 2
+          },
+          "sources": {
+            "minItems": 2
+          }
         }
       }
     }

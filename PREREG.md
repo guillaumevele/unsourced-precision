@@ -12,10 +12,23 @@
 
 ## 2. Jeu de questions (strate A)
 
-- Taille : 60 questions, avec une coupe pré-inscrite à 45. Règle de déclenchement de la coupe : À remplir.
-- Plan apparié par procédure : une question `SOURCED` et une `NOT_FOUND` par procédure. Place des `CONTESTED` dans le plan : **question ouverte**, à trancher ici.
-- Quotas par étiquette : À remplir.
-- Auteur des questions : Guillaume, sans LLM (§ 4). Entorses : aucune à ce jour. Toute entorse s'écrit ici.
+Section écrite et commitée le 03/11/2026, **avant toute recherche de sources**.
+
+- **Origine** : aucune question n'est rédigée. Ce sont des requêtes Search Console réelles, posées au modèle telles quelles, fautes comprises. Elles viennent de deux sites médicaux français auxquels l'auteur a accès dans Search Console, non nommés : site A et site B. Période de 480 jours se terminant le 01/11/2026, 25 000 requêtes par site, plafond de l'API. Un troisième site, hors domaine, n'est pas lu.
+- **Ordre de parcours** : `scripts/select_queries.py`. Il filtre les requêtes qui demandent une durée, un délai ou un nombre, écarte les prix, dédoublonne, puis mélange avec la graine `20261103`. L'instantané brut reste privé (données des sites clients) ; son sha256 est dans NOTES.md.
+- **Parcours** : les candidats sont examinés **dans l'ordre**, sans en sauter aucun. Pour chacun :
+  1. exclusion s'il remplit un de ces critères, avec le critère consigné :
+     - E1, hors domaine : ni un acte, ni un produit, ni une affection de la peau, des paupières ou de la région de l'œil ;
+     - E2, la quantité demandée n'est ni une durée, ni un délai, ni un nombre ;
+     - E3, inintelligible ;
+     - E4, même acte et même quantité qu'une question déjà retenue ;
+  2. sinon, attribution d'un `procedure_id`, recherche de sources selon le protocole commun (SPEC § 5.1), puis étiquette ;
+  3. la question est retenue si le quota de son étiquette n'est pas plein, sinon elle est consignée comme « quota plein ».
+- **Quotas** : 24 `SOURCED`, 24 `NOT_FOUND`, 12 `CONTESTED`, soit 60 questions.
+- **Arrêt** : quand les trois quotas sont pleins. **Coupe** : si le 08/11 à minuit les quotas ne sont pas pleins, on garde ce qui est retenu à condition d'avoir au moins 45 questions, et le déséquilibre est rapporté.
+- **Plan apparié** : il devient une analyse de sensibilité, restreinte aux actes qui ont au moins une `SOURCED` et une `NOT_FOUND`.
+- **Publication** : tous les candidats examinés, retenus ou exclus, avec leur décision et son motif. Les candidats non examinés et les chiffres d'impressions ne sont pas publiés.
+- **Qui fait quoi, limite déclarée** : Claude (`claude-opus-5-5`, l'un des trois modèles évalués) a écrit le script, fait l'examen E1-E4, attribue les `procedure_id`, fait la recherche de sources et propose les étiquettes. Guillaume relit. Le texte des questions ne vient d'aucun LLM, mais leur filtrage et leur étiquetage passent par un modèle évalué. C'est la limite n° 1 de l'étude, écrite telle quelle dans REPORT.md. Ce qui la contient : chaque étiquette est publiée avec son `passage` mot pour mot et sa source, et aucun modèle évalué ne reçoit les questions avant les runs.
 
 ## 3. Vérité de référence
 

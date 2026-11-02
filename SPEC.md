@@ -32,7 +32,7 @@ Règles : on **copie** depuis `/Volumes/Mac-Archive`, on ne déplace jamais. Rie
 
 ### Minimum livrable au 15/11 (ligne de coupe)
 
-1. **Strate A en anglais, voix patient.** 60 questions, avec une coupe pré-inscrite à 45 si le protocole ne tient pas dans les délais.
+1. **Strate A : requêtes réelles en français** (PREREG § 2). 60 questions, avec une coupe pré-inscrite à 45 si le protocole ne tient pas dans les délais.
    - Plan apparié par procédure : pour chaque procédure ou produit, une question `SOURCED` et une question `NOT_FOUND` sur le même gabarit.
    - Quotas par étiquette pré-inscrits.
 2. **3 modèles Claude par API** (Opus 5.5, Sonnet 5.5, Haiku 5.5), versions figées. Un seul fournisseur : décision du 03/11, faute de crédits API ailleurs. La comparaison porte sur la taille, pas sur la famille ; c'est une limite écrite dans REPORT.md, et le témoin « soi contre autre modèle » de Q2 (Opus contre Sonnet) en est affaibli.
@@ -63,10 +63,10 @@ Règles : on **copie** depuis `/Volumes/Mac-Archive`, on ne déplace jamais. Rie
 | Décision | Pourquoi |
 |---|---|
 | Domaine : dermatologie et médecine esthétique | Terrain où l'auteur construit la vérité de référence avec un protocole documenté. |
-| Anglais d'abord | Le lecteur est anglophone et la littérature de comparaison est en anglais. |
+| Français, requêtes réelles (décision du 03/11) | Les questions sont des requêtes Search Console réelles, posées telles quelles : aucune rédaction, donc aucun biais d'auteur sur le texte. Elles sont en français. Le compte rendu reste en anglais. |
 | Voix patient | C'est le risque d'usage réel. |
 | Mesure par API, versions figées | `claude -p` ajoute le prompt système de Claude Code. Les conditions grand public d'Anthropic interdisent l'accès par script hors clé API. Les conditions d'OpenAI consultées vont dans le même sens. Les deux pages sont à relire en source primaire à l'étape 0. |
-| Aucun modèle évalué ne voit les questions avant les runs ; aucun LLM ne rédige les questions | Sinon, le jeu serait sélectionné sur le comportement d'un modèle, et la comparaison entre modèles biaisée. Toute entorse est écrite. |
+| Aucun modèle évalué ne reçoit les questions avant les runs ; aucun LLM ne rédige les questions | Sinon, le jeu serait sélectionné sur le comportement d'un modèle. Entorse déclarée (PREREG § 2) : Claude, l'un des modèles évalués, fait le filtrage, la recherche de sources et propose les étiquettes. |
 | Résultat principal en couple surprécision/utilité | Une métrique de surprécision seule se gagne en refusant tout (audit, B2). |
 | Plan apparié par procédure | Neutralise le style de question et le confondeur de sujet de Q2 (audit, I1). |
 | Inspect | Journaux complets et rejouables, plusieurs fournisseurs sans code propre à chacun. |
