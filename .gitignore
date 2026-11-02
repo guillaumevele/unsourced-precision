@@ -11,3 +11,4 @@ __pycache__/
 smoke_logs/
 
 .DS_Store
+data/private/

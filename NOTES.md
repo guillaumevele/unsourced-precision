@@ -122,3 +122,66 @@ Points que la SPEC ne tranche pas. Le code ne les tranche pas non plus, ils sont
 
 - **Nom de la clinicienne.** `SPEC.md` la nomme, et il est commité. Le § 5.3 n'autorise son nom qu'après accord écrit (étape 2, pas faite). `ANNOTATION.md` a été anonymisé. `SPEC.md` n'a pas été modifié, c'est la source de vérité de Guillaume. Avant tout push : retirer le nom de `SPEC.md` **et de l'historique**, ou obtenir l'accord écrit.
 - **candidate-ai-guidance contre SPEC § 11.** Voir § 0.2. À trancher par Guillaume.
+
+## Budget API — estimation du 03/11/2026
+
+Commande : `python3 scripts/budget.py`. Tarifs relevés le jour même sur platform.claude.com/docs/en/about-claude/pricing et developers.openai.com/api/docs/pricing.
+
+| Modèle | $/MTok entrée / sortie | Q1 (test + dev) | Q2 (sondes) | Total |
+|---|---|---|---|---|
+| claude-opus-5-5 | 4 / 20 | 19,97 $ | 66,96 $ | 86,93 $ |
+| claude-sonnet-5-5 | 2 / 10 | 9,98 $ | 33,48 $ | 43,46 $ |
+| gpt-6-astra | 10 / 50 | 49,92 $ | 167,40 $ | 217,32 $ |
+
+- Trois modèles, Q1 + Q2, une passe : 348 $. Avec une marge x2 pour les relances : 695 $. En Batch API (-50 % chez les deux fournisseurs) : 174 $, ou 348 $ avec la marge.
+- Hypothèses pessimistes : 2 000 tokens de sortie par réponse (raisonnement compris, facturé en sortie), 3 chiffres par réponse et 3 témoins par chiffre pour Q2.
+- Le minimum livrable (Q1 seule, trois modèles) coûte environ 80 $.
+- Non vérifié : le solde réel de chaque compte API, et si les 250 $ des abonnements Max sont utilisables avec une clé API de la Console.
+
+### Mise à jour du 03/11 : aucun compte API OpenAI ni Google
+
+Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`python3 scripts/budget.py claude-opus-5-5 claude-sonnet-5-5 claude-haiku-5-5`) : 133 $ en une passe, 265 $ avec la marge x2, 66 $ en Batch API. Conséquence : le § 3.2 de SPEC.md (« au moins deux familles ») ne tient plus tel quel. Décision à prendre par Guillaume.
+
+### Décision du 03/11 : Claude seul
+
+- Périmètre arrêté par Guillaume : Claude seul. SPEC.md § 3, point 2, mis à jour.
+- Crédits relevés par Guillaume dans la Console (copie collée, 03/11) : 0 $ achetés, 1 500 $ promotionnels. 500 $ valables jusqu'au 11/11/2026 (API, Batch, Playground, Agent SDK) ; 1 000 $ valables jusqu'au 06/04/2027 (tous produits).
+- Les 500 $ expirent le jour des runs de test : on ne compte que sur les 1 000 $, qui couvrent le budget Claude seul (265 $ avec la marge x2).
+- Aucun moyen de paiement enregistré : une fois les crédits épuisés, l'API refuse les appels au lieu de facturer. C'est un plafond de fait.
+
+## Étape 0 : premier appel réel (03/11/2026, accord explicite de Guillaume)
+
+- Commande : `.venv/bin/inspect eval evals/smoke.py --model anthropic/claude-haiku-5-5 --limit 1 --max-tokens 16 --log-dir smoke_logs --display plain`
+- Entrée : la question factice `PLACEHOLDER 1`, aucune question de l'étude.
+- Journal : `smoke_logs/2026-11-02T23-21-43-00-00_smoke_o2mEdfiQH7eUKwjvonLswM.eval` (ignoré par git, hors `logs/`).
+- Résultat : clé acceptée. Chaîne de modèle renvoyée : `claude-haiku-5-5`. Usage : 19 tokens en entrée, 16 en sortie, dont 16 de raisonnement. Coût : environ 0,00001 $.
+- Dépendance ajoutée : `anthropic==2.4.0` (Inspect 0.3.287 exige au moins 2.0.0), épinglée dans `requirements.txt` et `requirements.lock`.
+
+**Conséquence pour le protocole.** Les 16 tokens sont tous partis en raisonnement : texte visible vide, arrêt sur `max_tokens`. Sur les modèles Claude actuels, le raisonnement ne peut pas être désactivé sur Opus 5.5 et il est facturé en sortie. À fixer dans PREREG v1 :
+- `max_tokens` assez grand pour couvrir raisonnement et réponse, identique pour les trois modèles ;
+- niveau d'effort explicite et consigné (défaut `medium` sur Opus 5.5 et Haiku 5.5, `high` sur Sonnet 5.5) ;
+- taux de troncature rapporté par modèle, comme prévu au § 7 de SPEC.md.
+
+## Rédaction des questions : piste « vraies questions publiques » (03/11)
+
+- Guillaume demande que Claude s'occupe des questions. Une rédaction libre par Claude biaiserait l'étude, puisque les modèles évalués sont des Claude.
+- Piste testée : HealthSearchQA (Singhal et al., jeu `katielink/healthsearchqa` sur Hugging Face, licence « unknown » sur la fiche). 4 436 questions, 184 en dermatologie, **4 seulement** demandent une quantité (filtre par mots-clés). Insuffisant pour 60 questions.
+- Piste proposée : questions produites par une règle, pas rédigées. Gabarits = tournures réelles attestées dans HealthSearchQA (« How long does X last? », « How many … »), remplis par une liste publiée d'actes esthétiques et dermatologiques (source à vérifier), avec un tirage à graine fixe. En attente de l'accord de Guillaume.
+
+### Génération par gabarits : essai du 03/11 au soir, arrêté avant le code
+
+- Liste d'actes : glossaire du rapport ASPS 2025 (https://www.plasticsurgery.org/documents/news/statistics/2025/plastic-surgery-statistics-report-2025.pdf, sha256 4e33dc69a1769b2787422fa90dd65589fcd6490b7d58ebf7f6fc6881ccc095cc, pages 41-46). 71 entrées ; une fois retirés la reconstruction et les termes qui ne sont pas des actes, il reste environ 25 actes esthétiques (17 chirurgicaux, 8 peu invasifs).
+- Tournures de HealthSearchQA (all.csv, sha256 037dd1b3c227ec5ee8385227d6439742653cdb37f0421e9757ca446ff6cada90) : seules deux formes de quantité s'appliquent telles quelles à un acte, « How long does X last? » (ids 804, 817, 836) et « How long does X take to heal? » (ids 810, 814). « How many sessions », « to work » ou « go back to work » n'y figurent pas : les utiliser serait de la rédaction.
+- **Blocage.** Deux gabarits génériques sur 25 actes donnent au plus une cinquantaine de questions, et ce sont des questions générales (« How long does a facelift last? »). Les sociétés savantes publient précisément ces chiffres : on attend surtout des `SOURCED`, très peu de `NOT_FOUND`. Le plan apparié (une `SOURCED` et une `NOT_FOUND` par acte) ne tient pas. Les `NOT_FOUND` demandent des questions précises, donc de la rédaction ou de vraies requêtes de longue traîne.
+- Décision demandée à Guillaume.
+
+## Source retenue : vraies requêtes Search Console (03/11, choix de Guillaume)
+
+- Extraction : `gsc_client.get_top_queries(site, days=480, limit=25000)` via `~/.hermes/scripts/seo`, lecture seule, pour trois sites médicaux français auxquels l'auteur a accès dans Search Console, non nommés (décision du 03/11) : sites A, B et C. 25 000 requêtes par site (plafond de l'API).
+- Instantané figé dans `data/private/` (ignoré par git, données des sites clients ; la correspondance est dans `data/private/MAPPING.md`) :
+  - site_a.json sha256 10907b276a7c67a9ed72eac05942721ad531b20fef90772b62b30df0d4336ba9
+  - site_b.json sha256 3e269eb1a059c26e876757b181d436bc680b81a9933f6aeca52dc3466031e51f
+  - site_c.json sha256 16bb0f32ca21bd61641c83d92f723505254b5f16e967cdd0985e1978e7a03ed0
+- Requêtes demandant une durée, un délai ou un nombre, prix exclus (filtre par expression régulière, dans le script à venir) : 578 pour le site A, 201 pour le site B. Le site C porte surtout sur la hors domaine, hors domaine.
+- Exemples réels : « botox combien de temps », « paupière tombante après botox combien de temps », « combien de temps sans soleil avant laser », « hyaluronidase combien de temps après injection », « lipofilling visage durée de vie ».
+- Conséquences : l'étude passe en français ; les requêtes sont posées telles quelles, sans réécriture ; plus aucune rédaction de questions.

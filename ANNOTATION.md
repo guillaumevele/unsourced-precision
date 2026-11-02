@@ -61,4 +61,4 @@ Questions ouvertes :
 
 ## 8. Déclaration
 
-La clinicienne (nommée seulement après son accord écrit, SPEC § 5.3) est chirurgienne plasticienne, pas dermatologue. Guillaume réalise son site. La dépendance et l'écart de spécialité sont déclarés dans le compte rendu.
+Aucun clinicien ne relit les étiquettes (décision du 03/11). Le compte rendu le déclare comme limite.

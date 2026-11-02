@@ -6,6 +6,7 @@ aioitertools==0.13.0
 aiosignal==1.4.0
 annotated-doc==0.0.5
 annotated-types==0.8.0
+anthropic==2.4.0
 anyio==4.16.0
 attrs==26.1.0
 beautifulsoup4==4.15.0
@@ -21,10 +22,13 @@ frozenlist==1.8.0
 fsspec==2026.6.0
 h11==0.16.0
 httpcore==1.0.9
+httpcore2==2.16.0
 httpx==0.28.1
+httpx2==2.16.0
 idna==3.20
 ijson==3.6.0
 inspect_ai==0.3.287
+jiter==0.18.0
 jmespath==1.1.0
 jsonlines==4.0.0
 jsonpatch==1.39
@@ -68,6 +72,7 @@ starlette==1.10.0
 tenacity==9.2.1
 textual==8.2.8
 tiktoken==0.14.0
+truststore==0.10.5
 typing-inspection==0.4.4
 typing_extensions==4.16.0
 universal_pathlib==0.3.10

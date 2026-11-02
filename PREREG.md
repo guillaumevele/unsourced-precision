@@ -21,7 +21,7 @@
 
 - Protocole commun (§ 5.1) et règles d'étiquette (§ 5.2) : renvoi aux sections de la SPEC, plus les écarts éventuels.
 - Ré-étiquetage pré-inscrit (§ 5.2) : À remplir.
-- Vérification par la clinicienne : périmètre (environ 30 questions) et règle en cas de désaccord, À remplir.
+- Pas de relecture clinique des étiquettes (décision du 03/11) ; chaque étiquette est publiée avec son passage et sa source.
 
 ## 4. Modèles et paramètres
 
