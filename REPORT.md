@@ -1,6 +1,6 @@
 # REPORT — Unsourced precision, strate A
 
-> **État : squelette.** Les sections Résultats sont vides tant que le test n'est pas annoté et gelé (PREREG v1 § 8, amendement 1 § 4). Aucun chiffre de résultat n'est écrit ici à la main : chaque chiffre renverra à un fichier de `results/` et au script qui le produit. La section Limites est écrite d'avance, avant de voir le test.
+> **État : Q1 terminée sur le test (03/11/2026) ; Q2 non lancée.** Chaque chiffre de résultat vient de `results/q1.json` ou `results/q1.md`, produits par `scripts/analyze.py` et jamais édités à la main. L'analyse a tourné après le gel des annotations (commit `b9637d4`), avec le code commité et horodaté avant (commit `9b89dd0`, `timestamps/analyse.manifest.txt`). La section Limites 1 à 10 a été écrite avant de voir le test ; les limites 11 et 12, ajoutées après, sont marquées comme telles.
 
 ## 1. Question
 
@@ -8,34 +8,75 @@ Quand un patient demande une durée, un délai ou un nombre de séances pour un 
 
 ## 2. Méthode, en bref
 
-- **Questions** : 60 requêtes Search Console réelles, en français, posées telles quelles (PREREG v1 § 2). Étiquette de référence par recherche de sources : 24 `SOURCED`, 25 `NOT_FOUND`, 11 `CONTESTED` (§ 3). Découpage par acte : 12 en dev, 48 en test (§ 5).
-- **Modèles évalués** : `claude-opus-5-5`, `claude-sonnet-5-5`, `claude-haiku-5-5`, sans prompt système, 5 tirages, effort `medium`, 8 000 tokens au plus (§ 4).
-- **Annotation** : deux modèles d'autres familles (`mistral-large-4`, `gemini-3.6-flash`) extraient des champs ; l'étiquette finale est calculée par script ; désaccord ou annotation invalide = indéterminée (PREREG § 6, `ANNOTATION.md`, `PREREG-AMENDEMENT-1.md`).
-- **Chronologie vérifiable** : PREREG v1 commitée et horodatée (OpenTimestamps) avant tout run ; amendement 1 commité avant tout journal `logs/test/` (`git log --format='%h %ci %s'`).
+- **Questions** : 60 requêtes Search Console réelles, en français, posées telles quelles (PREREG v1 § 2). Étiquette de référence par recherche de sources : 24 `SOURCED`, 25 `NOT_FOUND`, 11 `CONTESTED` (§ 3). Découpage par acte : 12 en dev, 48 en test (§ 5) ; le test compte 19 `SOURCED`, 20 `NOT_FOUND`, 9 `CONTESTED` (`data/split.json`).
+- **Modèles évalués** : `claude-opus-5-5`, `claude-sonnet-5-5`, `claude-haiku-5-5`, sans prompt système, 5 tirages, effort `medium`, 8 000 tokens au plus (§ 4). 720 réponses sur le test ; contrôle pré-inscrit des paramètres conforme sur les 720 requêtes (`NOTES.md`, « Runs du test »).
+- **Annotation** : deux modèles d'autres familles (`mistral-large-4`, `gemini-3.6-flash`) extraient des champs ; l'étiquette finale est calculée par script ; désaccord ou annotation invalide = indéterminée (PREREG § 6, `ANNOTATION.md`, `PREREG-AMENDEMENT-1.md`, `PREREG-AMENDEMENT-2.md`).
+- **Analyse** : taux par question (moyenne des tirages déterminés), puis par modèle (moyenne des questions) ; IC à 95 % par bootstrap par grappes de questions, 10 000 rééchantillonnages, graine `20261106` ; règles non tranchées par le § 8 fixées dans `scripts/analyze.py` avant le gel.
+- **Chronologie vérifiable** : PREREG v1 commitée et horodatée (OpenTimestamps, blocs Bitcoin 974330, 974333, 974343) avant tout run ; amendements 1 et 2 commités avant tout journal `logs/test/` ; code d'analyse commité avant tout score du test (`git log --format='%h %ci %s'`).
 
 ## 3. Résultats
 
 ### 3.1 Q1 : surprécision et utilité par modèle
 
-*À remplir depuis `results/` après le gel des annotations du test.*
+Source : `results/q1.md`, « Analyse principale ». Taux sur les réponses déterminées ; aucune question exclue faute de tirage déterminé (`results/q1.json`, `questions_exclues` = 0 partout).
+
+| Taux | Haiku 5.5 | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|---|
+| Surprécision (`NOT_FOUND`, 20 questions) | 0,402 [0,233 ; 0,572] | 0,412 [0,225 ; 0,613] | 0,358 [0,180 ; 0,543] |
+| Utilité (`SOURCED`, 19 questions) | 0,474 [0,274 ; 0,684] | 0,645 [0,434 ; 0,842] | 0,645 [0,442 ; 0,834] |
+| Hors plage (`SOURCED`, 19 questions) | 0,474 [0,263 ; 0,684] | 0,355 [0,158 ; 0,566] | 0,355 [0,166 ; 0,558] |
+| Chiffre précis sans réserve (`CONTESTED`, 9 questions, descriptif) | 0,233 [0,056 ; 0,456] | 0,280 [0,096 ; 0,472] | 0,176 [0,037 ; 0,354] |
+
+Politiques de référence (PREREG § 8) : « toujours refuser ou renvoyer » donne une surprécision de 0 et une utilité de 0 ; « toujours un chiffre précis sans réserve » donne une surprécision de 1.
+
+Lecture :
+- Sur les questions où le protocole n'a trouvé aucun chiffre publié, les trois modèles donnent un chiffre précis sans terme qui compte dans environ quatre réponses sur dix. Les intervalles se recouvrent largement ; aucune différence appariée de surprécision n'exclut 0 (de −0,011 à 0,054).
+- Sur les questions `SOURCED`, les modèles ne refusent presque jamais : 2 réponses `REFUSAL_UNHELPFUL` sur 257 déterminées (`data/annotation/test/v2/scores.jsonl`). La part qui manque à l'utilité est donc presque entièrement hors plage, pas de l'abstention.
+- Haiku est moins utile qu'Opus et que Sonnet : différence appariée −0,171, IC [−0,350 ; −0,011] contre Opus et [−0,337 ; −0,024] contre Sonnet. Opus et Sonnet ne se distinguent pas (0,000, IC [−0,082 ; 0,105]). Comparaisons descriptives, sur 19 questions.
+- Le modèle le plus gros n'est pas le moins surprécis sur ce jeu.
+
+Ce sont des taux sur ce jeu construit de 48 questions, pas des fréquences en population.
 
 ### 3.2 Fiabilité de l'annotation
 
-*Kappa par champ, accord final, taux d'invalides par annotateur et par motif, sur le test. Le dev est publié à part (v1 et v2).*
+Test (`scripts/score.py test v2`, `data/annotation/test/v2/scores.json`) :
+- Kappa de Cohen par champ : chiffre présent 0,677 ; plage précise 0,732 ; terme qui compte 0,809 ; renvoi 0,737 ; étiquette finale 0,820. Accord sur l'étiquette finale 0,869.
+- Indéterminées : 94 sur 720 (`NOT_FOUND` 51, `SOURCED` 28, `CONTESTED` 15 ; `results/q1.json`).
+- Invalides : Mistral 3 (unité 2, citation introuvable 1), Gemini 17 (unité 13, sans borne 3, citation introuvable 1). L'écart entre les deux annotateurs vient surtout des unités ; il pèse sur les indéterminées, que l'analyse de sensibilité 3.3 compte dans les deux sens.
 
-Dev, pour mémoire (pas un résultat ; `data/annotation/dev/scores.json` et `data/annotation/dev/v2/scores.json`, `scripts/score.py dev v1|v2`) : kappa sur l'étiquette finale 0,68 en v1, 0,78 en v2 ; indéterminées 38 puis 27 sur 180. Le désaccord restant porte sur les bornes extraites (19 des 20 indéterminées des questions `NOT_FOUND` et `CONTESTED`) : la consigne demande la plage la plus large, Gemini garde souvent la plage de la phrase principale (`NOTES.md`, amendement 2 § 1).
+Dev, pour mémoire (pas un résultat ; `data/annotation/dev/scores.json` et `data/annotation/dev/v2/scores.json`, `scripts/score.py dev v1|v2`) : kappa sur l'étiquette finale 0,68 en v1, 0,78 en v2 ; indéterminées 38 puis 27 sur 180. Le désaccord restant au dev portait sur les bornes extraites (19 des 20 indéterminées des questions `NOT_FOUND` et `CONTESTED`) : la consigne demande la plage la plus large, Gemini gardait souvent la plage de la phrase principale (`NOTES.md`, amendement 2 § 1).
 
 ### 3.3 Analyses de sensibilité pré-inscrites
 
-*Sans A-054 à A-060 ; sans les 8 questions à plage ouverte ou large ; indéterminées comptées dans un sens puis dans l'autre ; sans réponses tronquées ou vides ; avec l'étiquetage initial de Claude (A-003, A-024, A-047).*
+Source : `results/q1.md`, sections « Sensibilité ».
+
+| Analyse | Surprécision (Haiku / Opus / Sonnet) | Utilité (Haiku / Opus / Sonnet) |
+|---|---|---|
+| Principale | 0,402 / 0,412 / 0,358 | 0,474 / 0,645 / 0,645 |
+| Indéterminées comptées positives | 0,510 / 0,560 / 0,450 | 0,537 / 0,674 / 0,695 |
+| Indéterminées comptées négatives | 0,330 / 0,360 / 0,320 | 0,432 / 0,547 / 0,632 |
+| Sans A-054 à A-060 (5 questions du test, toutes `SOURCED`) | inchangée | 0,457 / 0,589 / 0,643 (14 questions) |
+| Sans les plages ouvertes ou larges | inchangée | 0,400 / 0,558 / 0,558 (13 questions) |
+| Sans réponses tronquées ou vides | identique : aucune réponse tronquée ni vide | identique |
+| Étiquetage initial de Claude (A-003, A-024, A-047) | 0,412 / 0,382 / 0,346 (19 questions) | 0,421 / 0,618 / 0,648 |
+
+La surprécision reste entre 0,32 et 0,56 selon le traitement des indéterminées, et aucune analyse ne fait apparaître un modèle nettement moins surprécis. Le plan apparié par acte (PREREG § 2) n'est pas interprétable sur le test (deux actes) et n'est pas rapporté.
 
 ### 3.4 Détecteurs
 
-*Trois détecteurs (PREREG § 8), précision et rappel avec IC contre l'étiquette finale.*
+Population principale : réponses déterminées aux questions `NOT_FOUND`, positif = `OVERPRECISE` (249 réponses ; `results/q1.md`, « Détecteurs »). Variante du v1 figée sur le dev par l'amendement 2.
+
+| Détecteur | Précision [IC 95 %] | Rappel [IC 95 %] |
+|---|---|---|
+| Nombre écrit en chiffres | 0,400 [0,238 ; 0,566] | 0,970 [0,910 ; 1,000] |
+| Nombre sans terme du lexique dans la réponse | 0,368 [0,125 ; 0,765] | 0,069 [0,029 ; 0,106] |
+| v1, première expression chiffrée | 0,553 [0,368 ; 0,711] | 0,931 [0,850 ; 0,989] |
+
+Le v1 gagne en précision sur le détecteur naïf, sans perdre beaucoup de rappel ; les intervalles de précision se recouvrent. Un filtre par mots-clés seul ne sert à rien ici : un terme qui compte figure presque toujours quelque part dans la réponse, rarement dans la phrase du chiffre.
 
 ### 3.5 Q2 (extension)
 
-*Chiffrée et lancée seulement si Q1 est terminée.*
+Non lancée. Elle exige un chiffrage (PREREG § 9) et un amendement qui fixe les points d'exécution restés ouverts, commité et horodaté avant le premier appel.
 
 ## 4. Limites
 
@@ -45,11 +86,24 @@ Dev, pour mémoire (pas un résultat ; `data/annotation/dev/scores.json` et `dat
 4. **Jeu construit et petit.** 60 questions, 48 en test, venues de deux sites médicaux français, dans un domaine (peau, paupières, région de l'œil). Pas de paraphrases : la sensibilité à la formulation n'est pas mesurée. La puissance est faible ; les comparaisons entre modèles sont descriptives.
 5. **Un seul fournisseur.** Trois modèles Claude : la comparaison porte sur la taille, pas sur la famille.
 6. **API, pas interface grand public.** Sans prompt système, effort fixé : ce n'est pas ce qu'un patient voit dans une application.
-7. **Annotateurs automatiques et leurs biais.** Les signatures de style ne sont pas retirées : un annotateur peut reconnaître un modèle. Le second annotateur tourne sur l'offre gratuite de Google, dont les conditions permettent l'usage des contenus envoyés (requêtes publiques et réponses de Claude, aucune donnée privée).
+7. **Annotateurs automatiques et leurs biais.** Les signatures de style ne sont pas retirées : un annotateur peut reconnaître un modèle. Le second annotateur a tourné sur l'offre gratuite de Google pour le dev et les lots 1 à 12 du test ; ses conditions permettent l'usage des contenus envoyés (requêtes publiques et réponses de Claude, aucune donnée privée).
 8. **La grille a été révisée après lecture du dev.** L'amendement 1 a été écrit après avoir vu les scores v1 du dev, modèle par modèle. Les changements ont été jugés sur l'accord entre annotateurs seulement, et le test n'existait pas encore ; l'écart reste déclaré.
 9. **Étiquetage sous pression des quotas.** À partir du rang 112, une partie des quotas était pleine ; analyse de sensibilité sans A-054 à A-060.
 10. **Plages publiées comme références de recherche.** Les plages `SOURCED` de `data/` sont des valeurs publiées par les sources citées, pas des recommandations ; les chiffres des modèles sont des objets d'étude.
+11. *(Ajoutée après le test.)* **Deux points d'accès pour le second annotateur.** Lots 1 à 12 du test par l'API Gemini, lots 13 à 72 par Vertex AI, après l'épuisement des crédits de la clé de projet sur l'API Gemini. Même modèle (`modelVersion` `gemini-3.6-flash` dans les 72 lots), même consigne, mêmes réglages ; seul ajout, le champ `role: "user"` exigé par Vertex (`scripts/annotate_vertex.py`). Un écart de service entre les deux points d'accès n'est pas exclu.
+12. *(Ajoutée après le test.)* **Annotations invalides asymétriques.** Gemini rend 17 annotations invalides, Mistral 3, surtout sur les unités. Elles deviennent des indéterminées ; leur poids est borné par l'analyse qui les compte dans les deux sens (§ 3.3).
 
 ## 5. Reproduire
 
-*À écrire avec `results/` : un clone neuf plus une commande régénère `results/` depuis `logs/` sans appel API (SPEC § 12).*
+Depuis un clone, sans appel API :
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r requirements.lock
+.venv/bin/python -m unittest discover -s tests
+.venv/bin/python scripts/score.py test v2        # régénère scores.jsonl, identique au commit de gel
+.venv/bin/python scripts/detectors.py test
+.venv/bin/python scripts/analyze.py test         # régénère results/q1.json et results/q1.md
+git diff --stat                                  # aucune différence attendue
+```
+
+Les journaux bruts d'Inspect (`logs/`) et toutes les réponses brutes des annotateurs (`data/annotation/`) sont commités. Relancer les modèles ou les annotateurs demande des clés (`.env.example`) et n'est pas nécessaire pour vérifier les résultats.
