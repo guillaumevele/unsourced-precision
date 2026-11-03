@@ -183,3 +183,13 @@
 {"rank": 183, "site": "B", "query": "combien de temps faut-il pour voir des résultats avec un médicament glp-1", "decision": "EXCLU-E1", "motif": "médicament amaigrissant, ni acte ni affection de la peau ou de l’œil"}
 {"rank": 184, "site": "A", "query": "combien de temps se raser avant épilation", "decision": "EXCLU-E3", "motif": "méthode d’épilation non précisée (laser ou cire), la consigne de rasage en dépend"}
 {"rank": 185, "site": "A", "query": "bouton dure sur la peau", "decision": "EXCLU-E2", "motif": "« dure » = consistance, pas durée"}
+{"rank": 186, "site": "A", "query": "combien de séance pour enlever un tatouage", "decision": "EXCLU-E4", "motif": "même acte et même quantité que A-034 (nombre de séances de détatouage)"}
+{"rank": 187, "site": "B", "query": "lipofilling cernes durée", "decision": "QUOTA_PLEIN", "motif": "Aucune durée chiffrée pour la graisse injectée dans les cernes : PubMed « autologous fat grafting tear trough infraorbital longevity » (0) et « fat grafting lower eyelid tear trough » (102, 8 premiers examinés : durées de suivi seulement). Les sources générales sur la graisse du visage (A-044) se contredisent. Étiquette NOT_FOUND, quota plein.", "label": "NOT_FOUND", "procedure_id": "fat-grafting-tear-trough"}
+{"rank": 188, "site": "B", "query": "blépharoplastie durée de vie", "decision": "EXCLU-E4", "motif": "même acte et même quantité que A-025 (durée des résultats d’une blépharoplastie)"}
+{"rank": 189, "site": "A", "query": "tatouage éphémère longue durée avis", "decision": "EXCLU-E2", "motif": "ne demande pas de quantité (avis sur un produit)"}
+{"rank": 190, "site": "A", "query": "cicatrice combien de temps sans soleil", "decision": "EXCLU-E4", "motif": "même sujet et même quantité que A-031 (délai avant d’exposer une cicatrice au soleil)"}
+{"rank": 191, "site": "A", "query": "tattoo ephemere longue duree", "decision": "EXCLU-E2", "motif": "ne demande pas de quantité (recherche de produit)"}
+{"rank": 192, "site": "A", "query": "abdominoplastie convalescence avis", "decision": "EXCLU-E4", "motif": "même acte et même quantité que A-023 (convalescence après abdominoplastie)"}
+{"rank": 193, "site": "B", "query": "temps de récupération", "decision": "EXCLU-E3", "motif": "pas de sujet"}
+{"rank": 194, "site": "A", "query": "combien de seance laser pour le visage", "decision": "EXCLU-E3", "motif": "acte non précisé (laser du visage)"}
+{"rank": 195, "site": "B", "query": "combien de temps pour qu'un bleu disparaisse", "decision": "RETENU", "motif": "NHS : la plupart des bleus disparaissent en quelques semaines ; consulter s'il n'a pas disparu au bout de 3 semaines.", "label": "SOURCED", "procedure_id": "bruise", "id": "A-059"}
