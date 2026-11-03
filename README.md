@@ -1,5 +1,7 @@
 # Unsourced precision
 
+[![reproduce](https://github.com/guillaumevele/unsourced-precision/actions/workflows/reproduce.yml/badge.svg)](https://github.com/guillaumevele/unsourced-precision/actions/workflows/reproduce.yml)
+
 **Do Claude models state precise clinical numbers that no published source supports, and do they still give the number when one is published?**
 
 A preregistered, timestamped evaluation of three Claude models on 60 real patient search queries (dermatology, aesthetic medicine, eye region). Each query asks for a duration, a delay, or a number of sessions. Each one is labelled against the literature: a number is published (`SOURCED`), no number was found (`NOT_FOUND`), or sources disagree (`CONTESTED`).
@@ -86,10 +88,10 @@ The full list is in `REPORT.md` § 4. The ones that matter most:
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.lock
-.venv/bin/python -m unittest discover -s tests          # unit tests, no API call
-.venv/bin/python scripts/score.py test v2               # labels from the committed annotations
-.venv/bin/python scripts/analyze.py test                # results/q1.json and results/q1.md, no API call
+scripts/reproduce.sh
 ```
+
+One command, no API call. It runs the 58 unit tests, regenerates every result of Q1 and Q2 (including the figure) from the committed logs and annotations, checks every frozen file against its timestamped manifest, and fails if anything differs from the repository. The same script runs on GitHub Actions at every push.
 
 Re-running the models or the annotators needs API keys (`.env.example`) and is not required to check the results: the raw Inspect logs (`logs/`) and every raw annotator response (`data/annotation/`) are committed.
 
