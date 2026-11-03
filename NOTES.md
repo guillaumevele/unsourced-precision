@@ -342,3 +342,4 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 - Sensibilité « étiquetage initial de Claude » : étiquettes finales recalculées depuis les champs de chaque annotateur avec A-003 `SOURCED` (plage 1 à 7 jours, relue au commit `8bfc690`), A-024 et A-047 `CONTESTED` (`data/label_check/full/results.json`).
 - Garde-fou : refus si un annotateur n'a pas toutes les réponses, si `scores.jsonl` n'est pas commité ou si les annotations ont changé depuis le dernier commit. Essai le 03/11 : « gemini.jsonl incomplet : analyse refusée ».
 - `python -m unittest discover -s tests` : 47 tests OK.
+- `ots stamp timestamps/analyse.manifest.txt` le 03/11/2026 (accord de Guillaume, « Oui, horodate ») ; preuve en attente de confirmation, à compléter par `ots upgrade`.
