@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"347fc5179989\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 5,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"| **Microblading** (poil à poil, à la lame) | 1 à 3 ans |\",\n      \"| **Microshading / Powder brows** (effet poudré, ombré) | 2 à 5 ans |\",\n      \"| **Maquillage permanent / dermopigmentation** (au dermographe) | 2 à 5 ans |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a8e9e76f846c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 1,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"**Avant une séance d'épilation laser, il ne faut pas laisser pousser les poils : il faut les raser 12 à 24 heures avant.**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3baefb9b7002\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 9,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **En général : 9 à 18 mois**, parfois jusqu'à 24 mois selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c3aef3c88183\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 9,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En général, 9 à 18 mois**, souvent autour de **12 mois**.\",\n      \"Certaines personnes gardent un résultat visible **jusqu'à 2 ans**, car la zone sous les yeux bouge peu, ce qui ralentit la dégradation du produit.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Teosyal Redensity II\",\n      \"Restylane\",\n      \"Juvéderm Volbella\"\n    ]\n  },\n  {\n    \"id\": \"a611250d3e2c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Premiers effets :** généralement visibles entre **2 et 4 jours** après l'injection.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Botox\",\n      \"Azzalure\",\n      \"Bocouture\"\n    ]\n  },\n  {\n    \"id\": \"192d9be2f96f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 10,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Elles peuvent persister **de nombreuses années (5, 10 ans, voire plus)**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"aadbd011ebad\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Acné nodulaire ou kystique (bouton profond, sans pointe blanche)** : 1 à 3 semaines, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"114f95356180\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Le délai habituel entre deux séances de cryolipolyse sur une **même zone** est d'environ **6 à 8 semaines** (soit 1,5 à 2 mois).\",\n      \"Certains praticiens recommandent d'attendre jusqu'à **3 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"70158ebc8c7a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 5,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Premiers signes** : entre **2 et 5 jours** après l'injection.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"587d19f672f9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, les injections de Botox se refont **tous les 3 à 6 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1/eX6K2dvzRMkuO2pUO764oU8Wh2OPpGJvUJxESGhw+wjtpA/ilZajWjKT8hBG0/O5fOCpzqGyiv+nIQHYytl54J0RzWFcvGbbnmQVmx/H7synU"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5802,
+  "candidatesTokenCount": 1443,
+  "totalTokenCount": 7245,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5802
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1443
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:17:35.731598Z",
+ "responseId": "_-zpas7TLOyEvdIP8KGsuQM"
+}

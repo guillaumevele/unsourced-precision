@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"eb31f1b43245\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35,\n    \"borne_haute\": 60,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de cryolipolyse dure généralement **35 à 60 minutes par zone traitée**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"dcd3cd3ec902\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **3 à 5 séances** espacées de **4 à 6 semaines**.\",\n      \"| **Fraxel Dual (non ablatif)** | Plus doux, éviction sociale courte | 3 à 6 séances |\",\n      \"- **Teint terne, texture, pores dilatés** : 2 à 3 séances\",\n      \"- **Taches pigmentaires / taches solaires** : 1 à 3 séances\",\n      \"- **Rides fines** : 3 à 5 séances\",\n      \"- **Cicatrices d'acné** : 4 à 6 séances, parfois plus\",\n      \"- **Vergetures** : 4 à 6 séances\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d41164f4406a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **1 à 2 fois par jour** : le matin et/ou le soir.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"aa0b28138b29\",\n    \"chiffre_present\": true,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": \"années\",\n    \"phrases_chiffre\": [\n      \"Elles se comportent comme la graisse du site receveur, et peuvent donc durer de **nombreuses années, voire toute la vie**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"abdf42d2eb3a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre **6 à 8 semaines minimum après la dernière séance de détatouage**, et souvent davantage si vous voulez un résultat optimal.\",\n      \"- **Peau cicatrisée** : au minimum 6 à 8 semaines, le temps que l'inflammation, les croûtes et la rougeur aient disparu.\",\n      \"- **Recommandé en pratique** : 3 à 6 mois, voire 12 mois, selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2200f7a3b308\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24,\n    \"borne_haute\": 48,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"La plupart des médecins conseillent d'**éviter le sport intense pendant au moins 24 heures** après une injection de Botox.\",\n      \"Certains praticiens recommandent jusqu'à **48 heures** par précaution.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7fe9f8629a32\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**2 à 4 mois** en général, soit un peu moins que le Botox classique (3 à 6 mois).\",\n      \"| Disparition complète | 3 à 4 mois |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"25029168a683\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Arrêt de travail** : 2 à 3 semaines pour un travail de bureau, 4 à 6 semaines pour un travail physique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"233ef02aec32\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Le **baby botox** (injections de toxine botulique à faible dose, souvent utilisées pour le visage fin, le front, le contour des yeux ou le \\\"lifting du sourire\\\") dure en général **3 à 4 mois**, parfois jusqu'à 6 mois.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bb17cf3cc2cc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24,\n    \"borne_haute\": 48,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **éviter le sport intense pendant 24 à 48 heures** après une injection de botox.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19KdTt4mODPNylECfbn4RisAJbW+5Y6QaZn8X86C85ErvnJzpSWhQ/obKOrFj3r7xplax4GrbLeJPCOHSv170pQ5/TaQatgzNjuMd0ih3xYLbSS"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5872,
+  "candidatesTokenCount": 1535,
+  "totalTokenCount": 7407,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5872
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1535
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:13:54.082138Z",
+ "responseId": "IuzpatqBBbCxz_IP38KTsQY"
+}

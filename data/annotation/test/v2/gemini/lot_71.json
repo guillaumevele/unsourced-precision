@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"67977c70f259\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique** (le plus courant et le plus sûr) : environ **6 à 18 mois**, en moyenne 1 an.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0ad7507a8e08\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **1 à 2 séances** pour le ventre, parfois 3 si l'objectif est plus important.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fbc416d55a24\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 7,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Les premiers effets apparaissent généralement entre **3 et 5 jours** après l'injection.\",\n      \"- Chez certaines personnes, cela peut prendre jusqu'à **7 jours**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3a4f6a11b01f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Microblading** (traits fins poil par poil) : environ **1 à 2 ans**, parfois un peu moins.\",\n      \"- **Shading / ombré / poudré** (effet maquillage plus dense) : environ **2 à 3 ans**, parfois plus.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"69640fc9835c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 5,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Microblading** (poil à poil, réalisé avec une lame) : de **12 à 18 mois** en général, parfois jusqu'à 2 ans.\",\n      \"- **Microshading / effet poudré** (pointillé à la machine) : de **2 à 3 ans**.\",\n      \"- **Dermopigmentation à la machine** (sourcils très structurés) : de **2 à 5 ans**, voire plus.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fdd767a533e8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24,\n    \"borne_haute\": 48,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **éviter le sport intense pendant environ 24 à 48 heures** après une injection de botox.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9f66c3abf7e9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 4,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Un Botox au niveau des lèvres dure en général **environ 2 à 4 mois**.\",\n      \"- **Lip flip** (petite dose pour retourner légèrement la lèvre supérieure) : environ **6 à 8 semaines**, parfois jusqu'à 3 mois.\",\n      \"- **Ridules du contour des lèvres** (lignes verticales) : environ **3 à 4 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f12a13c3e66c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir (ecchymose périorbitaire) dure généralement **1 à 2 semaines**, parfois jusqu'à 3 semaines selon l'intensité du coup.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3527f0245011\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du botox dure en général **3 à 4 mois**, parfois jusqu'à 6 mois selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6303c9db59e8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Cire (tiède, froide, chaude)** | 0,5 à 1 cm (environ un grain de riz) | 2 à 3 semaines |\",\n      \"| **Épilateur électrique** | 0,5 à 1 cm | 2 à 3 semaines |\",\n      \"| **Bandes de cire / sucre (pâte de sucre)** | 0,5 à 1 cm | 2 à 3 semaines |\",\n      \"| **Rasoir** | Aucune longueur minimale | 1 à 3 jours selon vos préférences |\",\n      \"| **Crème dépilatoire** | 2 à 3 mm | 3 à 7 jours |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19dVk0G+CwuN+KDKS6Cqqy1nSVHeV7N5BcxY78+/r1ww1mUUJwejKBnSM50Ijx5htPloBi9S4fK2fLUeBjV8WmgVFPdJ7vgnJHIYn6aGgaJZcFA"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 4692,
+  "candidatesTokenCount": 1596,
+  "totalTokenCount": 6288,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4692
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1596
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:17:45.719087Z",
+ "responseId": "Ce3pau_xK-ukxN8PsZqLkA8"
+}

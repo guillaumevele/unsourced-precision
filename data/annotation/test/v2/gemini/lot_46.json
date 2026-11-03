@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"1cf5000024b3\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9a2a7a5d6e4b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Reprise du travail de bureau vers 2 à 3 semaines (4 à 6 semaines pour un travail physique).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1b8d0b1dba3a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"La durée dépend surtout du produit utilisé, mais pour les injections d'acide hyaluronique (le plus courant), il faut compter **6 à 12 mois** en moyenne.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"63f2e6840730\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- En général, il tient de **6 à 12 mois**.\",\n      \"- Certains produits plus denses peuvent aller jusqu'à **12 à 18 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bb2cca437591\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 24,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Les vergetures récentes (appelées **striae rubrae**) restent généralement rouges, roses ou violacées pendant **6 mois à 1 an**, parfois jusqu'à **2 ans**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b9a45aba8a52\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 5,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Microblading** (poil à poil, avec une lame) : 1 à 3 ans en général. Il s'estompe plus vite que les autres méthodes.\",\n      \"- **Microshading / sourcils poudrés** (effet maquillé) : 2 à 4 ans.\",\n      \"- **Dermopigmentation à la machine** (combinée ou ombrée) : 2 à 5 ans, parfois davantage.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3356810ac9cd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les poils commencent généralement à tomber **1 à 3 semaines** après une séance. Dans certains cas, notamment sur le visage, la chute peut prendre **jusqu'à 3 à 4 semaines**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"48652ef35c2c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"## En général : 1 à 3 séances\",\n      \"- **1 séance** suffit souvent pour un petit bourrelet localisé.\",\n      \"- **2 à 3 séances** sont courantes pour un ventre plus volumineux ou pour traiter à la fois le haut et le bas du ventre.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"09383fea75c8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **3 à 4 mois** : c'est en général le résultat final, parfois jusqu'à **6 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c4b2176407fd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Délai généralement recommandé : 6 à 8 semaines (environ 1,5 à 2 mois)**\",\n      \"- Certains praticiens préfèrent **attendre 2 à 3 mois** pour juger du résultat final avant de décider d'une 2ᵉ séance.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a183dS+mHQwYeOpgQEmLLPuTwBLwdRNAKHUxhPlAgneyJF3/Y/EFPSzcHZBNhGcOTsbeEfe96WBtIMi2pC2EegXE2mK9BMFZ/NUBQsXDSGXJhZQH"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5781,
+  "candidatesTokenCount": 1423,
+  "totalTokenCount": 7204,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5781
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1423
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:12:33.603583Z",
+ "responseId": "0evpar_rJKCBz_IP3JqvuQM"
+}

@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"331b669a36a8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"9\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **En moyenne : 12 à 18 mois**\",\n      \"- Selon les cas, de **9 mois à 2 ans**, parfois un peu plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"09c25b6b7163\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"5\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Début des effets :** généralement entre **3 et 5 jours** après les injections.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a3853fbd2ebe\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"7\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Travail de bureau : 3 à 7 jours pour le visage, environ 1 semaine pour le corps.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"463bb8fd40af\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"5\",\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Un laser fractionné (type Fraxel) se fait en général en **3 à 5 séances**, espacées de **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f249daa8d721\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"12\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- Elles restent rouges, violacées ou parfois bleutées pendant **environ 6 mois à 1 an**, parfois plus selon les personnes.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6c1fcc17d986\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"24\",\n    \"borne_haute\": \"48\",\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"Après une injection de Botox, la recommandation habituelle est d'éviter le sport intense pendant **24 heures**. Certains praticiens conseillent jusqu'à **48 heures** par prudence.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"212d3a54ac56\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"8\",\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **6 à 8 séances** de laser (ou de lumière pulsée) pour les aisselles, espacées de **4 à 8 semaines**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"844529d4ac00\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"3\",\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"**Pour le ventre, on compte généralement 1 à 3 séances de cryolipolyse**, selon la quantité de graisse à traiter.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"42e58e640063\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du Botox (toxine botulique) dure en général **3 à 6 mois** en moyenne.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"369740dcdc95\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"3\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **À 2-3 mois** : c'est le moment du résultat optimal pour la plupart des personnes. Le corps élimine progressivement les cellules graisseuses détruites par le froid, via le système lymphatique et le foie.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19JfD3Nqek4kDI6WGcNTr6Y3TIFRKHNHAIL5pUTgnuerS6U853S2RKhsK2lfDqntFhFmdjy8twEkyTXZCfACopHOiRqEPUU9MgQJj1PqgJvIdWz"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5264,
+  "candidatesTokenCount": 1320,
+  "totalTokenCount": 6584,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5264
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1320
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:12:17.228398Z",
+ "responseId": "wevpaq74DaCBz_IP3JqvuQM"
+}

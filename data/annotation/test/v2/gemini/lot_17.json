@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"b831e167182d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"12\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"On conseille généralement d'attendre **au moins 6 à 12 mois après l'accouchement**, et idéalement **1 an**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"20157785c983\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"8\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Atteinte légère** (rougeurs, tiraillements, petite sécheresse après un excès de gommage ou d'actifs) : environ **1 à 2 semaines**.\",\n      \"- **Atteinte modérée** (irritation persistante, picotements, desquamation, sensibilité accrue) : environ **2 à 4 semaines**.\",\n      \"- **Atteinte sévère** (eczéma, dermatite, brûlures par peeling ou rétinoïdes, usage prolongé de produits agressifs) : **4 à 8 semaines, voire plus**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bf02152d2795\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"14\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Premiers signes** : entre **24 et 72 heures** après l'injection.\",\n      \"- **Résultat visible** : vers **3 à 5 jours**.\",\n      \"- **Effet complet** : vers **10 à 14 jours**. Il faut attendre ce délai avant de juger du résultat ou de faire une retouche.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8793eeb9658c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du Botox dure en moyenne **3 à 6 mois**, le plus souvent environ **4 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"526543e60c08\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"12\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Il faut attendre **au minimum 6 à 8 semaines**, et idéalement **2 à 3 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6137969a3c83\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"5\",\n    \"borne_haute\": null,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Stabilité à long terme :** le volume restant est généralement stable pendant **plusieurs années**, souvent **5 ans ou plus**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"298d1e502fd4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"4\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils tient généralement **4 à 6 semaines** en moyenne.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0e2b06f626b2\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"45805c6c6f2c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Pas d'effort important**, de port de charges lourdes, de sport violent ni de sauts pendant environ 2 à 4 semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"34be4759a086\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"- **Rides fines, grain de peau, teint terne** : 3 à 5 séances.\",\n      \"- **Cicatrices d'acné** : 3 à 6 séances, parfois plus si elles sont profondes.\",\n      \"- **Taches pigmentaires, mélasma** : 3 à 5 séances (le mélasma est plus capricieux et peut récidiver).\",\n      \"- **Vergetures** : 4 à 6 séances, avec des résultats variables.\",\n      \"- **Cicatrices chirurgicales ou post-traumatiques** : 3 à 5 séances.\",\n      \"- **Photovieillissement (dommages solaires)** : 3 à 5 séances.\",\n      \"- Le **type de Fraxel** : le Fraxel Restore (non ablatif) demande plus de séances à intensité douce, tandis que le Fraxel Repair (ablatif, CO₂) peut donner un résultat marqué en 1 à 2 séances, avec des suites plus lourdes.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a18nVl3OGnnkMFKjr+x1nqB5+2vOO7D06XDht2OSTXB5fltTFo6s3ZQleB/XCadkFpfmdftS422n4zsKWElKqBOn7nl6QMvJInZ+UbeeGQWrjvvu"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5784,
+  "candidatesTokenCount": 1567,
+  "totalTokenCount": 7351,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5784
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1567
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:06:05.425882Z",
+ "responseId": "Terpapr_Gev-xN8PwKXvsAU"
+}

@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"19d6f8ebe866\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- Commencez par **1 fois par jour**, le soir ou le matin.\",\n      \"- Si la peau tolère bien, vous pouvez passer à **2 fois par jour**.\",\n      \"- **1 fois par jour**, généralement le soir, après trempage et limage doux de la peau morte.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"492da7754616\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un œil au beurre noir **disparaît en 1 à 3 semaines**, selon la gravité du choc.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4ba0bd48f936\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.04,\n    \"borne_haute\": 1,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"- **Rasage** : vous pouvez raser la zone la veille ou quelques heures avant, mais pas plus tôt, car il faut que le poil soit encore présent pour être traité.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f07b9c8f8ff6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Superficiel** | Acide glycolique, lactique, mandélique, salicylique | Légère ou invisible, quelques petites squames | **2 à 5 jours** |\",\n      \"| **Moyen** | TCA (acide trichloracétique) 15 à 35 %, Jessner | Peau qui brunit, se craquelle puis pèle nettement, souvent du 3e au 7e jour | **7 à 10 jours** (rougeurs possibles 2 à 4 semaines) |\",\n      \"| **Profond** | Phénol | Desquamation importante, croûtes | **2 à 3 semaines**, rougeurs pendant plusieurs semaines, voire quelques mois |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Cicaplast\",\n      \"Cicalfate\"\n    ]\n  },\n  {\n    \"id\": \"922f016ec8c6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Avec l'**acide hyaluronique** (le produit le plus utilisé), les résultats durent en général **6 à 12 mois**, parfois jusqu'à 18 mois selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"243162e2b3fc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": \"permanente\",\n    \"phrases_chiffre\": [\n      \"Contrairement à l'acide hyaluronique, qui se résorbe en 6 à 18 mois, **la graisse qui « prend » est considérée comme définitive**.\",\n      \"| Durée de la graisse intégrée | Permanente (soumise au vieillissement et aux variations de poids) |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"26820d9fbfec\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Entre 12 et 18 mois** en général, parfois jusqu'à **2 ans** selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"928603e4cfe7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24,\n    \"borne_haute\": 48,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"**Recommandation générale : éviter le sport intense pendant 24 heures**, voire **48 heures** selon certains médecins.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"60ec7b40b9ea\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.007,\n    \"borne_haute\": 180,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Allergie** (pollen, poils d'animaux, frottement des yeux) | Quelques minutes à **24-48 h**, souvent rapide après suppression de l'allergène |\",\n      \"| **Irritation mécanique** (frottement, corps étranger) | Quelques heures à **1-2 jours** |\",\n      \"| **Conjonctivite infectieuse** (virale ou bactérienne) | **1 à 2 semaines**, parallèlement à l'infection |\",\n      \"| **Après chirurgie des paupières** (blépharoplastie) | Souvent **1 à 6 semaines**, parfois plusieurs mois dans les cas persistants |\",\n      \"| **Après chirurgie oculaire** (cataracte, strabisme, etc.) | Quelques jours à quelques semaines |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a155f89cdfd1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les vergetures restent généralement **rouges, roses ou violacées pendant quelques mois à environ 1 à 2 ans**, selon les personnes.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a18TnbcDX5WUcTxQdJSTm4gO883in776IxT4OupsjnYpHsPD2c45zHTsOi4NpqPMecf2hQbeNuNdzgr3icqgBkzWIFhOm+tl68pf/3ICJlTAqQKZ"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6177,
+  "candidatesTokenCount": 1681,
+  "totalTokenCount": 7858,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6177
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1681
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:11:53.685972Z",
+ "responseId": "qevpapTvKbCxz_IP38KTsQY"
+}

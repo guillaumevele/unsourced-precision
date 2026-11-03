@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"3c9304247775\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 28,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les poils commencent généralement à tomber **1 à 3 semaines** après la séance, et le processus peut durer jusqu'à **3 à 4 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fd9827edb50b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Résultats généralement visibles : 6 à 12 mois**\",\n      \"- Chez certaines personnes, jusqu'à **18 mois**, voire plus avec des produits peu réticulés et bien adaptés à la zone.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ad284a519b41\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 7,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Gonflement lié à l'injection elle-même** : en général 24 à 72 heures. Il peut parfois durer jusqu'à 5 à 7 jours, surtout sur les lèvres ou le contour des yeux.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ce80c5705b92\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 10,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut compter **6 à 8 séances** pour un résultat optimal. Selon les cas, cela peut aller de 5 à 10 séances.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"05138ca8d5d1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**Le résultat dure en général 4 à 6 semaines.**\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a2a90637ae5f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Allergique** : de quelques heures à 1-2 jours, souvent moins avec un antihistaminique et des compresses froides.\",\n      \"- **Post-opératoire** (blépharoplastie, chirurgie de la cataracte, du strabisme, etc.) : généralement de 1 à 3 semaines. Elle peut parfois durer quelques semaines à plusieurs mois dans les chirurgies palpébrales.\",\n      \"- **Infectieuse** (conjonctivite virale ou bactérienne) : quelques jours à 2 semaines, selon le traitement et l'évolution.\",\n      \"- **Irritative ou traumatique** (frottement, corps étranger, lentilles) : de quelques heures à quelques jours.\",\n      \"- **Maladie de Basedow ou orbitopathie thyroïdienne** : elle peut persister des semaines ou des mois, tant que la maladie n'est pas stabilisée.\",\n      \"- **Cellulite orbitaire ou autre cause grave** : elle dure tant que la cause n'est pas traitée et nécessite une prise en charge urgente.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2743375979ff\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| **Cire (chaude, tiède, froide)** | 0,5 à 1 cm (la taille d'un grain de riz) | 2 à 3 semaines après la dernière épilation |\",\n      \"| **Bandes de cire** | 0,5 à 1 cm | 2 à 3 semaines |\",\n      \"| **Épilateur électrique** | 2 à 5 mm | 1 à 2 semaines |\",\n      \"| **Pâte à sucre / sugaring** | 0,3 à 0,5 cm minimum | 1 à 2 semaines |\",\n      \"| **Laser / lumière pulsée** | Rasé 24 à 48 h avant la séance | Ne pas arracher entre les séances |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"51fc636e22e1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 6,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"| **Fraxel Re:store / Dual** | Non ablatif (1550 nm / 1927 nm) | **3 à 5 séances** |\",\n      \"| **Fraxel Re:pair** | Ablatif (CO2) | **1 séance** (parfois 2) |\",\n      \"- **Teint terne, pores dilatés, texture** : 2 à 3 séances\",\n      \"- **Taches pigmentaires / taches solaires** : 1 à 3 séances (surtout avec le 1927 nm)\",\n      \"- **Rides fines, ridules** : 3 à 5 séances\",\n      \"- **Cicatrices d'acné** : 4 à 6 séances, parfois plus selon la profondeur\",\n      \"- **Vergetures** : 3 à 6 séances\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"29ab1e68ad32\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Effet immédiat** : le résultat est visible dès la fin de la séance.\",\n      \"- **Résultat définitif : après 2 à 4 semaines**, une fois que le gonflement, les rougeurs et les éventuels bleus ont disparu et que le produit s'est bien intégré dans les tissus.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e2db2e939e68\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"En général, **les poils commencent à tomber entre 5 et 15 jours après la séance**, et la chute peut se poursuivre **jusqu'à 3 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+jvXQJO6IxuQPWeW3pr154/h35Ae7R83VffpPnqx9mRqkhge/vfTX8dGDIEmt2mhWQb94S3il+4ER9826WyfApDb+gFLW9/fVRo7pNzDlpq7W7"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5972,
+  "candidatesTokenCount": 1875,
+  "totalTokenCount": 7847,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5972
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1875
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:11:15.457871Z",
+ "responseId": "g-vpao_5G6CBz_IP3JqvuQM"
+}

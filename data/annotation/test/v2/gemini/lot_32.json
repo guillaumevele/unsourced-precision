@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"6f488b551f0f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La plupart des chirurgiens recommandent de porter la gaine de compression **pendant 4 à 6 semaines**, parfois jusqu'à **8 semaines** selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"432d0f742e42\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Environ 2 à 4 mois**, soit un peu moins que le Botox classique (3 à 6 mois).\",\n      \"| Disparition complète | 3 à 4 mois en général |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7dd976e9a99c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique** (le plus courant) : environ **12 à 18 mois**, parfois jusqu'à 2 ans selon le produit, la dose et le métabolisme.\",\n      \"- **Acide polylactique (Sculptra, etc.)** : stimule le collagène, avec des résultats qui durent environ **2 ans ou plus**.\",\n      \"- **Hydroxyapatite de calcium (Radiesse)** : environ **12 à 18 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Sculptra\",\n      \"Radiesse\"\n    ]\n  },\n  {\n    \"id\": \"095c6b5ac3ab\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Cela correspond en général à **2 à 3 semaines** de pousse, selon la vitesse de croissance de vos poils.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a5da86162208\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, il faut laisser **environ 6 à 8 semaines** entre deux séances sur la même zone.\",\n      \"Certains appareils ou praticiens acceptent un intervalle de 4 à 6 semaines, mais le délai dépend de la machine utilisée et des recommandations du fabricant.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"86b6675dce2e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Lip flip** (petite dose pour retourner légèrement la lèvre supérieure) : environ 6 à 8 semaines en moyenne.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b47d89b9fdb0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Il faut généralement attendre **environ 6 à 8 semaines** entre deux séances sur une même zone, parfois jusqu'à 3 mois.\",\n      \"- **Minimum recommandé :** environ 4 à 6 semaines selon les appareils et les protocoles.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6c881b0b169f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [\n      \"Le lipofilling est considéré comme une technique **durable, voire définitive**.\",\n      \"| **Après 6 mois** | La graisse restante est **pérenne** et considérée comme définitive. |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"22f7d3bf4877\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 15.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En moyenne, il faut **5 à 10 séances**, mais ça peut aller de 3 à plus de 15 dans certains cas.\",\n      \"| Petit tatouage noir amateur | 3 à 5 |\",\n      \"| Tatouage noir professionnel | 6 à 10 |\",\n      \"| Tatouage multicolore | 8 à 15 ou plus |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b7259759dffd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7.0,\n    \"borne_haute\": 120.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Petit bouton sous-cutané** (papule, « bouton aveugle ») | 1 à 2 semaines |\",\n      \"| **Nodule** (plus gros, douloureux, profond) | 2 à 4 semaines, parfois plus |\",\n      \"| **Kyste** (rempli de liquide) | Plusieurs semaines à quelques mois |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19JJVwyB5vWWmWC9b4IUWUEjB53byNNwiNp4RWLW410FMZjR+zc26u+oz/qkBOpD2ClF1n/XQDxplIJ46x3Z1e+8oQShNk1jZ4FrFwPsj4eeOsO"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5027,
+  "candidatesTokenCount": 1620,
+  "totalTokenCount": 6647,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5027
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1620
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:09:50.505401Z",
+ "responseId": "LuvparnsHrOtz_IPt9WOsAw"
+}

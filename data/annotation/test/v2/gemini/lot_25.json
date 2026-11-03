@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"03b068d2132b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique** : environ **6 à 18 mois**, parfois un peu plus selon le produit, le métabolisme et le volume injecté.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"27851ffab5f8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Un arrêt de travail de 2 à 3 semaines est courant (un peu plus pour un travail physique).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d5f92c07bae5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 9,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique (comblement)** : environ **9 à 18 mois** en moyenne, selon le produit, la zone et le métabolisme.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"eb2acd5e67ed\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 14,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Injections de comblement (rides, volume)** : le résultat est visible **tout de suite**, mais il faut attendre **environ 2 semaines** pour voir le rendu final, le temps que l'gonflement disparaisse.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1d02bd70ba8b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 10,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Visage** | Gonflement visible environ 1 à 2 semaines, avec une éviction sociale d'environ 7 à 10 jours |\",\n      \"- Reprise du travail en général après **5 à 10 jours** pour un travail de bureau\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b5bd89f5d93d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35,\n    \"borne_haute\": 60,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"- **Séance standard** : en général **35 à 60 minutes** par zone.\",\n      \"- **Par zone** : chaque zone (ventre, flancs, cuisses, bras, etc.) est traitée séparément, et il faut compter environ 30 à 60 minutes par zone.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bd6354e07995\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24,\n    \"borne_haute\": 48,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"En général, il faut éviter le sport intense pendant **24 heures** après des injections de botox.\",\n      \"Certains praticiens recommandent **48 heures** par prudence.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d50a5567f736\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"464de2e214a6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Un tatouage des sourcils (microblading ou tatouage poudré) dure en général **environ 1 à 3 ans**, selon plusieurs facteurs :\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"48e38c560757\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **1 à 2 séances** pour le ventre, espacées d'environ **6 à 8 semaines**.\",\n      \"- **1 séance** suffit souvent pour une petite quantité de graisse localisée.\",\n      \"- **2 séances** sont fréquentes si la zone est plus importante ou si vous souhaitez un résultat plus marqué.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a18YH2o+njtYAcjsEsbuq1ei+ZeHX5IpZSEosrhkH1uT3/RJbTiyku6tT7lwvA0A0Hm7hxN17a3vNZxCcRMxzOLRDOrA8obyRs0vbMTL07zqx8ZT"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5043,
+  "candidatesTokenCount": 1409,
+  "totalTokenCount": 6452,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5043
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1409
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:07:28.872916Z",
+ "responseId": "oOrpatSjNbPgxN8P9cC78Q4"
+}

@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"f380fb1fc809\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Un tatouage de sourcils (microblading ou tatouage poudré) dure en général **1 à 3 ans**, avec des variations selon les personnes :\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"694f937315c4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 12,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En moyenne, il faut **entre 5 et 12 séances** pour effacer un tatouage, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a2a0b8d3f554\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 3,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Il faut généralement attendre 6 à 8 semaines minimum**, et souvent **2 à 3 mois** pour juger correctement le résultat.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"33405a660a37\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 4,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"La durée de l'effet du Botox sur les lèvres est en général de **environ 2 à 4 mois**, parfois un peu moins ou un peu plus selon les personnes.\",\n      \"- **Lip flip** (lèvre retroussée, dosage faible) : environ **6 à 8 semaines**, souvent 2 à 3 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5793402714b9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En général, tous les 3 à 6 mois** pour un usage esthétique (rides du front, de la glabelle, pattes d'oie).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cbb60c79b662\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 3,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Environ 2 à 3 mois**, parfois seulement 6 à 8 semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ffca6b68f5ef\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Entre 2 et 3 mois** : c'est généralement le moment où le résultat est le plus visible.\",\n      \"- **Jusqu'à 4 à 6 mois** : certaines personnes continuent à voir une amélioration avant la stabilisation finale.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0502ca173c1f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Après une séance d'épilation laser, les poils ne tombent pas tout de suite. Il faut généralement compter **entre 1 et 3 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1b62d400f2ec\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre **6 à 8 semaines minimum après la dernière séance de détatouage** au laser, et souvent davantage, selon l'objectif.\",\n      \"- **Après la dernière séance** : 2 à 3 mois minimum, parfois 6 mois ou plus si la peau est restée irritée, sensible ou marquée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d383968d0801\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **Lèvres** | 6 à 12 mois |\",\n      \"| **Sillons nasogéniens** | 9 à 18 mois |\",\n      \"| **Cernes / sillon des larmes** | 6 à 12 mois (parfois plus) |\",\n      \"| **Pommettes** | 12 à 18 mois |\",\n      \"| **Menton / mâchoire** | 12 à 18 mois |\",\n      \"| **Rides du front / glabelle** | 6 à 12 mois |\",\n      \"| **Nez (rhinoplastie médicale)** | 12 à 18 mois |\",\n      \"| **Mains** | 6 à 12 mois |\",\n      \"| **Peau (skinbooster)** | 4 à 6 mois |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a18H+QxJM2KJzTUlG1q8gi3SrpkyCXhEhBZJ5aUbo/I1OuEe6sFC76Cbws0uT6eiSH7kIsDYF6+HwyV7c8eIJ/LGPsDsfm2NJOfBmGHQAaVy/OHx"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5489,
+  "candidatesTokenCount": 1577,
+  "totalTokenCount": 7066,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5489
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1577
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:16:05.352798Z",
+ "responseId": "pezpap7EFev-xN8PwKXvsAU"
+}

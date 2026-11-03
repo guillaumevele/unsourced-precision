@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"5f85c3ca8b77\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En général, tous les 3 à 6 mois**, selon la durée de l'effet chez chaque personne.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bbdf20d517d0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1.5\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"La plupart des professionnels recommandent d'attendre **au minimum 6 à 8 semaines après la dernière séance**.\",\n      \"Beaucoup de tatoueurs préfèrent **3 mois**, voire **6 mois**, pour que la peau soit totalement régénérée en profondeur.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c48c2c0e3b05\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"12\",\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En moyenne, il faut **entre 6 et 12 séances** de laser, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e68f71c10033\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"5\",\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"| **Maquillage permanent / dermopigmentation** | 2 à 5 ans |\",\n      \"| **Microblading** (effet poil à poil) | 1 à 3 ans (souvent 12 à 18 mois) |\",\n      \"| **Powder brows / ombré brows** (effet poudré) | 2 à 3 ans, parfois plus |\",\n      \"| **Microshading** | 1 à 3 ans |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9467b47cf821\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"14\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Peeling superficiel** (acide glycolique, salicylique, mandélique, fruits) : une petite desquamation, souvent à peine visible, pendant **1 à 4 jours**.\",\n      \"- **Peeling moyen** (TCA 15 à 35 %, Jessner) : la peau pèle pendant **5 à 7 jours**, parfois jusqu'à 10 jours.\",\n      \"- **Peeling profond** (phénol, TCA concentré) : la cicatrisation prend **10 à 14 jours ou plus**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2d5726ad3312\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"3\",\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, **1 à 2 séances** suffisent pour le ventre, espacées de **6 à 8 semaines**.\",\n      \"Certains protocoles en prévoient jusqu'à 3 pour une zone plus importante.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"af32a63772ee\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **De 2 à 3 mois** : résultat optimal, avec une réduction moyenne de 20 à 25 % de la couche de graisse dans la zone traitée.\",\n      \"- **Jusqu'à 6 mois** : l'élimination peut se poursuivre légèrement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0d6dae456987\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1.5\",\n    \"borne_haute\": \"3\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Un **botox aux lèvres** (lip flip, ou pour réduire les lèvres trop épaisses ou les rides du contour) dure en général **environ 6 semaines à 3 mois**, selon la dose, le métabolisme et la zone traitée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1334d2783ead\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"14\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Disparition** : généralement en **3 à 7 jours**.\",\n      \"Un léger œdème résiduel peut persister jusqu'à **10 à 14 jours**, surtout dans les zones fragiles comme les cernes ou les lèvres.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e11f48af346d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"0\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Effet immédiat** : le résultat est visible dès la fin de la séance.\",\n      \"- **Résultat définitif** : après **2 à 4 semaines**, le temps que les gonflements, rougeurs ou petits bleus disparaissent et que le produit s'intègre aux tissus.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a181WeLneyOVvUECJqS2UIp3Oc+Nl+F64h2c8gHnIW7qocrl0XfWKXouac7L1uYYQD55yfuuWlnhqIIDS3jJiMc6GpqzizY/NMBsIEm8eu5FJkA2"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5741,
+  "candidatesTokenCount": 1618,
+  "totalTokenCount": 7359,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5741
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1618
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:15:45.150448Z",
+ "responseId": "kezparCXCYnEmPUPkOetiAc"
+}

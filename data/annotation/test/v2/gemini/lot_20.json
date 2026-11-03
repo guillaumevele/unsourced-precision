@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"2e71b62300ea\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Après une épilation laser, il faut éviter le soleil **2 à 4 semaines** (en moyenne **2 semaines minimum**), selon votre type de peau et la zone traitée.\",\n      \"- **Exposition directe à éviter : 2 à 4 semaines**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6cf1aba7031d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"7\",\n    \"borne_haute\": \"28\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Acné nodulaire ou kystique** (bouton profond, douloureux, sans tête) : 1 à 4 semaines, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4f321e0943c0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"8\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les cils repoussent en général en **environ 6 à 8 semaines** pour atteindre leur longueur complète.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1dbb5b95a15a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"5\",\n    \"borne_haute\": \"10\",\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour un détatouage au laser, il faut en général **entre 5 et 10 séances**, parfois plus pour un tatouage très chargé ou multicolore.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"614f83e94f30\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"5\",\n    \"borne_haute\": \"10\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"  - **Visage** : environ 5 à 10 jours\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"acb2dadba494\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"35\",\n    \"borne_haute\": \"75\",\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"**Une séance dure en général entre 35 et 75 minutes par zone traitée.**\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": [\n      \"CoolSculpting Elite\"\n    ]\n  },\n  {\n    \"id\": \"5bb3063dc8c0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"20\",\n    \"borne_haute\": \"45\",\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"- Elle dure généralement **20 à 45 minutes**, parfois jusqu'à une heure.\"\n    ],\n    \"renvoi\": \"les_deux\",\n    \"citations\": [\n      \"3919\",\n      \"Planning familial\"\n    ]\n  },\n  {\n    \"id\": \"0b0e07e81986\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"14\",\n    \"borne_haute\": \"21\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Cela correspond généralement à **2 à 3 semaines** après la dernière épilation.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0241ecdb7c92\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"30\",\n    \"borne_haute\": \"60\",\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"- **30 minutes à 1 heure** en général.\"\n    ],\n    \"renvoi\": \"les_deux\",\n    \"citations\": [\n      \"OMS\",\n      \"Planning familial\",\n      \"3919\"\n    ]\n  },\n  {\n    \"id\": \"b0864036ad33\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"8\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"## Sur la même zone : **6 à 8 semaines minimum**\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a18NLXWXCEu8+SWVE1fPC9kHZ+xbDVuxwtwNw3h1axb/D8OUYi+145MXEp01OYCM5tjx/ruIT/FqlwaC1Zj/XhfDrDAlYOaW/WSgcpNFrNTc+tsW"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5839,
+  "candidatesTokenCount": 1312,
+  "totalTokenCount": 7151,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5839
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1312
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:06:36.021745Z",
+ "responseId": "bOrpavGpAbaXvdIP0ZysgAc"
+}

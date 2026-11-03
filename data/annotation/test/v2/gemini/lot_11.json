@@ -1,0 +1,34 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"7117a89e6a5a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 5,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"| **Fraxel Re:store / Dual** (non ablatif) | 3 à 5 séances | 3 à 6 semaines |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"317b8707fb40\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"## En général : 1 à 3 séances par zone\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d939f7335ae0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Allergique** (rhume des foins, allergie aux animaux, aux collyres) : de quelques heures à 1-2 jours, souvent plus vite avec un traitement (antihistaminique, compresses froides).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2d5d832c8d0a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Le **baby botox** dure en général **environ 3 à 4 mois**.\",\n      \"Certaines personnes gardent un effet jusqu'à 6 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e6f14eb622de\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Le gonflement après une injection d'hyaluronidase dure généralement **quelques jours à environ 1 semaine**.\",\n      \"Il peut parfois persister **jusqu'à 2 semaines** selon la quantité injectée, la zone traitée et la réaction individuelle.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6c10ffb048bb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Arrêt de travail : environ 2 à 3 semaines (4 à 6 si travail physique).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5ed88ed2c3ef\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Diminution nette** : en général en **2 à 3 jours**.\",\n      \"- **Disparition quasi complète** : le plus souvent en **3 à 7 jours**.\",\n      \"- **Gonflement résiduel léger** : possible jusqu'à **1 à 2 semaines**, surtout dans les zones fragiles (lèvres, cernes,"
+     },
+     {
+      "text": " paupières).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e726aca57ea4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 56,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Atteinte légère** (sécheresse, tiraillements, petites rougeurs après un produit trop agressif) : **1 à 2 semaines**.\",\n      \"- **Atteinte modérée** (irritations, picotements, desquamation, réactivité marquée, surexfoliation) : **2 à 4 semaines**.\",\n      \"- **Atteinte importante** (brûlures de peeling ou de rétinoïdes, dermatite, eczéma, rosacée déclenchée) : **4 à 8 semaines, parfois plus**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f4992de96b99\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En moyenne : 2 à 4 mois**, soit un peu moins que le botox classique (3 à 6 mois).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0de0a51a7299\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du Botox dure en général **3 à 4 mois**, mais cela varie selon les personnes et les zones traitées.\",\n      \"- **Disparition progressive :** l'effet s'estompe entre 3 et 6 mois, et les muscles retrouvent peu à peu leur mobilité.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TXnb2peUhD9DfULKQclt9xlrfCKEdbzVIW4p69Tr9jriTzF8lsmUM7wOKDm7dhWu7NDHgdKJuKcuN4RZ6w6sdPCXFDJDXFtMmtKOwuVbisfi3yn5lK2HQVD5hAdYR2Go2Bg=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6345,
+  "candidatesTokenCount": 1502,
+  "totalTokenCount": 7847,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6345
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "2-DpapiAAoq6nsEPg5fEwQQ"
+}

@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"78ef892cbd2f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **Nettoyants ou gels (acné) :** 1 à 2 fois par jour, matin et/ou soir.\",\n      \"- **Lotions ou sérums à garder sur la peau :** en général 1 fois par jour, le soir.\",\n      \"- **Traitement des verrues ou des callosités (concentrations plus élevées, souvent 10 à 17 %) :** 1 fois par jour, selon la notice ou les indications de votre médecin ou pharmacien.\",\n      \"Commencez **une fois par jour** pour habituer votre peau, puis augmentez si elle tolère bien le produit.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0c3a9bb4eee4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.04,\n    \"borne_haute\": 90,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Allergie** (pollen, poils d'animaux, frottement de l'œil) | Quelques heures à 24-48 h, souvent rapide après l'arrêt de l'exposition |\",\n      \"| **Irritation / frottement / petit traumatisme** | Quelques heures à quelques jours |\",\n      \"| **Conjonctivite infectieuse** (virale ou bactérienne) | Environ 1 à 2 semaines, parallèlement à l'infection |\",\n      \"| **Après une chirurgie** (blépharoplastie, chirurgie du strabisme, de la cataracte…) | En général 1 à 3 semaines. Il peut persister plusieurs semaines, voire 1 à 3 mois dans certains cas |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ad2212df5fd9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir (ecchymose périorbitaire) guérit en général **en 1 à 2 semaines**.\",\n      \"Chez certaines personnes, notamment les personnes âgées ou celles qui prennent des anticoagulants, il peut persister **2 à 3 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"12b68aaf265c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 8,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La plupart des chirurgiens recommandent de porter la gaine de compression **pendant 4 à 6 semaines**, parfois **jusqu'à 8 semaines** selon les cas (association avec une liposuccion, importance de la correction, cicatrisation).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"eb990de343e1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Entre 5 et 14 jours après** : les poils traités tombent progressivement.\",\n      \"- **Jusqu'à 3 semaines** : chez certaines personnes, la chute peut être un peu plus lente, surtout sur les zones où les poils sont épais ou profonds (maillot, dos, jambes).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"160f28114c04\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 8,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, on porte la gaine **environ 4 à 6 semaines**, parfois jusqu'à 8 semaines selon le chirurgien.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"504bf10f90ab\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| Travail | Variable : 1 à 2 semaines pour un travail de bureau, plus pour un travail physique |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c80d59365e01\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Injections de comblement (filler)** : le volume est visible **immédiatement**.\",\n      \"Il faut en général **2 semaines** pour voir le résultat définitif, le temps que les gonflements liés à l'injection disparaissent.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"81e67b81af85\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 8,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour une épilation laser des aisselles, il faut en général **6 à 8 séances**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6c1489726ce5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"**1 à 3 séances** suffisent pour la plupart des personnes, par zone traitée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"CoolSculpting\"\n    ]\n  }\n]\n```",
+      "thoughtSignature": "AY89a18lK8CG2S8qZYfuh3SdVMrNON+x8D7RMivS4m6j6yIMhZ0nn1T9JbJJKD9mTSfGFpMZcSyyPkxjLe2a/XAF3SIhUvB2jHBl3kRQ3C36ifTXo8Cz"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6264,
+  "candidatesTokenCount": 1648,
+  "totalTokenCount": 7912,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6264
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1648
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:09:40.264373Z",
+ "responseId": "JOvparWREPmnvdIP7proqAw"
+}

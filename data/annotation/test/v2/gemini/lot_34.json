@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"a939d80480c4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- L'effet dure en général **6 à 12 mois**, parfois jusqu'à 18 mois selon le produit et le métabolisme.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9e51bcd06c8d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La récupération dure généralement **4 à 6 semaines** pour une vie quotidienne normale, et **environ 3 mois** pour que les résultats définitifs et la cicatrisation soient visibles.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b009bbef214e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**Évitez le soleil pendant au moins 2 à 4 semaines** sur la zone traitée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bff92acebbb7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 10,\n    \"borne_haute\": 28,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Un bleu (ecchymose) disparaît généralement en **10 à 14 jours**. Un bleu important ou profond peut mettre **3 à 4 semaines**, voire plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f6faa92c0017\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 0,\n    \"unite\": \"immédiatement\",\n    \"phrases_chiffre\": [\n      \"- **Rides, lèvres, volume des pommettes** : résultat visible immédiatement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9ea1e3b061d7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La réparation d'une barrière cutanée abîmée prend en général **environ 2 à 4 semaines** pour une irritation légère (sécheresse, picotements, rougeurs liées à des produits agressifs). Si les dégâts sont plus importants (dermatite, brûlure superficielle, peau très sensibilisée), il faut souvent **4 à 6 semaines, parfois plus**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cb27f6fb8f76\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Il est généralement conseillé d'attendre au moins 6 mois à 1 an après l'accouchement**, et idéalement **12 à 18 mois** selon de nombreux chirurgiens plasticiens.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Assurance Maladie\"\n    ]\n  },\n  {\n    \"id\": \"3c14ecaa9f04\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir (ecchymose périorbitaire) guérit généralement en **environ 2 à 3 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c0838b1759c3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les poils tombent généralement **entre 1 et 3 semaines** après la séance, le plus souvent autour de **10 à 15 jours**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"113de14c2b15\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Le **Candy Lips** (technique de maquillage semi-permanent des lèvres à effet « bonbon », proche du *lip blush*) dure généralement **entre 1 et 3 ans**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+FoV0BUfMeqGCoQAzdFqodcMynPGtoe8LT45AI2jN3OHwAw2Yl4jnUrWl68QFhZzAUBh/WCdBoEMnf6C/VymVerZgTJBH9618MI2lmWMpQFCSe"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6241,
+  "candidatesTokenCount": 1388,
+  "totalTokenCount": 7629,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6241
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1388
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:10:14.459618Z",
+ "responseId": "RuvpauKGHLCxz_IP38KTsQY"
+}

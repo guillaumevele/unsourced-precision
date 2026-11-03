@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"5083ace9a0a6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 24,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"En général, elles restent rouges **de quelques mois à 1 ou 2 ans**, puis s'éclaircissent progressivement pour devenir **blanches, nacrées ou argentées**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a175b4a86506\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Soleil direct et UV (plage, bronzage, cabine UV) : évitez-les 2 semaines minimum.** Beaucoup de centres recommandent 3 à 4 semaines, surtout pour les peaux claires ou qui bronzent facilement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e9cb0f667b90\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 60,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Furoncle** (boule rouge, douloureuse, qui grossit puis perce) : environ 1 à 3 semaines, souvent moins si on le laisse drainer naturellement.\",\n      \"- **Nodule ou bouton acnéique profond** (dur, parfois douloureux, sans tête nette) : plusieurs semaines, parfois 1 à 2 mois.\",\n      \"- **Bouton ou piqûre d'insecte** (cloque ou nodule qui démange) : quelques jours à une ou deux semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e01c4157b5bc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**Durée habituelle : 6 à 8 semaines**, parfois jusqu'à 3 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"838bec0c9760\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Entre 2 et 3 mois** : c'est la période où l'effet est maximal.\",\n      \"- **Jusqu'à 6 mois** : l'élimination peut se poursuivre lentement, et le résultat final se juge à ce moment-là.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"141141692575\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 7,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Les premiers effets apparaissent généralement entre **2 et 4 jours** après les injections.\",\n      \"- Chez certaines personnes, il faut jusqu'à **5 à 7 jours**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c33b00a49a6d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, les injections d'acide hyaluronique dans les lèvres durent **6 à 12 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3a085426adb8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [\n      \"Le chémosis (œdème de la conjonctive) dure de **quelques heures à plusieurs semaines**, selon sa cause.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3e0087c67e22\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Durée : 2 à 5 jours en général\",\n      \"- Durée : 5 à 7 jours, parfois jusqu'à 10\",\n      \"- Durée : 10 à 14 jours, voire plus\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"93910c4609e3\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a18yLUVRzTYWkFSuram53WV41k86sO8Ws6eU3ZKEjSM2c8+pTiO6DlPIod/96VG81AQX2oafPsgQjBZ931IV+DimOQPdLCy9rzVj9Ndi0CV+cqJN"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5573,
+  "candidatesTokenCount": 1416,
+  "totalTokenCount": 6989,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5573
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1416
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:15:08.666762Z",
+ "responseId": "bOzpaorZKMGfmPUP4oqqkQI"
+}

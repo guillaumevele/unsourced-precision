@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"ed9f19e04d88\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 15,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En moyenne, il faut compter **5 à 10 séances**, parfois davantage pour les tatouages complexes.\",\n      \"| Petit tatouage noir | 3 à 6 |\",\n      \"| Tatouage noir de taille moyenne | 6 à 10 |\",\n      \"| Tatouage coloré | 8 à 15 |\",\n      \"| Grand tatouage très chargé | 10 à 15 ou plus |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"60e8c4a00866\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Le **Candy Lips** (maquillage semi-permanent des lèvres, aussi appelé *lip blush*) dure en général **entre 1 et 3 ans**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a312f5918f1a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du baby botox dure généralement **2 à 4 mois**, contre environ **3 à 6 mois** pour un botox classique.\",\n      \"- **2 à 4 mois** : retour progressif de la mobilité musculaire\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"334c675ad512\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **1 à 2 fois par jour**, matin et/ou soir.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"81063cd06743\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Visage** : gonflement et bleus visibles pendant 1 à 2 semaines, retour social rapide.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cd1833428ef2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, **un bleu disparaît en 1 à 3 semaines**, selon sa taille, sa profondeur et sa localisation.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"74e3b84c4432\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 4,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Vers 3 à 4 mois** : c'est généralement le moment du résultat optimal.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ffa8316c653d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 5,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Long terme :** les cellules graisseuses qui ont survécu sont en principe durables, et beaucoup de patients gardent un bénéfice visible pendant **3 à 5 ans, voire davantage**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ff2b102abfde\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un bleu (ecchymose) disparaît en **2 à 3 semaines**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"27bce0f0df7f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+AdAsBZFQAcnyua7RIWLRV2KZJ3I3urswjdfli/RY3yj5HiQjaR97UEUfTSgKc+SK3+zgKt+GQi3KiWxmArDZkmd1S6wvdytCzwbDxZ+8eAHlG"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5594,
+  "candidatesTokenCount": 1321,
+  "totalTokenCount": 6915,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5594
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1321
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:07:09.287301Z",
+ "responseId": "jerpasXEEcjMvdIPp8qzuQg"
+}

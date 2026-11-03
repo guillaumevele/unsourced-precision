@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\"id\": \"deb12ef855ec\", \"chiffre_present\": true, \"borne_basse\": 12, \"borne_haute\": 24, \"unite\": \"mois\", \"phrases_chiffre\": [\"| **Acide hyaluronique** (ex. Hyacorp, Macrolane) | **12 à 24 mois** |\", \"| **Acide poly-L-lactique** (Sculptra) | **18 mois à 2 ans, parfois plus** (stimule votre propre collagène, résultat progressif sur plusieurs séances) |\", \"| **Hydroxyapatite de calcium** (Radiesse) | **12 à 18 mois** environ |\"], \"renvoi\": \"consultation\", \"citations\": [\"ANSM\"]},\n  {\"id\": \"2c1e3c4390bf\", \"chiffre_present\": true, \"borne_basse\": 0.00000003, \"borne_haute\": 6, \"unite\": \"mois\", \"phrases_chiffre\": [\"| **Allergie** (pollen, poils d'animaux, frottement des yeux) | Quelques minutes à **24-48 heures**, souvent rapide après éviction de l'allergène ou traitement antihistaminique |\", \"| **Irritation mécanique** (frottement, corps étranger) | Quelques heures à **1-2 jours** |\", \"| **Conjonctivite infectieuse** (virale ou bactérienne) | **1 à 2 semaines** (virale), quelques jours sous traitement (bactérienne) |\", \"| **Après chirurgie** (paupières/blépharoplastie, cataracte, strabisme) | Généralement **quelques jours à 2-6 semaines**, parfois plusieurs mois dans les cas persistants |\", \"| **Traumatisme oculaire** | Variable, de quelques jours à quelques semaines |\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"94b9ead436de\", \"chiffre_present\": true, \"borne_basse\": 2, \"borne_haute\": 3, \"unite\": \"semaines\", \"phrases_chiffre\": [\"- Reprise du travail de bureau possible vers 2 à 3 semaines, selon votre métier.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"dbf577b8300c\", \"chiffre_present\": true, \"borne_basse\": 2, \"borne_haute\": 6, \"unite\": \"mois\", \"phrases_chiffre\": [\"- **2 à 3 mois** : réduction de la graisse nettement visible.\", \"- **Jusqu'à 6 mois** : le processus d'élimination continue et les résultats finaux sont généralement atteints.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"a1cda553b490\", \"chiffre_present\": true, \"borne_basse\": 4, \"borne_haute\": 8, \"unite\": \"semaines\", \"phrases_chiffre\": [\"La durée recommandée est généralement de **4 à 6 semaines**, parfois jusqu'à **8 semaines** selon les chirurgiens et l'étendue de l'intervention (par exemple si une liposuccion a été associée).\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"0ad4fe1640f8\", \"chiffre_present\": true, \"borne_basse\": 6, \"borne_haute\": 12, \"unite\": \"mois\", \"phrases_chiffre\": [\"Mais la vraie précaution se prolonge **plusieurs mois, souvent jusqu'à 6 à 12 mois**.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"ebda2d918557\", \"chiffre_present\": true, \"borne_basse\": 3, \"borne_haute\": 21, \"unite\": \"jours\", \"phrases_chiffre\": [\"| **Cire (chaude ou froide)** | 3 à 6 mm (environ la taille d'un grain de riz) | 2 à 3 semaines |\", \"| **Pâte de sucre** | 2 à 5 mm | 1 à 2 semaines |\", \"| **Épilateur électrique** | 1 à 3 mm | 3 à 7 jours |\", \"| **Pince à épiler** | Assez long pour être saisi (environ 1 à 2 mm) | Quelques jours |\", \"- **Jambes, bras** : environ 2 semaines après le rasage\", \"- **Aisselles, maillot** : 2 à 3 semaines, car les poils y sont plus épais et poussent souvent de façon irrégulière\", \"- **Visage (lèvre, sourcils)** : 1 à 2 semaines\", \"Lors de la première épilation à la cire après des années de rasage, comptez plutôt **3 semaines** de repousse, car les poils ne poussent pas tous au même rythme.\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"284ef0021c6d\", \"chiffre_present\": true, \"borne_basse\": 3, \"borne_haute\": 14, \"unite\": \"jours\", \"phrases_chiffre\": [\"- Ils **diminuent en 3 à 7 jours** dans la plupart des cas.\", \"- Il peut persister **jusqu'à 2 semaines** environ, surtout si le filler dissous provoquait déjà un gonflement, car l'acide hyaluronique libéré retient de l'eau.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"f0fc2e8576da\", \"chiffre_present\": true, \"borne_basse\": 4, \"borne_haute\": 24, \"unite\": \"mois\", \"phrases_chiffre\": [\"- **Sillons nasogéniens (rides du sourire)** : 9 à 18 mois\", \"- **Lèvres** : 6 à 12 mois (parfois jusqu'à 18 mois avec certains produits)\", \"- **Pommettes / volume du visage** : 12 à 24 mois\", \"- **Cernes (tear trough)** : 9 à 18 mois, parfois plus\", \"- **Menton / contour de la mâchoire** : 12 à 18 mois\", \"- **Rides du front ou ridules fines (skin boosters)** : 4 à 6 mois, avec des séances d'entretien\", \"- **Mains** : 6 à 12 mois\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"3d5f7c7e22bd\", \"chiffre_present\": true, \"borne_basse\": 6, \"borne_haute\": 12, \"unite\": \"mois\", \"phrases_chiffre\": [\"En général, on conseille d'attendre **au moins 6 mois à 1 an** après l'accouchement avant une abdominoplastie.\"], \"renvoi\": \"consultation\", \"citations\": []}\n]\n```",
+      "thoughtSignature": "AY89a1+TywqhTuWZlKVRczbCZX+d1I42EUN0TMwuh+JKs6aows/Tn02xp5SK/WroBRgoOdIXKhKbpWimU7heo06Lrau4DLgYGsPu5gVEQlHo0dv7w8xm"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6124,
+  "candidatesTokenCount": 1662,
+  "totalTokenCount": 7786,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6124
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1662
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:06:11.886719Z",
+ "responseId": "U-rpar-PNvmnvdIP7proqAw"
+}

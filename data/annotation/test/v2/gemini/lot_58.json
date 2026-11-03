@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"b9f212db323e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 1.0,\n    \"unite\": \"h\",\n    \"phrases_chiffre\": [\n      \"- **Raser** la zone 12 à 24 h avant la séance (rasoir ou tondeuse)\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7bd24dee03e0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Durée moyenne : 12 à 18 mois**, parfois jusqu'à 24 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b8b8f3dd8f43\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5.0,\n    \"borne_haute\": 14.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Reprise du travail possible après environ 5 à 10 jours pour un travail de bureau (visage : parfois un peu plus si les bleus sont marqués).\",\n      \"| **Visage** | 1 à 2 semaines | Gonflement parfois visible plus longtemps |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4c9c5d54dde5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En règle générale, il faut **éviter d'exposer une cicatrice au soleil pendant au moins 12 mois**, parfois jusqu'à **18 mois à 2 ans** pour les cicatrices importantes (chirurgie, brûlure, cicatrice étendue).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"072dd2ee914f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Tatouage / blush des lèvres (maquillage semi-permanent)** : en général de 1 à 3 ans, avec des retouches conseillées après 4 à 8 semaines.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6e5c076faa8d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24.0,\n    \"borne_haute\": 48.0,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"La recommandation habituelle est d'éviter le sport intense pendant **24 heures** après des injections de botox.\",\n      \"Certains praticiens conseillent **48 heures** par prudence, surtout pour le visage.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"de33d4060526\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7.0,\n    \"borne_haute\": 90.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Bouton sous-cutané classique** (« bouton aveugle ») : **1 à 3 semaines** environ.\",\n      \"- **Nodule ou kyste acnéique** (plus gros, profond, douloureux) : **plusieurs semaines à quelques mois** si non traité.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bd5abe155156\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 2.0,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"Ils doivent être **rasés de près, 12 à 24 heures avant** la séance (jusqu'à 48 h selon les centres).\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b67f7693a5cc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, les chirurgiens conseillent d'attendre **au moins 6 mois à 1 an** après l'accouchement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9b406b5e4c47\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7.0,\n    \"borne_haute\": 56.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Atteinte légère** (sécheresse, tiraillements, légères rougeurs après un excès de gommage ou d'actifs) : environ **1 à 2 semaines**.\",\n      \"- **Atteinte modérée** (irritation, picotements, desquamation, sensibilité accrue) : environ **2 à 4 semaines**.\",\n      \"- **Atteinte importante** (dermatite, brûlures par actifs, usage prolongé de produits agressifs) : **4 à 8 semaines**, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1/SN3+Y7AAkv8elS+z/R5X3YwmjSQrrXCfrGnK4Pm8l8Dl1S/GjfBQujgo2Igk2+RNkaESZWzpEaFAheQj6K9VwR3YqetGANkeIYAS+6TsBa2zZ"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6078,
+  "candidatesTokenCount": 1537,
+  "totalTokenCount": 7615,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6078
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1537
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:15:33.491199Z",
+ "responseId": "hezpar_9HaCBz_IP3JqvuQM"
+}

@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"aab113adeb39\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 2,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Travail** : un arrêt de quelques jours à quelques semaines est fréquent, selon votre activité.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ec2c8e923bfa\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 28,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Immédiat** : le volume est visible dès la séance.\",\n      \"- **1 à 2 semaines** : les gonflements et ecchymoses disparaissent et le résultat final apparaît, parfois jusqu'à 4 semaines.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"20a44425c680\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35,\n    \"borne_haute\": 75,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"**Par zone traitée, une séance dure généralement entre 35 et 75 minutes**, selon l'appareil utilisé et la zone.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5be8e49f8e53\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un **œil au beurre noir guérit en 1 à 2 semaines**, parfois jusqu'à 3 semaines selon la gravité du choc.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"788d23963731\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, **un cil tombé repousse en 4 à 8 semaines** pour retrouver sa longueur complète. Selon les personnes, cela peut aller **jusqu'à 2 à 3 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"20c5ffcd9dca\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Effet immédiat** : le résultat se voit tout de suite, mais un léger gonflement, des rougeurs ou des petits bleus peuvent masquer le résultat pendant 2 à 7 jours.\",\n      \"- **Résultat définitif** : après 1 à 2 semaines, une fois le produit bien intégré.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a29c222c160c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Les poils commencent généralement à tomber **entre 1 et 3 semaines** après la séance.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f6cf2c996122\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 5,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour un laser fractionné de type Fraxel, il faut en général **3 à 5 séances**, espacées de **4 à 6 semaines** (parfois jusqu'à 8 semaines pour les peaux sensibles ou les traitements plus intenses).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"76351a001a4a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Entre 2 et 5 jours** après l'injection, on commence à remarquer une diminution des rides.\",\n      \"- Chez certaines personnes, cela peut prendre jusqu'à **7 jours**.\",\n      \"- Le résultat optimal est généralement visible **entre 10 et 14 jours** après l'injection.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Botox®\",\n      \"Azzalure®\",\n      \"Bocouture®\"\n    ]\n  },\n  {\n    \"id\": \"b511d118ff51\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"**Pour le ventre, on compte généralement 1 à 3 séances de cryolipolyse**, selon la quantité de graisse à traiter et le résultat recherché.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a18b0ZnlnxbXZw8xnmzjkZKLMJDSZ10Wg9rgLdn8Wu2ooOzmV8YI4Gm3W7kzXpHBW37o7mrCRqS2dhbfbCGj2n0feENYm/Pv4nsMKYDtQIumkQXE"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5707,
+  "candidatesTokenCount": 1447,
+  "totalTokenCount": 7154,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5707
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1447
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:11:08.462707Z",
+ "responseId": "fOvpavOeHKCBz_IP3JqvuQM"
+}

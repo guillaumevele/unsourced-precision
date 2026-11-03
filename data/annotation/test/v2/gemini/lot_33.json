@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"267b81538b14\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet d'une **rhinoplastie médicale** à l'acide hyaluronique dure généralement **12 à 18 mois**, parfois **jusqu'à 2 ans**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"48b3f6e88131\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 10,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Il faut en général **entre 6 et 10 séances**, espacées de **6 à 8 semaines** (parfois 4 à 12 semaines), le temps que la peau élimine les pigments brisés par le laser.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ae2a297a5332\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 6,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"- **Cicatrices d'acné** : 3 à 5 séances\",\n      \"- **Rides, ridules, vieillissement cutané** : 3 à 5 séances\",\n      \"- **Taches pigmentaires, mélasma** : 3 à 5 séances, avec un risque de récidive\",\n      \"- **Vergetures** : 4 à 6 séances\",\n      \"- **Rajeunissement léger, grain de peau** : 2 à 4 séances\",\n      \"- **Fraxel Restore (non ablatif)** : plusieurs séances, avec peu de convalescence (rougeurs et gonflement pendant 2 à 4 jours).\",\n      \"- **Fraxel Repair (CO₂ fractionné, ablatif)** : souvent 1 à 2 séances seulement, car il est plus agressif, avec une convalescence de 1 à 2 semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"926bb889e39a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Exposition au soleil direct : évitez-la pendant 2 à 4 semaines** après chaque séance. Certains centres recommandent jusqu'à 6 semaines si vous avez la peau claire ou qui bronze vite.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"efa11ccf83cf\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En général : 6 à 12 mois**, parfois jusqu'à 18 mois selon le produit.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"21f1e80f64cf\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Il faut généralement **attendre au moins 6 à 8 semaines**, et souvent **2 à 3 mois**, entre deux séances sur une même zone.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1fe09daffee2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **3 mois** | **Résultat optimal** : l'élimination est quasiment terminée. |\",\n      \"| **Jusqu'à 6 mois** | Légère amélioration encore possible chez certaines personnes. |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f7664f2667fb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **1 à 2 séances** pour le ventre, espacées d'environ **6 à 8 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cf665d39e623\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Lèvres** : 6 à 12 mois (parfois moins, car la zone est très mobile)\",\n      \"- **Sillons nasogéniens, rides d'expression** : 9 à 18 mois\",\n      \"- **Cernes / vallée des larmes** : 6 à 12 mois, parfois plus\",\n      \"- **Pommettes / volume du visage** : 12 à 24 mois\",\n      \"- **Menton, mâchoire** : 12 à 18 mois\",\n      \"- **Rhinoplastie médicale** : 12 à 18 mois\",\n      \"- **Skinbooster (hydratation de la peau)** : 4 à 6 mois, avec des séances d'entretien\",\n      \"- **Genou, hanche, etc.** : généralement 3 à 6 mois, parfois jusqu'à 12 mois, selon le produit et l'état de l'articulation.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"be18851089a2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Reprise du travail : souvent 1 à 4 semaines selon le métier et la position demandée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19rjIVvRHSIoVBiQW6A4bcJC9nXFZhy5s8P+4Vj3xtx/B6FxYhbKv/45Rx0ardRajtKn6XqKTL2Iw/EEiiHdd+B3zF12W4xcGnFUQt0Wo31FkJR"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5857,
+  "candidatesTokenCount": 1694,
+  "totalTokenCount": 7551,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5857
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1694
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:10:03.668254Z",
+ "responseId": "O-vpat7kKJK2mPUPvPyecA"
+}

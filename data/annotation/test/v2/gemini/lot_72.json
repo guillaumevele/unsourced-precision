@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"93859868c190\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les injections aux lèvres, généralement à base d'acide hyaluronique, durent en moyenne **6 à 12 mois**.\",\n      \"Selon le produit, la quantité injectée et le métabolisme de la personne, elles peuvent tenir jusqu'à **18 mois** ou un peu plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3522d5a3cf6d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.04,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Effet de l'injection d'hyaluronidase elle-même** : un gonflement, une légère rougeur ou une sensibilité au point d'injection sont fréquents. Ils durent en général **quelques heures à 2-3 jours**, parfois jusqu'à une semaine.\",\n      \"- **Gonflement lié à la dissolution de l'acide hyaluronique** : il peut persister **environ 1 à 2 semaines**, le temps que l'inflammation diminue et que les tissus se rééquilibrent.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e527afcdaeb7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 4,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"La **durée du Botox aux lèvres** est généralement de **2 à 4 mois**, parfois un peu plus selon la dose et la personne.\",\n      \"- **Lip flip** (injection faible pour retrousser la lèvre supérieure) : effet souvent de **6 à 12 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"dd93379530db\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, on conseille d'attendre **au moins 6 mois à 1 an** après l'accouchement avant une abdominoplastie.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8fe63c67f6b2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Il faut compter en général **2 à 3 semaines de repousse après un rasage**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"20abfc092059\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d994b66749bf\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 10,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Peeling superficiel** (acide glycolique, lactique, etc.) : la desquamation dure en général **2 à 5 jours**, et la peau est normale en **environ 1 semaine**.\",\n      \"- **Peeling moyen** (acide trichloracétique, par exemple) : la peau pèle pendant **environ 5 à 10 jours**, avec une rougeur qui peut persister quelques semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"327f9ba1d9f1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"L'acide hyaluronique en sérum s'applique généralement **une à deux fois par jour**, matin et/ou soir.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f7979457d9b3\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Planning familial\"\n    ]\n  },\n  {\n    \"id\": \"28f6c868b3fb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **2 à 3 mois** | **Résultat optimal** : l'organisme a éliminé l'essentiel des cellules détruites. |\",\n      \"| **Jusqu'à 6 mois** | Légère amélioration possible chez certaines personnes. |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a18IoyqgrC+az9AQAWgqu8O7YOO7Wlgc4tGqjDbWRq3o2HqgrqU8Ng2vr/a4f297u1O9NtFXaHyKP4fHo1V0szCUd6YGKDV8/ep9PbFY5DR2Wsev"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5209,
+  "candidatesTokenCount": 1464,
+  "totalTokenCount": 6673,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5209
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1464
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:17:56.583912Z",
+ "responseId": "FO3paujRI7PgxN8P9cC78Q4"
+}

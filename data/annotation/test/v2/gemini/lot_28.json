@@ -1,0 +1,40 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"6a3b1ffe06a6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\":"
+     },
+     {
+      "text": " [\n      \"- Si tu parles d'une **teinte de lèvres semi-permanente** (dermopigmentation, « candy lips » rosées), la tenue est de **1 à 3 ans** selon la peau, avec des retouches souvent conseillées après 1 an.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6a8e2c6f9cb6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Une cicatrice commence généralement à pâlir au bout de **quelques semaines à quelques mois**, et elle atteint sa couleur définitive, souvent blanche ou proche de la peau, en **6 mois à 1 an, parfois jusqu'à 2 ans**.\",\n      \"- **6 mois à 2 ans** : elle devient plus pâle, souvent blanche ou nacrée, et se fond davantage dans la peau.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"03632c432a4a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"| **Nettoyant** (rincé) | 1 à 2 fois par jour |\",\n      \"| **Lotion / tonique / sérum** (sans rinçage) | Commencer **1 fois par jour** (ou un jour sur deux), puis jusqu'à 2 fois/jour si bien toléré |\",\n      \"- **Peau sensible ou sèche** : 1 fois par jour maximum, voire quelques fois par semaine.\",\n      \"- En général **1 fois par jour** (souvent le soir), parfois 2 fois selon le produit.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"74c5aa0ada27\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les vergetures restent généralement **rouges, roses ou violacées pendant 6 mois à 1 an**, parfois jusqu'à **2 ans**.\",\n      \"| **Vergetures rouges** (*striae rubrae*) | Rouges, roses ou violettes, parfois légèrement en relief, avec démangeaisons possibles | Quelques mois à 1-2 ans |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a94349226f1f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 10,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Reprise du travail possible, souvent après 5 à 10 jours (plus tôt pour un travail de bureau)\",\n      \"- **Visage** : gonflement parfois marqué, le visage peut paraître « rond » 2 à 3 semaines. Vie sociale possible vers 10 à 15 jours.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"37ac8467ac4a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il faut généralement attendre **au minimum 4 à 6 semaines après la dernière séance laser**, et plutôt **2 à 3 mois** si la zone a bien réagi.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ba37119b07c4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un œil au beurre noir **guérit en 1 à 2 semaines**, parfois jusqu'à 3 semaines selon la gravité du choc.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0e3005c30489\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 5,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Dermopigmentation** : la couleur tient en général **2 à 5 ans**, avec une atténuation progressive.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7a943c00fc90\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 12,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, **un cil met environ 4 à 8 semaines pour repousser complètement**.\",\n      \"Selon les personnes et la cause de la perte, cela peut aller **jusqu'à 2 ou 3 mois**.\",\n      \"- **Cil tombé naturellement ou arraché** : 4 à 8 semaines en moyenne, tant que le follicule n'est pas abîmé.\",\n      \"- **Cils coupés ou brûlés** (par exemple avec une flamme) : ils repoussent généralement normalement, en environ 6 à 8 semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"21b57bdf25f6\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a190Cm2f1XRWjYPg15bzvEbolD+pWno6aGwW7SIh1jCEtKVnbkEnIoS2toCnewcBbERpH3VR+w68/99BU8xOkYLsHIHDQQGTw7Yz/++W2QCyMgha"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5967,
+  "candidatesTokenCount": 1622,
+  "totalTokenCount": 7589,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5967
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1622
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:08:03.247184Z",
+ "responseId": "w-rpapCLD8jMvdIPp8qzuQg"
+}

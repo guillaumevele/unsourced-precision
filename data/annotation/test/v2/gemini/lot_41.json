@@ -1,0 +1,44 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"7ff2afecdff6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 18.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **6 à 12 mois** en général\",\n      \"- Certains produits plus denses ou \\\"volumisants\\\" peuvent tenir **jusqu'à 12 à 18 mois**\",\n      \"- Les produits plus souples, destinés à hydrater ou à donner un effet naturel, durent souvent **4 à 6 mois**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"580612ac29c9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En moyenne, il faut **entre 5 et 12 séances** pour un tatouage professionnel.\",\n      \"Un petit tatouage amateur peut partir en 3 à 6 séances, alors qu'un grand tatouage très coloré peut en demander plus de 12.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e6f4a3cf3e9f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24.0,\n    \"borne_haute\": 72.0,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **éviter le sport intense pendant 24 à 48 heures** après une injection de botox.\",\n      \"Certains praticiens demandent jusqu'à 72 heures selon la zone traitée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"38aa642a996a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 18.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les injections aux lèvres à base d'**acide hyaluronique** (le produit le plus utilisé) durent généralement **entre 6 et 12 mois**, parfois jusqu'à 18 mois selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"851432e84e70\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un bleu (ecchymose) disparaît en général en **environ 1 à 2 semaines**.\",\n      \"Les gros bleus ou les bleus profonds peuvent prendre **3 à 4 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d32bdd930a73\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.0,\n    \"borne_haute\": null,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Allergique** : quelques heures à 1-2 jours après arrêt du contact avec l'allergène, plus vite avec un traitement (antihistaminiques, larmes artificielles, compresses froides).\",\n      \"- **Conjonctivite virale ou bactérienne** : environ 1 à 2 semaines, parfois moins.\",\n      \"- **Irritation, frottement, piscine, lentilles** : 1 à 3 jours.\",\n      \"- **Post-opératoire** (paupières, chirurgie de la cataracte, du strabisme, blépharoplastie) : de quelques jours à 2-4 semaines, parfois plus longtemps.\",\n      \"- **Traumatisme ou piqûre d'insecte** : quelques jours.\",\n      \"- **Maladie de Basedow (orbitopathie thyroïdienne)** : peut durer des semaines à des mois, avec des poussées, et nécessite un suivi spécialisé.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9f3d695ca715\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**Durée moyenne :** 6 à 12 semaines pour les effets visibles, parfois jusqu'à 3 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"76f3e09e2206\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils tient en général **4 à 6 semaines**, soit environ un mois.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"77237f372e65\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Arrêt de travail d'environ 2 à 3 semaines (jusqu'à 4 si le travail est physique).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ae6d9e468e5a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En moyenne, il faut compter **entre 6 et 12 séances** pour un détatouage au laser, parfois plus.\",\n      \"- **Profondeur de l'encre** : un tatouage profond (réalisé par un professionnel) est plus long à effacer qu'un tatouage amateur, souvent plus superficiel (parfois 3 à 6 séances).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+tHhJbhPflYhJduqnLcbr3x3cJ+5rM6ChAwRvVkqL6rJ2CXHZf/DZXjWJKiL4Byj7RsvFghsE1aHKyYbZvfqlAxNDlQd6tZCMUMtHaBCJf5mVV"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6068,
+  "candidatesTokenCount": 1681,
+  "totalTokenCount": 7749,
+  "cachedContentTokenCount": 2036,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6068
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2036
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1681
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:11:39.378641Z",
+ "responseId": "m-vpapGOF4nEmPUPkOetiAc"
+}

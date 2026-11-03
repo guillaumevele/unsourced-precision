@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"cd579754a53e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, on garde la gaine (ou ceinture de compression) **4 à 6 semaines** après une abdominoplastie, mais la durée exacte dépend de votre chirurgien.\",\n      \"- **Jour et nuit, sans interruption : les 2 à 3 premières semaines**, en ne l'enlevant que pour la toilette.\",\n      \"- **En journée seulement : les semaines 3 à 6**, parfois jusqu'à 8 semaines. Certains chirurgiens autorisent alors à la retirer la nuit.\",\n      \"- **Au-delà de 6 à 8 semaines** : optionnelle. Certaines personnes la gardent pour le confort lors d'efforts, mais ce n'est plus indispensable.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"45ce3c71a640\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il faut généralement attendre **6 à 8 semaines minimum après la dernière séance de détatouage**, et souvent **3 à 6 mois** si l'on veut un résultat optimal.\",\n      \"- **Peau complètement cicatrisée** : au minimum 6 à 8 semaines après la dernière séance laser. La peau ne doit plus être rouge, croûteuse, sensible ou gonflée.\",\n      \"- **Recommandation fréquente** : 3 à 6 mois, voire davantage, pour que la peau retrouve sa texture et sa couleur normales.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1f3669a94afb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre **environ 6 à 12 mois** avant de laisser une cicatrice s'exposer au soleil sans protection.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"871629510180\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Le délai habituel entre deux séances de cryolipolyse sur une **même zone** est d'environ **6 à 8 semaines** (1,5 à 2 mois).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3580ad69361a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, on garde la gaine de compression **4 à 6 semaines** après une abdominoplastie.\",\n      \"- **Jour et nuit pendant les 3 à 4 premières semaines**, sauf pour la douche et les soins.\",\n      \"- **Puis en journée seulement pendant 2 à 4 semaines supplémentaires** si votre chirurgien le recommande. Certains la prolongent jusqu'à 8 semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1d4a891244bc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 14.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Peeling superficiel** (acides fruits, AHA, acide salicylique) : la peau pèle généralement pendant **2 à 7 jours**, parfois un peu plus.\",\n      \"- **Peeling moyen** (TCA, Jessner, etc.) : le pelage dure en général **5 à 10 jours**, avec parfois des croûtes.\",\n      \"- **Peeling profond** (phénol) : la desquamation et la croûte durent **environ 10 à 14 jours**, et la rougeur peut persister plusieurs semaines à plusieurs mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"057d59a3657a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 18.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique (comblement)** : environ **6 à 18 mois**, selon le produit, la quantité et le métabolisme.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"436ca1889ee8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5.0,\n    \"borne_haute\": 21.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Entre 5 et 14 jours après** : les poils traités commencent à tomber.\",\n      \"- **Jusqu'à 3 semaines** : la chute peut se prolonger, selon la zone du corps et le cycle de croissance des poils.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8a7830b9c1f8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 10.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Environ 4 à 6 semaines en continu**, jour et nuit, sauf pour la toilette.\",\n      \"- **Ensuite, encore 2 à 4 semaines**, généralement le jour seulement, selon l'évolution.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"616bda423eb8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, on garde la gaine de compression **4 à 6 semaines** après une abdominoplastie.\",\n      \"- **Jour et nuit pendant les 3 premières semaines** (parfois 4), en ne l'enlevant que pour la douche et les soins.\",\n      \"- **Puis en journée seulement pendant 2 à 3 semaines supplémentaires**, avec un port nocturne à l'appréciation du chirurgien.\",\n      \"Certains chirurgiens la recommandent jusqu'à **8 semaines**, notamment en cas de lipoaspiration associée ou de reprise de diastasis.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+gk6+AEnc+Q76L+/wMteH2dp8LkHQRwwvvRTLbZSnLFRalmG6EgG6tjUxks5WWoHY77wm713Pj10aaZA/pIBfrk2fVNcMAGWatwXTyidDHz6ph"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5137,
+  "candidatesTokenCount": 1843,
+  "totalTokenCount": 6980,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5137
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1843
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:06:22.047696Z",
+ "responseId": "XurpatD0AsHDvdIP-vyw6Q0"
+}

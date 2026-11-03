@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\"id\": \"84932410a25c\", \"chiffre_present\": true, \"borne_basse\": 6.0, \"borne_haute\": 8.0, \"unite\": \"semaines\", \"phrases_chiffre\": [\"Les cils mettent en général environ **6 à 8 semaines** pour repousser entièrement après être tombés.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"db03c35fcf9e\", \"chiffre_present\": true, \"borne_basse\": 3.0, \"borne_haute\": 6.0, \"unite\": \"mois\", \"phrases_chiffre\": [\"**En général : tous les 3 à 6 mois** (en moyenne tous les 4 mois).\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"5b2d6d97db5e\", \"chiffre_present\": true, \"borne_basse\": 1.0, \"borne_haute\": 24.0, \"unite\": \"mois\", \"phrases_chiffre\": [\"- **Bouton sous-cutané classique** (« bouton aveugle », sans tête blanche) : **1 à 2 semaines** en général.\", \"- **Nodule ou kyste d'acné** (gros, profond, douloureux) : **plusieurs semaines, parfois 1 à 2 mois**.\", \"- **Kyste sébacé** (boule mobile sous la peau, souvent indolore) : il peut **persister des mois ou des années** et ne disparaît souvent pas seul.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"759e49515da9\", \"chiffre_present\": true, \"borne_basse\": 4.0, \"borne_haute\": 6.0, \"unite\": \"semaines\", \"phrases_chiffre\": [\"Une teinture des cils tient en général **4 à 6 semaines**.\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"561a45ddce6f\", \"chiffre_present\": true, \"borne_basse\": 3.0, \"borne_haute\": 6.0, \"unite\": \"mois\", \"phrases_chiffre\": [\"En général, on refait des injections de Botox **tous les 3 à 6 mois**, car l'effet s'estompe progressivement.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"ba933d88a2d7\", \"chiffre_present\": true, \"borne_basse\": 1.0, \"borne_haute\": 2.0, \"unite\": \"fois par jour\", \"phrases_chiffre\": [\"En **cosmétique**, l'acide hyaluronique (sérum ou crème) s'utilise en général **une à deux fois par jour**, matin et soir.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"27efb1e7751c\", \"chiffre_present\": true, \"borne_basse\": 1.0, \"borne_haute\": 12.0, \"unite\": \"mois\", \"phrases_chiffre\": [\"| **Légère** (tiraillements, légère sensibilité) | **1 à 2 semaines** |\", \"| **Modérée** (rougeurs, picotements, desquamation) | **2 à 4 semaines** |\", \"| **Sévère** (sur-exfoliation importante, brûlures chimiques, irritation intense) | **1 à 3 mois** |\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"ad1d06d76488\", \"chiffre_present\": false, \"borne_basse\": null, \"borne_haute\": null, \"unite\": null, \"phrases_chiffre\": [], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"2761a2731ca1\", \"chiffre_present\": true, \"borne_basse\": 2.0, \"borne_haute\": 4.0, \"unite\": \"mois\", \"phrases_chiffre\": [\"**Environ 2 à 4 mois**, soit un peu moins que le Botox classique (3 à 6 mois).\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"d3341fa9e19e\", \"chiffre_present\": true, \"borne_basse\": 12.0, \"borne_haute\": 24.0, \"unite\": \"mois\", \"phrases_chiffre\": [\"**Il est recommandé de protéger une cicatrice du soleil pendant au moins 12 mois**, et idéalement jusqu'à **18 mois à 2 ans** pour les cicatrices importantes (chirurgie, brûlure).\"], \"renvoi\": \"consultation\", \"citations\": []}\n]\n```",
+      "thoughtSignature": "AY89a198V6p8NsPpMpcm87G4+tHnzYHW26GXHW/tXbWOiUUiqWSP0HBhvje6e8pI3Nt1LNurXrIPYW2eHpcGYm1pmkVSJv4ZkShxdDHDa/qaoMN6lt9l"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5187,
+  "candidatesTokenCount": 1184,
+  "totalTokenCount": 6371,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5187
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1184
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:11:30.444313Z",
+ "responseId": "kuvpapmPG4nEmPUPkOetiAc"
+}

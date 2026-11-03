@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"bc273f42db7a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Une cicatrice met généralement **entre 6 mois et 2 ans** pour devenir blanche (ou plus claire que la peau environnante), mais cela varie selon les personnes et le type de plaie.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4f39a6a90b28\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Le **Candy Lips** (maquillage semi-permanent des lèvres, ou *lip blush*) dure en général **entre 1 et 3 ans**, selon les personnes.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8caab44f78f0\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0f8a37f6d291\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": null,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il faut attendre **au minimum 6 à 12 mois après l'accouchement**, et idéalement **12 mois ou plus**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Assurance Maladie\"\n    ]\n  },\n  {\n    \"id\": \"301f07cfd01a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7.0,\n    \"borne_haute\": 28.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les poils commencent généralement à tomber **1 à 3 semaines** après une séance.\",\n      \"Dans certains cas, il faut attendre jusqu'à **3 à 4 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"993918f81717\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 9.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Entre 9 et 18 mois** en général, parfois jusqu'à 2 ans chez certaines personnes.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"dca7d1da3308\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"088eb67938c7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5.0,\n    \"borne_haute\": null,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Il peut durer **plusieurs années, souvent 5 ans ou plus**, selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6866cd8154ba\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Durée : environ 2 à 3 mois**, parfois jusqu'à 4 mois\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0af9c1637743\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Elles restent généralement colorées **entre 6 mois et 2 ans**, puis deviennent blanches ou argentées, et leur aspect s'atténue nettement avec le temps.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+Jr/afGj/ECyqjIWpFlFkaPkP/L6QzbvyMcO0oqbiOjxam19WW+VpwCKp8X1yXveGjEwFb4qCMDOayygbW6jNw0C+Bz6o1jOpnKs6cZDdNzbh8"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5796,
+  "candidatesTokenCount": 1264,
+  "totalTokenCount": 7060,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5796
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1264
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:12:45.016552Z",
+ "responseId": "3evpaqiBAam4mPUPwY-52Q4"
+}

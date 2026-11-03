@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"5a7e0274f64f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.2857,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Peeling superficiel** (acides fruits, AHA, acide salicylique) : la desquamation dure en général **2 à 5 jours**, parfois jusqu'à une semaine.\",\n      \"- **Peeling moyen** (TCA, par exemple) : comptez **environ 1 à 2 semaines**, parfois jusqu'à 3 semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b653f1119c17\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, **il faut compter entre 12 et 18 mois**, parfois **jusqu'à 2 ans**, pour qu'une cicatrice atteigne son aspect définitif, souvent plus pâle que la peau autour.\",\n      \"| **6 à 18 mois (voire 24)** | C'est la phase de maturation. Elle devient plus plate, plus souple et pâlit (blanche ou nacrée). |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"533c1c9fdffa\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35,\n    \"borne_haute\": 120,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"**Par zone traitée :** environ **35 à 60 minutes**, selon l'appareil utilisé (les machines récentes, comme le CoolSculpting Elite, sont plus rapides, autour de 35 minutes).\",\n      \"**Séance complète :** comptez **1 à 2 heures** au total, car il faut ajouter :\"\n    ],\n    \"renvoi\": \"source\",\n    \"citations\": [\n      \"Haute Autorité de Santé\"\n    ]\n  },\n  {\n    \"id\": \"bb3d21636d60\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Le **Candy Lips** (technique de maquillage semi-permanent des lèvres, aussi appelée *lip blush*) dure en général **entre 1 et 3 ans**, selon les personnes.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9b28c18fab28\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Une cicatrice devient généralement **plus pâle, puis blanchâtre, en 6 mois à 1 an** environ.\",\n      \"- **Après 6 à 12 mois** : elle est généralement stabilisée. Certaines cicatrices peuvent mettre jusqu'à 18 mois ou 2 ans à atteindre leur aspect définitif.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"331cf6e678c0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'acide hyaluronique injecté sous les yeux (creux des cernes, ou *tear trough*) dure en général **6 à 12 mois**, et parfois **jusqu'à 12 à 18 mois** selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0f5ae17f3db4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Après une épilation laser, il faut en général éviter l'exposition au soleil **pendant 2 à 4 semaines**, avec quelques nuances selon les cas.\",\n      \"- **Minimum 2 semaines** sans exposition directe sur la zone traitée.\",\n      \"- **Idéalement 3 à 4 semaines**, surtout si votre peau est claire, sensible ou si la zone est exposée (visage, maillot, bras).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"87e50ce74ede\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 8,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La plupart des chirurgiens recommandent de porter la gaine **4 à 6 semaines**, parfois jusqu'à **8 semaines**, selon :\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6269cab4206f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 13,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"## Sur une même zone : **6 à 8 semaines minimum**\",\n      \"La plupart des praticiens recommandent d'attendre **2 à 3 mois** avant de retraiter la même zone, pour plusieurs raisons :\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8adf66869270\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 13,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, on garde la gaine de contention **4 à 6 semaines** après une abdominoplastie.\",\n      \"- **Au-delà de 6 semaines** : certains chirurgiens prolongent le port jusqu'à 2 ou 3 mois, par exemple pendant les efforts ou si l'œdème persiste.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a18Xl7K+p5oYM/g0CnM67sOqmHJxw5dnMpEcsK3blfyQudF0Jrr7x6Mfv7d6oJDvbThg0efCqgogfaetCFdlHVzlU2unIOoAzj64eZK4uupc6fdF"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5689,
+  "candidatesTokenCount": 1659,
+  "totalTokenCount": 7348,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5689
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1659
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:17:01.597851Z",
+ "responseId": "3ezpatu-JOv-xN8PwKXvsAU"
+}

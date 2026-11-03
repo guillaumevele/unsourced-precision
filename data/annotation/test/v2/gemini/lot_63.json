@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"8726a70d26cd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 3.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les cils repoussent en général en **environ 6 à 8 semaines** (soit à peu près 1,5 à 2 mois) après leur chute.\",\n      \"- **Pleine longueur** : il faut en général **2 à 3 mois** pour retrouver des cils de longueur normale.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"107dc04222ac\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 9.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"**Environ 9 à 18 mois**, parfois jusqu'à 2 ans.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"05010423e28c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 5.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"| **Microblading** (poil à poil, manuel) | 1 à 3 ans |\",\n      \"| **Microshading / Powder brows** (effet poudré) | 2 à 5 ans |\",\n      \"| **Technique hybride ou combinée** | 2 à 4 ans |\",\n      \"| **Maquillage permanent classique** (dermographe) | 3 à 5 ans |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"71fe212c7130\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Un tatouage des sourcils (microblading ou tatouage poudré) dure en moyenne **1 à 3 ans**, selon plusieurs facteurs :\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2c21bc94524f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 14.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Le gonflement après une injection d'hyaluronidase dure en général **quelques jours**, le plus souvent **2 à 3 jours**, et peut aller **jusqu'à 1 à 2 semaines** selon la zone traitée et la quantité injectée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1bf58bc44a9c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"La plupart des chirurgiens plasticiens conseillent d'attendre **au moins 6 mois, idéalement 12 mois** après l'accouchement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f264651b64b6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils tient en général **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"61a1631bce1e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, on peut exposer une cicatrice au soleil **une fois qu'elle est complètement fermée et refermée**, sans croûte ni zone suintante, ce qui prend en pratique **2 à 4 semaines** pour une petite plaie superficielle.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"953ebe1eef9f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Après une épilation laser, il faut généralement **éviter le soleil pendant au moins 2 à 4 semaines**.\",\n      \"- **Après la séance** : la peau reste fragile pendant quelques semaines. Comptez au moins **2 à 4 semaines**, et parfois jusqu'à 6 semaines si vous avez bronzé ou si la peau a réagi.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"286a609aabf2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du Botox (toxine botulique) dure en général **3 à 6 mois**, avec une moyenne autour de **4 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1/4cOQgaa7vWwp7VZh9W7uJoGwGWjnvfKnSItXhoBvyxW4xHzFwrCuEZyoFhabJxzPIsrUnckVABasw1cw7mPt4QEW/ewAAxB/aw/jDBvRgw/dF"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 4968,
+  "candidatesTokenCount": 1520,
+  "totalTokenCount": 6488,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4968
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1520
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:16:26.725984Z",
+ "responseId": "uuzpauCnLKSCxN8Pk4z16Ao"
+}

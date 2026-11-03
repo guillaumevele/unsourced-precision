@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"8cd25b6ef614\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Les premiers effets apparaissent généralement entre **2 et 4 jours** après l'injection.\",\n      \"- L'effet complet est visible vers **10 à 14 jours**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"adefbf0b6cf9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Travail** : arrêt fréquent de 2 à 4 semaines, plus si le métier est physique.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"51d78f7d9416\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les chirurgiens recommandent généralement d'attendre **au moins 6 à 12 mois après l'accouchement**, et souvent **un an ou plus** pour un résultat optimal.\",\n      \"Le délai est similaire (au moins 6 à 12 mois).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Conseil du Ordre\"\n    ]\n  },\n  {\n    \"id\": \"26160cf89247\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'acide hyaluronique utilisé pour remodeler le nez (rhinoplastie non chirurgicale, ou « rhinoplastie liquide ») tient en général **environ 6 à 18 mois**, souvent **9 à 12 mois** en moyenne.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7d67115aa236\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, les vergetures restent rouges ou violacées **de quelques mois à un an environ**, parfois un peu plus.\",\n      \"- **Phase inflammatoire (vergetures rouges ou violacées)** : la peau s'est distendue, les vaisseaux sanguins sont visibles à travers la peau amincie, et l'inflammation est encore active. Elle dure généralement 6 à 12 mois, avec des variations selon les personnes.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ed986832ade0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Pour une épilation à la cire, au sucre ou au fil, les poils doivent mesurer **environ 0,5 cm (4 à 5 mm minimum)**, soit à peu près **2 à 3 semaines** de pousse.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"97010cda39a0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils dure en général **environ 4 à 6 semaines**, soit le temps que mettent les cils à tomber et à se renouveler naturellement.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"acfca1dfb349\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les injections d'acide hyaluronique dans les lèvres durent en général **6 à 12 mois**, parfois jusqu'à 18 mois selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7d85dfe560b1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"h\",\n    \"phrases_chiffre\": [\n      \"- **Rasez la zone 24 à 48 h avant** (parfois la veille ou le matin, selon le centre).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"078f9b0c7e3b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 4,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **1 à 3 ans** en général, selon la peau, le pigment et les soins. Certaines personnes vont jusqu'à 4 ans.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+XrDuH8aXbU/rM95b7vHp3/5Jqif4KxOtKMXtJBL6oS+yoaapFVJWuanr1RdlWntp4SDwZGQmVK3yQ/WEUIx+sx8TcemFBe+eZkZGkKuUsydsQ"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5659,
+  "candidatesTokenCount": 1452,
+  "totalTokenCount": 7111,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5659
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1452
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:16:16.171912Z",
+ "responseId": "sOzpaoi_CuukxN8PsZqLkA8"
+}

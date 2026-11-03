@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"a0b6a3f7f1bd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les cils repoussent généralement en **6 à 8 semaines** pour retrouver leur longueur complète, mais cela peut aller jusqu'à **3 mois** selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"68e4f8c3e162\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **1 à 2 fois par jour** : le matin et/ou le soir.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6bd148a56d3b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24,\n    \"borne_haute\": 48,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"Après une injection de Botox, la recommandation habituelle est d'éviter le sport intense pendant **24 heures** (certains praticiens conseillent 24 à 48 h).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f659d34c6f31\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- En général **6 à 18 mois**, souvent **environ 9 à 12 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"81cf32557bc4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Lèvres** : 6 à 12 mois\",\n      \"- **Sillons nasogéniens (plis d'amertume)** : 9 à 12 mois\",\n      \"- **Cernes / vallée des larmes** : 9 à 18 mois, parfois plus\",\n      \"- **Pommettes / volume du visage** : 12 à 18 mois\",\n      \"- **Menton / mâchoire** : 12 à 18 mois\",\n      \"- **Rides fines (skinbooster)** : 3 à 6 mois, avec des séances d'entretien\",\n      \"- **Mains** : 6 à 12 mois\",\n      \"- **Rhinoplastie médicale (nez)** : 12 à 18 mois\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7d748867ea5f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**Évitez le soleil au moins 2 semaines**, voire 3 à 4 semaines selon les recommandations de votre praticien et votre type de peau.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a99cbec06310\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **3 mois** | Résultats optimaux, l'élimination naturelle des adipocytes est terminée. |\",\n      \"| **Jusqu'à 6 mois** | Légère amélioration possible chez certaines personnes. |\",\n      \"👉 En résumé : **comptez environ 2 à 3 mois** pour juger du résultat final d'une séance.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"860cf8ce5118\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La convalescence complète prend plusieurs mois, mais la plupart des patients reprennent une vie normale en **2 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4f8144c5d75c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 10,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"**En moyenne, il faut 6 à 8 séances** pour un résultat satisfaisant. Certaines personnes en ont besoin de 10 ou plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"525131b96dbd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- Cette phase dure en général **de quelques mois à environ 1 à 2 ans**, selon les personnes.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19bXZEsxGsThS0CXIsj+DWr2TWk0GY2EfLGolOq/6VSKqaVoqW8yCcvPHYcJv/KCe5bWe68LAF6ZcXQWrtd/VcTLlFyvBCuSAiiaG2izwZmyV4d"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6252,
+  "candidatesTokenCount": 1492,
+  "totalTokenCount": 7744,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6252
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1492
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:06:58.673953Z",
+ "responseId": "gurpaqGRKfmnvdIP7proqAw"
+}

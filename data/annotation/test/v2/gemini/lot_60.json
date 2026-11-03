@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"7ecd74973068\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Cernes (sillon sous-orbitaire)** : 6 à 12 mois\",\n      \"- **Rides du front, glabelle, rides d'expression** : 6 à 9 mois\",\n      \"- **Sillons nasogéniens, rides d'amertume** : 9 à 12 mois\",\n      \"- **Lèvres** : 6 à 12 mois (souvent 6 à 9)\",\n      \"- **Pommettes, volume du visage** : 12 à 18 mois\",\n      \"- **Menton, mâchoire** : 12 à 18 mois\",\n      \"- **Mains** : 6 à 12 mois\",\n      \"- **Skinbooster (hydratation de la peau)** : 4 à 6 mois, avec des séances d'entretien\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ddf7a5e4cbab\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 5,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- Souvent **1 à 3 ans**, selon les zones et les patients.\",\n      \"- Parfois **plus de 5 ans** lorsque la greffe a bien pris.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4464bc3c661f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 5,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"**Premiers effets : 2 à 5 jours** après l'injection.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"898b37b0dc3a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| Travail de bureau | Souvent 2 à 4 semaines d'arrêt |\",\n      \"| Travail physique | Souvent 4 à 6 semaines d'arrêt |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"90ebd60a2554\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En règle générale, il faut attendre **au moins 6 mois après l'accouchement**, et idéalement **12 mois**, avant une abdominoplastie.\",\n      \"- Au moins 6 à 12 mois après l'accouchement\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Assurance maladie\"\n    ]\n  },\n  {\n    \"id\": \"9f2d9fe75fc3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Visage :** gonflement et bleus visibles pendant 1 à 2 semaines, reprise sociale souvent rapide.\",\n      \"- Reprise du travail de bureau en 5 à 10 jours environ, plus tard si le travail est physique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"747cdb7fb4a7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, l'effet du botox dure **3 à 4 mois**, avec des variations selon les personnes et les zones traitées.\",\n      \"- **Retour à l'état initial** : vers 4 à 6 mois\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"573b4f9abfda\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 3,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Lip flip (retroussement de la lèvre)** : environ **2 à 3 mois**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"92731b08334e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique** (le plus \\\"safe\\\" des produits utilisés pour ce genre d'injection) : environ **6 à 18 mois**, il se résorbe progressivement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5b57fba589d2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Superficiel** | Acide glycolique, lactique, salicylique, mandélique | 2 à 3 jours après | **3 à 7 jours** (parfois juste un léger « poudrage », voire rien de visible) |\",\n      \"| **Moyen** | TCA (acide trichloracétique) 15 à 35 %, Jessner | 2 à 3 jours après | **7 à 10 jours**, avec rougeurs possibles jusqu'à quelques semaines |\",\n      \"| **Profond** | Phénol | Rapidement | **2 à 3 semaines**, avec rougeurs pouvant durer plusieurs mois |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+dLJ1BN+YKAPFtM6rPAQR+WE+hMH0Ff9rcwlYnKCw/K/zrYVxJLxVTGwMG1ewt5OC1z4NRQ9puMrE4mknZ5krzZJR6iE7xWSK4hf4Wu5ZQrjEy"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6787,
+  "candidatesTokenCount": 1639,
+  "totalTokenCount": 8426,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6787
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1639
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:15:57.276477Z",
+ "responseId": "nezpav3vEOv-xN8PwKXvsAU"
+}

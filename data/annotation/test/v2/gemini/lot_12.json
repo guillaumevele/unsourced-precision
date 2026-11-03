@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"09dc1fbdf46c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 12,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut compter **entre 5 et 12 séances** de laser, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8855082d62d9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"**En général : 1 à 3 séances par zone**, selon :\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9a5f730ea0f2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Comptez en général **2 à 3 semaines** après un rasage.\",\n      \"- Le rythme de repousse varie selon les zones et les personnes : jambes et aisselles ont souvent besoin de 3 à 4 semaines, le maillot et le visage parfois moins.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"789a8512709b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- La peau pèle légèrement pendant **2 à 5 jours**, parfois jusqu'à 7 jours.\",\n      \"- La desquamation commence vers le **2ᵉ ou 3ᵉ jour** et dure **5 à 10 jours**.\",\n      \"- La peau met **10 à 14 jours**, voire plus, à se régénérer.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8a8d7340b248\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **Lèvres** | 6 à 12 mois |\",\n      \"| **Rides du sillon nasogénien** | 9 à 12 mois |\",\n      \"| **Cernes** | 9 à 18 mois |\",\n      \"| **Pommettes / joues** | 12 à 18 mois |\",\n      \"| **Menton, mâchoire** | 12 à 24 mois |\",\n      \"| **Skinboosters (hydratation)** | 4 à 6 mois |\",\n      \"Les injections de viscosupplémentation soulagent généralement pendant **6 à 12 mois**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6dc8f2776aab\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**Il faut attendre au minimum 6 à 8 semaines, idéalement 2 à 3 mois.**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"565ccc8ae4d1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Reprise du travail** possible en général entre 2 et 4 semaines pour un poste de bureau, et plus tard pour un travail physique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"98138c99a22b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 14,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Pour l'épilation laser, il faut laisser pousser les poils **environ 1 à 2 semaines** avant la séance.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4df393ee2dd8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un bleu (ecchymose) met en général **1 à 3 semaines** à disparaître complètement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b39a8b1eff16\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En moyenne : 2 à 4 mois**, soit un peu moins que le botox classique (3 à 6 mois).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0T/kRwEAXxjuAWhOrgLxnHUQTDsl1CBS143atbeFRM+A4C03I9bgofa3l8d1EXD/nq7rvGEgMRCIRb6psD081NuuFGqoxOfY0Yx3ofOSkda1OKEO/YUx3fN84d0+Un7tethA=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6446,
+  "candidatesTokenCount": 1451,
+  "totalTokenCount": 7897,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6446
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "EuLpapG0CoeJvdIPst2liAY"
+}

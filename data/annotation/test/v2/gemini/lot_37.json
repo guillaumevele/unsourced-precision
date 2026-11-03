@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"e25e95e16f3b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12.99,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **espacer les séances d'au moins 6 à 8 semaines** sur une même zone, et il est souvent conseillé d'attendre **2 à 3 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6f91c78a189e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- Nettoyants : 1 fois par jour, ou 1 à 2 fois si bien toléré\",\n      \"- Sérums, lotions, gels : commencez par 1 fois par jour (ou tous les 2 jours les premières semaines), puis augmentez à 2 fois par jour si la peau le supporte\",\n      \"- En général 1 fois par jour, de préférence le soir\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"048f9d25c67a\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f1c586741755\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **1 à 2 fois par jour** : le matin et/ou le soir.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"260453532164\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3f8b6d90a854\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir guérit en général en **une à trois semaines**, selon la gravité du choc :\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"07528ffbfc95\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24,\n    \"borne_haute\": 48,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"**Évitez le sport intense pendant au moins 24 heures** après l'injection.\",\n      \"Certains praticiens recommandent jusqu'à **48 heures** par précaution.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5ba2e24b0471\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Il faut en général **éviter le soleil pendant 2 à 4 semaines après chaque séance**, et idéalement **dans les 2 à 4 semaines qui précèdent** aussi.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"34c381962a89\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 9,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En moyenne 9 à 18 mois**, parfois jusqu'à 2 ans.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"096a8a13f3ff\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique** (le plus courant) : environ **12 à 18 mois**, parfois jusqu'à 2 ans selon le produit, la quantité injectée et ton métabolisme.\",\n      \"- **Stimulateurs de collagène** (Sculptra, Radiesse) : environ **18 à 24 mois**, voire plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1/0JpfSs6zsw5x5LXOUhzAcCRK0yYC1mJ5M3k2p2BUr8zjcuclR2RT5K/G+fQD15kEMNrTxS1EuMIbUB+R4NGfWE1/8S+3QNqUZ3/Ay2ZzFaiYN"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 4958,
+  "candidatesTokenCount": 1348,
+  "totalTokenCount": 6306,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4958
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1348
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:10:56.293362Z",
+ "responseId": "cOvpavLzEbOtz_IPt9WOsAw"
+}

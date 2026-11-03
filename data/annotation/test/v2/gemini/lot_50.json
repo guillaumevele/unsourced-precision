@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"40275101ec07\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils tient en général **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"94fc53455359\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique** (gros volumes) : environ 12 à 24 mois, parfois moins, car il est résorbé progressivement.\",\n      \"- **Hydroxyapatite de calcium** (type Radiesse) : environ 12 à 18 mois.\",\n      \"- **Acide polylactique** (type Sculptra) : environ 2 ans.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"559038afb4ab\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"h\",\n    \"phrases_chiffre\": [\n      \"**1. Rasez la zone 24 à 48 h avant la séance**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8b6c634ebb82\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- Durée : en général **12 à 18 mois**, parfois jusqu'à 24 mois avec les produits les plus denses, car le menton est une zone peu mobile.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8cbbca6df410\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir (ecchymose périorbitaire) guérit en général en **environ 1 à 2 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"923a60305873\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 8,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les cils repoussent en général en **6 à 8 semaines** pour retrouver leur longueur complète, mais le cycle complet de renouvellement est plus long.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"254c9b02c713\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Après une abdominoplastie, la gaine (ou ceinture de compression) se porte en général **environ 4 à 6 semaines**, mais la durée exacte dépend de votre chirurgien.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ce4c134073bd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **En moyenne : 12 à 18 mois**\",\n      \"- Certains patients gardent un effet jusqu'à **2 ans**, selon le produit et le métabolisme.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"abd475d0df76\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du **baby botox** dure généralement **2 à 4 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"619727559352\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, **1 à 3 séances** de cryolipolyse sont nécessaires pour le ventre, selon la quantité de graisse à traiter et l'objectif recherché.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19TpRRaIyp8UEEIwGPMmxHNZZQFZ8WfzsGEFIQnJHb0EFc4EgAOQ0YB+9r1zyA0+t14fVmG4rxQYH+NJaz0CiMG74+09fy9iL4HTqTWxkXPZAVI"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5673,
+  "candidatesTokenCount": 1360,
+  "totalTokenCount": 7033,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5673
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1360
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:13:43.497571Z",
+ "responseId": "F-zpaqOvHonEmPUPkOetiAc"
+}

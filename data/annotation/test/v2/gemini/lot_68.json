@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"28b8e3e4e12e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 8,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les cils repoussent en **6 à 8 semaines** environ pour retrouver leur longueur complète, mais le cycle complet de renouvellement est plus long.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d505535ccc82\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **Lèvres** | 6 à 12 mois |\",\n      \"| **Rides du sourire (sillons nasogéniens)** | 9 à 12 mois |\",\n      \"| **Cernes** | 9 à 18 mois |\",\n      \"| **Pommettes / volumes** | 12 à 18 mois, parfois jusqu'à 24 mois |\",\n      \"| **Menton, mâchoire** | 12 à 18 mois |\",\n      \"| **Skinbooster (hydratation)** | 4 à 6 mois (plusieurs séances au départ) |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7545c9bc5df9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **1 à 2 fois par jour** : matin et/ou soir\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e05b2a589420\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Les poils tombent en général **1 à 3 semaines** après la séance, souvent autour de **7 à 14 jours**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9709651d5585\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 10,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Elle commence vers J+2 ou J+3 et dure de 2 à 5 jours. Parfois il n'y a presque rien de visible.\",\n      \"- Elle commence vers J+2 ou J+3 et dure de 5 à 7 jours, parfois jusqu'à 10 jours.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9c00deaa2971\",\n    \"chiffre_present\": true,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- Le résultat persiste en principe **jusqu'au prochain rapport avec pénétration**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"Planning familial\"\n    ]\n  },\n  {\n    \"id\": \"a484d35b9514\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 8,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, **un cil tombé repousse complètement en 4 à 8 semaines** environ.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"133e287e0f47\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 8,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **6 à 8 séances** de laser pour les aisselles, espacées de **4 à 8 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ef98139dd3a7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 7,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Visage :** travail de bureau après 3 à 7 jours, bleus visibles jusqu'à 2 semaines environ.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a35cd70661c6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 5,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Début de l'effet : 2 à 3 jours**, parfois jusqu'à 5 jours.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+YBul6/Tl6HRPX+vHWjvJUjxYqFOEGdVEyiAMNAE4oW90BuesbK3vLERRkdnlyE9Y6qhFUOBDXIQM38POTCRZowaBPCYd7rvLSGDStedUFnlxD"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5673,
+  "candidatesTokenCount": 1417,
+  "totalTokenCount": 7090,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5673
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1417
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:17:17.530355Z",
+ "responseId": "7ezparOvIKSCxN8Pk4z16Ao"
+}

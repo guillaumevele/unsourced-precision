@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"92db2178a199\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"7\",\n    \"borne_haute\": \"10\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Visage** : retour à une vie sociale souvent possible au bout de 7 à 10 jours, avec un maquillage couvrant les bleus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5dc128df8e73\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"9\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **En moyenne : 9 à 18 mois**, parfois jusqu'à 2 ans selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"699acda73023\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"12\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **En moyenne : 12 à 18 mois**\",\n      \"- **Jusqu'à 24 mois** avec des produits très réticulés conçus pour le volume (ex. Juvéderm Voluma/Volux, Restylane Lyft, Stylage XL…)\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7de22a0e6c47\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique (comblement, augmentation du menton)** : environ **12 à 18 mois**, parfois 6 mois à 2 ans selon le produit, la zone et le métabolisme. Il se résorbe progressivement.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"135b4b20d5c8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"285e3ae21c2f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Le « baby botox » dure en général **environ 3 à 4 mois**, parfois **de 2 à 6 mois** selon les personnes.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3dd3ca59d7e5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"3\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir (ecchymose péri-orbitaire) met en général **1 à 2 semaines** à disparaître, parfois jusqu'à 3 semaines selon l'importance du coup.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"959a46cc344e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"3\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **Légère** (tiraillements, légère sensibilité) | 1 à 2 semaines |\",\n      \"| **Modérée** (rougeurs, picotements, desquamation) | 2 à 4 semaines |\",\n      \"| **Sévère** (sur-exfoliation importante, irritation forte) | 1 à 3 mois |\",\n      \"Le cycle de renouvellement de la peau dure environ **28 jours** chez l'adulte, plus longtemps avec l'âge. C'est pourquoi on compte souvent **au moins un mois** pour une récupération complète.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c26ccd2babfd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"14\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **24 à 72 heures** | Premiers effets discrets, chez certaines personnes |\",\n      \"| **3 à 5 jours** | Effet nettement visible chez la plupart des patients |\",\n      \"| **10 à 14 jours** | **Résultat optimal** : les muscles sont pleinement détendus |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3fa90c35af26\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un bleu disparaît en général en **environ 2 semaines**, parfois jusqu'à **3 à 4 semaines** pour un bleu plus gros ou plus profond.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19Leh1jt2TG4bItD/nnWwYwct+uQg45RT+1h9+tRxUANCU3QvCvUYu+Xbgr39g1Ydpcr8D477Pqr7XzKJ199smqkE5vrTL+Mt6+EXYCDFJL+ji8"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5373,
+  "candidatesTokenCount": 1475,
+  "totalTokenCount": 6848,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5373
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1475
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:07:51.145351Z",
+ "responseId": "t-rpasfvCKSCxN8Pk4z16Ao"
+}

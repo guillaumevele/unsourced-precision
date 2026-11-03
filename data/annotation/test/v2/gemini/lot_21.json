@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"56a8bf274c87\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"12\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, une cicatrice devient **blanche ou plus claire que la peau au bout de 12 à 18 mois**, parfois **jusqu'à 2 ans**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7d4ab4ed9cf8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"12\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Attendre au minimum 6 à 12 mois après l'accouchement**, et idéalement **6 mois après l'arrêt de l'allaitement**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a5f93392e7f7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"14\",\n    \"borne_haute\": \"21\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Longueur idéale : 0,5 à 1 cm**, soit environ **2 à 3 semaines** après la dernière épilation.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ed51f6ec15e9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"12\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, les vergetures restent rouges ou violacées pendant **quelques mois**, souvent entre **6 mois et 1 an**, parfois un peu plus longtemps selon les personnes.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"34407bc55a2d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"12\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique** (le plus courant) : environ **12 à 18 mois**, parfois jusqu'à 24 mois selon le produit, la quantité et ton métabolisme.\",\n      \"- **Acide polylactique (Sculptra)** : effet progressif en plusieurs séances, qui dure environ **2 ans**.\",\n      \"- **Hydroxyapatite de calcium (Radiesse, Ellansé)** : environ **12 à 18 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"914afa3142f6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"12\",\n    \"borne_haute\": \"18\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il faut protéger une cicatrice du soleil **pendant 12 à 18 mois**, c'est-à-dire jusqu'à ce qu'elle soit mature (plus rose, plus rouge ni plus foncée que la peau environnante).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"101e84c72330\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, l'effet du Botox (toxine botulique) dure **3 à 6 mois**, avec une moyenne d'environ **4 mois** pour un usage esthétique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fa14f1946f4c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1.5\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre **6 à 8 semaines minimum après la dernière séance de détatouage**, et souvent davantage si la zone doit être retatouée, avec un délai de **3 à 6 mois** recommandé dans de nombreux cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"792a094b0300\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, l'effet du Botox (toxine botulique) dure **3 à 6 mois**, avec une moyenne d'environ **4 mois** pour un usage esthétique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e75fbce9dda0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"12\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **Acide hyaluronique** (ex. Hyaface, Hyacorp) | **12 à 24 mois** environ |\",\n      \"| **Sculptra** (acide poly-L-lactique) | **2 ans ou plus**, mais nécessite plusieurs séances |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+SxqcI/m57s9mVWPtIBYYPR//CuEcX6hcRu2NooQ9bJ2BpbxlUiDlX40bOmfwnBLwOn04zAXxT6RXuNTa51nyKDPGFFuy0kPv+74iwArjX//32"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6111,
+  "candidatesTokenCount": 1497,
+  "totalTokenCount": 7608,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6111
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1497
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:06:46.451427Z",
+ "responseId": "durpauPGG8HDvdIP-vyw6Q0"
+}

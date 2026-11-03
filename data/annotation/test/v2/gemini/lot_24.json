@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"db861fca34c3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les cils repoussent généralement en **6 à 8 semaines** pour retrouver leur longueur complète, mais le cycle complet de renouvellement est plus long.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"58b64e0ab5f9\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9209f382185d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 14.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Le gonflement après une injection d'hyaluronidase dure en général **quelques jours à environ 1 à 2 semaines**, selon la zone traitée, la quantité injectée et la réaction de chacun.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"304c5207f2a0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.0,\n    \"borne_haute\": 90.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **Allergie** (pollen, poils d'animaux, frottement des yeux) | Quelques minutes à **24-48 heures**, souvent rapide après éviction de l'allergène ou traitement antihistaminique |\",\n      \"| **Irritation mécanique** (frottement, corps étranger) | Quelques heures à **1-2 jours** |\",\n      \"| **Conjonctivite virale ou bactérienne** | **1 à 2 semaines**, parallèlement à l'infection |\",\n      \"| **Après chirurgie** (paupières/blépharoplastie, cataracte, strabisme) | Quelques jours à **plusieurs semaines**, parfois 1 à 3 mois dans les cas persistants |\",\n      \"| **Traumatisme oculaire** | Variable, de quelques jours à quelques semaines |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7656dba30bb2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les effets du Botox (toxine botulique) durent en général **3 à 6 mois** en moyenne, selon plusieurs facteurs :\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f24afc4dae0e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 5.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **En pratique** : on parle souvent de 3 à 5 ans ou plus, parfois définitif pour les zones bien intégrées.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"81df925f50c4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35.0,\n    \"borne_haute\": 60.0,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de cryolipolyse dure en général **35 minutes à 1 heure par zone traitée**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0cd31b2d5d0b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Durée habituelle : 6 à 12 semaines** (environ 2 à 3 mois).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"33c22c13983f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 18.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Durée moyenne : 6 à 12 mois.**\",\n      \"- Certains produits plus denses peuvent tenir jusqu'à 12 à 18 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"99d2b2e149aa\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- Durée : environ **12 à 18 mois**, parfois jusqu'à 24 mois pour les produits les plus denses, car cette zone bouge peu et le produit est injecté en profondeur.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1/UWcpTe7sbzfRoweHCzaCzu8loaItvyok3R0M1VS8DVDveozLtiA6HirAlR/CFlhx00psseiyQ+8eQz+iVs6/HXX4A8sPaOgIQvz1LKHPJafCL"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5735,
+  "candidatesTokenCount": 1479,
+  "totalTokenCount": 7214,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5735
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1479
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:07:17.546141Z",
+ "responseId": "lerpat2qIev-xN8PwKXvsAU"
+}

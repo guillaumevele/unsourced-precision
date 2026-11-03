@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"ca5eea159abc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"2\",\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"Pour une **crème ou un sérum** à l'acide hyaluronique, on l'applique en général **1 à 2 fois par jour**, matin et/ou soir :\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c2cb9a696595\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"14\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Les effets du Botox apparaissent en général **entre 2 et 3 jours**, et le résultat complet se voit vers **7 à 14 jours**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e5feacf89278\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"35\",\n    \"borne_haute\": \"60\",\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de cryolipolyse dure généralement **35 à 60 minutes par zone traitée**, selon l'appareil utilisé et la zone concernée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"34bb566aaf6c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"3\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir (ecchymose autour de l'œil) dure en général **1 à 2 semaines**, parfois jusqu'à 3 semaines pour les cas plus importants.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"492c0ad37b67\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"35\",\n    \"borne_haute\": \"60\",\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"La cryolipolyse dure généralement **35 à 60 minutes par zone traitée**, selon l'appareil utilisé et la zone concernée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"594d3414e66e\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4fa1a623b9f9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"5\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En moyenne : 2 à 4 mois** (parfois jusqu'à 4-5 mois chez certaines personnes).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"28fb1620e542\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, **tous les 3 à 6 mois** pour la toxine botulique à visée esthétique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"64dfea428809\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"14\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Les premiers effets du Botox apparaissent en **2 à 3 jours**.\",\n      \"Le résultat est généralement visible vers **le 5e ou 7e jour**, et l'effet complet se stabilise vers **2 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0e9973271531\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"24\",\n    \"borne_haute\": \"48\",\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"**En général, il est recommandé d'éviter le sport intense pendant 24 heures** après une injection de Botox.\",\n      \"Certains praticiens conseillent jusqu'à **48 heures** par précaution.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1+z2nhxnXE8Iurry5imJtxXNnjR+OnJGhXlLRMEZ22c+K6BSpmyJuNBIW22JzvNqugZXW7Zlgyf+rTB8eA4djwkRXQQMDfTpCTZoNUa7VTlnc0A"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 4432,
+  "candidatesTokenCount": 1316,
+  "totalTokenCount": 5748,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4432
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1316
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:07:40.429552Z",
+ "responseId": "rOrpavCbGsHDvdIP-vyw6Q0"
+}

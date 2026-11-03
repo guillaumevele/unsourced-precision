@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"4625c8d2d044\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 8,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour les aisselles, il faut en général **6 à 8 séances**, espacées de **4 à 8 semaines** selon l'appareil et la vitesse de repousse.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c39b6d5ee52d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **protéger une cicatrice du soleil pendant au moins 12 mois**, et idéalement **jusqu'à 18-24 mois** pour les cicatrices importantes (chirurgie, brûlure, cicatrice épaisse).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fc327f247603\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 6,\n    \"unite\": \"Séances\",\n    \"phrases_chiffre\": [\n      \"| Cicatrices d'acné | 3 à 5 |\",\n      \"| Rides fines, vieillissement cutané, grain de peau | 3 à 5 |\",\n      \"| Taches pigmentaires, mélasma | 3 à 5 (le mélasma peut récidiver) |\",\n      \"| Vergetures | 4 à 6 ou plus |\",\n      \"| Cicatrices chirurgicales ou traumatiques | 3 à 6 |\",\n      \"- **Type de laser** : le Fraxel *Restore* (non ablatif) demande plus de séances, avec des suites plus légères. Le Fraxel *Repair* (CO₂, ablatif) est plus agressif, et une à deux séances peuvent suffire, avec une convalescence plus longue.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0f31cabdf23f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"**En général, les poils tombent entre 1 et 3 semaines après la séance**, le plus souvent autour de **10 à 14 jours**.\",\n      \"- **Jours 5 à 21** : les poils **se détachent progressivement**, souvent par plaques. Ils tombent tout seuls ou partent facilement en frottant doucement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"be91a715a303\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"| **Nettoyant** | 0,5 – 2 % | 1 à 2 fois par jour |\",\n      \"| **Lotion / sérum / tonique** | 0,5 – 2 % | 1 fois par jour (souvent le soir) |\",\n      \"- Application **1 à 2 fois par jour** sur la zone à traiter uniquement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bca6593a9a9e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Légère** (picotements, rougeurs après un gommage trop fort ou une surexposition à des actifs) : quelques jours à **2 à 4 semaines**.\",\n      \"- **Modérée** (sensibilité persistante, sécheresse, plusieurs produits irritants) : **environ 4 à 6 semaines**, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d508168cb8fa\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **Nettoyant ou gel lavant (acné, peaux grasses)** : 1 à 2 fois par jour, matin et/ou soir.\",\n      \"- **Lotion, sérum ou gel à laisser poser (acné, points noirs)** : en général 1 fois par jour, parfois 2 selon la concentration.\",\n      \"- **Traitement des verrues ou callosités (patchs, solutions kératolytiques)** : 1 fois par jour, en suivant strictement la notice.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ca59c7540348\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Effet immédiat** : visible dès la fin de la séance.\",\n      \"- **Résultat définitif** : après **2 à 4 semaines**, une fois que le gonflement, les éventuels bleus et l'œdème ont disparu et que le produit s'est bien intégré aux tissus.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0cad693b2b6f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Avec l'**acide hyaluronique**, le produit le plus utilisé, le résultat dure en général **6 à 12 mois**. Certains produits plus denses peuvent tenir jusqu'à 12 à 18 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"136b98a342c0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35,\n    \"borne_haute\": 60,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de cryolipolyse dure généralement **35 à 60 minutes par zone traitée**, selon l'appareil et la technique utilisés.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": [\n      \"CoolSculpting\"\n    ]\n  }\n]\n```",
+      "thoughtSignature": "AY89a19xpNK7cA532yjcwNLOxtIQLxkfqyBth9fhtra1JvUadVWZ5U8oqRr2RmsSYmsSNhNjXvGtxko7M1B5n5tgYp11ZZwuCzw/bVZXFMOI1VeMB0wN"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5599,
+  "candidatesTokenCount": 1769,
+  "totalTokenCount": 7368,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5599
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1769
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:05:54.271272Z",
+ "responseId": "QurpaqjHEPmnvdIP7proqAw"
+}

@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"278c1ca2abec\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"En général, **une à deux fois par jour**, matin et/ou soir, pour un sérum ou une crème à l'acide hyaluronique.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0295021b4a05\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 6,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En moyenne, il faut compter **3 à 5 séances**.\",\n      \"| Teint terne, texture, pores dilatés | 1 à 3 |\",\n      \"| Taches pigmentaires, taches solaires | 1 à 3 |\",\n      \"| Ridules, rides fines | 3 à 5 |\",\n      \"| Cicatrices d'acné | 3 à 6 (parfois plus) |\",\n      \"| Cicatrices chirurgicales ou traumatiques | 3 à 5 |\",\n      \"| Vergetures | 4 à 6 |\",\n      \"- **Fraxel non ablatif (Fraxel Re:store / Dual)** : plus doux, avec peu d'éviction sociale (2 à 5 jours de rougeurs), mais **plus de séances nécessaires (3 à 6)**.\",\n      \"- **Fraxel ablatif (Fraxel Re:pair, CO2 fractionné)** : plus agressif, avec 1 à 2 semaines de récupération, mais souvent **1 à 2 séances suffisent**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ea70d542d6ee\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 14,\n    \"borne_haute\": 42,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Délai :** environ **2 à 3 semaines** après un rasage, ou **3 à 6 semaines** après une épilation précédente\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6f68f89a68ec\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 60,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Peeling superficiel** (acides fruits, AHA, acide salicylique) : desquamation légère pendant **2 à 5 jours**, parfois jusqu'à une semaine.\",\n      \"- **Peeling moyen** (TCA, par exemple) : la peau pèle pendant **environ 1 à 2 semaines**, et la rougeur peut persister quelques semaines.\",\n      \"- **Peeling profond** (phénol, par exemple) : la desquamation dure **plusieurs semaines**, et la récupération complète peut prendre **plusieurs mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5209098368b9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre **au moins 4 à 6 semaines après la dernière séance laser**, et souvent **2 à 3 mois** pour laisser la peau récupérer complètement.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"584bc3d01a33\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Minimum 2 semaines** sans exposition directe au soleil (certains praticiens recommandent jusqu'à 4 semaines).\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0f0670ee56c7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 12,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En moyenne, il faut **entre 5 et 12 séances**, parfois plus.\",\n      \"- **Noir et bleu foncé** : les plus faciles à effacer (5 à 8 séances)\",\n      \"- **Amateur** : moins d'encre et moins profonde, donc plus rapide (3 à 6 séances)\",\n      \"- **Professionnel** : encre dense et profonde, donc plus long (6 à 12 séances ou plus)\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2afcad391c98\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois/jour\",\n    \"phrases_chiffre\": [\n      \"| **Nettoyant** | 0,5 à 2 % | 1 fois/jour au début, puis jusqu'à 2 fois/jour si bien toléré |\",\n      \"| **Lotion / tonique** | 0,5 à 2 % | 1 fois/jour (souvent le soir) |\",\n      \"| **Sérum / exfoliant sans rinçage** | 1 à 2 % | Commencer 2 à 3 fois/semaine, puis augmenter progressivement jusqu'à 1 fois/jour |\",\n      \"- Généralement **1 à 2 fois/jour**, selon la notice, pendant plusieurs semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6488c6238502\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les cils repoussent en général en **environ 6 à 8 semaines** pour retrouver leur longueur normale.\",\n      \"Il faut souvent **2 à 3 mois** pour que la repousse soit bien visible.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"637e5449419a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 28,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Bouton « aveugle »** (papule profonde, sans tête blanche) | 1 à 2 semaines |\",\n      \"| **Nodule ou kyste d'acné** (gros, dur, douloureux) | 2 à 4 semaines, parfois plusieurs mois |\",\n      \"| **Furoncle** (infection d'un poil, rouge et chaud) | 1 à 2 semaines, souvent avec formation de pus |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1/K5c5KlzQjG01KvDI9lTTkyzK/vlKF1CKnAsDzdBLjUz2L1/yXI4QhEoA6i5hX5eX1lnqkDdwFIXueeUJ6zindVDXI5BSnqqVvTrmTLNzgiquW"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5555,
+  "candidatesTokenCount": 1879,
+  "totalTokenCount": 7434,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5555
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1879
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:15:19.637293Z",
+ "responseId": "d-zpau3yJrCxz_IP38KTsQY"
+}

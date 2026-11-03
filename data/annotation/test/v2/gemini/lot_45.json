@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"940b886629e3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 56,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Atteinte légère** (rougeurs, tiraillements, après un gommage ou un excès d'actifs) : environ **3 à 7 jours**.\",\n      \"- **Atteinte modérée** (desquamation, picotements, sensibilité marquée) : environ **2 à 4 semaines**.\",\n      \"- **Atteinte sévère ou chronique** (excès prolongé de rétinoïdes, d'acides, eczéma, dermatite) : **4 à 8 semaines, voire plus**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"32dac8699317\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 10,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les cils repoussent en général en **environ 6 à 8 semaines** (parfois jusqu'à 10 semaines pour les cils du haut, un peu plus lents pour ceux du bas).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f79ed44cea7a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": null,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Furoncle ou petit abcès** (douloureux, rouge, chaud) : il grossit pendant quelques jours, puis se vide ou se résorbe en **1 à 3 semaines**.\",\n      \"- **Acné nodulaire** (bouton profond, dur, douloureux) : **plusieurs semaines** (2 à 4 semaines, parfois plus), avec risque de cicatrice.\",\n      \"- **Kyste sébacé** (bosse ronde, mobile, souvent indolore) : il persiste **des mois, voire des années**, et ne disparaît généralement pas seul.\",\n      \"- **Lipome** (bosse molle, mobile, indolore) : il peut rester **indéfiniment**, en grossissant lentement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"43fe6aaa47e4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 10,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"**En moyenne, il faut 6 à 8 séances**, parfois jusqu'à 10 selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"633bb6baf51b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, on recommande d'attendre **au moins 6 mois à 1 an** après un accouchement avant une abdominoplastie.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f4807501ddc7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 9,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique (filler) pour le menton** : environ **12 à 18 mois**, parfois de 9 à 24 mois selon le produit, la quantité injectée et le métabolisme de la personne.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"169587cdadc7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 48,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Après la **dernière séance de laser**, il est généralement recommandé d'attendre **au minimum 6 à 8 semaines**.\",\n      \"Beaucoup de professionnels conseillent plutôt **2 à 3 mois**, voire **jusqu'à 6 mois** pour plus de sécurité.\",\n      \"- **Détatouage complet** : mieux vaut attendre 3 à 6 mois.\",\n      \"- **Présence de cicatrices** : il faut parfois attendre 6 à 12 mois, le temps que la cicatrice soit « mature » (plate, souple, de couleur stable).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a00882155403\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils dure en général **environ 4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"978fcf207484\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Phase de maturation :** elle pâlit progressivement. Le plus gros de la transformation se fait en général entre **6 mois et 1 an**.\",\n      \"- **Stade final :** la cicatrice peut continuer à s'éclaircir jusqu'à **18 mois à 2 ans**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"84b83752bb3c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 3,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"## Durée moyenne : **2 à 3 mois**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1/EpTzA1YzoNZnVynwzPO/Bjmtd+n+HF9cMQgyB66/9Kl9AIez/1Pk5WjewTebwPdvh8Byuociz+H2Ev3g1GVSTlADyzNot/HNoWz1+YKEeGujY"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 4948,
+  "candidatesTokenCount": 1642,
+  "totalTokenCount": 6590,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4948
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1642
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:12:23.287905Z",
+ "responseId": "x-vpaqHJEYnEmPUPkOetiAc"
+}

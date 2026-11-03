@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"1b284531b929\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"5\",\n    \"borne_haute\": \"10\",\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"En pratique, le résultat est souvent visible pendant 5 à 10 ans, voire plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4269a291725e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Résultat optimal :** entre **2 et 3 mois** après la séance.\",\n      \"- **Résultat final :** il peut continuer à évoluer jusqu'à **4 à 6 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d7573a0aed4c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"2\",\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **1 à 2 fois par jour**, matin et/ou soir.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"df520e163e37\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"2\",\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- Commencez par **1 fois par jour**, ou même 2 à 3 fois par semaine si votre peau est sensible.\",\n      \"- Si c'est bien toléré, vous pouvez passer à **2 fois par jour** (matin et soir).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1e0bc0df40fa\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, les vergetures restent **rouges ou violacées pendant quelques mois**, souvent entre **6 mois et 1 an**, parfois un peu plus longtemps (jusqu'à 18-24 mois selon les personnes).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f43a3d0faa2c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"10\",\n    \"borne_haute\": \"28\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Un bleu (ecchymose) disparaît généralement en **10 à 14 jours**.\",\n      \"Selon sa taille et sa profondeur, cela peut aller de quelques jours à **3 ou 4 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e92a77cc57bc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"30\",\n    \"borne_haute\": \"60\",\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une hyménoplastie dure en général **environ 30 minutes à 1 heure**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"55085354fe05\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"9\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Durée : 9 à 18 mois** en moyenne, parfois jusqu'à 24 mois pour les produits très cohésifs et volumisants.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"de2b0a6c968e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Après une séance d'épilation laser, il faut en général **éviter le soleil pendant au moins 2 à 4 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6ca662d307b5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"18\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Lèvres** : environ 6 à 12 mois\",\n      \"- **Sillons nasogéniens et plis** : environ 9 à 12 mois\",\n      \"- **Pommettes et joues** : environ 12 à 18 mois, parfois plus\",\n      \"- **Menton et contour de la mâchoire** : environ 12 à 18 mois\",\n      \"- **Cernes (sillons lacrymaux)** : environ 6 à 9 mois\",\n      \"- **Mains** : environ 9 à 12 mois\",\n      \"- **Hydratation de la peau (skin boosters)** : environ 3 à 6 mois\",\n      \"- **Articulations, notamment le genou (viscosupplémentation)** : environ 6 mois, parfois jusqu'à 12 mois, souvent sous forme de cycles de 3 à 5 injections\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19+xr4SYaXxCkPNUSA+gawNFGAgL+lcgtxgBCz3GUyHhR92fDTzdGMYeH3fyrwYK7IxIKA91RFsWjFbuGxicfJskVqjBSlk0DagR6QWcqG44A8V"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5427,
+  "candidatesTokenCount": 1513,
+  "totalTokenCount": 6940,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5427
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1513
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:16:52.728672Z",
+ "responseId": "1OzpauC8LMjMvdIPp8qzuQg"
+}

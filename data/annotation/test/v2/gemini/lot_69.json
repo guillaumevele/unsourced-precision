@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"c5b6aca25d53\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 18.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'acide hyaluronique utilisé pour modeler le nez (rhinoplastie non chirurgicale) dure en général **environ 6 à 12 mois, parfois jusqu'à 18 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b5562f0918ca\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"La durée moyenne d'une injection d'acide hyaluronique est de **6 à 18 mois**, selon la zone traitée et le produit utilisé.\",\n      \"- **Lèvres** : 6 à 9 mois\",\n      \"- **Sillons nasogéniens** (plis autour du nez) : 9 à 12 mois, parfois davantage\",\n      \"- **Pommettes et volume du visage** : 12 à 18 mois, voire 2 ans\",\n      \"- **Menton et contour de la mâchoire** : 12 à 18 mois\",\n      \"- **Cernes** : 6 à 12 mois\",\n      \"- **Mains** : environ 9 à 12 mois\",\n      \"- **Qualité de la peau (skin boosters, hydratation profonde)** : 4 à 6 mois\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1119f0d7791d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il faut protéger une cicatrice du soleil **pendant au moins 12 mois**, et parfois jusqu'à 18 à 24 mois, car elle met longtemps à mûrir.\",\n      \"- **De 1 à 12 mois** : protection stricte (vêtements, pansement opaque ou sparadrap micropore, puis crème solaire).\",\n      \"- **Après 12 à 24 mois** : la cicatrice est mature (pâle, souple, plus rosée).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"950bc3e63d67\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35.0,\n    \"borne_haute\": 60.0,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"La cryolipolyse (destruction des cellules graisseuses par le froid) dure en général **35 à 60 minutes par zone traitée**.\",\n      \"- **Durée du cycle par applicateur** : souvent entre 35 et 60 minutes selon l'appareil et la zone (ventre, flancs, cuisses, bras, etc.).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bde3c21fe6dc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 18.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique** : environ **6 à 18 mois**, il se résorbe progressivement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f866f0381f66\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Les cils repoussent généralement en **6 à 8 semaines** pour retrouver leur longueur complète, mais le cycle complet de renouvellement est plus long.\",\n      \"- Un cil arraché repousse en général en **6 à 8 semaines**\",\n      \"- Pour une repousse complète de tous les cils (après extensions abîmantes, par exemple), comptez **2 à 3 mois**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"addcc73eccd4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 9.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Environ 9 à 18 mois**, parfois jusqu'à 2 ans.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"24deb96cf09b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un œil au beurre noir **guérit en 1 à 2 semaines**, parfois jusqu'à 3 semaines selon la gravité du choc.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"80e87335b36f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Allergie (conjonctivite allergique, réaction médicamenteuse ou aux lentilles)** : quelques heures à quelques jours. Il régresse en général en 1 à 3 jours après éviction de l'allergène ou sous antihistaminiques et corticoïdes locaux.\",\n      \"- **Conjonctivite infectieuse** : quelques jours à 1 à 2 semaines. Les formes à adénovirus peuvent durer 2 à 3 semaines.\",\n      \"- **Chémosis post-chirurgical ou post-traumatique** : souvent quelques jours à quelques semaines, selon l'intervention ou le traumatisme.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c2b3917b359b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5.0,\n    \"borne_haute\": 20.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Le nombre de séances pour un détatouage au laser varie beaucoup, mais en général il faut **entre 5 et 10 séances**.\",\n      \"Certains tatouages demandent jusqu'à 15 ou 20 séances.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19i7kVDHhxW7myvlZLN7t4V48CiAKtMlhdI+LMOnN1ZNeQBziIkRLizSsCYyY45obU4c4QHol/Oh2cQW6OFO/vX+0fcvCkLnMI3PXy+PeDdLp9t"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5207,
+  "candidatesTokenCount": 1815,
+  "totalTokenCount": 7022,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5207
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1815
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:17:23.255220Z",
+ "responseId": "8-zpavTJD7aXvdIP0ZysgAc"
+}

@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"1a22d8db7cb4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, il faut laisser pousser les poils **environ 1 à 2 semaines** avant la séance.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"af925f803d5e\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"42ca28a6c5fa\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture de cils dure en général **environ 4 à 6 semaines**, soit à peu près le temps du cycle de renouvellement naturel des cils.\",\n      \"- **Durée de l'effet** : les cils restent teintés jusqu'à ce qu'ils tombent et soient remplacés, donc 4 à 6 semaines en moyenne.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"134886c74aea\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 12,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour un détatouage au laser, il faut en général **entre 5 et 10 séances**, parfois jusqu'à 12 ou plus pour les tatouages anciens ou très chargés.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b0ba3f2f37ef\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, **1 à 3 séances** de cryolipolyse sont nécessaires pour traiter le ventre, selon la quantité de graisse et l'objectif recherché.\",\n      \"- **1 séance** : suffisante pour un petit excédent localisé (pli abdominal modéré).\",\n      \"- **2 séances** : fréquent pour un ventre plus volumineux, ou pour affiner le résultat.\",\n      \"- **3 séances ou plus** : plus rare, pour de grosses zones ou en cas de résultat insuffisant.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"dc7d0c9aad8c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **Acide hyaluronique** (ex. Hyacorp) | **12 à 24 mois** | Résultat immédiat, résorbable, peut être dissous si problème |\",\n      \"| **Acide poly-L-lactique** (Sculptra) | **2 ans ou plus** | Stimule le collagène, résultat progressif, nécessite 2 à 4 séances |\",\n      \"| **Hydroxyapatite de calcium** (Radiesse) | **12 à 18 mois** | Plutôt pour raffermir que pour un gros volume |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0ba60696a312\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 7,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **3–7 jours** : il disparaît généralement complètement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"51824ac6f521\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir (ecchymose autour de l'œil) dure généralement **1 à 2 semaines**, parfois jusqu'à 3 semaines selon l'importance du choc.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"244e9200612c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **Acide hyaluronique** (projection, galbe du menton) | **12 à 18 mois**, parfois jusqu'à 24 mois |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4d4184b3e9bb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 8,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"**En moyenne : 6 à 8 séances** pour un résultat durable, avec une réduction de 80 à 90 % des poils.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19XJZ4llI/nFsYIxQHO+7Y8szFhbp/9Couf+Ds52yxd6EKekXBNYHbGLtAHMlXrBE0Ku40MtR83kdBjwMS7NIG5VXEDTP2/DS2kAnpbNKDKQLFt"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5430,
+  "candidatesTokenCount": 1491,
+  "totalTokenCount": 6921,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5430
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1491
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:17:08.347947Z",
+ "responseId": "5OzpaqueFeukxN8PsZqLkA8"
+}

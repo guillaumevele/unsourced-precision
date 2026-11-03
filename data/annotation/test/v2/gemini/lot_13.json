@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"318102454703\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"## Durée moyenne : **2 à 3 mois**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7bc8ebb03db3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il faut protéger une cicatrice du soleil pendant **12 à 24 mois**, le temps qu'elle arrive à maturité.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ac211a41032b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 7.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Gonflement lié à l'injection elle-même** : en général 24 à 72 heures.\",\n      \"- **Zones fragiles (lèvres, cernes, paupières)** : parfois jusqu'à 3 à 5 jours, voire une semaine pour les cas les plus marqués.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"36b2bdce4ffe\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour les aisselles, il faut en général **6 à 8 séances**, espacées de **4 à 8 semaines**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"76e8f2979436\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"85b829fe2858\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En moyenne : 3 à 4 mois**, contre 4 à 6 mois pour un botox classique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"439ead64e277\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un bleu (ecchymose) disparaît en **2 à 3 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"120716dfdc59\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"04fda9bc2dbe\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"| Rajeunissement / éclat du teint | 2 à 3 |\",\n      \"| Taches pigmentaires, lentigos | 1 à 3 |\",\n      \"| Ridules | 3 à 5 |\",\n      \"| Cicatrices d'acné | 3 à 6, parfois plus |\",\n      \"| Vergetures | 4 à 6 |\",\n      \"| Pores dilatés, texture | 3 à 5 |\",\n      \"| Mélasma (avec prudence) | 4 à 6 |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3590efcef9ee\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"**En général : 1 à 3 séances**, selon la quantité de graisse à traiter et le résultat souhaité.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a1/MzlIhNhjFjSyEDfMFu4B/jEIb9lrIDvOHWp3hU6Lp7l31EYqr2TcKDjj/9kbSVpiZS8/ORSHIOr4Dvnan06MP//UQsdNmDx3FW/aDLivQyD7U"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6304,
+  "candidatesTokenCount": 1332,
+  "totalTokenCount": 7636,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6304
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1332
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:05:04.877270Z",
+ "responseId": "EOrpatbFNcjMvdIPp8qzuQg"
+}

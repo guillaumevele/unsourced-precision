@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"e1c885c09986\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 14.0,\n    \"borne_haute\": 28.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Cire ou sucre** : environ **2 à 4 semaines**, soit une longueur d'au moins **0,5 cm** (la taille d'un grain de riz).\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8ccaea5356c7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"On recommande d'attendre **au minimum 6 à 8 semaines après la dernière séance de laser**.\",\n      \"Beaucoup de dermatologues et de tatoueurs conseillent plutôt **3 mois, voire 6 mois**, pour que la peau ait complètement récupéré en profondeur.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"29dbde2eb158\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9d5f55c76ad3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Une cicatrice **commence à pâlir au bout de quelques mois et devient généralement blanche ou presque invisible après 1 à 2 ans**, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e8011536c5e5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **6 à 8 séances** de laser pour les aisselles, espacées de **4 à 8 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f8829fa06683\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7.0,\n    \"borne_haute\": 21.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**En général, les poils tombent entre 1 et 3 semaines après la séance**, avec un pic de chute vers **10 à 15 jours**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2a0f10186b68\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un **bleu (ecchymose) disparaît en 1 à 3 semaines**, selon sa taille, sa profondeur et sa localisation.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"53900652c171\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| Travail de bureau | 2 à 4 semaines |\",\n      \"| Travail physique | 4 à 6 semaines |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1fc8534a516a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En règle générale, on garde la gaine **4 à 6 semaines** après une abdominoplastie.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"98c2ffd7be0a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5.0,\n    \"borne_haute\": 21.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Entre 5 et 14 jours après** : les poils commencent à tomber. Pour certaines personnes, cela peut prendre jusqu'à 3 semaines selon la zone et la vitesse de pousse.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19nqTQzczbyqimxaQ9Vj1L403Nx7BPCn536RDSfOVJnKciATuiRkt/+Tyt7UUBiGG5AUrDZ0HVBpw//pQ3KP7J3l1m6MYALE5FHMquIpMXy2TZs"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6746,
+  "candidatesTokenCount": 1353,
+  "totalTokenCount": 8099,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6746
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1353
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:14:47.774578Z",
+ "responseId": "V-zparKjL-2Ez_IP6NisiQY"
+}

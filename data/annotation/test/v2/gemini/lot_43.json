@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"f45e4b00bf3d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.0,\n    \"borne_haute\": 14.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Immédiat** : le volume est visible tout de suite, mais il y a souvent un gonflement temporaire.\",\n      \"- **Environ 2 semaines** : le gonflement disparaît et le résultat final apparaît.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3dcf069b2dc1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35.0,\n    \"borne_haute\": 60.0,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"La cryolipolyse (destruction des cellules graisseuses par le froid) dure en général **35 à 60 minutes par zone traitée**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3d0740cdd418\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un bleu (ecchymose) disparaît en **2 à 3 semaines**, mais cela dépend de sa taille, de sa localisation et de votre âge.\",\n      \"- **Vers 2-3 semaines** : disparition complète\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"736f4e82a978\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **6 à 8 séances** pour une épilation définitive des aisselles.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1585410d3ecd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 3.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il n'y a pas de délai unique, mais on recommande en général d'attendre **au minimum 6 semaines à 3 mois** après la dernière séance de détatouage.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e6abd2054f37\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **éviter le soleil et les UV pendant environ 2 à 4 semaines après chaque séance**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"61ff02d840eb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 18.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les injections d'acide hyaluronique aux lèvres durent en général **entre 6 et 12 mois**, parfois jusqu'à 18 mois selon le produit utilisé.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"70652a9f8e85\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, on refait des injections de Botox **tous les 3 à 4 mois**, parfois jusqu'à 6 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cd02b1b81b74\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 7.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **2 à 3 jours** : la majorité du gonflement a disparu chez la plupart des personnes.\",\n      \"- **Jusqu'à 1 semaine** : un léger œdème résiduel peut persister, surtout dans les zones fragiles (**cernes / vallée des larmes, paupières, lèvres**).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1c03a39869ca\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils tient généralement **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19qI3DXerTzJf6abn7xFSUcllzfkblWD1In/2efQlHMkj83C/TdTgVGTCpXgJDVTAcCbwdTY9TtyZsoIok51q77+hXkhaudH/CTXOizHJOhdvkX"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 4700,
+  "candidatesTokenCount": 1409,
+  "totalTokenCount": 6109,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4700
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1409
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:12:05.726103Z",
+ "responseId": "tevpateoLKm4mPUPwY-52Q4"
+}

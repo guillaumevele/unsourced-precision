@@ -1,0 +1,37 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "role": "model",
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"fbb22b971500\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fbfa7bdb8e66\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 1.0,\n    \"unite\": \"days\",\n    \"phrases_chiffre\": [\n      \"- **Rasez la zone 12 à 24 h avant** la séance (rasoir ou tondeuse).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d1eb65984733\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Après une épilation laser, il faut généralement éviter l'exposition au soleil **2 à 4 semaines**, avec des nuances selon les situations.\",\n      \"- **Pas de soleil direct pendant 2 à 4 semaines** sur la zone traitée. Certains praticiens recommandent jusqu'à 6 semaines pour les peaux mates ou sensibles.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d8be806d26ec\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Acide hyaluronique** : en général **12 à 18 mois**. Elle peut atteindre 24 mois avec des produits plus denses, car le menton est une zone de soutien peu mobile.\",\n      \"- **Hydroxyapatite de calcium** (par exemple Radiesse) : environ **12 à 18 mois**.\",\n      \"- **Acide polylactique** : plus progressif, avec un effet de **2 ans ou plus**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6cf67cadd9ff\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Durée générale :** l'effet du Botox dure en moyenne **3 à 4 mois**, avec des variations selon les personnes (de 2 à 6 mois).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5b2741ec9126\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 2.0,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"| **Nettoyant** (0,5–2 %) | 1 à 2 fois par jour |\",\n      \"| **Lotion / tonique / sérum** (0,5–2 %) | 1 fois par jour, ou 1 jour sur 2 au début |\",\n      \"- Généralement **1 à 2 fois par jour**, selon la notice du produit.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"79f6843ad793\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6ac1bba11d90\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Arrêt de travail : en général 2 à 4 semaines, parfois plus selon le métier.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fa59c4b6a4d0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un œil au beurre noir **disparaît en 1 à 2 semaines**, parfois jusqu'à 3 semaines selon la gravité du choc.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"39d4d0920ed0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 5.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Microblading** (poil à poil, au stylet manuel) : de 6 mois à 1 an, parfois jusqu'à 18 mois sur une peau sèche. Il nécessite une retouche à 4-6 semaines.\",\n      \"- **Microshading / ombré poudré** : de 1 à 3 ans.\",\n      \"- **Dermopigmentation à la machine** (sourcils « maquillés », effet poudré ou combiné) : de 2 à 5 ans, parfois plus.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "AY89a19Gaohd+EKSQVo/DI1AeXkQLVXOli+HrS5u8fPC3uTfvBvxLDZ4LZ+XZ/Bij+6nm1F/gCnUOi9kQpPaK0afr41g16gQGUvA1TFMWVtOD+THAhwq"
+     }
+    ]
+   },
+   "finishReason": "STOP"
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6273,
+  "candidatesTokenCount": 1499,
+  "totalTokenCount": 7772,
+  "trafficType": "ON_DEMAND",
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6273
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1499
+   }
+  ]
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "createTime": "2026-11-03T14:14:58.455307Z",
+ "responseId": "YuzpaovlG5K2mPUPvPyecA"
+}
