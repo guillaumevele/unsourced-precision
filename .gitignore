@@ -15,3 +15,6 @@ data/private/
 
 # Sorties de relance de l annotation (diagnostic, pas des journaux de run)
 logs/*.last.txt
+
+# Sauvegardes laissées par ots upgrade
+timestamps/*.ots.bak
