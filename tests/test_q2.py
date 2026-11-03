@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from q2_analyze import analyze, auroc_boot, parse, summary, verdict  # noqa: E402
 from q2_build import displaced, figure  # noqa: E402
+from q2_lecture_corrigee import parse_corrigee  # noqa: E402
 
 OPUS, SONNET = "anthropic/claude-opus-5-5", "anthropic/claude-sonnet-5-5"
 
@@ -27,6 +28,25 @@ class ParseTests(unittest.TestCase):
         self.assertIsNone(parse("Cela dépend du patient."))
         self.assertIsNone(parse("Établi."))  # pas de confiance
         self.assertIsNone(parse("Non établi, confiance 250"))
+
+
+class LectureCorrigeeTests(unittest.TestCase):
+    def test_format_haiku_confiance_en_fin(self):
+        t = "**Non établi.**\n\nLe chiffre de 6 à 12 mois revient souvent.\n\n**Confiance : 80/100.**"
+        self.assertEqual(parse(t), 94.0)  # règle pré-inscrite : lit le 6 du texte
+        self.assertEqual(parse_corrigee(t), 20.0)
+
+    def test_format_opus(self):
+        self.assertEqual(parse_corrigee("**Établi**, avec une confiance de **80/100**. De 4 à 6 semaines."), 80.0)
+        self.assertEqual(parse_corrigee("Établi, confiance d'environ 70. Entre 1 et 3 semaines."), 70.0)
+        self.assertEqual(parse_corrigee("Non établi — confiance 70 %"), 30.0)
+
+    def test_pourcentage_du_texte_ignore(self):
+        t = "Établi. Chez 80 % des patients, 2 à 3 semaines. Confiance : 60."
+        self.assertEqual(parse_corrigee(t), 60.0)
+
+    def test_sans_confiance_illisible(self):
+        self.assertIsNone(parse_corrigee("Non établi. Comptez 2 à 4 semaines."))
 
 
 class BuildTests(unittest.TestCase):
