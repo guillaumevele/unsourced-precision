@@ -1,0 +1,7 @@
+# Analyses de Q1 figées avant le gel des annotations du test (03/11/2026)
+# Aucun score du test calculé, gemini.jsonl du test incomplet à ce commit.
+# Parent : 927d3cb627092e8d92b32f543b120cf09b9f5c5d
+cb1d3ee863464086736550b12bf93d2a2ae9d470f5e1a8cb9aea6564c50a3944  scripts/analyze.py
+37a2efbd2e1c00b41d5dcf06fc870b13f73a8937b29a55b4464192ca8f75232e  tests/test_analysis.py
+5bd737d6ee9fbf2c1526fe1b400133c0ff30046d615760cf256fabd8de012e41  scripts/detectors.py
+a6693273c130e0aeaf584278980cba843cd9158b4b54c50c4263983c6db0ab03  scripts/score.py

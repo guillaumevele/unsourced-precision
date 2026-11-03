@@ -334,3 +334,11 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 - Mistral v2 : 72 lots sur 72, 720 éléments (`wc -l data/annotation/test/v2/mistral.jsonl`), aucun lot rejeté (`grep -c rejeté`), HTTP 429 par minute absorbés par les relances.
 - Gemini v2 : 10 lots sur 72 au premier passage, puis quota gratuit épuisé. `scripts/relance_gemini.sh test` (détaché, `nohup`) relance toutes les deux heures et reprend au premier lot manquant.
 - Aucun score calculé sur le test, aucun détecteur exécuté ; les sorties d'annotation seront gelées par un commit avant (amendement 2 § 2).
+
+## Script d'analyse de Q1, écrit avant le gel (03/11/2026)
+
+- `scripts/analyze.py` et `tests/test_analysis.py` (lignes synthétiques, valeurs connues), commités avec `timestamps/analyse.manifest.txt` avant tout `score.py test v2`. Aucune donnée du test ni taux du dev par modèle n'a été lu pour l'écrire.
+- Il tranche ce que le PREREG § 8 laissait ouvert : dénominateur = réponses déterminées ; question sans tirage déterminé exclue pour ce modèle (nombre publié) ; indéterminées toutes positives puis toutes négatives ; bootstrap par grappes, mêmes indices pour les trois modèles, IC par percentiles, `default_rng(20261106)` neuf à chaque appel ; IC des détecteurs par agrégation des VP, FP et FN des questions tirées (promis par l'amendement 2, absent de `detectors.py`).
+- Sensibilité « étiquetage initial de Claude » : étiquettes finales recalculées depuis les champs de chaque annotateur avec A-003 `SOURCED` (plage 1 à 7 jours, relue au commit `8bfc690`), A-024 et A-047 `CONTESTED` (`data/label_check/full/results.json`).
+- Garde-fou : refus si un annotateur n'a pas toutes les réponses, si `scores.jsonl` n'est pas commité ou si les annotations ont changé depuis le dernier commit. Essai le 03/11 : « gemini.jsonl incomplet : analyse refusée ».
+- `python -m unittest discover -s tests` : 47 tests OK.
