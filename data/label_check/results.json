@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-03",
+  "sample_seed": 20261103,
+  "n": 15,
+  "annotator_a": "claude-opus-5-5 (étiquettes de la strate A)",
+  "annotator_b": "grok-4.7 (CLI grok 1.0.70, grok -p, sans outils ni accès web demandés)",
+  "agreement": 0.9333,
+  "cohen_kappa": 0.8993,
+  "disagreements": [
+    {
+      "id": "A-044",
+      "claude": "CONTESTED",
+      "grok": "SOURCED"
+    }
+  ],
+  "adjudication": {
+    "A-044": "Étiquette maintenue à CONTESTED par la règle 7 : « 1 to 3 years » (AAD) et « will last forever » (ASPS) ne s'emboîtent pas ; la réserve « often longer when treating a scar » vise un autre contexte (cicatrice), elle n'ouvre pas la borne en général. Arbitrage fait par l'auteur des étiquettes : à signaler comme tel."
+  },
+  "pending": "Second relecteur Codex (GPT) : quota d'usage atteint le 03/11, relance prévue après le 04/11 7 h 59."
+}

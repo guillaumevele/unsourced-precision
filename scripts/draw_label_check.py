@@ -1,6 +1,6 @@
 """Tire 15 questions de la strate A, graine fixe, pour la vérification des étiquettes à l'aveugle (PREREG § 3).
 
-Écrit data/label_check_sheet.md : pour chaque question, la requête, la quantité visée et les passages,
+Écrit data/label_check/sheet.md : pour chaque question, la requête, la quantité visée et les passages,
 sans l'étiquette. Guillaume note SOURCED, CONTESTED ou NOT_FOUND ; le taux d'accord est calculé ensuite.
 Usage : .venv/bin/python scripts/draw_label_check.py
 """
@@ -24,5 +24,5 @@ for r in sample:
         note = re.sub(r"\b(SOURCED|CONTESTED|NOT_FOUND)\b", "[étiquette masquée]", s.get("notes", ""))
         out.append(f"- Recherche ({s['database']}) « {s['query']} », {s['n_results']} résultat(s). {note}".rstrip())
     out += ["- Ton étiquette : ", ""]
-(ROOT / "data" / "label_check_sheet.md").write_text("\n".join(out))
+(ROOT / "data" / "label_check" / "sheet.md").write_text("\n".join(out))
 print("ids :", " ".join(r["id"] for r in sample))
