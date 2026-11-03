@@ -228,3 +228,20 @@ Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`pyth
 - OpenAI, Terms of Use pour les particuliers (Effective: January 1, 2026, https://openai.com/policies/row-terms-of-use/) : parmi les interdictions, « Automatically or programmatically extract data or Output (defined below). »
 - xAI (SpaceXSI), Acceptable Use Policy (Effective: August 14, 2026, https://x.ai/legal/acceptable-use-policy) : « Scraping, harvesting or reselling any Input or Output, or distilling model data or Outputs » et « using bots to access » le service. Conditions grand public (Last Updated: October 27, 2026) : renvoient à l'AUP ; les API relèvent des Enterprise Terms.
 - Conséquence : l'annotation scriptée d'environ 900 réponses avec le forfait ChatGPT (Codex) ou l'abonnement grok.com n'est pas clairement permise. Décision demandée à Guillaume avant la v1. Les deux vérifications d'étiquettes déjà faites (15 puis 60 questions, quatre appels en tout, modes non interactifs officiels des deux CLI) sont déclarées dans le PREREG.
+
+## API disponibles pour les annotateurs (relevé du 03/11/2026, clés de `~/.hermes/.env`, aucune valeur affichée)
+
+Requêtes de lecture seulement (liste des modèles, solde), aucune génération, aucun coût.
+
+| Fournisseur | Résultat |
+|---|---|
+| Mistral | répond (HTTP 200, 55 modèles dont `mistral-large-4`, `mistral-medium-3.5`) ; solde non lisible par API |
+| Groq | répond (11 modèles dont `openai/gpt-oss-120b`, `qwen/qwen3.8-27b`) |
+| Cohere | répond (37 modèles dont `command-a-plus-05-2026`) |
+| Zhipu (GLM) | répond (12 modèles dont `glm-5.3`) ; solde non vérifié |
+| OpenRouter | répond, mais crédit épuisé (10 $ crédités, 10,17 $ consommés) |
+| DeepSeek | répond, solde nul (« is_available » faux) |
+| Moonshot (Kimi), deux clés | répondent, solde nul |
+| Gemini | clé invalide (HTTP 400, API_KEY_INVALID) |
+| OpenAI | clé vide |
+| MiniMax | non testée (clé du routage d'Hermes) |
