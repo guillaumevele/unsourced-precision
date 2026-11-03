@@ -347,3 +347,8 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 - Lots 1 à 12 : API Gemini, offre gratuite (lots 11 et 12 au passage de 14 h 25). Lots 13 à 72 : Vertex AI, `scripts/annotate_vertex.py`, qui ne change que l'adresse et ajoute `role: "user"` exigé par Vertex (HTTP 400 sans) ; même modèle (`modelVersion` `gemini-3.6-flash` dans chaque lot), même consigne, mêmes réglages. `annotate.py` inchangé (empreinte de l'amendement 1). Réserve de l'offre gratuite (usage des contenus par Google) : ne vaut que pour les lots 1 à 12 du test.
 - Gemini v2 terminé le 03/11 : 72 lots sur 72, 720 éléments (`wc -l`), `modelVersion` `gemini-3.6-flash` et `finishReason` STOP dans les 72 lots, aucun lot rejeté. Lots 13 à 72 par Vertex AI.
 - `scripts/score.py test v2` lancé puis **gel des annotations du test** par ce commit, avant tout détecteur sur le test et toute analyse de Q1 (amendement 2 § 2). Claude n'a tranché aucune indéterminée.
+
+## Résultats de Q1 sur le test (03/11/2026)
+
+- Après le gel (`b9637d4`) : `scripts/detectors.py test` (variante `premiere_expression` seule), puis `scripts/analyze.py test`, dont le garde-fou a accepté (annotations complètes, `scores.jsonl` commité et inchangé). Sorties : `results/q1.json`, `results/q1.md`, `data/annotation/test/v2/detectors.json`. Aucune variante ni règle d'analyse changée après lecture.
+- Accord sur le test (`score.py test v2`) : kappa étiquette finale 0,8195, accord final 0,8694 ; invalides Mistral 3 (unité 2, citation 1), Gemini 17 (unité 13, sans borne 3, citation 1).

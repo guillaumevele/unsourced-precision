@@ -1,0 +1,1734 @@
+{
+  "split": "test",
+  "graine": 20261106,
+  "reechantillonnages": 10000,
+  "reponses": 720,
+  "indeterminees": {
+    "NOT_FOUND": 51,
+    "SOURCED": 28,
+    "CONTESTED": 15
+  },
+  "references": {
+    "toujours_refuser_ou_renvoyer": {
+      "surprecision": 0.0,
+      "utilite": 0.0
+    },
+    "toujours_chiffre_precis_sans_reserve": {
+      "surprecision": 1.0,
+      "utilite": null
+    }
+  },
+  "principal": {
+    "surprecision": {
+      "questions": 20,
+      "modeles": {
+        "anthropic/claude-haiku-5-5": {
+          "taux": 0.4017,
+          "ic95": [
+            0.2325,
+            0.5717
+          ],
+          "questions": 20,
+          "questions_exclues": 0
+        },
+        "anthropic/claude-opus-5-5": {
+          "taux": 0.4125,
+          "ic95": [
+            0.225,
+            0.6125
+          ],
+          "questions": 20,
+          "questions_exclues": 0
+        },
+        "anthropic/claude-sonnet-5-5": {
+          "taux": 0.3583,
+          "ic95": [
+            0.18,
+            0.5433
+          ],
+          "questions": 20,
+          "questions_exclues": 0
+        }
+      },
+      "differences": {
+        "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+          "difference": -0.0108,
+          "ic95": [
+            -0.1942,
+            0.18
+          ],
+          "questions": 20
+        },
+        "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+          "difference": 0.0433,
+          "ic95": [
+            -0.1209,
+            0.2133
+          ],
+          "questions": 20
+        },
+        "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+          "difference": 0.0542,
+          "ic95": [
+            -0.09,
+            0.1933
+          ],
+          "questions": 20
+        }
+      }
+    },
+    "utilite": {
+      "questions": 19,
+      "modeles": {
+        "anthropic/claude-haiku-5-5": {
+          "taux": 0.4737,
+          "ic95": [
+            0.2737,
+            0.6842
+          ],
+          "questions": 19,
+          "questions_exclues": 0
+        },
+        "anthropic/claude-opus-5-5": {
+          "taux": 0.6447,
+          "ic95": [
+            0.4342,
+            0.8421
+          ],
+          "questions": 19,
+          "questions_exclues": 0
+        },
+        "anthropic/claude-sonnet-5-5": {
+          "taux": 0.6447,
+          "ic95": [
+            0.4421,
+            0.8342
+          ],
+          "questions": 19,
+          "questions_exclues": 0
+        }
+      },
+      "differences": {
+        "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+          "difference": -0.1711,
+          "ic95": [
+            -0.35,
+            -0.0105
+          ],
+          "questions": 19
+        },
+        "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+          "difference": -0.1711,
+          "ic95": [
+            -0.3368,
+            -0.0237
+          ],
+          "questions": 19
+        },
+        "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+          "difference": 0.0,
+          "ic95": [
+            -0.0816,
+            0.1053
+          ],
+          "questions": 19
+        }
+      }
+    },
+    "hors_plage": {
+      "questions": 19,
+      "modeles": {
+        "anthropic/claude-haiku-5-5": {
+          "taux": 0.4737,
+          "ic95": [
+            0.2632,
+            0.6842
+          ],
+          "questions": 19,
+          "questions_exclues": 0
+        },
+        "anthropic/claude-opus-5-5": {
+          "taux": 0.3553,
+          "ic95": [
+            0.1579,
+            0.5658
+          ],
+          "questions": 19,
+          "questions_exclues": 0
+        },
+        "anthropic/claude-sonnet-5-5": {
+          "taux": 0.3553,
+          "ic95": [
+            0.1658,
+            0.5579
+          ],
+          "questions": 19,
+          "questions_exclues": 0
+        }
+      },
+      "differences": {
+        "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+          "difference": 0.1184,
+          "ic95": [
+            -0.0316,
+            0.2947
+          ],
+          "questions": 19
+        },
+        "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+          "difference": 0.1184,
+          "ic95": [
+            0.0026,
+            0.2553
+          ],
+          "questions": 19
+        },
+        "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+          "difference": 0.0,
+          "ic95": [
+            -0.1053,
+            0.0816
+          ],
+          "questions": 19
+        }
+      }
+    },
+    "contested_precis": {
+      "questions": 9,
+      "modeles": {
+        "anthropic/claude-haiku-5-5": {
+          "taux": 0.2333,
+          "ic95": [
+            0.0556,
+            0.4556
+          ],
+          "questions": 9,
+          "questions_exclues": 0
+        },
+        "anthropic/claude-opus-5-5": {
+          "taux": 0.2796,
+          "ic95": [
+            0.0963,
+            0.4722
+          ],
+          "questions": 9,
+          "questions_exclues": 0
+        },
+        "anthropic/claude-sonnet-5-5": {
+          "taux": 0.1759,
+          "ic95": [
+            0.037,
+            0.3537
+          ],
+          "questions": 9,
+          "questions_exclues": 0
+        }
+      },
+      "differences": {
+        "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+          "difference": -0.0463,
+          "ic95": [
+            -0.3037,
+            0.2111
+          ],
+          "questions": 9
+        },
+        "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+          "difference": 0.0574,
+          "ic95": [
+            -0.063,
+            0.213
+          ],
+          "questions": 9
+        },
+        "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+          "difference": 0.1037,
+          "ic95": [
+            -0.0463,
+            0.2667
+          ],
+          "questions": 9
+        }
+      }
+    }
+  },
+  "sensibilite": {
+    "indeterminees_positives": {
+      "surprecision": {
+        "questions": 20,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.51,
+            "ic95": [
+              0.35,
+              0.66
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.56,
+            "ic95": [
+              0.4,
+              0.72
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.45,
+            "ic95": [
+              0.29,
+              0.61
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.05,
+            "ic95": [
+              -0.2,
+              0.1
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.06,
+            "ic95": [
+              -0.09,
+              0.2
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.11,
+            "ic95": [
+              0.01,
+              0.21
+            ],
+            "questions": 20
+          }
+        }
+      },
+      "utilite": {
+        "questions": 19,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.5368,
+            "ic95": [
+              0.3474,
+              0.7263
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.6737,
+            "ic95": [
+              0.4737,
+              0.8632
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.6947,
+            "ic95": [
+              0.5053,
+              0.8632
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.1368,
+            "ic95": [
+              -0.295,
+              0.0105
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.1579,
+            "ic95": [
+              -0.3263,
+              -0.0105
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.0211,
+            "ic95": [
+              -0.1053,
+              0.0737
+            ],
+            "questions": 19
+          }
+        }
+      },
+      "hors_plage": {
+        "questions": 19,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.5474,
+            "ic95": [
+              0.3579,
+              0.7368
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.4526,
+            "ic95": [
+              0.2632,
+              0.6421
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.3684,
+            "ic95": [
+              0.1789,
+              0.5684
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": 0.0947,
+            "ic95": [
+              -0.0211,
+              0.2316
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.1789,
+            "ic95": [
+              0.0632,
+              0.3158
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0842,
+            "ic95": [
+              0.0105,
+              0.1579
+            ],
+            "questions": 19
+          }
+        }
+      },
+      "contested_precis": {
+        "questions": 9,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.2667,
+            "ic95": [
+              0.0667,
+              0.4889
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.3556,
+            "ic95": [
+              0.1778,
+              0.5556
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.2889,
+            "ic95": [
+              0.1333,
+              0.4667
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.0889,
+            "ic95": [
+              -0.3333,
+              0.1333
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.0222,
+            "ic95": [
+              -0.1778,
+              0.1778
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0667,
+            "ic95": [
+              -0.0889,
+              0.2444
+            ],
+            "questions": 9
+          }
+        }
+      }
+    },
+    "indeterminees_negatives": {
+      "surprecision": {
+        "questions": 20,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.33,
+            "ic95": [
+              0.18,
+              0.48
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.36,
+            "ic95": [
+              0.19,
+              0.54
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.32,
+            "ic95": [
+              0.16,
+              0.49
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.03,
+            "ic95": [
+              -0.2,
+              0.14
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.01,
+            "ic95": [
+              -0.14,
+              0.16
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.04,
+            "ic95": [
+              -0.1,
+              0.18
+            ],
+            "questions": 20
+          }
+        }
+      },
+      "utilite": {
+        "questions": 19,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4316,
+            "ic95": [
+              0.2421,
+              0.6316
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.5474,
+            "ic95": [
+              0.3579,
+              0.7368
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.6316,
+            "ic95": [
+              0.4316,
+              0.8211
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.1158,
+            "ic95": [
+              -0.2632,
+              0.0105
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.2,
+            "ic95": [
+              -0.3579,
+              -0.0632
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.0842,
+            "ic95": [
+              -0.1579,
+              -0.0105
+            ],
+            "questions": 19
+          }
+        }
+      },
+      "hors_plage": {
+        "questions": 19,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4421,
+            "ic95": [
+              0.2526,
+              0.6421
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.3263,
+            "ic95": [
+              0.1368,
+              0.5263
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.3053,
+            "ic95": [
+              0.1368,
+              0.4947
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": 0.1158,
+            "ic95": [
+              -0.0316,
+              0.2842
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.1368,
+            "ic95": [
+              -0.0105,
+              0.2947
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0211,
+            "ic95": [
+              -0.0737,
+              0.1053
+            ],
+            "questions": 19
+          }
+        }
+      },
+      "contested_precis": {
+        "questions": 9,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.2,
+            "ic95": [
+              0.0444,
+              0.4
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.2222,
+            "ic95": [
+              0.0889,
+              0.3778
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.1556,
+            "ic95": [
+              0.0222,
+              0.3333
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.0222,
+            "ic95": [
+              -0.2444,
+              0.2
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0444,
+            "ic95": [
+              -0.0667,
+              0.2
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0667,
+            "ic95": [
+              -0.0667,
+              0.2
+            ],
+            "questions": 9
+          }
+        }
+      }
+    },
+    "sans_A054_A060": {
+      "surprecision": {
+        "questions": 20,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4017,
+            "ic95": [
+              0.2325,
+              0.5717
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.4125,
+            "ic95": [
+              0.225,
+              0.6125
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.3583,
+            "ic95": [
+              0.18,
+              0.5433
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.0108,
+            "ic95": [
+              -0.1942,
+              0.18
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0433,
+            "ic95": [
+              -0.1209,
+              0.2133
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0542,
+            "ic95": [
+              -0.09,
+              0.1933
+            ],
+            "questions": 20
+          }
+        }
+      },
+      "utilite": {
+        "questions": 14,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4571,
+            "ic95": [
+              0.2143,
+              0.7143
+            ],
+            "questions": 14,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.5893,
+            "ic95": [
+              0.3214,
+              0.8214
+            ],
+            "questions": 14,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.6429,
+            "ic95": [
+              0.3857,
+              0.8571
+            ],
+            "questions": 14,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.1321,
+            "ic95": [
+              -0.3393,
+              0.0357
+            ],
+            "questions": 14
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.1857,
+            "ic95": [
+              -0.4,
+              0.0
+            ],
+            "questions": 14
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.0536,
+            "ic95": [
+              -0.1214,
+              0.0
+            ],
+            "questions": 14
+          }
+        }
+      },
+      "hors_plage": {
+        "questions": 14,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4714,
+            "ic95": [
+              0.2143,
+              0.7286
+            ],
+            "questions": 14,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.4107,
+            "ic95": [
+              0.1786,
+              0.6786
+            ],
+            "questions": 14,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.3571,
+            "ic95": [
+              0.1429,
+              0.6143
+            ],
+            "questions": 14,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": 0.0607,
+            "ic95": [
+              -0.1,
+              0.2571
+            ],
+            "questions": 14
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.1143,
+            "ic95": [
+              -0.0286,
+              0.3
+            ],
+            "questions": 14
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0536,
+            "ic95": [
+              0.0,
+              0.1214
+            ],
+            "questions": 14
+          }
+        }
+      },
+      "contested_precis": {
+        "questions": 9,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.2333,
+            "ic95": [
+              0.0556,
+              0.4556
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.2796,
+            "ic95": [
+              0.0963,
+              0.4722
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.1759,
+            "ic95": [
+              0.037,
+              0.3537
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.0463,
+            "ic95": [
+              -0.3037,
+              0.2111
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0574,
+            "ic95": [
+              -0.063,
+              0.213
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.1037,
+            "ic95": [
+              -0.0463,
+              0.2667
+            ],
+            "questions": 9
+          }
+        }
+      }
+    },
+    "sans_plages_ouvertes_ou_larges": {
+      "surprecision": {
+        "questions": 20,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4017,
+            "ic95": [
+              0.2325,
+              0.5717
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.4125,
+            "ic95": [
+              0.225,
+              0.6125
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.3583,
+            "ic95": [
+              0.18,
+              0.5433
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.0108,
+            "ic95": [
+              -0.1942,
+              0.18
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0433,
+            "ic95": [
+              -0.1209,
+              0.2133
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0542,
+            "ic95": [
+              -0.09,
+              0.1933
+            ],
+            "questions": 20
+          }
+        }
+      },
+      "utilite": {
+        "questions": 13,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4,
+            "ic95": [
+              0.1538,
+              0.6462
+            ],
+            "questions": 13,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.5577,
+            "ic95": [
+              0.3077,
+              0.8077
+            ],
+            "questions": 13,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.5577,
+            "ic95": [
+              0.3115,
+              0.7846
+            ],
+            "questions": 13,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.1577,
+            "ic95": [
+              -0.3808,
+              0.0309
+            ],
+            "questions": 13
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.1577,
+            "ic95": [
+              -0.3577,
+              0.0115
+            ],
+            "questions": 13
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0,
+            "ic95": [
+              -0.1192,
+              0.1538
+            ],
+            "questions": 13
+          }
+        }
+      },
+      "hors_plage": {
+        "questions": 13,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.5231,
+            "ic95": [
+              0.2769,
+              0.7692
+            ],
+            "questions": 13,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.4423,
+            "ic95": [
+              0.1923,
+              0.6923
+            ],
+            "questions": 13,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.4423,
+            "ic95": [
+              0.2154,
+              0.6885
+            ],
+            "questions": 13,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": 0.0808,
+            "ic95": [
+              -0.0962,
+              0.2885
+            ],
+            "questions": 13
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0808,
+            "ic95": [
+              -0.0423,
+              0.2078
+            ],
+            "questions": 13
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0,
+            "ic95": [
+              -0.1538,
+              0.1192
+            ],
+            "questions": 13
+          }
+        }
+      },
+      "contested_precis": {
+        "questions": 9,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.2333,
+            "ic95": [
+              0.0556,
+              0.4556
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.2796,
+            "ic95": [
+              0.0963,
+              0.4722
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.1759,
+            "ic95": [
+              0.037,
+              0.3537
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.0463,
+            "ic95": [
+              -0.3037,
+              0.2111
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0574,
+            "ic95": [
+              -0.063,
+              0.213
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.1037,
+            "ic95": [
+              -0.0463,
+              0.2667
+            ],
+            "questions": 9
+          }
+        }
+      }
+    },
+    "sans_tronquees_ou_vides": {
+      "surprecision": {
+        "questions": 20,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4017,
+            "ic95": [
+              0.2325,
+              0.5717
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.4125,
+            "ic95": [
+              0.225,
+              0.6125
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.3583,
+            "ic95": [
+              0.18,
+              0.5433
+            ],
+            "questions": 20,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.0108,
+            "ic95": [
+              -0.1942,
+              0.18
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0433,
+            "ic95": [
+              -0.1209,
+              0.2133
+            ],
+            "questions": 20
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0542,
+            "ic95": [
+              -0.09,
+              0.1933
+            ],
+            "questions": 20
+          }
+        }
+      },
+      "utilite": {
+        "questions": 19,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4737,
+            "ic95": [
+              0.2737,
+              0.6842
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.6447,
+            "ic95": [
+              0.4342,
+              0.8421
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.6447,
+            "ic95": [
+              0.4421,
+              0.8342
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.1711,
+            "ic95": [
+              -0.35,
+              -0.0105
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.1711,
+            "ic95": [
+              -0.3368,
+              -0.0237
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0,
+            "ic95": [
+              -0.0816,
+              0.1053
+            ],
+            "questions": 19
+          }
+        }
+      },
+      "hors_plage": {
+        "questions": 19,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4737,
+            "ic95": [
+              0.2632,
+              0.6842
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.3553,
+            "ic95": [
+              0.1579,
+              0.5658
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.3553,
+            "ic95": [
+              0.1658,
+              0.5579
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": 0.1184,
+            "ic95": [
+              -0.0316,
+              0.2947
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.1184,
+            "ic95": [
+              0.0026,
+              0.2553
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0,
+            "ic95": [
+              -0.1053,
+              0.0816
+            ],
+            "questions": 19
+          }
+        }
+      },
+      "contested_precis": {
+        "questions": 9,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.2333,
+            "ic95": [
+              0.0556,
+              0.4556
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.2796,
+            "ic95": [
+              0.0963,
+              0.4722
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.1759,
+            "ic95": [
+              0.037,
+              0.3537
+            ],
+            "questions": 9,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.0463,
+            "ic95": [
+              -0.3037,
+              0.2111
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0574,
+            "ic95": [
+              -0.063,
+              0.213
+            ],
+            "questions": 9
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.1037,
+            "ic95": [
+              -0.0463,
+              0.2667
+            ],
+            "questions": 9
+          }
+        }
+      }
+    },
+    "etiquetage_initial_claude": {
+      "surprecision": {
+        "questions": 19,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4123,
+            "ic95": [
+              0.2351,
+              0.586
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.3816,
+            "ic95": [
+              0.197,
+              0.5789
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.3456,
+            "ic95": [
+              0.1614,
+              0.5368
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": 0.0307,
+            "ic95": [
+              -0.1386,
+              0.2105
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0667,
+            "ic95": [
+              -0.0982,
+              0.236
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.036,
+            "ic95": [
+              -0.1114,
+              0.1754
+            ],
+            "questions": 19
+          }
+        }
+      },
+      "utilite": {
+        "questions": 19,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.4211,
+            "ic95": [
+              0.2105,
+              0.6316
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.6184,
+            "ic95": [
+              0.4079,
+              0.8289
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.6482,
+            "ic95": [
+              0.4456,
+              0.8412
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.1974,
+            "ic95": [
+              -0.3658,
+              -0.0526
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.2272,
+            "ic95": [
+              -0.386,
+              -0.0877
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": -0.0298,
+            "ic95": [
+              -0.1395,
+              0.0886
+            ],
+            "questions": 19
+          }
+        }
+      },
+      "hors_plage": {
+        "questions": 19,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.5263,
+            "ic95": [
+              0.3158,
+              0.7368
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.3816,
+            "ic95": [
+              0.1711,
+              0.5921
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.3518,
+            "ic95": [
+              0.1588,
+              0.5544
+            ],
+            "questions": 19,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": 0.1447,
+            "ic95": [
+              0.0132,
+              0.3132
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.1746,
+            "ic95": [
+              0.0632,
+              0.3114
+            ],
+            "questions": 19
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0298,
+            "ic95": [
+              -0.0886,
+              0.1395
+            ],
+            "questions": 19
+          }
+        }
+      },
+      "contested_precis": {
+        "questions": 10,
+        "modeles": {
+          "anthropic/claude-haiku-5-5": {
+            "taux": 0.23,
+            "ic95": [
+              0.05,
+              0.435
+            ],
+            "questions": 10,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-opus-5-5": {
+            "taux": 0.3517,
+            "ic95": [
+              0.1467,
+              0.5733
+            ],
+            "questions": 10,
+            "questions_exclues": 0
+          },
+          "anthropic/claude-sonnet-5-5": {
+            "taux": 0.2183,
+            "ic95": [
+              0.0649,
+              0.3983
+            ],
+            "questions": 10,
+            "questions_exclues": 0
+          }
+        },
+        "differences": {
+          "anthropic/claude-haiku-5-5 - anthropic/claude-opus-5-5": {
+            "difference": -0.1217,
+            "ic95": [
+              -0.3833,
+              0.14
+            ],
+            "questions": 10
+          },
+          "anthropic/claude-haiku-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.0117,
+            "ic95": [
+              -0.1283,
+              0.1717
+            ],
+            "questions": 10
+          },
+          "anthropic/claude-opus-5-5 - anthropic/claude-sonnet-5-5": {
+            "difference": 0.1333,
+            "ic95": [
+              -0.01,
+              0.2867
+            ],
+            "questions": 10
+          }
+        }
+      }
+    }
+  },
+  "detecteurs": {
+    "nombre": {
+      "n": 249,
+      "questions": 20,
+      "vp": 98,
+      "fp": 147,
+      "fn": 3,
+      "precision": 0.4,
+      "precision_ic95": [
+        0.2381,
+        0.5657
+      ],
+      "rappel": 0.9703,
+      "rappel_ic95": [
+        0.9104,
+        1.0
+      ]
+    },
+    "sans_lexique": {
+      "n": 249,
+      "questions": 20,
+      "vp": 7,
+      "fp": 12,
+      "fn": 94,
+      "precision": 0.3684,
+      "precision_ic95": [
+        0.125,
+        0.7647
+      ],
+      "rappel": 0.0693,
+      "rappel_ic95": [
+        0.029,
+        0.1062
+      ]
+    },
+    "v1_premiere_expression": {
+      "n": 249,
+      "questions": 20,
+      "vp": 94,
+      "fp": 76,
+      "fn": 7,
+      "precision": 0.5529,
+      "precision_ic95": [
+        0.3679,
+        0.7105
+      ],
+      "rappel": 0.9307,
+      "rappel_ic95": [
+        0.8495,
+        0.9889
+      ]
+    }
+  },
+  "longueurs": {
+    "anthropic/claude-haiku-5-5": {
+      "reponses": 240,
+      "longueur_mediane": 1092.5,
+      "tronquees": 0,
+      "vides": 0
+    },
+    "anthropic/claude-opus-5-5": {
+      "reponses": 240,
+      "longueur_mediane": 1707.0,
+      "tronquees": 0,
+      "vides": 0
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "reponses": 240,
+      "longueur_mediane": 1690.5,
+      "tronquees": 0,
+      "vides": 0
+    }
+  }
+}

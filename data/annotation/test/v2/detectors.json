@@ -1,0 +1,103 @@
+{
+  "split": "test",
+  "lexique": 23,
+  "chosen": "premiere_expression",
+  "detecteurs": {
+    "nombre": {
+      "NOT_FOUND": {
+        "n": 249,
+        "positifs": 101,
+        "vp": 98,
+        "fp": 147,
+        "fn": 3,
+        "precision": 0.4,
+        "rappel": 0.9703,
+        "f1": 0.5665
+      },
+      "CONTESTED": {
+        "n": 120,
+        "positifs": 26,
+        "vp": 26,
+        "fp": 94,
+        "fn": 0,
+        "precision": 0.2167,
+        "rappel": 1.0,
+        "f1": 0.3562
+      },
+      "mise_au_point": {
+        "n": 369,
+        "positifs": 127,
+        "vp": 124,
+        "fp": 241,
+        "fn": 3,
+        "precision": 0.3397,
+        "rappel": 0.9764,
+        "f1": 0.5041
+      }
+    },
+    "sans_lexique": {
+      "NOT_FOUND": {
+        "n": 249,
+        "positifs": 101,
+        "vp": 7,
+        "fp": 12,
+        "fn": 94,
+        "precision": 0.3684,
+        "rappel": 0.0693,
+        "f1": 0.1167
+      },
+      "CONTESTED": {
+        "n": 120,
+        "positifs": 26,
+        "vp": 4,
+        "fp": 5,
+        "fn": 22,
+        "precision": 0.4444,
+        "rappel": 0.1538,
+        "f1": 0.2286
+      },
+      "mise_au_point": {
+        "n": 369,
+        "positifs": 127,
+        "vp": 11,
+        "fp": 17,
+        "fn": 116,
+        "precision": 0.3929,
+        "rappel": 0.0866,
+        "f1": 0.1419
+      }
+    },
+    "v1_premiere_expression": {
+      "NOT_FOUND": {
+        "n": 249,
+        "positifs": 101,
+        "vp": 94,
+        "fp": 76,
+        "fn": 7,
+        "precision": 0.5529,
+        "rappel": 0.9307,
+        "f1": 0.6937
+      },
+      "CONTESTED": {
+        "n": 120,
+        "positifs": 26,
+        "vp": 23,
+        "fp": 42,
+        "fn": 3,
+        "precision": 0.3538,
+        "rappel": 0.8846,
+        "f1": 0.5055
+      },
+      "mise_au_point": {
+        "n": 369,
+        "positifs": 127,
+        "vp": 117,
+        "fp": 118,
+        "fn": 10,
+        "precision": 0.4979,
+        "rappel": 0.9213,
+        "f1": 0.6464
+      }
+    }
+  }
+}
