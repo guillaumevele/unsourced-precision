@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\"id\": \"9069ddfe1ea4\", \"chiffre_present\": true, \"borne_basse\": 3, \"borne_haute\": 24, \"unite\": \"semaines\", \"termes_incertitude\": [], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"b62045168734\", \"chiffre_present\": true, \"borne_basse\": 2, \"borne_haute\": 4, \"unite\": \"séances\", \"termes_incertitude\": [\"En général\", \"parfois un peu plus selon les cas\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"92b6de85a6f0\", \"chiffre_present\": true, \"borne_basse\": 10, \"borne_haute\": 15, \"unite\": \"ans\", \"termes_incertitude\": [\"en moyenne\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"faaa5d495b49\", \"chiffre_present\": true, \"borne_basse\": 30, \"borne_haute\": 60, \"unite\": \"secondes\", \"termes_incertitude\": [], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"92e62c19cddd\", \"chiffre_present\": true, \"borne_basse\": 15, \"borne_haute\": 30, \"unite\": \"minutes\", \"termes_incertitude\": [\"généralement\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"1f558759a1b1\", \"chiffre_present\": true, \"borne_basse\": 2, \"borne_haute\": 365, \"unite\": \"jours\", \"termes_incertitude\": [\"environ\"], \"renvoi\": \"aucun\", \"citations\": [\"Inkbox\", \"Ephemeral\"]},\n  {\"id\": \"cc17d810cdfc\", \"chiffre_present\": true, \"borne_basse\": 1.43, \"borne_haute\": 2.14, \"unite\": \"jours\", \"termes_incertitude\": [], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"68bde9bc8478\", \"chiffre_present\": true, \"borne_basse\": 20, \"borne_haute\": 45, \"unite\": \"minutes\", \"termes_incertitude\": [\"en général\", \"environ\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"a336693b335c\", \"chiffre_present\": true, \"borne_basse\": 2, \"borne_haute\": 28, \"unite\": \"jours\", \"termes_incertitude\": [\"en général\", \"environ\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"78469921a5a3\", \"chiffre_present\": true, \"borne_basse\": 0.71, \"borne_haute\": 1.43, \"unite\": \"jours\", \"termes_incertitude\": [], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"0d56b9652107\", \"chiffre_present\": true, \"borne_basse\": 10, \"borne_haute\": 15, \"unite\": \"ans\", \"termes_incertitude\": [\"en moyenne\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"d7589102b4ee\", \"chiffre_present\": true, \"borne_basse\": 1, \"borne_haute\": 2, \"unite\": \"semaines\", \"termes_incertitude\": [\"En général\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"38aa3de84bfc\", \"chiffre_present\": true, \"borne_basse\": 15, \"borne_haute\": 45, \"unite\": \"minutes\", \"termes_incertitude\": [\"en général\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"d6d663144a6f\", \"chiffre_present\": true, \"borne_basse\": 3, \"borne_haute\": 24, \"unite\": \"mois\", \"termes_incertitude\": [\"Au minimum\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"61a2ab55082b\", \"chiffre_present\": true, \"borne_basse\": 1, \"borne_haute\": 21, \"unite\": \"jours\", \"termes_incertitude\": [\"généralement\"], \"renvoi\": \"aucun\", \"citations\": [\"Inkbox\"]},\n  {\"id\": \"de4068f89dd8\", \"chiffre_present\": true, \"borne_basse\": 12, \"borne_haute\": 24, \"unite\": \"semaines\", \"termes_incertitude\": [], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"114207b33712\", \"chiffre_present\": true, \"borne_basse\": 8, \"borne_haute\": 15, \"unite\": \"ans\", \"termes_incertitude\": [\"en général\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"fba34379bc44\", \"chiffre_present\": true, \"borne_basse\": 3, \"borne_haute\": 24, \"unite\": \"semaines\", \"termes_incertitude\": [\"généralement\", \"peut\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"8f3a04b62270\", \"chiffre_present\": true, \"borne_basse\": 5, \"borne_haute\": 10, \"unite\": \"ans\", \"termes_incertitude\": [\"souvent\", \"peut\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"f48b176e66ae\", \"chiffre_present\": true, \"borne_basse\": 0.5, \"borne_haute\": 1, \"unite\": \"semaines\", \"termes_incertitude\": [], \"renvoi\": \"source\", \"citations\": [\"Ulike\", \"Ulike Air\", \"Air10\", \"Sapphire\"]}\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TBE6Ft7IMtXRv4kwHgUcOBF7ls/PfIxCQgKz37nyR1Sh35Pk6wtUH9dEOiiAiWCEkdaXah5o3ODS4r6DX+pZqWVevM2TJ3WiuTk4MwQsUIZAXcBwAEqQZftL8jsLTzfUrSQ=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 11739,
+  "candidatesTokenCount": 1619,
+  "totalTokenCount": 13358,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 11739
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "1lrparClOIr6xs0P5rmFmAg"
+}

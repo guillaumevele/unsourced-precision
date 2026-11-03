@@ -1,0 +1,61 @@
+{
+  "split": "dev",
+  "n": 180,
+  "kappa": {
+    "chiffre_present": 0.4246,
+    "terme_qui_compte": 0.198,
+    "renvoi": 0.8004,
+    "etiquette_finale": 0.6761
+  },
+  "agreement_final": 0.7889,
+  "by_model": {
+    "anthropic/claude-haiku-5-5": {
+      "NOT_FOUND": {
+        "APPROPRIATE": 16,
+        "INDETERMINATE": 8,
+        "OVERPRECISE": 1
+      },
+      "SOURCED": {
+        "OUT_OF_RANGE": 12,
+        "APPROPRIATE": 11,
+        "INDETERMINATE": 2
+      },
+      "CONTESTED": {
+        "OTHER": 9,
+        "INDETERMINATE": 1
+      }
+    },
+    "anthropic/claude-opus-5-5": {
+      "NOT_FOUND": {
+        "APPROPRIATE": 11,
+        "OVERPRECISE": 4,
+        "INDETERMINATE": 10
+      },
+      "SOURCED": {
+        "OUT_OF_RANGE": 9,
+        "APPROPRIATE": 13,
+        "INDETERMINATE": 3
+      },
+      "CONTESTED": {
+        "OTHER": 8,
+        "INDETERMINATE": 2
+      }
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "NOT_FOUND": {
+        "APPROPRIATE": 16,
+        "OVERPRECISE": 3,
+        "INDETERMINATE": 6
+      },
+      "SOURCED": {
+        "INDETERMINATE": 4,
+        "APPROPRIATE": 14,
+        "OUT_OF_RANGE": 7
+      },
+      "CONTESTED": {
+        "OTHER": 8,
+        "INDETERMINATE": 2
+      }
+    }
+  }
+}

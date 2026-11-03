@@ -14,7 +14,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-ANNOTATORS = ["mistral", "glm"]
+ANNOTATORS = ["mistral", "gemini"]
 PRECISE_RATIO = 2.0
 
 # ANNOTATION § 4 : termes qui « comptent » (équivalents anglais inclus, § 4 « Langue »).
