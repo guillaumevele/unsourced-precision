@@ -193,7 +193,7 @@ Chaque PMID passe par `verify-pmid-citation`, ce qui prouve qu'il existe. Le cha
 **Positionnement**, à lire en source primaire avant toute revendication :
 - **Kadavath et al. 2022** (arXiv:2207.05221, vérifié par l'audit) : P(True) et P(IK) sur les échantillons du modèle. Q2 en est proche, et l'apport de Q2 se limite aux témoins et à la vérité clinique.
 - **MHB** (AAAI 2026) : contiendrait des pièges de type « recommandations inexistantes », ce qui recouvrirait `NOT_FOUND`. Vérifié depuis : voir `RELATED.md` (lecture du 03/11/2026).
-- **MedHallu** (EMNLP 2025) et **« Knowing When to Abstain »** (EACL 2026). Vérifiés depuis : voir `RELATED.md` (lecture du 03/11/2026).
+- **MedHallu** (EMNLP 2025) et **« Knowing When to Abstain »** (EACL 2026). « Knowing When to Abstain » lu en texte intégral le 03/11/2026 ; MedHallu, profondeur de lecture dans `RELATED.md`.
 - **« On the Biology of a Large Language Model »** (Anthropic, 2025), en source primaire.
 
 **Apport défendable** : une vérité de référence clinique documentée par un protocole commun, avec le passage cité ; un plan apparié ; un résultat en couple surprécision/utilité ; et, si Q2 est faite, des témoins.
