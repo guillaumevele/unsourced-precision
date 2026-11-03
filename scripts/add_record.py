@@ -29,7 +29,7 @@ def main() -> None:
     if rank != expected:
         sys.exit(f"rang {rank} hors ordre : le prochain rang à examiner est {expected}")
 
-    log = {"rank": rank, "site": cand["site"], "query": cand["query"],
+    log = {"rank": rank, "query": cand["query"],
            "decision": entry["decision"], "motif": entry.get("motif", "")}
     if entry["decision"] in ("RETENU", "QUOTA_PLEIN"):
         rec = entry["record"]
@@ -39,7 +39,7 @@ def main() -> None:
         n = sum(1 for _ in STRATUM.open()) if STRATUM.exists() else 0
         rec = {"id": f"A-{n + 1:03d}", "procedure_id": rec["procedure_id"], "label": rec["label"],
                "question": cand["query"], "lang": "fr", "voice": "patient", "llm_drafted": False,
-               "provenance": {"source": "search_console", "site": cand["site"], "rank": rank, "seed": SEED},
+               "provenance": {"source": "search_console", "rank": rank, "seed": SEED},
                **{k: v for k, v in rec.items() if k not in ("procedure_id", "label")}}
         log["id"] = rec["id"]
         with STRATUM.open("a") as f:

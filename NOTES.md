@@ -245,3 +245,9 @@ Requêtes de lecture seulement (liste des modèles, solde), aucune génération,
 | Gemini | clé invalide (HTTP 400, API_KEY_INVALID) |
 | OpenAI | clé vide |
 | MiniMax | non testée (clé du routage d'Hermes) |
+
+## Annotateurs retenus et clé Gemini (03/11/2026)
+
+- Accord de Guillaume pour utiliser les API de `~/.hermes/.env`. Appel minimal (« Réponds seulement : OK ») : `mistral-large-4` HTTP 200, 21 tokens en entrée, 5 en sortie dont 4 de raisonnement ; `openai/gpt-oss-120b` (Groq) HTTP 200, 77 en entrée, 39 en sortie, réponse « OK ».
+- Clé Gemini : celle d'Hermes est refusée (HTTP 400, API_KEY_INVALID) ; les trois clés Google distinctes trouvées sur le VPS (`/root/warren/.env`, sauvegardes de `/root/.openclaw/.env`) aussi ; aucune autre dans `~`, `~/Projects`, le SSD d'archive, ni dans les dossiers Verdict et Acuence (`rg -l "AIza…"`, `rg -l -i gemini`, noms de fichiers seulement). L'entrée « gemini » du trousseau appartient au compte « antigravity » (connexion de l'éditeur, pas une clé d'API). Le CLI Gemini est connecté par compte Google (`~/.gemini/oauth_creds.json`), un accès grand public.
+- Le champ `provenance.site` et le champ `site` du journal de parcours sont retirés des données publiques et gardés dans `data/private/site_by_id.json` (option protectrice appliquée faute de réponse, cohérente avec la décision de ne pas nommer les sites ; réversible avant publication).

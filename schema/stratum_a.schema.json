@@ -58,20 +58,13 @@
       "additionalProperties": false,
       "required": [
         "source",
-        "site",
         "rank",
         "seed"
       ],
-      "description": "D'où vient la requête : scripts/select_queries.py (PREREG § 2).",
+      "description": "D'où vient la requête : scripts/select_queries.py (PREREG § 2). Le site d'origine est gardé dans data/private/site_by_id.json (décision du 03/11 : le cabinet ne doit pas être identifiable).",
       "properties": {
         "source": {
           "const": "search_console"
-        },
-        "site": {
-          "enum": [
-            "A",
-            "B"
-          ]
         },
         "rank": {
           "type": "integer",

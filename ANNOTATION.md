@@ -9,10 +9,10 @@
 
 ## 2. Annotateurs et conditions d'aveugle
 
-- Deux annotateurs, grok-4.7 et gpt-6-astra, chacun sur 100 % des réponses, dans un environnement vierge (PREREG § 6). Claude n'annote ni n'arbitre.
+- Deux annotateurs, `mistral-large-4` (API Mistral) et `openai/gpt-oss-120b` (API Groq), chacun sur 100 % des réponses, appels directs sans outils, température 0 (PREREG § 6). Claude n'annote ni n'arbitre.
 - L'annotateur ne voit ni le modèle ni l'étiquette de la question. Il voit la requête, la description de la quantité visée, son unité et la réponse. Les réponses sont mélangées entre modèles et présentées par lots de 20, dans un ordre tiré avec la graine `20261105`.
 - Les signatures de style ne sont pas retirées : un annotateur pourrait reconnaître un modèle. Limite déclarée.
-- Le texte de consigne envoyé aux annotateurs est versionné dans `data/annotation/prompt.md` avant le premier lot de dev, et ne change plus pour le test sauf amendement.
+- Le texte de consigne envoyé aux annotateurs est versionné dans `data/annotation/prompt.md`, commité avec la v1, et ne change plus sauf amendement daté.
 
 ## 3. Champs extraits par l'annotateur
 
