@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"ce54d9bf0b47\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En résumé : entre 6 et 18 mois en général.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c0783d101e95\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils dure en général 4 à 6 semaines.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3a4990c01b75\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 5,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Premiers effets : entre 3 et 5 jours après l'injection\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9eab2e909be0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre au moins 6 à 12 mois après l'accouchement, et souvent davantage selon la situation.\",\n      \"Le délai minimal est donc d'environ 6 à 12 mois, mais beaucoup de chirurgiens préfèrent attendre 1 an ou plus, surtout si une nouvelle grossesse est possible.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fdb5631f5ae6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 12,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Légère (tiraillements, légère sensibilité) | 1 à 2 semaines\",\n      \"Modérée (rougeurs, picotements, desquamation) | 2 à 4 semaines\",\n      \"Sévère (sur-exfoliation importante, irritation forte, eczéma) | 1 à 3 mois, parfois plus\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"496bbaa7ff05\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"02f0705731d3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"Raser la zone 24 à 48 h avant la séance.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fcb049458a84\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il est généralement recommandé de protéger une cicatrice du soleil pendant au moins 12 mois, voire jusqu'à 18-24 mois pour les cicatrices importantes (chirurgie, brûlure).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"343fe324a167\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35,\n    \"borne_haute\": 75,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Entre 35 et 75 minutes par application, selon l'appareil utilisé et la zone.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a38abad68963\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"1 à 2 fois par jour, matin et/ou soir.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0T0hjt+/njs+C+57Ahy1/Mpjy7R4QFUeeofeJdwyuh6FBMXQiL7B8+LS+pLTDNabIxoCInB0wF/wfv1YcOsBJFypCFjgpC823FkHEOUzX+/tHrHjgq2SbBscwIOTap8kMltg=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6135,
+  "candidatesTokenCount": 1278,
+  "totalTokenCount": 7413,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6135
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "CMPpaqHaF8W0nsEPppzx0QQ"
+}

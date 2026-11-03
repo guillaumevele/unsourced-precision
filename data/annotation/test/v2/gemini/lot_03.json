@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"03d62dba5893\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 2,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **Nettoyant ou gel (0,5 à 2 %)** : 1 à 2 fois par jour, matin et/ou soir, rincé après application.\",\n      \"- **Lotion ou sérum à laisser poser** : 1 fois par jour, le soir le plus souvent.\",\n      \"- **Peaux sensibles ou débutantes** : commencez par 1 application par jour ou un jour sur deux, puis augmentez si la peau supporte bien.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"47bfe5241578\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, **un bleu (hématome) disparaît en 1 à 3 semaines**.\",\n      \"| Après 2-3 semaines | Disparition |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"61cbd4de3e75\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 2,\n    \"unite\": \"fois/jour\",\n    \"phrases_chiffre\": [\n      \"| Nettoyant | 0,5 – 2 % | 1 à 2 fois/jour |\",\n      \"| Tonique, sérum, lotion (sans rinçage) | 0,5 – 2 % | Commencer **1 fois/jour ou un jour sur deux**, puis jusqu'à 1-2 fois/jour si bien toléré |\",\n      \"- Généralement **1 fois par jour** (souvent le soir), pendant plusieurs semaines\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bbb159d8cc15\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 6,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"- **Cicatrices d'acné** : 3 à 5 séances, parfois plus pour les cicatrices profondes.\",\n      \"- **Rides fines, photovieillissement, texture de la peau** : 3 à 5 séances.\",\n      \"- **Taches pigmentaires, mélasma, taches de soleil** : 2 à 4 séances.\",\n      \"- **Vergetures** : 4 à 6 séances, avec des résultats variables.\",\n      \"- **Cicatrices chirurgicales ou post-traumatiques** : 3 à 5 séances.\",\n      \"- 1 séance suffit souvent, car il est plus agressif.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5d3dce1e038a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Cela correspond à **2 à 3 semaines** de repousse après un rasage.\",\n      \"- Il faut compter environ **1 à 2 semaines** après un rasage.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"76d081018587\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La récupération dure généralement **4 à 6 semaines** pour reprendre une vie normale, avec une amélioration progressive pendant plusieurs mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0588d023500c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Durée** : en général **6 à 12 mois**, parfois jusqu'à 18 mois selon le produit (les gels peu réticulés, adaptés à la zone fine des yeux, durent moins longtemps).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5245e087a0f4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 5,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Un traitement au laser fractionné (type **Fraxel**) comprend en général **3 à 5 séances**, espacées de **4 à 6 semaines**.\",\n      \"- **Le type de laser** : le Fraxel « repair » (plus profond) est souvent pratiqué en 2 à 4 séances, le Fraxel « dual » ou « restore » (plus léger) peut nécessiter davantage de passages.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c0a43775ecff\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6,\n    \"borne_haute\": 18,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les injections d'acide hyaluronique aux lèvres durent en général **entre 6 et 12 mois**, parfois jusqu'à 18 mois selon les cas.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6bb542a1e02e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Acné kystique ou nodulaire** (bouton profond, sans pointe blanche) : 1 à 3 semaines, parfois plus.\",\n      \"- **Furoncle** (rouge, douloureux, chaud) : 1 à 3 semaines.\",\n      \"- **Poil incarné** : 1 à 2 semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0Tj3Vh29Q3uy88By6eE+MxyT4LLI5x99vFy0tmmD8jQNQnKW/VUchhSr/BsqrPEGwYQM/AwmG3bzKRNled4oUGlyNmoqxc9jbSluKFKped4ERaRR0WbtHno9vMq0ZADE6bbw=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5846,
+  "candidatesTokenCount": 1692,
+  "totalTokenCount": 7538,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5846
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "ecLpatuwKOWgvdIPt5e3oQ4"
+}

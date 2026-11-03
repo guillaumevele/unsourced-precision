@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"794996d74a9b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Entre 2 et 3 mois** : c'est la période où l'on observe le résultat maximal, car l'élimination des cellules graisseuses détruites par le froid se fait progressivement par le système lymphatique et le foie.\",\n      \"- **Jusqu'à 4 à 6 mois** : l'amélioration peut continuer légèrement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e1fd7a57e5ea\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a3d5deccc459\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils tient en général **4 à 6 semaines**, soit environ un mois.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"afbcdf3a25d6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| Travail de bureau | 5 à 10 jours (2-3 jours pour un petit lipofilling du visage) |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"557c8e0159a1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5.0,\n    \"borne_haute\": 10.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Reprise du travail de bureau possible en général entre 5 et 10 jours.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e24a88fc8351\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 2.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour le ventre, **une séance suffit généralement**, et **deux séances espacées de 1 à 3 mois** sont parfois proposées si le résultat recherché est plus marqué.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3d2a335dedfc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, il faut laisser **environ 6 à 8 semaines minimum** entre deux séances sur la même zone.\",\n      \"Beaucoup de praticiens conseillent plutôt **2 à 3 mois**, car la disparition des cellules graisseuses est progressive : elle se joue sur plusieurs semaines, et les résultats ne deviennent visibles qu'après 2 à 3 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"58cc79d3217e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7.0,\n    \"borne_haute\": 21.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Cire (chaude ou froide)** | 3 à 5 mm (environ un grain de riz) | 2 à 3 semaines |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4b4421cff160\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Un tatouage des sourcils (microblading ou tatouage poudré/ombré) dure en général **environ 1 à 3 ans**, mais cela varie beaucoup selon plusieurs facteurs :\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e1ff5affa148\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7.0,\n    \"borne_haute\": 15.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Visage** (pommettes, cernes, lèvres) : éviction sociale d'environ **7 à 15 jours**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TwpMO5VlexrwuaW6q7L2dhyF6N0tjGTuqHSZoTivhsWX8EmdL5mZ4DJt+YrnGKa4U02G2PwvDDxP5VkW904u7D+pS54etJv3EzftTWS5oHNjPXJti9LkF61RxiJvyETRtlQ=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5561,
+  "candidatesTokenCount": 1382,
+  "totalTokenCount": 6943,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5561
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "TcLpasfRBtrqnsEP_dyvkAg"
+}

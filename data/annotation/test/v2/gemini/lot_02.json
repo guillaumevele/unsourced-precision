@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"43f16ef7a0c2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En moyenne : 2 à 4 mois**, contre 3 à 6 mois pour un botox classique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2a9c62132848\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"90\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Légère** (sécheresse, rougeurs après un excès de gommage ou d'actifs) : **quelques jours à 2 semaines**.\",\n      \"- **Modérée** (irritation persistante, picotements, peau sensible) : **2 à 4 semaines**.\",\n      \"- **Importante** (dermatite, brûlure, lésions répétées) : **plusieurs semaines, parfois 2 à 3 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"17cd3eff218c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Résultat final : 2 à 3 mois**, parfois jusqu'à 4 à 6 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1404081bd273\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"12\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Avec l'**acide hyaluronique**, le produit le plus utilisé, les résultats durent généralement **entre 6 et 12 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cbf10f345005\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Reprise du travail : variable, souvent 2 à 4 semaines (selon le métier et le positionnement).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"89c809b3a4e7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet dure généralement **3 à 6 mois**, avec une moyenne d'environ **4 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4381651712aa\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"12\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Durée moyenne : 12 à 18 mois**, parfois jusqu'à 24 mois avec les produits plus denses.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"34a73dd57f84\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **2 à 3 semaines** pour un travail sédentaire\",\n      \"- **4 à 6 semaines**, voire plus, pour un travail physique\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"364a9b09b8ae\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5878a00871cf\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"12\",\n    \"borne_haute\": \"48\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Le « BBL liquide »** (Brazilian Butt Lift non chirurgical, par injections de produit de comblement ou stimulateur de collagène) dure en général **1 à 2 ans**, selon le produit :\",\n      \"- **Acide hyaluronique** (volumateur type Macrolane ou équivalent) : environ **12 à 18 mois**.\",\n      \"- **Acide poly-L-lactique (Sculptra)** : environ **18 à 24 mois**. Le résultat est progressif, avec souvent plusieurs séances.\",\n      \"- **Polycaprolactone (Ellansé)** : environ **2 à 4 ans**, selon la version.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TQaF+1E97AIABWVqsiAMGmzuLCRyq/j3Zi8nvKEwrXBzZWiQrGwBG1WuwgYfV525CaqxAYN4TL5uNWhZTZdID7ULienWFVUs341rPsv3PlTpNtv6P5WeMxiHB/eQtCkTGiA=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6541,
+  "candidatesTokenCount": 1431,
+  "totalTokenCount": 7972,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6541
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "V8LpavvMF7DqnsEPs7eR6AI"
+}

@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"6073faaa607b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils tient généralement **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"17db30d8baa2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"| **Acide hyaluronique** (ex. Hyacorp) | Environ **12 à 24 mois** |\",\n      \"| **Acide poly-L-lactique** (ex. Sculptra) | Environ **18 mois à 2 ans**, parfois plus (stimule la production de collagène, effet progressif) |\",\n      \"| **Hydroxyapatite de calcium** (ex. Radiesse) | Environ **12 à 18 mois** |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"afd3a337661e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Une teinture des cils dure en général **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2484032e5266\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En général, tous les 3 à 6 mois**, car l'effet s'estompe progressivement à mesure que les muscles retrouvent leur activité.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"da90950d24b7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La plupart des chirurgiens recommandent de porter la gaine de compression **pendant 4 à 6 semaines**, parfois jusqu'à **8 semaines** selon les cas (abdominoplastie associée à une liposuccion, réparation des muscles grands droits, etc.).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"32c371411964\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, **tous les 3 à 6 mois** pour maintenir l'effet, selon la zone traitée et la personne.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3cc846d39de1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**Évitez le soleil pendant au moins 2 semaines**, idéalement **3 à 4 semaines** pour les zones exposées (visage, jambes, bras).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d4eca51128e6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**En moyenne : 2 à 4 mois**, soit un peu moins que le botox classique (3 à 6 mois).\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6628eab90fe3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 2.0,\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **Acné (gel, lotion, nettoyant à 0,5 à 2 %)** : 1 à 2 fois par jour, matin et/ou soir.\",\n      \"- **Verrues (solutions ou patchs à plus forte concentration, souvent 15 à 40 %)** : généralement 1 fois par jour, le soir, parfois après avoir ramolli la peau dans l'eau tiède.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"59404eb7d090\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, une cicatrice devient pâle ou blanche **au bout de 12 à 18 mois**, parfois **jusqu'à 2 ans**.\",\n      \"| **Après 12 à 24 mois** | Cicatrice « mature » : blanche ou nacrée, plate et souple. |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TdcK4cmgwCLv6/KQkrNU5yNilaFH3xKtX7G+ySvJhkXtbyBt9aG353WRW4frLeC4A3rty/uJVGqkxzdHPq0NNtxc5XuC98lLGmd9BZ4u7AH1/sbWbZV8rKF10wxlScnMqfg=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5405,
+  "candidatesTokenCount": 1520,
+  "totalTokenCount": 6925,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5405
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "o8Lpaq2-KI61vdIPvsm58AQ"
+}

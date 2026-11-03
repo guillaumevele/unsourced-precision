@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"653e7d17de17\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"0.125\",\n    \"borne_haute\": \"90\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Allergie** (conjonctivite allergique, réaction médicamenteuse ou à une piqûre) : quelques heures à quelques jours, souvent moins d'une semaine une fois l'allergène écarté et un traitement antihistaminique ou un corticoïde local instauré.\",\n      \"- **Conjonctivite infectieuse** : généralement quelques jours à environ 2 semaines.\",\n      \"Les formes virales (adénovirus) peuvent durer 2 à 3 semaines.\",\n      \"- **Irritation mécanique ou sécheresse** (port de lentilles, traumatisme léger) : quelques jours après la suppression de la cause.\",\n      \"- **Ophtalmopathie thyroïdienne** (maladie de Basedow) : évolution longue, de semaines à mois, parfois avec fluctuations.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6a17fdc68298\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"6\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du Botox (toxine botulique) dure en général **3 à 6 mois**, le plus souvent autour de **4 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"afa736d62fa1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**Évitez l'exposition au soleil pendant au moins 2 semaines**, idéalement **4 semaines**, sur la zone traitée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c84225f4df8f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un bleu (ecchymose) disparaît en **2 semaines environ**.\",\n      \"- **Taille et profondeur** : un gros bleu ou un bleu profond met plus de temps, parfois 3-4 semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b8fcb4911c86\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"12\",\n    \"borne_haute\": \"24\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, **il faut entre 12 et 18 mois**, parfois jusqu'à **2 ans**, pour qu'une cicatrice atteigne sa couleur définitive, souvent blanche ou plus claire que la peau.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"34f855ad96e6\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"3\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, un bleu (ecchymose) disparaît en **environ 2 à 3 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2ac88774fe74\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"2\",\n    \"unite\": \"h\",\n    \"phrases_chiffre\": [\n      \"- **Rasez la zone 24 à 48 h avant** (ou la veille).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1e5b58181f64\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"3\",\n    \"borne_haute\": \"5\",\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour un laser fractionné (fraxel), on fait en général **3 à 5 séances**, espacées d'environ **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d7dd6fbb954b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"18\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **6 à 12 mois** en général\",\n      \"- Certains patients gardent un effet jusqu'à **12 à 18 mois** avec des produits peu réticulés, bien adaptés à la zone\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cbe98fbe3d2e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"2\",\n    \"unite\": \"fois par jour\",\n    \"phrases_chiffre\": [\n      \"- **1 à 2 fois par jour**, matin et/ou soir.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TGdws8IbgiBbL92jxOScRu2QJkul/xMpStI7TY0dK32SBCb9uvt2sbEkNtdBg3RXSZIaYovaXpttA9MzYOXP1s3pjSPLF5H+t0TsPV2InxAZSl2TXKbw+QLwldb7MZUUHJg=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5153,
+  "candidatesTokenCount": 1470,
+  "totalTokenCount": 6623,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5153
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "gMLpasGIOJXlnsEP-qbOsAU"
+}

@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"bfe2075da955\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir dure en général **environ 1 à 3 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fb5e730d356c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5.0,\n    \"borne_haute\": 10.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"En pratique, beaucoup de patients conservent un bénéfice visible pendant **5 à 10 ans, voire plus**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ec765d4f28f8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Arrêt de travail** : 2 à 4 semaines selon l'activité (bureau ou travail physique).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ca8754eac696\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, on refait des injections de Botox **tous les 3 à 4 mois**.\",\n      \"Certaines personnes peuvent espacer jusqu'à 6 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d184ef226ca1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 18.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Les injections d'acide hyaluronique durent en général **6 à 18 mois**, selon plusieurs facteurs :\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d2698dfeed92\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.0,\n    \"borne_haute\": 0.0,\n    \"unite\": \"immédiatement\",\n    \"phrases_chiffre\": [\n      \"- **Comblement des rides et volume (lèvres, pommettes, sillons)** : résultat visible immédiatement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b38235dd0001\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 8.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **6 à 8 séances** de laser pour les aisselles, avec parfois 1 à 2 séances d'entretien par la suite.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b755cccc9111\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 14.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Durée** : 3 à 7 jours\",\n      \"- **Durée** : 7 à 10 jours, parfois jusqu'à 14 jours\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a8d316b0c572\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il est recommandé de **protéger une cicatrice du soleil pendant au moins 12 mois**, et parfois jusqu'à **18 à 24 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e78e023d8565\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12.0,\n    \"borne_haute\": 24.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Durée des résultats : 12 à 18 mois** en moyenne, parfois jusqu'à 24 mois avec des produits très réticulés (denses), conçus pour le menton.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0T30Jcq6bUArLH7p1+3M4W4kAM6Il0fmxZt1z2p69tC6vr0Ir/vRB4S+U1ayNGebbwpc5xQCkFscD5yKl63JqK1+hhvQcaarmKEN9ufH+UxBTET8nuF0MubCcXRpGXwgQz+A=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6310,
+  "candidatesTokenCount": 1351,
+  "totalTokenCount": 7661,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6310
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "usLpauWcKemfkdUP_a714AQ"
+}

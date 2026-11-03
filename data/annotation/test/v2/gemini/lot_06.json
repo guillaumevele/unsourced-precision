@@ -1,0 +1,34 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"1e5636f67aac\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| Travail | Arrêt souvent de **2 à 6 semaines**, selon le métier |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cbea8c4a95f5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 0,\n    \"unite\": \"immédiat\",\n    \"phrases_chiffre\": [\n      \"- **Effet immédiat**, visible dès la fin de la séance.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3cbaf38019ad\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il faut protéger une cicatrice du soleil pendant **12 à 24 mois**, le temps qu'elle arrive à maturité (jusqu'à ce qu'elle devienne plate, pâle et souple).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"df1dd2cad8e5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 6,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"- **Rides fines, teint terne, texture de la peau** : 3 à 5 séances\",\n      \"- **Cicatrices d'acné** : 3 à 6 séances, parfois plus pour les cicatrices profondes\",\n      \"- **Taches pigmentaires, mélasma, photovieillissement** : 3 à 5 séances (le mélasma peut récidiver et demander de l'entretien)\",\n      \"- **Vergetures, cicatrices** : 4 à 6 séances, parfois davantage\",\n      \"- **Version plus intensive (Fraxel Repair, CO₂ fractionné)** : 1 à 2 séances suffisent parfois, avec une convalescence plus longue\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"db75942c4a67\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"h\",\n    \"phrases_chiffre\": [\n      \"- **Rasez la zone 24 à 48 h avant** (parfois la veille ou le jour même selon le centre).\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"53824b20e7d1\",\n    \"chiffre_present\": true"
+     },
+     {
+      "text": ",\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un œil au beurre noir (ecchymose péri-orbitaire) dure généralement **1 à 2 semaines**, parfois jusqu'à 2 à 3 semaines si le choc a été violent.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a2a865f7c9dd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Durée générale :** l'effet du Botox dure en moyenne **3 à 4 mois**, avec des variations de 2 à 6 mois selon les personnes.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1cf603444415\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"2fc7296d3877\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 8,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La réparation d'une barrière cutanée abîmée prend en général **environ 2 à 4 semaines** pour une irritation légère.\",\n      \"Si les dégâts sont plus importants (irritation sévère, dermatite, brûlure du soleil répétée), il faut compter **4 à 8 semaines**, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"364299ace621\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 0,\n    \"unite\": \"tout de suite\",\n    \"phrases_chiffre\": [\n      \"- **Résultat visible tout de suite**, mais un léger gonflement, des rougeurs ou de petits hématomes peuvent masquer le rendu final.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TlPzc07S0qP6Ooll+PyXp5r8yGntamh1I7UlrPWU8m/nngDKbmIAvwnx33rkuRZHpY1RuIBno7BQ1JtZD6QtylqFQgz8T9ljgmI4DIZdJgFnoZDeiwXvtSopggcU05qnUdA=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6467,
+  "candidatesTokenCount": 1420,
+  "totalTokenCount": 7887,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6467
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "qsLparCRNIq6nsEPg5fEwQQ"
+}

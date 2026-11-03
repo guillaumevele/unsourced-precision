@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"11f8f94f1692\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5.0,\n    \"borne_haute\": 21.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Reprise du travail possible, surtout pour une activité de bureau (souvent 5 à 10 jours)\",\n      \"- **Visage** : gonflement plus visible, 2 à 3 semaines avant d'être présentable socialement\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f63ee046e5fb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Un bleu (ecchymose) disparaît généralement en **2 à 3 semaines**, mais ça varie selon la gravité du choc.\",\n      \"- **Après 2-3 semaines :** disparition complète\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bb7621591d2a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 6.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En général, les vergetures restent rouges ou violacées **de quelques mois à environ 1 an**, parfois un peu plus.\",\n      \"1. **Phase inflammatoire (vergetures rouges/roses/violacées)** : elle dure en moyenne **6 à 12 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f9e63ca467ca\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.0,\n    \"borne_haute\": 3.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"En général, **rasez-vous la veille ou le jour même** de la séance : il ne faut pas laisser pousser les poils, contrairement à la cire.\",\n      \"- **Raser 12 à 24 h avant** la séance, avec un rasoir propre ou une tondeuse.\",\n      \"Si le centre vous demande de venir avec **1 à 2 mm de poils** (parfois pour un test ou une première évaluation), suivez ses consignes : cela correspond à environ 2 à 3 jours de repousse.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"009a47873753\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ddf9e26eb615\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 21.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Peeling superficiel** (acides fruits, AHA, acide lactique, etc.) : une légère desquamation dure en général **2 à 5 jours**, parfois jusqu'à une semaine.\",\n      \"- **Peeling moyen** (acide trichloracétique, TCA) : la peau pèle pendant **environ 5 à 10 jours**, avec des rougeurs qui peuvent durer 1 à 2 semaines.\",\n      \"- **Peeling profond** (phénol) : la récupération est plus longue, de **2 à 3 semaines** pour la desquamation, et les rougeurs peuvent persister plusieurs mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"217716bcb1eb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 14.0,\n    \"borne_haute\": 28.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Cire ou sucre (épilation à chaud ou à froid)** : laissez pousser **2 à 4 semaines**, soit environ **0,5 cm** de longueur.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6446a6bd8343\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Il n'existe pas de délai unique, mais on attend en général **au minimum 6 à 8 semaines après la dernière séance de détatouage**, et souvent **3 à 6 mois** pour être plus sûr.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"22fd71e3700e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du Botox dure généralement **3 à 6 mois**, avec une moyenne d'environ 3 à 4 mois.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"71f2dab5a34e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.5,\n    \"borne_haute\": 6.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"En règle générale, il faut attendre **6 à 8 semaines minimum après la dernière séance de détatouage** (laser), et souvent **3 à 6 mois** si le but est de recouvrir ou de retatouer la zone.\",\n      \"- **Détatouage terminé (tatouage entièrement effacé)** : attendre au moins 2 à 3 mois, voire 6 mois, pour que la peau retrouve sa texture et sa couleur normales.\",\n      \"- **Détatouage partiel pour faire un cover-up** : on peut souvent retatouer après **6 à 8 semaines**, voire plus tard selon l'avis du tatoueur, car le tatouage doit être suffisamment éclairci.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TFsN2t++4Ri3DXiYtopJ4iNgqTlf1vlryC/oK5PQJitKXmdYfILsypsoA0DKJk6GicSKjlhtFSmDG1+UoDlcwnO7detg5XEmRv0gTbVCi/sfJVkskPcOYFKsAL+iWjQLHmw=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5637,
+  "candidatesTokenCount": 1688,
+  "totalTokenCount": 7325,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5637
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "s8Lpas6XDcuQ3boPvOejsAQ"
+}

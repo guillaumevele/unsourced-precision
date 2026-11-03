@@ -328,3 +328,9 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 
 - `ots upgrade timestamps/prereg-v1.manifest.txt.ots` : preuve complète, attestations Bitcoin aux blocs 974330, 974333 et 974343 (`ots info`). L'ancienne preuve incomplète reste en `.ots.bak`, non suivie.
 - `ots stamp` des manifestes des amendements 1 et 2, soumis le 03/11/2026 vers 12 h 05 ; en attente de confirmation, à compléter par `ots upgrade`.
+
+## Annotation du test en v2 (03/11/2026)
+
+- Mistral v2 : 72 lots sur 72, 720 éléments (`wc -l data/annotation/test/v2/mistral.jsonl`), aucun lot rejeté (`grep -c rejeté`), HTTP 429 par minute absorbés par les relances.
+- Gemini v2 : 10 lots sur 72 au premier passage, puis quota gratuit épuisé. `scripts/relance_gemini.sh test` (détaché, `nohup`) relance toutes les deux heures et reprend au premier lot manquant.
+- Aucun score calculé sur le test, aucun détecteur exécuté ; les sorties d'annotation seront gelées par un commit avant (amendement 2 § 2).

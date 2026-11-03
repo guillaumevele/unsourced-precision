@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"4817aa587edc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 10,\n    \"borne_haute\": 10,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Visage** : bleus et gonflement visibles 1 à 2 semaines. Vie sociale possible après environ 10 jours.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1d446d8747e7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"**Entre 12 et 18 mois** en général, parfois **jusqu'à 2 ans**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8ecb8d52b5fb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": \"années\",\n    \"phrases_chiffre\": [\n      \"**En pratique :** beaucoup de patients gardent un résultat satisfaisant plusieurs années, mais une retouche est souvent proposée au bout de 6 à 12 mois pour compléter le volume.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3636e16e370b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 35,\n    \"borne_haute\": 75,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"**Par zone traitée :** entre **35 et 75 minutes** en moyenne.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"09c9093e5289\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 3,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Après un détatouage au laser** : il faut attendre que la peau soit **complètement cicatrisée**, en général **au moins 4 à 6 semaines après la dernière séance**. Beaucoup de tatoueurs et de médecins conseillent plutôt **2 à 3 mois**, surtout si les séances ont été intenses ou si la peau a réagi fortement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fba995289426\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La récupération dure environ **4 à 6 semaines pour l'essentiel** et **6 à 12 mois pour le résultat définitif**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6e214bd6c653\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 5,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Gonflement lié à l'injection elle-même** : en général 24 à 72 heures. Il peut aller jusqu'à 3 à 5 jours dans les zones sensibles (lèvres, contour des yeux).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c49943ad461d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"L'effet du Botox (toxine botulique) dure en général **3 à 6 mois**, avec une moyenne d'environ **4 mois** pour les rides du visage.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"92dbc5191cc9\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 24,\n    \"borne_haute\": 48,\n    \"unite\": \"heures\",\n    \"phrases_chiffre\": [\n      \"**En général, il est recommandé d'éviter le sport intense pendant 24 heures** (certains médecins conseillent jusqu'à 48 heures par précaution).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"55b4d8ad5101\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 5,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"| **Microblading** (effet poil à poil, manuel) | 1 à 3 ans |\",\n      \"| **Powder brows / Ombré brows** (effet poudré) | 2 à 4 ans |\",\n      \"| **Technique mixte** (poil à poil + poudré) | 2 à 3 ans |\",\n      \"| **Maquillage permanent / dermopigmentation** (au dermographe) | 2 à 5 ans |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TzeEASJt3H+/7NvdiP8HPBDKADn3qnyqkW/+mMP1b5bOFxr2U3W9LJEXCEDa5uG2UTL+16OT7Pn+hT9dPqZA1HSOAm7KR9UoVRCh4CQ3Ve29JndFV7PVM8q1FAXZlOYCTPg=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6403,
+  "candidatesTokenCount": 1462,
+  "totalTokenCount": 7865,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6403
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "wcLpaoW_GrGKvdIP-a3ToQk"
+}
