@@ -1,0 +1,11 @@
+# PREREG amendement 3 : exécution de Q2 (03/11/2026)
+# Aucun run de Q2 : logs/q2/ absent à ce commit.
+# Parent : c2c9111be4a55c2584cd889d033ea620238e36dd
+1da64006f6a32879b06bc576a7fe41c5ed8d215fef502fd3b517175725d1520a  PREREG-AMENDEMENT-3.md
+6a7319bcce899ef724144893aa0bae829617255cfb30f2adcf0b97c17db4b802  scripts/q2_build.py
+1d2bc05afa1ff7700352dbb4d22781918e76ecb48a8a373a0f3c149a08468ff5  scripts/q2_analyze.py
+31ff22040bd1e3e15768f8312ea5f48feef70906f0ec175c6c8510963a7b46c5  evals/q2.py
+c73349eef48c3857560122543e9818884141407bb41752ee69d86e71ddf9593d  scripts/run_q2.sh
+7c95eef30957dec05cd6df6d46c3513638f13156715bb944cb31e7814850daa6  tests/test_q2.py
+5db54790d86de40b23a7f40cbc3adee31929fd188b37669f8eb1664804aacdc4  data/q2/elements.jsonl
+8483c4c74928002ad117c10ace962202061fcf1abedee950af5295df2556e9a9  data/q2/probes.jsonl
