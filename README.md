@@ -103,7 +103,7 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.lock
 scripts/reproduce.sh
 ```
 
-One command, no API call. It runs the 58 unit tests, regenerates every result of Q1 and Q2 (including the figure) from the committed logs and annotations, checks every frozen file against its timestamped manifest, and fails if anything differs from the repository. The same script runs on GitHub Actions at every push.
+One command, no API call. It runs the unit tests, regenerates every result of Q1 and Q2 (including the figure) from the committed logs and annotations, checks every frozen file against its timestamped manifest, and fails if anything differs from the repository. The same script runs on GitHub Actions at every push.
 
 Re-running the models or the annotators needs API keys (`.env.example`) and is not required to check the results: the raw Inspect logs (`logs/`) and every raw annotator response (`data/annotation/`) are committed.
 

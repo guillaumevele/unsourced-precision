@@ -1,0 +1,7 @@
+# PREREG amendement 4 : pilote sur un modèle ouvert (03/11/2026)
+# Aucune extraction sur les questions : pilot/activations.npz absent à ce commit.
+# Parent : ff9bd0ffb2bdaa29f6fcb83880259ec23d42eb87
+39cf32919fc7f938e6e357f9f0eb97849c6df6b3240965344b40ad28c48070cd  PREREG-AMENDEMENT-4.md
+fcca9e648b44a77510328da5c1d8cd62122234b1f7754625e3da7ee61d2969e6  pilot/extract.py
+ac810c5dbf78a700eb129c7baeddcba69fc9dcaea4b3ccbe04ab84af9c87ad4a  pilot/probe.py
+22aa0b7fcd5c8003df3735494e9417c0432b0365502627df0446d4abffb40ac7  tests/test_pilot.py

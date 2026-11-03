@@ -18,3 +18,4 @@ logs/*.last.txt
 
 # Sauvegardes laissées par ots upgrade
 timestamps/*.ots.bak
+.venv-pilot/
