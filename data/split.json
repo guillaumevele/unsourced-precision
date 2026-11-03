@@ -87,8 +87,8 @@
     "CONTESTED": 2
   },
   "test_labels": {
-    "CONTESTED": 10,
-    "SOURCED": 19,
-    "NOT_FOUND": 19
+    "CONTESTED": 9,
+    "NOT_FOUND": 20,
+    "SOURCED": 19
   }
 }

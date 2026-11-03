@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-03",
+  "n": 60,
+  "rules": "règles 7 et 7 bis incluses (data/label_check/full/prompt.md)",
+  "environment": "HOME et CODEX_HOME vierges (authentification seule), sans instructions, règles, compétences, hooks ni MCP ; outils et web désactivés pour Grok ; Codex en lecture seule, --ignore-user-config --ignore-rules --ephemeral",
+  "pairwise": {
+    "claude-grok": {
+      "agreement": 0.9333,
+      "cohen_kappa": 0.8953
+    },
+    "claude-gpt": {
+      "agreement": 0.95,
+      "cohen_kappa": 0.9215
+    },
+    "grok-gpt": {
+      "agreement": 0.9833,
+      "cohen_kappa": 0.9736
+    }
+  },
+  "majority_differs_from_claude": [
+    {
+      "id": "A-003",
+      "claude": "SOURCED",
+      "grok": "CONTESTED",
+      "gpt": "CONTESTED"
+    },
+    {
+      "id": "A-024",
+      "claude": "CONTESTED",
+      "grok": "SOURCED",
+      "gpt": "SOURCED"
+    },
+    {
+      "id": "A-047",
+      "claude": "CONTESTED",
+      "grok": "NOT_FOUND",
+      "gpt": "NOT_FOUND"
+    }
+  ],
+  "three_way_split": [],
+  "disagreements": [
+    {
+      "id": "A-003",
+      "claude": "SOURCED",
+      "grok": "CONTESTED",
+      "gpt": "CONTESTED"
+    },
+    {
+      "id": "A-016",
+      "claude": "SOURCED",
+      "grok": "NOT_FOUND",
+      "gpt": "SOURCED"
+    },
+    {
+      "id": "A-024",
+      "claude": "CONTESTED",
+      "grok": "SOURCED",
+      "gpt": "SOURCED"
+    },
+    {
+      "id": "A-047",
+      "claude": "CONTESTED",
+      "grok": "NOT_FOUND",
+      "gpt": "NOT_FOUND"
+    }
+  ]
+}
