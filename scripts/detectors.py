@@ -14,7 +14,8 @@ population NOT_FOUND et CONTESTED réunie. Critère fixé avant le calcul : F1 m
 la variante la plus simple (ordre de VARIANTS). La variante retenue est écrite dans CHOSEN et
 figée par l'amendement 2 ; sur le test, seule CHOSEN est exécutée.
 
-Usage : .venv/bin/python scripts/detectors.py dev [--tune]   ->  data/annotation/dev/v2/detectors.json
+Usage : .venv/bin/python scripts/detectors.py dev --tune   ->  data/annotation/dev/v2/detectors_mise_au_point.json
+        .venv/bin/python scripts/detectors.py <split>       ->  data/annotation/<split>/v2/detectors.json (CHOSEN seule)
 """
 
 import json
@@ -48,7 +49,7 @@ VARIANTS = [  # (nom, règle, filtre d'unité)
     ("enveloppe", "envelope", False),
     ("enveloppe_meme_base", "envelope", True),
 ]
-CHOSEN = None  # écrit après la mise au point sur le dev, puis figé par l'amendement 2
+CHOSEN = "premiere_expression"  # mise au point sur le dev le 03/11/2026 (F1 0,5895), figé par l'amendement 2
 
 
 def value(tok):
@@ -162,7 +163,8 @@ def main(split, tune=False):
     if tune:
         f1 = [(out["detecteurs"][f"v1_{n}"]["mise_au_point"]["f1"], -i, n) for i, (n, _, _) in enumerate(VARIANTS)]
         out["meilleure_variante"] = max(f1)[2]
-    (split_dir / "v2" / "detectors.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
+    name = "detectors_mise_au_point.json" if tune else "detectors.json"
+    (split_dir / "v2" / name).write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps(out, ensure_ascii=False, indent=1))
 
 

@@ -23,6 +23,8 @@ Quand un patient demande une durée, un délai ou un nombre de séances pour un 
 
 *Kappa par champ, accord final, taux d'invalides par annotateur et par motif, sur le test. Le dev est publié à part (v1 et v2).*
 
+Dev, pour mémoire (pas un résultat ; `data/annotation/dev/scores.json` et `data/annotation/dev/v2/scores.json`, `scripts/score.py dev v1|v2`) : kappa sur l'étiquette finale 0,68 en v1, 0,78 en v2 ; indéterminées 38 puis 27 sur 180. Le désaccord restant porte sur les bornes extraites (19 des 20 indéterminées des questions `NOT_FOUND` et `CONTESTED`) : la consigne demande la plage la plus large, Gemini garde souvent la plage de la phrase principale (`NOTES.md`, amendement 2 § 1).
+
 ### 3.3 Analyses de sensibilité pré-inscrites
 
 *Sans A-054 à A-060 ; sans les 8 questions à plage ouverte ou large ; indéterminées comptées dans un sens puis dans l'autre ; sans réponses tronquées ou vides ; avec l'étiquetage initial de Claude (A-003, A-024, A-047).*

@@ -1,0 +1,264 @@
+{
+  "split": "dev",
+  "lexique": 23,
+  "chosen": "premiere_expression",
+  "detecteurs": {
+    "nombre": {
+      "NOT_FOUND": {
+        "n": 61,
+        "positifs": 21,
+        "vp": 21,
+        "fp": 40,
+        "fn": 0,
+        "precision": 0.3443,
+        "rappel": 1.0,
+        "f1": 0.5122
+      },
+      "CONTESTED": {
+        "n": 24,
+        "positifs": 8,
+        "vp": 8,
+        "fp": 16,
+        "fn": 0,
+        "precision": 0.3333,
+        "rappel": 1.0,
+        "f1": 0.5
+      },
+      "mise_au_point": {
+        "n": 85,
+        "positifs": 29,
+        "vp": 29,
+        "fp": 56,
+        "fn": 0,
+        "precision": 0.3412,
+        "rappel": 1.0,
+        "f1": 0.5088
+      }
+    },
+    "sans_lexique": {
+      "NOT_FOUND": {
+        "n": 61,
+        "positifs": 21,
+        "vp": 2,
+        "fp": 2,
+        "fn": 19,
+        "precision": 0.5,
+        "rappel": 0.0952,
+        "f1": 0.16
+      },
+      "CONTESTED": {
+        "n": 24,
+        "positifs": 8,
+        "vp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": null,
+        "rappel": 0.0,
+        "f1": 0.0
+      },
+      "mise_au_point": {
+        "n": 85,
+        "positifs": 29,
+        "vp": 2,
+        "fp": 2,
+        "fn": 27,
+        "precision": 0.5,
+        "rappel": 0.069,
+        "f1": 0.1212
+      }
+    },
+    "v1_toute_expression": {
+      "NOT_FOUND": {
+        "n": 61,
+        "positifs": 21,
+        "vp": 21,
+        "fp": 40,
+        "fn": 0,
+        "precision": 0.3443,
+        "rappel": 1.0,
+        "f1": 0.5122
+      },
+      "CONTESTED": {
+        "n": 24,
+        "positifs": 8,
+        "vp": 7,
+        "fp": 15,
+        "fn": 1,
+        "precision": 0.3182,
+        "rappel": 0.875,
+        "f1": 0.4667
+      },
+      "mise_au_point": {
+        "n": 85,
+        "positifs": 29,
+        "vp": 28,
+        "fp": 55,
+        "fn": 1,
+        "precision": 0.3373,
+        "rappel": 0.9655,
+        "f1": 0.5
+      }
+    },
+    "v1_toute_expression_meme_base": {
+      "NOT_FOUND": {
+        "n": 61,
+        "positifs": 21,
+        "vp": 19,
+        "fp": 36,
+        "fn": 2,
+        "precision": 0.3455,
+        "rappel": 0.9048,
+        "f1": 0.5
+      },
+      "CONTESTED": {
+        "n": 24,
+        "positifs": 8,
+        "vp": 7,
+        "fp": 15,
+        "fn": 1,
+        "precision": 0.3182,
+        "rappel": 0.875,
+        "f1": 0.4667
+      },
+      "mise_au_point": {
+        "n": 85,
+        "positifs": 29,
+        "vp": 26,
+        "fp": 51,
+        "fn": 3,
+        "precision": 0.3377,
+        "rappel": 0.8966,
+        "f1": 0.4906
+      }
+    },
+    "v1_premiere_expression": {
+      "NOT_FOUND": {
+        "n": 61,
+        "positifs": 21,
+        "vp": 21,
+        "fp": 25,
+        "fn": 0,
+        "precision": 0.4565,
+        "rappel": 1.0,
+        "f1": 0.6269
+      },
+      "CONTESTED": {
+        "n": 24,
+        "positifs": 8,
+        "vp": 7,
+        "fp": 13,
+        "fn": 1,
+        "precision": 0.35,
+        "rappel": 0.875,
+        "f1": 0.5
+      },
+      "mise_au_point": {
+        "n": 85,
+        "positifs": 29,
+        "vp": 28,
+        "fp": 38,
+        "fn": 1,
+        "precision": 0.4242,
+        "rappel": 0.9655,
+        "f1": 0.5895
+      }
+    },
+    "v1_premiere_expression_meme_base": {
+      "NOT_FOUND": {
+        "n": 61,
+        "positifs": 21,
+        "vp": 19,
+        "fp": 21,
+        "fn": 2,
+        "precision": 0.475,
+        "rappel": 0.9048,
+        "f1": 0.623
+      },
+      "CONTESTED": {
+        "n": 24,
+        "positifs": 8,
+        "vp": 7,
+        "fp": 13,
+        "fn": 1,
+        "precision": 0.35,
+        "rappel": 0.875,
+        "f1": 0.5
+      },
+      "mise_au_point": {
+        "n": 85,
+        "positifs": 29,
+        "vp": 26,
+        "fp": 34,
+        "fn": 3,
+        "precision": 0.4333,
+        "rappel": 0.8966,
+        "f1": 0.5843
+      }
+    },
+    "v1_enveloppe": {
+      "NOT_FOUND": {
+        "n": 61,
+        "positifs": 21,
+        "vp": 0,
+        "fp": 0,
+        "fn": 21,
+        "precision": null,
+        "rappel": 0.0,
+        "f1": 0.0
+      },
+      "CONTESTED": {
+        "n": 24,
+        "positifs": 8,
+        "vp": 2,
+        "fp": 0,
+        "fn": 6,
+        "precision": 1.0,
+        "rappel": 0.25,
+        "f1": 0.4
+      },
+      "mise_au_point": {
+        "n": 85,
+        "positifs": 29,
+        "vp": 2,
+        "fp": 0,
+        "fn": 27,
+        "precision": 1.0,
+        "rappel": 0.069,
+        "f1": 0.129
+      }
+    },
+    "v1_enveloppe_meme_base": {
+      "NOT_FOUND": {
+        "n": 61,
+        "positifs": 21,
+        "vp": 0,
+        "fp": 1,
+        "fn": 21,
+        "precision": 0.0,
+        "rappel": 0.0,
+        "f1": 0.0
+      },
+      "CONTESTED": {
+        "n": 24,
+        "positifs": 8,
+        "vp": 2,
+        "fp": 0,
+        "fn": 6,
+        "precision": 1.0,
+        "rappel": 0.25,
+        "f1": 0.4
+      },
+      "mise_au_point": {
+        "n": 85,
+        "positifs": 29,
+        "vp": 2,
+        "fp": 1,
+        "fn": 27,
+        "precision": 0.6667,
+        "rappel": 0.069,
+        "f1": 0.125
+      }
+    }
+  },
+  "meilleure_variante": "premiere_expression"
+}
