@@ -262,4 +262,4 @@ e8835a289ed81744d0245556b19a938e156109da8c619828011ec973ffa2ccb1  data/split.jso
 120b44ee1452616b9eba54c311257517338f08b379af2b6045db84dcff7c6c49  data/annotation/prompt.md
 ```
 
-Ancrage hors de git (OpenTimestamps) : en attente de l'accord de Guillaume.
+Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `timestamps/prereg-v1.manifest.txt` (commit, arbre et sha256 relus dans le commit 872c98f) soumis le 03/11/2026 à 03:06 aux quatre calendriers publics par `ots stamp` (opentimestamps-client 0.8.0). Preuve : `timestamps/prereg-v1.manifest.txt.ots`, en attente de confirmation Bitcoin (quelques heures) ; à compléter par `ots upgrade`, puis vérifier par `ots verify`.
