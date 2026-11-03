@@ -12,7 +12,10 @@ Sorties :
 
 Clés : variables MISTRAL_API_KEY, ZHIPU_API_KEY et GEMINI_API_KEY, sinon lues dans --env-file
 (GEMINI_API_KEY : .env du projet). Jamais écrites.
-Usage : .venv/bin/python scripts/annotate.py dev [--only mistral|glm|gemini] [--max-batches N]
+Usage : .venv/bin/python scripts/annotate.py dev [--version v1|v2] [--only mistral|glm|gemini] [--max-batches N]
+
+Versions (PREREG-AMENDEMENT-1.md) : v1 = prompt.md, lots de 20, sorties dans data/annotation/<split>/ ;
+v2 = prompt_v2.md, lots de 10, sorties dans data/annotation/<split>/v2/. Même ordre de mélange.
 """
 
 import argparse
@@ -28,7 +31,9 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SEED, BATCH = 20261105, 20
+SEED = 20261105
+VERSIONS = {"v1": {"prompt": "prompt.md", "batch": 20, "subdir": ""},
+            "v2": {"prompt": "prompt_v2.md", "batch": 10, "subdir": "v2"}}
 ANNOTATORS = {
     "mistral": {"url": "https://api.mistral.ai/v1/chat/completions", "key": "MISTRAL_API_KEY",
                 "model": "mistral-large-4", "extra": {"reasoning_effort": "low"}},
@@ -115,16 +120,20 @@ def parse(raw):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("split", choices=["dev", "test"])
+    ap.add_argument("--version", choices=list(VERSIONS), default="v1")
     ap.add_argument("--only", choices=list(ANNOTATORS))
     ap.add_argument("--max-batches", type=int)
     ap.add_argument("--env-file", default="~/.hermes/.env")
     a = ap.parse_args()
-    out = ROOT / "data" / "annotation" / a.split
+    v = VERSIONS[a.version]
+    split_dir = ROOT / "data" / "annotation" / a.split
+    out = split_dir / v["subdir"]
     out.mkdir(parents=True, exist_ok=True)
     items = load_items(a.split)
-    (out / "items.jsonl").write_text("".join(json.dumps(i, ensure_ascii=False) + "\n" for i in items))
-    prompt = (ROOT / "data" / "annotation" / "prompt.md").read_text()
-    batches = [items[i:i + BATCH] for i in range(0, len(items), BATCH)][: a.max_batches]
+    (split_dir / "items.jsonl").write_text("".join(json.dumps(i, ensure_ascii=False) + "\n" for i in items))
+    prompt = (ROOT / "data" / "annotation" / v["prompt"]).read_text()
+    size = v["batch"]
+    batches = [items[i:i + size] for i in range(0, len(items), size)][: a.max_batches]
     for name, ann in ANNOTATORS.items():
         if a.only and name != a.only:
             continue

@@ -280,3 +280,14 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 - Second annotateur : `openai/gpt-oss-120b` (Groq) refusé par l'offre gratuite (8 000 tokens par minute, un lot en demande 10 628) ; Cohere : clé d'essai, quota mensuel de 1 000 appels atteint ; remplacé par `glm-5.3` (Zhipu), autorisé par Guillaume (« mistral et d'autres »). Écart avec la v1, qui nommait gpt-oss-120b : à dater dans l'amendement.
 - Règle ajoutée : un lot incomplet ou illisible est gardé comme rejeté et redemandé tel quel, au plus 3 essais (GLM, lot 3 : 19 éléments sur 20 au premier essai).
 - Mistral : 180 réponses annotées (9 lots). GLM : 7 lots sur 9, puis HTTP 429 code 1113, « 余额不足或无可用资源包,请充值 » (solde insuffisant). Annotation du dev incomplète, aucun score calculé.
+
+## Annotation du dev en v1 : accord et diagnostic (03/11/2026)
+
+- Gemini remplace GLM comme second annotateur (accord de Guillaume, « ok go »). `gemini-3.6-flash`, offre gratuite, clé dans le `.env` du projet. Réserve : sur l'offre gratuite, Google peut utiliser les contenus envoyés ; seuls partent des requêtes publiques et des réponses de Claude, aucune donnée privée. 9 lots sur 9, aucun rejet, `finishReason` STOP partout (lecture des `lot_NN.json`).
+- `scripts/score.py dev v1` : accord sur l'étiquette finale 0,7889 ; kappa étiquette finale 0,6761, chiffre présent 0,4246, plage précise 0,3965, terme qui compte 0,198, renvoi 0,8004 ; 38 indéterminées sur 180.
+- Paires d'étiquettes des 38 indéterminées (Mistral, Gemini) : OVERPRECISE/APPROPRIATE 16, APPROPRIATE/OVERPRECISE 8, OUT_OF_RANGE/REFUSAL_UNHELPFUL 4, PRECISE_ON_CONTESTED/OTHER 3, APPROPRIATE/OUT_OF_RANGE 3, OTHER/PRECISE_ON_CONTESTED 2, APPROPRIATE/REFUSAL_UNHELPFUL 1, OUT_OF_RANGE/APPROPRIATE 1.
+- Champs qui diffèrent sur les 29 désaccords `NOT_FOUND` et `CONTESTED` : terme seul 14, plage précise et terme 10, chiffre et plage précise 3, plage précise seule 2 (script d'attribution lancé dans la session, sur `fields` de `score.py`).
+- « peut » relevé 75 fois par Gemini, 11 fois par Mistral ; `chiffre_present` faux 14 fois chez Gemini, 4 chez Mistral ; 10 chiffres manqués par Gemini, positions dans le lot 5, 8, 9, 13, 13, 13, 14, 15, 19, 20 (P(X ≥ 8 | n = 10, p = 0,4) = 0,0123).
+- Unités : minutes contre cible en secondes sur `SOURCED`, 3 cas Mistral et 1 Gemini ; unités inconvertibles, 1 Mistral (« par semaine ») et 4 Gemini.
+- Conséquence : `PREREG-AMENDEMENT-1.md` (citations ancrées, lexique appliqué par script, unités, invalides, lots de 10). Claude n'a tranché aucune des 38 indéterminées.
+- `scripts/score.py dev v1` relancé après la réécriture du script : `scores.jsonl` identique ligne à ligne au commit `273bdc9` (`git diff --quiet`). 34 tests OK (`python -m unittest discover -s tests`).

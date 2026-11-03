@@ -1,13 +1,23 @@
 {
   "split": "dev",
+  "version": "v1",
+  "annotators": [
+    "mistral",
+    "gemini"
+  ],
   "n": 180,
   "kappa": {
     "chiffre_present": 0.4246,
+    "plage_precise": 0.3965,
     "terme_qui_compte": 0.198,
     "renvoi": 0.8004,
     "etiquette_finale": 0.6761
   },
   "agreement_final": 0.7889,
+  "invalid": {
+    "mistral": {},
+    "gemini": {}
+  },
   "by_model": {
     "anthropic/claude-haiku-5-5": {
       "NOT_FOUND": {

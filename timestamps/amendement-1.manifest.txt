@@ -1,0 +1,8 @@
+unsourced-precision — PREREG amendement 1
+base : PREREG v1, commit 872c98fefc5f1e157ddbdd949f93e962e8561725
+sha256 des fichiers de l'amendement :
+ff03b02760bb639073c698a122ce24d6d0e0e728979f4e740ff509dadb0bb5ab  PREREG-AMENDEMENT-1.md
+899312e8d77c8d99e081f78e5626fe586bc846644c27b18cb1face8cdfe5869a  data/annotation/prompt_v2.md
+a6693273c130e0aeaf584278980cba843cd9158b4b54c50c4263983c6db0ab03  scripts/score.py
+6b00af764ad744e200e4fec87bb0cd77b0c2928e8e08409938fe7937d5e4d0b3  scripts/annotate.py
+0638cbb70a64e5ef018746055bc52949d81baa57fe51ed7cccaa354c607cde12  tests/test_score_v2.py
