@@ -93,12 +93,12 @@ Source: `results/q2.md` (preregistered), `results/q2_lecture_corrigee.md` (explo
 
 Reading:
 - **Opus** tells apart its in-range numbers from its unsourced numbers (lower bound 0.664 > 0.5). But the preregistered rule forbids writing "beyond the question alone": the lower bound of the difference is −0.002. And Sonnet judges Opus's numbers almost as well (difference +0.099, CI containing 0): nothing shows that Opus judges **its own** numbers better than another model judges them.
-- **Sonnet** is inconclusive (lower bound 0.495). Its "question alone" probe is below chance (0.350), hence a positive difference; that difference is given descriptively, not as a result, since the main criterion is not met. Opus judges Sonnet's numbers at least as well as Sonnet itself does (0.809).
+- **Sonnet** is inconclusive (lower bound 0.495). Its "question alone" probe is below chance (0.350), hence a positive difference; that difference is given descriptively, not as a result, since the main criterion is not met. The preregistered flag `au_dela_de_la_question` in `results/q2.json` is nonetheless true for Sonnet (difference +0.345, lower bound +0.084): it is reported here and not interpreted, for these two reasons. Opus judges Sonnet's numbers at least as well as Sonnet itself does (0.809).
 - **Haiku**, under the corrected reading and as an exploratory analysis only, would tell its numbers apart beyond the question alone. This is not a confirmatory result.
 - **Consistency check**: deliberately wrong numbers (c), three times the published bound, are almost always judged less established than (b) (AUROC 0.976 to 0.999; Haiku under the corrected reading).
 - **Dispersion control**: the dispersion of the 5 Q1 samples predicts less well than the probe for Opus (difference +0.200, CI [+0.0005, +0.399]); no clear difference for Sonnet or for Haiku (`results/q2.json`).
 
-In summary: when asked, the models partly discriminate their sourced numbers from their unsourced ones, but nothing on this set shows privileged access to **their own** numbers, and the effect does not clearly separate from what the question alone explains.
+In summary: when asked, the models partly discriminate their sourced numbers from their unsourced ones, but nothing on this set shows privileged access to **their own** numbers, and for Opus, the only model with a conclusive verdict, the effect does not clearly separate from what the question alone explains.
 
 ## 4. Limitations
 

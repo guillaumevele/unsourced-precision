@@ -16,15 +16,17 @@ A preregistered, timestamped evaluation of three Claude models on 60 real patien
 
 **Q1** (48 test questions, 720 answers; [`results/q1.md`](results/q1.md)):
 
+> Caveat: `claude-opus-5-5`, one of the three evaluated models, also screened, searched and labelled the 60 questions. Two other model families relabelled them blind (kappa 0.90 and 0.92 with Claude), and no clinician checked the labels (limitations 1 and 2 below).
+
 - On questions where the search protocol found no published number, **all three models give a precise, unhedged number in roughly 4 answers out of 10**: Haiku 0.40, Opus 0.41, Sonnet 0.36. None of the paired differences excludes zero, so the largest model is not the least overprecise on this set.
 - When a number is published, **Opus and Sonnet land inside the published range in 0.65 of answers, Haiku in 0.47**. The paired difference is −0.17, with a 95% CI that excludes zero. The models almost never decline (2 refusals out of 257 determined answers), so the missing utility is answers out of range, not abstention.
-- The ordering holds under all five preregistered sensitivity analyses. Overprecision ranges from 0.32 to 0.56 depending on how indeterminate labels are counted.
+- Across the six preregistered sensitivity analyses, Haiku keeps the lowest utility every time. The overprecision ranking is not stable: Haiku and Opus swap under the initial labelling (0.41 against 0.38), consistent with no clear difference between models. Overprecision ranges from 0.32 to 0.56 depending on how indeterminate labels are counted.
 - The two annotators agree on the final label with kappa 0.82.
 
 **Q2** (asked in a fresh context, the model judges whether one of its own numbers is established; [`results/q2.md`](results/q2.md)):
 
-- **Opus** separates its in-range numbers from its unsourced ones: AUROC 0.82, 95% CI [0.66, 0.93]. The effect is **not** shown to go beyond what the question alone explains (lower bound −0.002). Sonnet judges Opus's numbers almost as well as Opus does. So **nothing here shows privileged access to its own numbers**. **Sonnet** is inconclusive.
-- **A measurement defect was found after the analysis and is reported, not hidden.** The preregistered parser read the first integer after the verdict. Haiku writes its confidence at the end of the answer, so 420 of its 590 answers were misread. Haiku's preregistered verdict is therefore an invalid measurement. A corrected parser, committed before it was run, changes no Opus or Sonnet answer; for Haiku it is exploratory only ([`results/q2_lecture_corrigee.md`](results/q2_lecture_corrigee.md)).
+- **Nothing here shows privileged access to a model's own numbers.** Opus separates its in-range numbers from its unsourced ones (AUROC 0.82, 95% CI [0.66, 0.93]), but not beyond what the question alone explains (lower bound of the difference −0.002), and Sonnet judges Opus's numbers almost as well as Opus does. Sonnet is inconclusive (lower bound 0.495); its preregistered "beyond the question alone" flag is technically true (difference +0.35, lower bound +0.08), but only because its question-only score is below chance (0.35), and it is not read as a result since the main criterion is not met.
+- **A measurement defect was found after the analysis and is reported, not hidden.** The preregistered parser read the first integer after the verdict. Haiku writes its confidence at the end of the answer, so 420 of its 590 answers were misread. Haiku's preregistered verdict is therefore an invalid measurement. A corrected parser, written after the defect was found and committed before it was run, is exploratory, not preregistered: it changes no Opus or Sonnet answer, and its Haiku result is exploratory only ([`results/q2_lecture_corrigee.md`](results/q2_lecture_corrigee.md)).
 
 Full write-up, with all CIs and limitations: [`REPORT.en.md`](REPORT.en.md) (English, non-binding translation); French original, which prevails: [`REPORT.md`](REPORT.md).
 
@@ -45,7 +47,7 @@ A patient asks "how long does the swelling last after X". If the literature give
 | Split | 12 dev / 48 test, by procedure. Everything was tuned on dev only. |
 | Models evaluated | `claude-opus-5-5`, `claude-sonnet-5-5`, `claude-haiku-5-5`. No system prompt, 5 samples, effort `medium`, 8,000 max tokens, Batch API, via Inspect AI. |
 | Annotation | Two annotators from other families (`mistral-large-4`, `gemini-3.6-flash`) extract fields. The final label is computed by script, and an annotator disagreement gives an indeterminate label. Claude neither annotates nor arbitrates its own outputs. |
-| Analysis | Rates per question, then per model. Cluster bootstrap over questions (10,000 resamples, seed 20261106). Paired model comparisons are descriptive. Five preregistered sensitivity analyses. Three overprecision detectors, from naive to rule-based, evaluated against the annotators. |
+| Analysis | Rates per question, then per model. Cluster bootstrap over questions (10,000 resamples, seed 20261106). Paired model comparisons are descriptive. Six preregistered sensitivity analyses. Three overprecision detectors, from naive to rule-based, evaluated against the annotators. |
 
 ## Related work
 

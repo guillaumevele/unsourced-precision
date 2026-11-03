@@ -91,12 +91,12 @@ Source : `results/q2.md` (pré-inscrit), `results/q2_lecture_corrigee.md` (explo
 
 Lecture :
 - **Opus** distingue ses chiffres dans la plage de ses chiffres non sourcés (borne basse 0,664 > 0,5). Mais la règle pré-inscrite interdit d'écrire « au-delà de la question seule » : la borne basse de la différence est −0,002. Et Sonnet juge les chiffres d'Opus presque aussi bien (différence +0,099, IC qui contient 0) : rien ne montre qu'Opus juge mieux **ses propres** chiffres qu'un autre modèle ne les juge.
-- **Sonnet** est non concluant (borne basse 0,495). Sa sonde « question seule » est sous le hasard (0,350), d'où une différence positive ; elle est donnée à titre descriptif, pas comme un résultat, puisque le critère principal n'est pas atteint. Opus juge les chiffres de Sonnet au moins aussi bien que Sonnet lui-même (0,809).
+- **Sonnet** est non concluant (borne basse 0,495). Sa sonde « question seule » est sous le hasard (0,350), d'où une différence positive ; elle est donnée à titre descriptif, pas comme un résultat, puisque le critère principal n'est pas atteint. Le drapeau pré-inscrit `au_dela_de_la_question` de `results/q2.json` vaut pourtant vrai pour Sonnet (différence +0,345, borne basse +0,084) : il est rapporté ici et n'est pas interprété, pour ces deux raisons. Opus juge les chiffres de Sonnet au moins aussi bien que Sonnet lui-même (0,809).
 - **Haiku**, en lecture corrigée et à titre exploratoire seulement, distinguerait ses chiffres au-delà de la question seule. Ce n'est pas un résultat confirmatoire.
 - **Contrôle de cohérence** : les chiffres délibérément faux (c), trois fois la borne publiée, sont presque toujours jugés moins établis que (b) (AUROC 0,976 à 0,999 ; Haiku en lecture corrigée).
 - **Témoin de dispersion** : la dispersion des 5 tirages de Q1 prédit moins bien que la sonde chez Opus (différence +0,200, IC [+0,0005 ; +0,399]) ; pas de différence nette chez Sonnet ni chez Haiku (`results/q2.json`).
 
-En résumé : les modèles discriminent en partie leurs chiffres sourcés de leurs chiffres non sourcés quand on le leur demande, mais rien sur ce jeu ne montre un accès privilégié à **leurs propres** chiffres, et l'effet ne se sépare pas nettement de ce que la question seule explique.
+En résumé : les modèles discriminent en partie leurs chiffres sourcés de leurs chiffres non sourcés quand on le leur demande, mais rien sur ce jeu ne montre un accès privilégié à **leurs propres** chiffres, et chez Opus, le seul modèle au verdict concluant, l'effet ne se sépare pas nettement de ce que la question seule explique.
 
 ## 4. Limites
 
