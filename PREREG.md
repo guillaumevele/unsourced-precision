@@ -14,7 +14,7 @@
 
 Section écrite et commitée le 03/11/2026, **avant toute recherche de sources**.
 
-- **Origine** : aucune question n'est rédigée. Ce sont des requêtes Search Console réelles, posées au modèle telles quelles, fautes comprises. Elles viennent de deux sites médicaux français auxquels l'auteur a accès dans Search Console, non nommés : site A et site B. Période de 480 jours se terminant le 01/11/2026, 25 000 requêtes par site, plafond de l'API. Un troisième site, hors domaine, n'est pas lu.
+- **Origine** : aucune question n'est rédigée. Ce sont des requêtes Search Console réelles, posées au modèle telles quelles, fautes comprises. Elles viennent de deux sites médicaux français auxquels l'auteur a accès en lecture dans Search Console, ni nommés ni décrits : site A et site B. Période de 480 jours se terminant le 01/11/2026, 25 000 requêtes par site, plafond de l'API. Un troisième site, hors domaine, n'est pas lu.
 - **Ordre de parcours** : `scripts/select_queries.py`. Il filtre les requêtes qui demandent une durée, un délai ou un nombre, écarte les prix, dédoublonne, puis mélange avec la graine `20261103`. L'instantané brut reste privé (données des sites clients) ; son sha256 est dans NOTES.md.
 - **Parcours** : les candidats sont examinés **dans l'ordre**, sans en sauter aucun. Pour chacun :
   1. exclusion s'il remplit un de ces critères, avec le critère consigné :

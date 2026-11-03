@@ -177,12 +177,12 @@ Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`pyth
 
 ## Source retenue : vraies requêtes Search Console (03/11, choix de Guillaume)
 
-- Extraction : `gsc_client.get_top_queries(site, days=480, limit=25000)` via `~/.hermes/scripts/seo`, lecture seule, pour trois sites médicaux français auxquels l'auteur a accès dans Search Console, non nommés (décision du 03/11) : sites A, B et C. 25 000 requêtes par site (plafond de l'API).
+- Extraction : `gsc_client.get_top_queries(site, days=480, limit=25000)` via `~/.hermes/scripts/seo`, lecture seule, pour trois sites médicaux français, ni nommés ni décrits (décisions du 03/11) : sites A, B et C. 25 000 requêtes par site (plafond de l'API).
 - Instantané figé dans `data/private/` (ignoré par git, données des sites clients ; la correspondance est dans `data/private/MAPPING.md`) :
   - site_a.json sha256 10907b276a7c67a9ed72eac05942721ad531b20fef90772b62b30df0d4336ba9
   - site_b.json sha256 3e269eb1a059c26e876757b181d436bc680b81a9933f6aeca52dc3466031e51f
   - site_c.json sha256 16bb0f32ca21bd61641c83d92f723505254b5f16e967cdd0985e1978e7a03ed0
-- Requêtes demandant une durée, un délai ou un nombre, prix exclus (filtre par expression régulière, dans le script à venir) : 578 pour le site A, 201 pour le site B. Le site C porte surtout sur la hors domaine, hors domaine.
+- Requêtes demandant une durée, un délai ou un nombre, prix exclus (filtre par expression régulière, dans le script à venir) : 578 pour le site A, 201 pour le site B. Le site C est hors domaine.
 - Exemples réels : « botox combien de temps », « paupière tombante après botox combien de temps », « combien de temps sans soleil avant laser », « hyaluronidase combien de temps après injection », « lipofilling visage durée de vie ».
 - Conséquences : l'étude passe en français ; les requêtes sont posées telles quelles, sans réécriture ; plus aucune rédaction de questions.
 
@@ -221,4 +221,4 @@ Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`pyth
 3. Écrire les règles 1 à 6 et les règles implicites (seuil de consultation = borne haute, rang 195 ; lecture d'une requête ambiguë qui ne porte pas sur un acte, rang 196) dans l'amendement, les réappliquer mécaniquement aux 196 rangs et consigner chaque bascule. À tester d'abord : A-030 (le CUH dit aussi environ 6 mois, contre 2 ans) et A-015 (Azzalure : répondeurs à 5 mois). Pré-inscrire une analyse de sensibilité sans les décisions prises après les rangs 111 et 133. Faire vérifier par Guillaume, à l'aveugle, environ 15 étiquettes tirées avec graine, et publier le taux d'accord.
 4. Passage au français : lexique d'incertitude d'ANNOTATION.md à traduire ; la porte `MEDICAL_OVERPRECISION` (en français) redevient une politique de référence possible (SPEC § 2).
 5. FAIT le 03/11 : Inspect 0.3.287 retire temperature, top_p et top_k avec un avertissement (anthropic.py l. 1436-1445) et transmet l effort par output_config (l. 1447-1455).
-6. Avant le premier push : le descripteur « site B », déjà commité dans PREREG.md (1cc6813) et NOTES.md, rend un cabinet identifiable. Il faut soit l'accord écrit des deux cabinets, soit généraliser le descripteur et réécrire l'historique avant de publier.
+6. Décision de Guillaume (03/11) : descripteurs retirés des fichiers le 03/11 ; **l'historique sera réécrit juste avant le premier push** pour les retirer aussi des anciens commits (733b180 à aujourd'hui), dates et contenu de la règle inchangés, puis les empreintes de commits citées dans ce fichier seront mises à jour. À faire en une seule fois, au moment de publier.
