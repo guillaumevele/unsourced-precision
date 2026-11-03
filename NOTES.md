@@ -352,3 +352,10 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 
 - Après le gel (`b9637d4`) : `scripts/detectors.py test` (variante `premiere_expression` seule), puis `scripts/analyze.py test`, dont le garde-fou a accepté (annotations complètes, `scores.jsonl` commité et inchangé). Sorties : `results/q1.json`, `results/q1.md`, `data/annotation/test/v2/detectors.json`. Aucune variante ni règle d'analyse changée après lecture.
 - Accord sur le test (`score.py test v2`) : kappa étiquette finale 0,8195, accord final 0,8694 ; invalides Mistral 3 (unité 2, citation 1), Gemini 17 (unité 13, sans borne 3, citation 1).
+
+## Runs de Q2 (03/11/2026)
+
+- Lancés après l'accord de Guillaume (« Oui, lance Q2 »), après l'amendement 3 (`2eebac0`) et son horodatage (`329f8ec`). `scripts/run_q2.sh <modèle>`, trois évaluateurs en parallèle, Batch : Opus 3 min 36, Haiku 8 min 19, Sonnet 1 h 29 (lot en file chez Anthropic).
+- Contrôle (événements des journaux) : 2 130 requêtes sur 2 130 avec `output_config.effort` `medium`, ni `system` ni `temperature`, `max_tokens` 8000, aucun outil ; modèles renvoyés identiques aux modèles demandés ; `stop_reason` `stop` partout ; aucun texte vide.
+- Tokens : Opus 66 155 en entrée, 478 438 en sortie ; Sonnet 66 155 / 394 950 ; Haiku 50 225 / 337 973. Coût au tarif Batch : 4,92 $ + 2,04 $ + 0,09 $ = 7,05 $.
+- Journaux commités avant l'analyse.
