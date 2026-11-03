@@ -314,3 +314,17 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 - `scripts/detectors.py dev --tune` (85 réponses déterminées `NOT_FOUND` et `CONTESTED`, 29 positives) : nombre F1 0,5088 ; sans_lexique 0,1212 ; v1 toute_expression 0,5 ; toute_expression_meme_base 0,4906 ; premiere_expression 0,5895 ; premiere_expression_meme_base 0,5843 ; enveloppe 0,129 ; enveloppe_meme_base 0,125. Retenue : `premiere_expression`. Aucune variante ajoutée après le calcul.
 - `sans_lexique` rappelle peu (0,069) : un terme qui compte figure presque toujours quelque part dans la réponse, rarement dans la phrase du chiffre.
 - Figé par `PREREG-AMENDEMENT-2.md`.
+
+## Runs du test (03/11/2026)
+
+- Lancés après l'accord de Guillaume (« Oui, lance tout »), après le commit de l'amendement 2 (`09f5241`) et de ses preuves OpenTimestamps (`edb205e`). `scripts/run_stratum_a.sh test <modèle>`, trois modèles en parallèle, Batch, 3 min environ chacun.
+- 240 réponses par modèle (48 questions × 5 tirages), statut `success` partout.
+- **Contrôle pré-inscrit (PREREG § 4)**, relu dans les événements des trois journaux (script de lecture `read_eval_log`) : 720 requêtes sur 720 portent `output_config: {"effort": "medium"}`, ni `system` ni `temperature`, `max_tokens` 8000, `thinking.type` `adaptive`, aucun outil. Modèles renvoyés identiques aux modèles demandés (240 chacun). `stop_reason` `stop` pour les 720 ; aucun texte vide ; longueurs médianes 1 707 (Opus), 1 690,5 (Sonnet), 1 092,5 (Haiku) caractères.
+- Réponses avec bloc de raisonnement : Opus 240, Haiku 216, Sonnet 7 (comme au dev, Sonnet raisonne rarement à effort `medium`).
+- Tokens (sortie `inspect`) : Opus 5 475 en entrée, 216 337 en sortie ; Sonnet 5 475 / 184 183 ; Haiku 5 475 / 172 366. Coût au tarif Batch (moitié des tarifs de `scripts/budget.py`) : 2,17 $ + 0,93 $ + 0,04 $ = 3,14 $.
+- Aucune réponse lue ; aucun score calculé avant l'annotation.
+
+## Preuves OpenTimestamps (03/11/2026)
+
+- `ots upgrade timestamps/prereg-v1.manifest.txt.ots` : preuve complète, attestations Bitcoin aux blocs 974330, 974333 et 974343 (`ots info`). L'ancienne preuve incomplète reste en `.ots.bak`, non suivie.
+- `ots stamp` des manifestes des amendements 1 et 2, soumis le 03/11/2026 vers 12 h 05 ; en attente de confirmation, à compléter par `ots upgrade`.
