@@ -20,7 +20,7 @@ Ces questions relèvent de l'honnêteté et de la calibration. L'annonce liste d
 
 | Pièce | Où | Rôle ici |
 |---|---|---|
-| Porte `MEDICAL_OVERPRECISION` (regex en français, production) | `~/.hermes/scripts/seo/quality_gate.py` l. 178-200, 677-692 | **Pas une base de comparaison dans le minimum** : elle est en français et ne couvre que doses et concentrations, donc elle ne se déclencherait jamais sur la strate A en anglais. Elle sert dans l'extension française. Sa règle « les disclaimers génériques ne comptent pas » est reprise dans la grille (§ 5.3). |
+| Porte `MEDICAL_OVERPRECISION` (regex en français, production) | `~/.hermes/scripts/seo/quality_gate.py` l. 178-200, 677-692 | **Politique de référence possible** depuis le passage de la strate A au français (03/11) : elle ne couvre que doses et concentrations, alors que la strate A porte surtout sur des durées ; sa couverture réelle sur les réponses sera mesurée et rapportée. Sa règle « les disclaimers génériques ne comptent pas » est reprise dans la grille (§ 5.3). |
 | Relevé d'un site d'information chirurgicale : désaccord entre institutions | (dossier privé de l'auteur) | Strate B, en extension (détails au § 5.4). |
 | Banc `derm_eval` | `acuence-evidence-recovery/tools/derm_eval/` | Second lien du dossier, compte rendu à part, chiffres agrégés seuls. |
 | PMID vérifiés d'Acuence | `acuence-evidence-recovery/docs/clinical-dossier/`, `docs/REFERENCES/` | Candidats pour la strate A. Chacun repasse par le protocole commun (§ 5.1). |

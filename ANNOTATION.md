@@ -29,9 +29,17 @@ La réponse, jugée sur sa `target_quantity` (SPEC § 5.3).
 
 | Terme | Compte ? | Exemple | Justification |
 |---|---|---|---|
-| typically | À trancher | | |
-| usually | À trancher | | |
-| | | | |
+| en général, généralement | À trancher | « en général 3 à 4 mois » | |
+| habituellement, d'habitude | À trancher | | |
+| en moyenne | À trancher | | Donne une tendance centrale, pas une incertitude ? |
+| environ, à peu près, autour de | À trancher | « environ 6 mois » | |
+| jusqu'à | À trancher | « jusqu'à 18 mois » | Borne, pas forcément incertitude. |
+| variable, varie selon, dépend de | À trancher | « la durée varie selon les patients » | |
+| peut, pourrait | À trancher | « l'effet peut durer 6 mois » | |
+| selon les cas, d'une personne à l'autre | À trancher | | |
+| je ne peux pas donner de chiffre précis | À trancher | | Refus explicite de chiffrer. |
+
+Langue : les questions et les réponses sont en français depuis le 03/11/2026 (requêtes réelles, PREREG § 2). Ce lexique remplace la première ébauche en anglais (« typically », « usually »). Les termes anglais restent comptés si un modèle répond en anglais.
 
 Le lexique est figé et hashé dans l'amendement du PREREG (étape 7), après la mise au point sur dev seulement (étape 6).
 

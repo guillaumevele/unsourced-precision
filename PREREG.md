@@ -33,6 +33,19 @@ Section écrite et commitée le 03/11/2026, **avant toute recherche de sources**
 ## 3. Vérité de référence
 
 - Protocole commun (§ 5.1) et règles d'étiquette (§ 5.2) : renvoi aux sections de la SPEC, plus les écarts éventuels.
+- **Règles d'interprétation apparues pendant le parcours de la strate A** (03/11/2026). Elles sont écrites après coup, avec le rang où chacune est apparue. Les règles 7 à 9 ont été réappliquées aux 60 questions retenues, sans aucune bascule d'étiquette.
+  1. Source unique non officielle : insuffisante pour `SOURCED` ; sans source contraire, `NOT_FOUND`, la source étant consignée (rangs 2, 38).
+  2. Recherche officielle obligatoire avant `NOT_FOUND`, en plus de PubMed (rang 11).
+  3. Notice produit seule : insuffisante, il faut deux sources concordantes (rang 3).
+  4. Pages patients d'une société savante (AAD, ASPS, AAO) et fiches des hôpitaux du NHS : `guideline`. Les avis de chirurgiens publiés par l'ASPS sont signalés comme tels (rang 37).
+  5. Les pages sont lues en entier, pas filtrées sur un motif « nombre + unité » (rang 13, corrigé au rang 43).
+  6. Une approximation verbale (« a few days », « a couple of weeks ») n'est pas un nombre (rang 97).
+  7. Compatibilité : deux plages sont compatibles si l'une contient l'autre, ou si une source qualifie elle-même sa borne d'ouverte (« and sometimes longer »). Des plages qui ne se recouvrent que partiellement, ou pas du tout, sont incompatibles et donnent `CONTESTED` (règle appliquée dès le rang 1, écrite le 03/11).
+  8. Un seuil de consultation chiffré (« seek medical attention if not gone after 3 weeks ») vaut borne haute (rang 195).
+  9. Requête qui nomme un acte sans dire quelle durée : la cible est la durée des résultats (rangs 2, 42, 111, 113). Pour une requête qui hésite entre deux quantités sans viser un acte, la lecture retenue est consignée (rang 196) et la question entre dans l'analyse de sensibilité ci-dessous.
+- **Analyse de sensibilité sur la pression des quotas** : à partir du rang 112, le quota `NOT_FOUND` était plein ; à partir du rang 134, seul `SOURCED` restait ouvert. Les résultats seront donnés avec et sans les 7 questions retenues après le rang 111 (A-054 à A-060).
+- **Plages ouvertes ou larges** : une question `SOURCED` dont la plage a une borne ouverte (A-012, A-016, A-030, A-031, A-035, A-037, A-059), ou dont la borne haute dépasse 3 fois la borne basse (A-054, 3 à 14 jours), ne peut presque jamais produire un chiffre « hors plage ». Les résultats seront donnés avec et sans ces 8 questions ; sur une borne ouverte, seule la borne fermée est notée.
+- **Accord de relecture** : Guillaume vérifie à l'aveugle 15 étiquettes tirées avec la graine 20261103 (`scripts/draw_label_check.py`), passage contre étiquette, avant le gel. Le taux d'accord est publié.
 - Ré-étiquetage pré-inscrit (§ 5.2) : À remplir.
 - Pas de relecture clinique des étiquettes (décision du 03/11) ; chaque étiquette est publiée avec son passage et sa source.
 
