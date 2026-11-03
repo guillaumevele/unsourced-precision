@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\"id\": \"d5b219063216\", \"chiffre_present\": true, \"borne_basse\": 8, \"borne_haute\": 12, \"unite\": \"ans\", \"phrases_chiffre\": [\"Les résultats durent en moyenne **8 à 12 ans**, parfois plus.\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"4c016192cace\", \"chiffre_present\": true, \"borne_basse\": 10, \"borne_haute\": 15, \"unite\": \"ans\", \"phrases_chiffre\": [\"- **Paupières supérieures** : environ **10 à 15 ans** en moyenne\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"e28d4cb9d179\", \"chiffre_present\": true, \"borne_basse\": 15, \"borne_haute\": 45, \"unite\": \"minutes\", \"phrases_chiffre\": [\"Une séance dure généralement **entre 15 et 45 minutes**, selon la zone traitée et l'indication.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"f06748253e31\", \"chiffre_present\": true, \"borne_basse\": 2, \"borne_haute\": 5, \"unite\": \"jours\", \"phrases_chiffre\": [\"| **Tatouages décalcomanie** (transfert à l'eau, pour enfants) | 2 à 5 jours |\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"d6307a994377\", \"chiffre_present\": true, \"borne_basse\": 2, \"borne_haute\": 3, \"unite\": \"Semaines\", \"phrases_chiffre\": [\"- **Semaines 2 à 3 :** la plupart des gens peuvent reprendre une vie sociale, souvent avec un maquillage correcteur (vert, sur avis du médecin).\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"b19b87107498\", \"chiffre_present\": true, \"borne_basse\": 30, \"borne_haute\": 120, \"unite\": \"secondes\", \"phrases_chiffre\": [\"Pour un **gommage physique** (à grains), appliquez-le sur peau humide, massez doucement **30 secondes à 1 minute**, puis rincez.\", \"Au total, le contact ne doit pas dépasser **environ 2 minutes**.\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"21e72573b182\", \"chiffre_present\": true, \"borne_basse\": 5, \"borne_haute\": 10, \"unite\": \"ans\", \"phrases_chiffre\": [\"- **Paupières supérieures** : 5 à 10 ans, parfois plus\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"b68f69e07a70\", \"chiffre_present\": true, \"borne_basse\": 8, \"borne_haute\": 12, \"unite\": \"ans\", \"phrases_chiffre\": [\"- En général **8 à 12 ans**, parfois davantage.\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"14c6c884775e\", \"chiffre_present\": true, \"borne_basse\": 2, \"borne_haute\": 4, \"unite\": \"séances\", \"phrases_chiffre\": [\"En général, il faut **2 à 4 séances** de laser pour traiter une couperose, espacées de **4 à 6 semaines**.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"8a1802a9ce95\", \"chiffre_present\": true, \"borne_basse\": 2, \"borne_haute\": 12, \"unite\": \"mois\", \"phrases_chiffre\": [\"- Le massage se poursuit généralement **pendant 2 à 3 mois**, mais il peut être utile **jusqu'à 6 à 12 mois**, le temps que la cicatrice mûrisse (elle continue d'évoluer pendant environ un an).\"], \"renvoi\": \"consultation\", \"citations\": []}\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0T39Rmur0BNZ39plL1SZT5JwmdIj+WKT9DIB8uVyFJuc3p/kxImWw1U9ePiHwto1EY1utifTc0UgAhiKV9ZO+X/rCFhKmVMSmmBGCAT1/aN1ayNOivyem0fwTKkxifnGHqDQ=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5955,
+  "candidatesTokenCount": 1077,
+  "totalTokenCount": 7032,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5955
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "LZzpapTADN2Bxs0PndTokAo"
+}

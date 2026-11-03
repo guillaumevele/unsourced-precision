@@ -1,0 +1,34 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"c2c3a414e839\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"10\",\n    \"borne_haute\": \"40\",\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de mésothérapie dure généralement **entre 15 et 30 minutes**, selon la zone traitée et l'objectif.\",\n      \"- **Visage, cou, décolleté (anti-âge, éclat)** : environ 20 à 30 minutes\",\n      \"- **Cuir chevelu (chute de cheveux)** : environ 20 à 30 minutes\",\n      \"- **Cellulite, rétention d'eau, silhouette** : environ 20 à 40 minutes\",\n      \"- **Douleurs (articulations, dos, tendinites)** : souvent 10 à 20 minutes\"\n    ],\n    \"renvoi\": \"consultation\","
+     },
+     {
+      "text": "\n    \"citations\": []\n  },\n  {\n    \"id\": \"0c78a0bcd832\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"7\",\n    \"borne_haute\": null,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Paupières supérieures** : environ **7 à 10 ans**, parfois plus\",\n      \"- **Paupières inférieures** : souvent **10 ans ou plus**, voire définitif pour les poches graisseuses\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6be32a03e1f5\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"321fdbf300f1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"5\",\n    \"borne_haute\": null,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Paupières supérieures** : souvent 5 à 10 ans, voire plus.\",\n      \"- **Paupières inférieures** : souvent 10 ans ou plus, parfois définitif.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"67e8cba8820b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"30\",\n    \"borne_haute\": \"600\",\n    \"unite\": \"secondes\",\n    \"phrases_chiffre\": [\n      \"Massez doucement pendant **30 secondes à 1 minute** sur peau humide, puis rincez à l'eau tiède.\",\n      \"- **Produits à rincer** : en général **1 à 5 minutes**.\",\n      \"- **Masques exfoliants à enzymes** : parfois **5 à 10 minutes**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ffe4ce7323d2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| **Maquillage des yeux** (mascara, eye-liner, fard à paupières, crayon) | **2 à 4 semaines** |\",\n      \"👉 **Le délai le plus souvent cité est d'environ 2 semaines minimum pour les yeux**, mais certains ophtalmologistes recommandent jusqu'à un mois, surtout pour le mascara et l'eye-liner.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8b8e32aa6487\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"12\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Après une blépharoplastie, l'œdème dure en général **quelques semaines**, avec des durées variables selon la technique et la personne :\",\n      \"- **Paupières supérieures** : gonflement maximal vers le **2e-3e jour**, souvent réduit nettement en **7 à 10 jours**. Il reste un léger gonflement pendant **2 à 4 semaines**.\",\n      \"- **Paupières inférieures** : l'œdème peut être plus long, avec une disparition progressive en **2 à 4 semaines**, et une légère bouffissure parfois présente **jusqu'à 2 à 3 mois**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a5a280556419\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"14\",\n    \"borne_haute\": \"28\",\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Plaie encore ouverte ou croûte présente** : pas de piscine. Attendez la cicatrisation complète et la chute des croûtes, en général 2 à 3 semaines.\",\n      \"- **Après une chirurgie avec points de suture** : en général, on attend que les fils soient retirés et que la cicatrice soit bien fermée, souvent **3 à 4 semaines**. Suivez les consignes de votre chirurgien, qui peuvent être plus strictes.\",\n      \"- **Cicatrice fermée mais encore rose ou sensible** : évitez la piscine (chlore, eau stagnante) pendant quelques semaines de plus, le temps qu'elle soit sèche et stable.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a703e4d7c7f0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"10\",\n    \"borne_haute\": \"40\",\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de mésothérapie dure en général **15 à 30 minutes**, selon la zone traitée et l'objectif.\",\n      \"- **Mésothérapie esthétique** (visage, cou, décolleté, cuir chevelu) : environ 15 à 30 minutes.\",\n      \"- **Mésothérapie anti-cellulite ou amincissante** : 20 à 40 minutes selon l'étendue des zones.\",\n      \"- **Mésothérapie antalgique** (douleurs articulaires, musculaires, tendinites) : souvent 10 à 20 minutes.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b0bc6cc35fda\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"30\",\n    \"borne_haute\": \"600\",\n    \"unite\": \"secondes\",\n    \"phrases_chiffre\": [\n      \"En général, un gommage du visage ne doit pas rester longtemps sur la peau : **1 à 2 minutes** suffisent.\",\n      \"- Massez en petits mouvements circulaires et doux pendant **30 secondes à 1 minute**.\",\n      \"- Suivez les indications du produit, en général **3 à 10 minutes** de pose.\",\n      \"- Pour une peau sensible ou si vous débutez, commencez par **2 à 3 minutes**.\",\n      \"- Laissez poser **5 à 10 minutes**, puis massez légèrement en rinçant.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0Tt8JSQH7xmHH8aJzjuWlrYoQW8NJNBvbeXWaCa6NF86mNzFoDmbRTnQIjbtEatl5EUaCwgRFmHgEIL8Qqlyxl4pS2gX3AStnaXU9X5z59gdA6x0F7na1meBHd+2teJ8aMsw=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5295,
+  "candidatesTokenCount": 1924,
+  "totalTokenCount": 7219,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5295
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "G5zpaqqBHcLOnsEPtvOWgQQ"
+}

@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"7e2cfb2f71b7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 14,\n    \"borne_haute\": 28,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Plaie récente, points de suture ou agrafes :** pas de piscine, mer ni bain prolongé tant que la plaie n'est pas complètement fermée et que les points ou agrafes ne sont pas retirés. Cela prend souvent **2 à 3 semaines**.\",\n      \"- **Après une chirurgie :** le délai est souvent de **3 à 4 semaines**, parfois davantage pour une opération profonde (abdominale, césarienne, etc.). Votre chirurgien vous donnera la consigne exacte.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"de63a7a46b3b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 30,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Tatouage décalcomanie (transfert à l'eau)** : 2 à 5 jours. Il s'estompe à mesure que la peau se renouvelle.\",\n      \"- **Tatouage au henné** : 1 à 3 semaines, parfois jusqu'à un mois selon la peau et l'emplacement. Il fonce les premiers jours, puis s'éclaircit.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"44cb129bc4a1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 30,\n    \"borne_haute\": 600,\n    \"unite\": \"secondes\",\n    \"phrases_chiffre\": [\n      \"- Masser doucement **30 secondes à 1 minute** maximum, par petits cercles, sur peau humide.\",\n      \"- Laisser poser **5 à 10 minutes** sans frotter, puis rincer.\",\n      \"- **Masque ou peeling à rincer** : en général **5 à 10 minutes**, parfois moins pour les produits concentrés. Respecter scrupuleusement la notice.\"\n    ],\n    \"renvoi\": \"source\",\n    \"citations\": [\n      \"notice\"\n    ]\n  },\n  {\n    \"id\": \"e583bf9b379c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 20,\n    \"borne_haute\": 60,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de mésothérapie dure en général **entre 20 et 45 minutes**, selon la zone traitée et le protocole :\",\n      \"- **Corps** (cuisses, ventre, bras) : environ 30 à 45 minutes, voire 1 heure pour de grandes zones.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9dd00d64f1eb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 30,\n    \"borne_haute\": 600,\n    \"unite\": \"secondes\",\n    \"phrases_chiffre\": [\n      \"En général, **1 à 3 minutes** suffisent pour un gommage du visage. Il ne faut pas le laisser « poser » comme un masque.\",\n      \"- Massez en petits mouvements circulaires pendant **30 secondes à 1 minute**.\",\n      \"- Suivez le temps indiqué sur le produit, généralement **3 à 10 minutes**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6f8c0a8085b5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour la couperose, il faut en général **3 à 6 séances**, espacées de **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c66b776146aa\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 5,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"## En général : **1 à 3 séances**\",\n      \"| Quelques vaisseaux isolés (ailes du nez, joues) | 1 à 2 séances |\",\n      \"| Couperose modérée | 2 à 3 séances |\",\n      \"| Couperose étendue ou rougeurs diffuses (érythrose, rosacée) | 3 à 5 séances, parfois plus |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c86d91ae8d27\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 1.43,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| Travail de bureau | 7 à 10 jours |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d729474b487a\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"64a083ad1785\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **2 à 5 jours** en général\",\n      \"- **1 à 3 semaines**\",\n      \"- **1 à 2 semaines**\",\n      \"- **1 à 3 jours**\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0Te9TtuE2g4oYehooxJDL1mS38/yzZtjjIbHuUknn3xoviI1eTuG6631W3iAEcZrfhHy9/pYdhvnAOr1Y+w0opBlPz8IYskwFvp0BW2fTmYnNbhUQMR9asISXUoeiediYbMA=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5023,
+  "candidatesTokenCount": 1613,
+  "totalTokenCount": 6636,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5023
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "DJzpaoOzBrj6nsEPm57A0QQ"
+}

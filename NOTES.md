@@ -297,3 +297,12 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 - Mistral v2 : 18 lots sur 18, 180 éléments (`data/annotation/dev/v2/mistral.jsonl`), quelques HTTP 429 par minute absorbés par les relances.
 - Gemini v2 : 11 lots sur 18, puis HTTP 429 persistant. Détail de l'erreur (appel de contrôle) : quota `GenerateRequestsPerDayPerProjectPerModel-FreeTier`, valeur 20, `retryDelay` 12 562 s. L'offre gratuite donne **20 requêtes par jour** pour `gemini-3.6-flash`.
 - Conséquence : il manque 7 lots au dev v2 ; le test demandera 720 réponses, soit 72 lots de 10, soit au moins 4 jours au rythme gratuit. Passer le projet Google en offre payante lèverait le quota et la réserve sur l'usage des données ; décision à Guillaume.
+
+## Annotation du dev en v2 : accord (03/11/2026)
+
+- Gemini v2 terminé au quota suivant : 18 lots sur 18, 180 éléments (`wc -l data/annotation/dev/v2/gemini.jsonl`), un HTTP 503 absorbé au lot 17.
+- `scripts/score.py dev v2`, comparé à la v1 (kappa) : chiffre présent 0,4246 → 0,7606 ; plage précise 0,3965 → 0,506 ; terme qui compte 0,198 → 0,6824 ; renvoi 0,8004 → 0,8314 ; étiquette finale 0,6761 → 0,7846. Accord sur l'étiquette finale 0,7889 → 0,85 ; indéterminées 38 → 27.
+- Invalides v2 : citation introuvable, 2 chez Mistral, 1 chez Gemini ; aucune unité inconvertible, aucune borne manquante, aucune base différente.
+- Les 27 indéterminées : 14 `NOT_FOUND`, 7 `SOURCED`, 6 `CONTESTED`. Sur les 20 des questions `NOT_FOUND` et `CONTESTED` (aucune invalide), la plage précise diffère dans 19, le terme qui compte dans 3, la présence d'un chiffre dans 2 (script d'attribution lancé dans la session, sur `fields` de `score.py`). Le désaccord restant porte presque entièrement sur les bornes extraites, règle inchangée par l'amendement 1.
+- `SOURCED` (paires Mistral, Gemini) : APPROPRIATE/OUT_OF_RANGE 2, INVALID/OUT_OF_RANGE 2, OUT_OF_RANGE/INVALID 1, OUT_OF_RANGE/APPROPRIATE 1, REFUSAL_UNHELPFUL/OUT_OF_RANGE 1.
+- Critère : l'accord seul. Claude n'a tranché aucune des 27 indéterminées.

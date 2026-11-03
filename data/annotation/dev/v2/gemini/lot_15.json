@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"1db3c85c5f3f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 10,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"Les **résultats** durent en moyenne **7 à 10 ans**, parfois davantage.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b03af1c13408\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"Reprise possible d'une vie calme, souvent du bureau si le travail n'exige pas d'effort\",\n      \"Reprise complète des activités, sport intense inclus, en général vers 4 à 6 semaines\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c35877856822\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Tatouage décalcomanie (transfert papier)** : **2 à 5 jours**, parfois une semaine.\",\n      \"- **Tatouage à l'encre végétale ou \\\"longue durée\\\"** : **1 à 3 semaines**.\",\n      \"- **Henné naturel** : **1 à 3 semaines**, avec un dégradé progressif.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"12502cfa2eea\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| **Maquillage des yeux** (mascara, eye-liner, fard à paupières, crayon) | **2 semaines minimum**, parfois jusqu'à 4 semaines selon le chirurgien |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a428cbc1c054\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 10,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Travail** : 7 à 10 jours (parfois plus selon le poste).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cd7bdd506363\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 10,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- Reprise possible du travail (souvent dès 7 à 10 jours) et du maquillage après accord du chirurgien\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e711733afd63\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 5,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **1 à 3 séances**, parfois jusqu'à **4 ou 5** pour les cas plus étendus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c05ac5ac32d8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 365,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Jours 1 à 3 :** gonflement et ecchymoses (bleus) au maximum, parfois avec une gêne à ouvrir complètement les yeux.\",\n      \"- **Jours 7 à 10 :** nette amélioration.\",\n      \"- **2 à 3 semaines :** les bleus ont disparu, et l'œdème important aussi.\",\n      \"- **1 à 3 mois :** l'œdème résiduel diminue progressivement.\",\n      \"- **3 à 6 mois :** résultat quasi définitif, avec cicatrices qui s'affinent.\",\n      \"- **Jusqu'à 6-12 mois :** un très léger œdème peut persister chez certaines personnes, surtout après une blépharoplastie inférieure.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3539aa51a5d0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0,\n    \"borne_haute\": 600,\n    \"unite\": \"secondes\",\n    \"phrases_chiffre\": [\n      \"Pour un **gommage mécanique** (avec grains), ne le laissez pas poser.\",\n      \"Appliquez-le sur peau humide, massez doucement pendant **30 secondes à 1 minute**, puis rincez à l'eau tiède.\",\n      \"Les gommages enzymatiques ou « masques exfoliants » se laissent souvent poser **5 à 10 minutes**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"951f27ba5c96\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.25,\n    \"borne_haute\": 3,\n    \"unite\": \"fois par semaine\",\n    \"phrases_chiffre\": [\n      \"- **2 à 3 fois par semaine**, en espaçant les séances d'au moins 2 jours.\",\n      \"- **1 fois par semaine**.\",\n      \"- **1 fois toutes les 2 à 4 semaines**, ou simplement quand vous voyez quelques poils repousser.\"\n    ],\n    \"renvoi\": \"source\",\n    \"citations\": [\n      \"Ulike\"\n    ]\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TreTwPR96hEhj1P7qCzD8LFoPAZLkOuAQZNtMVCaJUAK6I6sf+sQxSbZC6Pn8L54qvv4nVs6gbOWoUJWDmtCjimxIC7DfR3vxJv0a8AiuyzmSqw4l3Pr90wwmJZN2ka5Rqw=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6573,
+  "candidatesTokenCount": 1588,
+  "totalTokenCount": 8161,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6573
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "JZzpau2zDMSqkdUPrvvf4AQ"
+}

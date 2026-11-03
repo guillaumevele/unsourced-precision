@@ -12,3 +12,6 @@ smoke_logs/
 
 .DS_Store
 data/private/
+
+# Sorties de relance de l annotation (diagnostic, pas des journaux de run)
+logs/*.last.txt

@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"23ff969bc070\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 10,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"- **1 à 2 minutes** de massage suffisent.\",\n      \"- En général **5 à 10 minutes** de pose, comme un masque.\",\n      \"- Cela varie de **quelques minutes à 10 minutes** pour un masque exfoliant, ou une nuit entière pour un sérum non rincé.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"08402e14d121\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Plaie superficielle** (coupure, égratignure) : attendre que la croûte soit tombée et que la peau soit refermée, souvent **environ 2 semaines**.\",\n      \"- **Incision chirurgicale** : en général **3 à 4 semaines** minimum, et seulement après l'ablation des fils ou des agrafes et une fermeture complète.\",\n      \"- **Chirurgie plus lourde** (ventre, cœur, articulations, etc.) : souvent **4 à 6 semaines**, voire plus, sur avis du chirurgien.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5a8047114d65\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- La plupart des patients reprennent le travail et une vie sociale entre **7 et 14 jours**.\",\n      \"- Prévoyez 7 à 10 jours de repos social et professionnel.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d89c5b0c8281\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.25,\n    \"borne_haute\": 1,\n    \"unite\": \"fois par semaine\",\n    \"phrases_chiffre\": [\n      \"- **1 fois par semaine** pendant environ 8 à 12 semaines.\",\n      \"- Ensuite, **1 fois toutes les 2 à 4 semaines**, ou seulement quand de nouvelles repousses apparaissent.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"481b6ec4fe34\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 10,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Arrêt de travail** : en général 7 à 10 jours pour un travail de bureau, davantage pour un travail physique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c0ae008927f5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Décalcomanie classique** (transfert à l'eau) | 2 à 7 jours |\",\n      \"| **Tatouage au henné naturel** (rouge-orangé/brun) | 1 à 3 semaines |\",\n      \"| **Tatouage au jagua** (bleu-noir, effet réaliste) | 1 à 2 semaines |\",\n      \"| **Tatouage à l'aérographe** (airbrush) | 3 à 7 jours |\",\n      \"| **Stylo/feutre pour la peau** | 1 à 3 jours |\",\n      \"| **Tatouages \\\"semi-permanents\\\"** (type Inkbox, Ephemeral*) | 1 à 2 semaines (*Ephemeral : jusqu'à 9-15 mois, technique différente) |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f5c6b8ccce00\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre **1 à 2 semaines** avant de se remaquiller les yeux après une opération de la cataracte.\",\n      \"- **Entre 1 et 2 semaines :** reprise possible du maquillage des yeux, souvent après la consultation de contrôle.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"22bca5a1215c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 24,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Au minimum 3 à 6 mois**\",\n      \"- Idéalement **jusqu'à la maturation de la cicatrice**, soit **6 mois à 1 an, parfois 2 ans**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5a866b8e61f2\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1e5c1b9446d0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| Petite coupure, égratignure | 1 à 2 semaines |\",\n      \"| Plaie avec points de suture | 2 à 3 semaines (au moins quelques jours après le retrait des fils) |\",\n      \"| Chirurgie classique (appendicite, kyste, etc.) | 3 à 4 semaines |\",\n      \"| Cœlioscopie | Environ 2 à 3 semaines |\",\n      \"| Césarienne | Environ 4 à 6 semaines |\",\n      \"| Chirurgie lourde, esthétique ou orthopédique | 4 à 6 semaines, parfois plus |\",\n      \"| Tatouage ou piercing | 2 à 4 semaines |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TIQBgGCzsvYA2cG0Ps05w4o5HtBDn/Rdt93RCFUCsrMesEx0Xwc/M3xyDIiGxkZYv3/Daxfe7HVoLpAVkIUQVO6Aq98h2DBzb8UFOEFqGVWsWKfc3MaSQVtuz835gzwzPbQ=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6742,
+  "candidatesTokenCount": 1757,
+  "totalTokenCount": 8499,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6742
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "FJzpaouACJaJxN8PyPqIiQY"
+}

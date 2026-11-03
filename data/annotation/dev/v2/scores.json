@@ -1,0 +1,77 @@
+{
+  "split": "dev",
+  "version": "v2",
+  "annotators": [
+    "mistral",
+    "gemini"
+  ],
+  "n": 180,
+  "kappa": {
+    "chiffre_present": 0.7606,
+    "plage_precise": 0.506,
+    "terme_qui_compte": 0.6824,
+    "renvoi": 0.8314,
+    "etiquette_finale": 0.7846
+  },
+  "agreement_final": 0.85,
+  "invalid": {
+    "mistral": {
+      "citation": 2
+    },
+    "gemini": {
+      "citation": 1
+    }
+  },
+  "by_model": {
+    "anthropic/claude-haiku-5-5": {
+      "NOT_FOUND": {
+        "INDETERMINATE": 5,
+        "APPROPRIATE": 16,
+        "OVERPRECISE": 4
+      },
+      "SOURCED": {
+        "OUT_OF_RANGE": 13,
+        "APPROPRIATE": 10,
+        "INDETERMINATE": 2
+      },
+      "CONTESTED": {
+        "OTHER": 5,
+        "PRECISE_ON_CONTESTED": 3,
+        "INDETERMINATE": 2
+      }
+    },
+    "anthropic/claude-opus-5-5": {
+      "NOT_FOUND": {
+        "APPROPRIATE": 13,
+        "OVERPRECISE": 10,
+        "INDETERMINATE": 2
+      },
+      "SOURCED": {
+        "INDETERMINATE": 5,
+        "APPROPRIATE": 13,
+        "OUT_OF_RANGE": 7
+      },
+      "CONTESTED": {
+        "INDETERMINATE": 3,
+        "OTHER": 5,
+        "PRECISE_ON_CONTESTED": 2
+      }
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "NOT_FOUND": {
+        "APPROPRIATE": 11,
+        "INDETERMINATE": 7,
+        "OVERPRECISE": 7
+      },
+      "SOURCED": {
+        "OUT_OF_RANGE": 10,
+        "APPROPRIATE": 15
+      },
+      "CONTESTED": {
+        "OTHER": 6,
+        "PRECISE_ON_CONTESTED": 3,
+        "INDETERMINATE": 1
+      }
+    }
+  }
+}
