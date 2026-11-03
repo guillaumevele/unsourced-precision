@@ -26,7 +26,7 @@ A preregistered, timestamped evaluation of three Claude models on 60 real patien
 - **Opus** separates its in-range numbers from its unsourced ones: AUROC 0.82, 95% CI [0.66, 0.93]. The effect is **not** shown to go beyond what the question alone explains (lower bound −0.002). Sonnet judges Opus's numbers almost as well as Opus does. So **nothing here shows privileged access to its own numbers**. **Sonnet** is inconclusive.
 - **A measurement defect was found after the analysis and is reported, not hidden.** The preregistered parser read the first integer after the verdict. Haiku writes its confidence at the end of the answer, so 420 of its 590 answers were misread. Haiku's preregistered verdict is therefore an invalid measurement. A corrected parser, committed before it was run, changes no Opus or Sonnet answer; for Haiku it is exploratory only ([`results/q2_lecture_corrigee.md`](results/q2_lecture_corrigee.md)).
 
-Full write-up, with all CIs and limitations: [`REPORT.md`](REPORT.md) (French).
+Full write-up, with all CIs and limitations: [`REPORT.en.md`](REPORT.en.md) (English, non-binding translation); French original, which prevails: [`REPORT.md`](REPORT.md).
 
 ## Why this is an honesty problem
 
