@@ -31,7 +31,7 @@ A preregistered, timestamped evaluation of three Claude models on 60 real patien
 **Pilot on an open model** (Qwen2.5-1.5B-Instruct, preregistered in [`PREREG-AMENDEMENT-4.md`](PREREG-AMENDEMENT-4.md), committed and timestamped before any extraction; [`results/pilot.md`](results/pilot.md)):
 
 - Question: does the model's internal state at the end of a question linearly encode whether the literature publishes a number for it? This is the internal counterpart of Q2's question-only control, a first step toward the research question, not an answer to it.
-- **Preregistered verdict: inconclusive.** A linear probe on the middle layer reaches AUROC 0.487, 95% CI [0.323, 0.655], permutation p 0.52, no better than a bag-of-words baseline (0.412) or token embeddings (0.397), across 49 questions and 38 procedure-grouped folds. An audit before any data caught a scoring bug that would have pushed a no-signal AUROC down to 0.05; it was fixed before the plan was frozen.
+- **Preregistered verdict: inconclusive.** A linear probe on the middle layer reaches AUROC 0.487, 95% CI [0.323, 0.655], permutation p 0.52, no better than a bag-of-words baseline (0.412) or token embeddings (0.397), across 49 questions and 38 procedure-grouped folds. Inconclusive is not empty: the upper bound (0.655) rules out a strong linear encoding at this layer on this set. An audit before any data caught a scoring bug that would have pushed a no-signal AUROC down to 0.05; it was fixed before the plan was frozen.
 
 Full write-up, with all CIs and limitations: [`REPORT.en.md`](REPORT.en.md) (English, non-binding translation); French original, which prevails: [`REPORT.md`](REPORT.md).
 

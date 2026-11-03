@@ -105,6 +105,7 @@ Plan : `PREREG-AMENDEMENT-4.md`, commité et horodaté avant toute extraction (c
 - Question : l'état interne de `Qwen2.5-1.5B-Instruct` à la fin d'une question permet-il de prédire linéairement si la littérature publie un chiffre (`SOURCED`) ou non (`NOT_FOUND`) ? C'est l'analogue interne du témoin « question seule » de Q2, pas la question du chiffre lui-même.
 - 49 questions, 38 plis par procédure, régression logistique L2 fixée d'avance, couche principale 14.
 - **Verdict pré-inscrit : non concluant.** Couche 14 : AUROC 0,487 [0,323 ; 0,655], p de permutation 0,523. Témoin texte : 0,412 ; témoin plongements lexicaux : 0,397 ; différences avec la couche 14 : +0,075 [−0,082 ; +0,228] et +0,090 [−0,068 ; +0,254].
+- Non concluant n'est pas vide : la borne haute (0,655) écarte, sur ce jeu et à cette couche, un encodage linéaire fort.
 - Les autres couches sont descriptives et non corrigées pour les comparaisons multiples ; des valeurs sous 0,5 ne sont pas lues comme un signal inverse.
 - Un audit fait avant toute donnée a trouvé un défaut de calcul du score (l'intercept propre à chaque pli faisait tomber à 0,05 l'AUROC d'un jeu sans signal) ; il a été corrigé avant le gel du plan.
 

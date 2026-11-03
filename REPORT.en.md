@@ -107,6 +107,7 @@ Plan: `PREREG-AMENDEMENT-4.md`, committed and timestamped before any extraction 
 - Question: does the internal state of `Qwen2.5-1.5B-Instruct` at the end of a question linearly predict whether the literature publishes a number (`SOURCED`) or not (`NOT_FOUND`)? This is the internal counterpart of Q2's question-only control, not the question about the number itself.
 - 49 questions, 38 procedure-grouped folds, L2 logistic regression fixed in advance, main layer 14.
 - **Preregistered verdict: inconclusive.** Layer 14: AUROC 0.487 [0.323, 0.655], permutation p 0.523. Text baseline: 0.412; token-embedding baseline: 0.397; differences with layer 14: +0.075 [−0.082, +0.228] and +0.090 [−0.068, +0.254].
+- Inconclusive is not empty: the upper bound (0.655) rules out, on this set and at this layer, a strong linear encoding.
 - Other layers are descriptive and not corrected for multiple comparisons; values below 0.5 are not read as an inverse signal.
 - An audit run before any data found a scoring bug (the per-fold intercept pushed a no-signal AUROC down to 0.05); it was fixed before the plan was frozen.
 
