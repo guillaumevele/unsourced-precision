@@ -192,3 +192,10 @@ Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`pyth
 - Sortie : `{'lues': 50000, 'quantite': 781, 'prix': 0, 'vides': 28} | après dédoublonnage : 593`
 - `data/private/candidates_ordered.jsonl` sha256 f3a0f71a5bd24018f7fca6cefaedbc8cd68ba039895210c843be139fe23c44f6
 - Aucune recherche de sources n'a commencé. Prochaine étape : parcours dans l'ordre, selon PREREG § 2.
+
+## Règles d'interprétation apparues pendant le parcours (à porter dans l'amendement du PREREG)
+
+1. **Source unique non officielle** (03/11, rangs 2 et 38) : une seule source chiffrée, non officielle, ne suffit pas pour `SOURCED` (SPEC § 5.2). En l'absence de source contraire, la question est classée `NOT_FOUND` et la source unique est consignée dans `search_log`.
+2. **Recherche officielle obligatoire avant `NOT_FOUND`** (03/11, rang 11) : une étiquette `NOT_FOUND` posée sur PubMed seul a été corrigée en `SOURCED` après la recherche dans les sources officielles. Depuis, chaque candidat passe par une recherche web limitée aux organismes (AAD, ASPS, HAS, ANSM, NICE, NHS, FDA) en plus de PubMed.
+3. **Notice produit** : le validateur ne la compte pas comme recommandation officielle ; il faut deux sources concordantes (rang 3, une seconde source ajoutée).
+4. **Pages de société savante destinées aux patients** (AAD, ASPS) : comptées comme `guideline`. Les articles de l'ASPS qui citent des chirurgiens sont signalés comme avis publiés, pas comme recommandations formelles (rang 37).
