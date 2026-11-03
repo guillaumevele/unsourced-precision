@@ -186,7 +186,7 @@ Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`pyth
 - Exemples réels : « botox combien de temps », « paupière tombante après botox combien de temps », « combien de temps sans soleil avant laser », « hyaluronidase combien de temps après injection », « lipofilling visage durée de vie ».
 - Conséquences : l'étude passe en français ; les requêtes sont posées telles quelles, sans réécriture ; plus aucune rédaction de questions.
 
-## Ordre de parcours produit (03/11, après le commit 1cc6813 de la règle)
+## Ordre de parcours produit (03/11, après le commit 8363e70 de la règle, 1cc6813 avant réécriture)
 
 - Commande : `.venv/bin/python scripts/select_queries.py`
 - Sortie : `{'lues': 50000, 'quantite': 781, 'prix': 0, 'vides': 28} | après dédoublonnage : 593`
