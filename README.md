@@ -89,6 +89,20 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.lock
 
 Re-running the models or the annotators needs API keys (`.env.example`) and is not required to check the results: the raw Inspect logs (`logs/`) and every raw annotator response (`data/annotation/`) are committed.
 
+## Reuse it
+
+**Run the same 48 questions on another model** with [Inspect AI](https://inspect.aisi.org.uk). Any provider Inspect supports will do:
+
+```bash
+.venv/bin/inspect eval evals/stratum_a.py -T split=test --model <provider/model> --epochs 5 --log-dir logs/mine
+```
+
+Annotating the answers then needs your own annotator keys (`scripts/annotate.py`, `.env.example`). The labelled questions, their sources and the quoted evidence are in `data/stratum_a.jsonl`, documented in [`data/README.md`](data/README.md).
+
+**Licences.** Code: MIT ([`LICENSE`](LICENSE)). Data, results and documents: CC BY 4.0 ([`LICENSE-DATA`](LICENSE-DATA)). Two exceptions: the verbatim source passages belong to their publishers, and model outputs are subject to their providers' terms.
+
+**Citation.** See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this repository" button.
+
 ## Repository map
 
 | Path | Content |

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, code or results, please cite it as below."
+title: "Unsourced precision: do Claude models state clinical numbers that no published source supports?"
+abstract: >-
+  Preregistered, timestamped evaluation of three Claude models on 60 real
+  French patient search queries (dermatology, aesthetic medicine, eye region),
+  each labelled against the literature as sourced, not found or contested.
+  Measures overprecision and utility (Q1) and whether a model can tell its own
+  sourced numbers from unsourced ones (Q2).
+authors:
+  - family-names: "Velé"
+    given-names: "Guillaume"
+date-released: 2026-11-03
+repository-code: "https://github.com/guillaumevele/unsourced-precision"
+license: MIT
+keywords:
+  - honesty
+  - calibration
+  - overprecision
+  - medical question answering
+  - preregistration
+  - evaluation
