@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="460" viewBox="0 0 640 460" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<rect width="640" height="460" fill="#ffffff"/>
+<line x1="70" y1="400" x2="70" y2="40" stroke="#e5e7eb"/>
+<line x1="70" y1="400" x2="610" y2="400" stroke="#e5e7eb"/>
+<text x="70" y="418" text-anchor="middle" fill="#374151">0</text>
+<text x="62" y="404" text-anchor="end" fill="#374151">0</text>
+<line x1="205.0" y1="400" x2="205.0" y2="40" stroke="#e5e7eb"/>
+<line x1="70" y1="310.0" x2="610" y2="310.0" stroke="#e5e7eb"/>
+<text x="205.0" y="418" text-anchor="middle" fill="#374151">0.25</text>
+<text x="62" y="314.0" text-anchor="end" fill="#374151">0.25</text>
+<line x1="340.0" y1="400" x2="340.0" y2="40" stroke="#e5e7eb"/>
+<line x1="70" y1="220.0" x2="610" y2="220.0" stroke="#e5e7eb"/>
+<text x="340.0" y="418" text-anchor="middle" fill="#374151">0.5</text>
+<text x="62" y="224.0" text-anchor="end" fill="#374151">0.5</text>
+<line x1="475.0" y1="400" x2="475.0" y2="40" stroke="#e5e7eb"/>
+<line x1="70" y1="130.0" x2="610" y2="130.0" stroke="#e5e7eb"/>
+<text x="475.0" y="418" text-anchor="middle" fill="#374151">0.75</text>
+<text x="62" y="134.0" text-anchor="end" fill="#374151">0.75</text>
+<line x1="610" y1="400" x2="610" y2="40" stroke="#e5e7eb"/>
+<line x1="70" y1="40" x2="610" y2="40" stroke="#e5e7eb"/>
+<text x="610" y="418" text-anchor="middle" fill="#374151">1</text>
+<text x="62" y="44" text-anchor="end" fill="#374151">1</text>
+<text x="340.0" y="442" text-anchor="middle" fill="#111827">Overprecision on NOT_FOUND questions (lower is better)</text>
+<text transform="translate(20 220.0) rotate(-90)" text-anchor="middle" fill="#111827">Utility on SOURCED questions (higher is better)</text>
+<text x="70" y="24" fill="#111827" font-size="14" font-weight="bold">Q1, test set: rate and 95% cluster-bootstrap CI per model</text>
+<circle cx="70" cy="400" r="5" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+<text x="78" y="392" fill="#6b7280">always refuse or refer</text>
+<line x1="610" y1="400" x2="610" y2="40" stroke="#6b7280" stroke-dasharray="4 4"/>
+<text x="604" y="54" text-anchor="end" fill="#6b7280">always a precise number</text>
+<line x1="195.55" y1="229.468" x2="378.718" y2="229.468" stroke="#2a78b4" stroke-width="2" opacity="0.55"/>
+<line x1="286.918" y1="301.468" x2="286.918" y2="153.688" stroke="#2a78b4" stroke-width="2" opacity="0.55"/>
+<circle cx="286.918" cy="229.468" r="6" fill="#2a78b4"/>
+<text x="295.918" y="245.468" text-anchor="start" fill="#2a78b4" font-weight="bold">Haiku 5.5</text>
+<line x1="191.5" y1="167.908" x2="400.75" y2="167.908" stroke="#c2410c" stroke-width="2" opacity="0.55"/>
+<line x1="292.75" y1="243.68800000000002" x2="292.75" y2="96.844" stroke="#c2410c" stroke-width="2" opacity="0.55"/>
+<circle cx="292.75" cy="167.908" r="6" fill="#c2410c"/>
+<text x="301.75" y="158.908" text-anchor="start" fill="#c2410c" font-weight="bold">Opus 5.5</text>
+<line x1="167.2" y1="167.908" x2="363.382" y2="167.908" stroke="#4d7c0f" stroke-width="2" opacity="0.55"/>
+<line x1="263.48199999999997" y1="240.844" x2="263.48199999999997" y2="99.68799999999999" stroke="#4d7c0f" stroke-width="2" opacity="0.55"/>
+<circle cx="263.48199999999997" cy="167.908" r="6" fill="#4d7c0f"/>
+<text x="254.48199999999997" y="158.908" text-anchor="end" fill="#4d7c0f" font-weight="bold">Sonnet 5.5</text>
+</svg>

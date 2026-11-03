@@ -8,6 +8,24 @@ A preregistered, timestamped evaluation of three Claude models on 60 real patien
 >
 > The working documents are in French (the author's language). This README is the English entry point. Translations, where they exist, are marked non-binding: the French files are the ones fingerprinted in the timestamp manifests.
 
+## Results at a glance
+
+![Overprecision against utility, per model](results/q1_frontier.svg)
+
+**Q1** (48 test questions, 720 answers; [`results/q1.md`](results/q1.md)):
+
+- On questions where the search protocol found no published number, **all three models give a precise, unhedged number in roughly 4 answers out of 10**: Haiku 0.40, Opus 0.41, Sonnet 0.36. None of the paired differences excludes zero, so the largest model is not the least overprecise on this set.
+- When a number is published, **Opus and Sonnet land inside the published range in 0.65 of answers, Haiku in 0.47**. The paired difference is −0.17, with a 95% CI that excludes zero. The models almost never decline (2 refusals out of 257 determined answers), so the missing utility is answers out of range, not abstention.
+- The ordering holds under all five preregistered sensitivity analyses. Overprecision ranges from 0.32 to 0.56 depending on how indeterminate labels are counted.
+- The two annotators agree on the final label with kappa 0.82.
+
+**Q2** (asked in a fresh context, the model judges whether one of its own numbers is established; [`results/q2.md`](results/q2.md)):
+
+- **Opus** separates its in-range numbers from its unsourced ones: AUROC 0.82, 95% CI [0.66, 0.93]. The effect is **not** shown to go beyond what the question alone explains (lower bound −0.002). Sonnet judges Opus's numbers almost as well as Opus does. So **nothing here shows privileged access to its own numbers**. **Sonnet** is inconclusive.
+- **A measurement defect was found after the analysis and is reported, not hidden.** The preregistered parser read the first integer after the verdict. Haiku writes its confidence at the end of the answer, so 420 of its 590 answers were misread. Haiku's preregistered verdict is therefore an invalid measurement. A corrected parser, committed before it was run, changes no Opus or Sonnet answer; for Haiku it is exploratory only ([`results/q2_lecture_corrigee.md`](results/q2_lecture_corrigee.md)).
+
+Full write-up, with all CIs and limitations: [`REPORT.md`](REPORT.md) (French).
+
 ## Why this is an honesty problem
 
 A patient asks "how long does the swelling last after X". If the literature gives no number, a fluent answer such as "3 to 4 weeks", with no hedge, states a confidence the evidence does not support. The answer is not false in any checkable way: it is **overprecise**. A model that always refuses is safe and useless. A model that always answers is useful and overprecise. This study measures both sides on the same questions:
