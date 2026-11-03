@@ -148,3 +148,13 @@
 {"rank": 148, "site": "A", "query": "au bout de combien de temps agit le botox", "decision": "EXCLU-E4", "motif": "même acte et même quantité que A-003 (délai d’effet de la toxine botulique)"}
 {"rank": 149, "site": "B", "query": "combien de temps pour dissoudre un caillot de sang naturellement", "decision": "EXCLU-E1", "motif": "thrombose"}
 {"rank": 150, "site": "A", "query": "combien de temps l'hymen reconstruit tient-il ?", "decision": "EXCLU-E4", "motif": "même acte et même quantité que A-053 (durée du résultat d’une hyménoplastie)"}
+{"rank": 151, "site": "A", "query": "combien de seance pour epilation definitive maillot", "decision": "EXCLU-E4", "motif": "même acte et même quantité que A-010 (nombre de séances d’épilation laser)"}
+{"rank": 152, "site": "A", "query": "combien de temps dure un full face", "decision": "EXCLU-E3", "motif": "acte non précisé (« full face » : injections, maquillage ou épilation du visage)"}
+{"rank": 153, "site": "A", "query": "acide hyaluronique durée 6 à 18 mois", "decision": "EXCLU-E4", "motif": "même acte et même quantité que A-024 (durée de l’acide hyaluronique injecté)"}
+{"rank": 154, "site": "B", "query": "combien de temps dure un œdème au visage", "decision": "EXCLU-E3", "motif": "cause de l’œdème non précisée"}
+{"rank": 155, "site": "A", "query": "boule dure sous la peau visage", "decision": "EXCLU-E2", "motif": "« dure » = consistance, pas durée"}
+{"rank": 156, "site": "B", "query": "botox et sport combien de temps", "decision": "EXCLU-E4", "motif": "même acte et même quantité que A-040 (délai avant le sport après toxine botulique)"}
+{"rank": 157, "site": "A", "query": "tatouage temporaire longue durée", "decision": "EXCLU-E2", "motif": "ne demande pas de quantité (recherche de produit)"}
+{"rank": 158, "site": "A", "query": "combien de temps dure une anesthésie locale", "decision": "EXCLU-E1", "motif": "anesthésie locale en général, comme l’anesthésie générale au rang 21"}
+{"rank": 159, "site": "A", "query": "combien de temps garder la gaine apres liposuccion", "decision": "QUOTA_PLEIN", "motif": "Durées divergentes selon les publications de l'ASPS (2 semaines, jusqu'à la 4e semaine, 4 à 6, 4 à 8, 6 semaines, d'après la recherche web limitée à nhs.uk, plasticsurgery.org, baaps.org.uk, has-sante.fr ; non revérifiées une à une) ; NHS : « for several weeks » sans chiffre. Étiquette CONTESTED, quota plein.", "label": "CONTESTED", "procedure_id": "liposuction"}
+{"rank": 160, "site": "A", "query": "combien de temps laisser un gommage sur le visage", "decision": "RETENU", "motif": "AAD : appliquer le gommage en petits cercles pendant environ 30 secondes, puis rincer.", "label": "SOURCED", "procedure_id": "facial-scrub", "id": "A-057"}
