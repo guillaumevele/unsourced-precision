@@ -1,6 +1,6 @@
 # REPORT — Unsourced precision, strate A
 
-> **État : Q1 terminée sur le test (03/11/2026) ; Q2 non lancée.** Chaque chiffre de résultat vient de `results/q1.json` ou `results/q1.md`, produits par `scripts/analyze.py` et jamais édités à la main. L'analyse a tourné après le gel des annotations (commit `b9637d4`), avec le code commité et horodaté avant (commit `9b89dd0`, `timestamps/analyse.manifest.txt`). La section Limites 1 à 10 a été écrite avant de voir le test ; les limites 11 et 12, ajoutées après, sont marquées comme telles.
+> **État : Q1 et Q2 terminées sur le test (03/11/2026).** Chaque chiffre de résultat vient d'un fichier de `results/` produit par script et jamais édité à la main (`q1.*` par `scripts/analyze.py`, `q2.*` par `scripts/q2_analyze.py`, `q2_lecture_corrigee.*` par `scripts/q2_lecture_corrigee.py`). L'analyse a tourné après le gel des annotations (commit `b9637d4`), avec le code commité et horodaté avant (commit `9b89dd0`, `timestamps/analyse.manifest.txt`). La section Limites 1 à 10 a été écrite avant de voir le test ; les limites 11 et 12, ajoutées après, sont marquées comme telles.
 
 ## 1. Question
 
@@ -76,7 +76,27 @@ Le v1 gagne en précision sur le détecteur naïf, sans perdre beaucoup de rappe
 
 ### 3.5 Q2 (extension)
 
-Non lancée. Elle exige un chiffrage (PREREG § 9) et un amendement qui fixe les points d'exécution restés ouverts, commité et horodaté avant le premier appel.
+Plan : `PREREG-AMENDEMENT-3.md`, commité et horodaté avant tout appel (commits `2eebac0`, `329f8ec`). Chaque modèle juge, dans un contexte neuf, si un chiffre est « établi » et avec quelle confiance. On compare ses chiffres de Q1 tombés dans la plage publiée (b) à ses chiffres donnés sur des questions sans chiffre publié (a). 2 130 appels, 7,05 $ (`NOTES.md`, « Runs de Q2 »). Le résultat ne s'interprète jamais en termes de « savoir ».
+
+**Défaut de mesure, déclaré.** La règle de lecture pré-inscrite prend le premier entier après le verdict. Haiku écrit sa confiance en fin de réponse, après des chiffres du texte : la règle a mal lu 420 de ses 590 tirages. Le défaut a été trouvé après l'analyse, par un tirage de contrôle, puis confirmé à la main (lecture pré-inscrite fausse dans 15 tirages sur 20). Le verdict pré-inscrit de Haiku est donc une **mesure invalide**. Une lecture corrigée, écrite après coup dans un script séparé, ne change **aucun** tirage d'Opus ni de Sonnet (0 sur 770 chacun) : leurs résultats pré-inscrits restent confirmatoires. Pour Haiku, elle est exploratoire.
+
+Source : `results/q2.md` (pré-inscrit), `results/q2_lecture_corrigee.md` (exploratoire). AUROC de (b) contre (a), IC à 95 % par grappes de questions.
+
+| Modèle | n (a / b) | AUROC auto | Verdict | Question seule | Auto − question | Croisé | Auto − croisé |
+|---|---|---|---|---|---|---|---|
+| Opus 5.5 | 78 / 52 | 0,819 [0,664 ; 0,933] | discrimine | 0,664 [0,445 ; 0,847] | +0,155 [−0,002 ; +0,341] | 0,721 (Sonnet juge) | +0,099 [−0,053 ; +0,287] |
+| Sonnet 5.5 | 79 / 59 | 0,695 [0,495 ; 0,882] | non concluant | 0,350 [0,163 ; 0,560] | +0,345 [+0,084 ; +0,603] | 0,809 (Opus juge) | −0,114 [−0,291 ; +0,059] |
+| Haiku 5.5, pré-inscrit | 69 / 40 | 0,608 [0,401 ; 0,800] | mesure invalide | — | — | — | — |
+| Haiku 5.5, lecture corrigée (exploratoire) | 69 / 40 | 0,739 [0,555 ; 0,893] | — | 0,481 [0,264 ; 0,711] | +0,258 [+0,059 ; +0,459] | — | — |
+
+Lecture :
+- **Opus** distingue ses chiffres dans la plage de ses chiffres non sourcés (borne basse 0,664 > 0,5). Mais la règle pré-inscrite interdit d'écrire « au-delà de la question seule » : la borne basse de la différence est −0,002. Et Sonnet juge les chiffres d'Opus presque aussi bien (différence +0,099, IC qui contient 0) : rien ne montre qu'Opus juge mieux **ses propres** chiffres qu'un autre modèle ne les juge.
+- **Sonnet** est non concluant (borne basse 0,495). Sa sonde « question seule » est sous le hasard (0,350), d'où une différence positive ; elle est donnée à titre descriptif, pas comme un résultat, puisque le critère principal n'est pas atteint. Opus juge les chiffres de Sonnet au moins aussi bien que Sonnet lui-même (0,809).
+- **Haiku**, en lecture corrigée et à titre exploratoire seulement, distinguerait ses chiffres au-delà de la question seule. Ce n'est pas un résultat confirmatoire.
+- **Contrôle de cohérence** : les chiffres délibérément faux (c), trois fois la borne publiée, sont presque toujours jugés moins établis que (b) (AUROC 0,976 à 0,999 ; Haiku en lecture corrigée).
+- **Témoin de dispersion** : la dispersion des 5 tirages de Q1 prédit moins bien que la sonde chez Opus (différence +0,200, IC [+0,0005 ; +0,399]) ; pas de différence nette chez Sonnet ni chez Haiku (`results/q2.json`).
+
+En résumé : les modèles discriminent en partie leurs chiffres sourcés de leurs chiffres non sourcés quand on le leur demande, mais rien sur ce jeu ne montre un accès privilégié à **leurs propres** chiffres, et l'effet ne se sépare pas nettement de ce que la question seule explique.
 
 ## 4. Limites
 
@@ -93,6 +113,9 @@ Non lancée. Elle exige un chiffrage (PREREG § 9) et un amendement qui fixe les
 11. *(Ajoutée après le test.)* **Deux points d'accès pour le second annotateur.** Lots 1 à 12 du test par l'API Gemini, lots 13 à 72 par Vertex AI, après l'épuisement des crédits de la clé de projet sur l'API Gemini. Même modèle (`modelVersion` `gemini-3.6-flash` dans les 72 lots), même consigne, mêmes réglages ; seul ajout, le champ `role: "user"` exigé par Vertex (`scripts/annotate_vertex.py`). Un écart de service entre les deux points d'accès n'est pas exclu.
 12. *(Ajoutée après le test.)* **Annotations invalides asymétriques.** Gemini rend 17 annotations invalides, Mistral 3, surtout sur les unités. Elles deviennent des indéterminées ; leur poids est borné par l'analyse qui les compte dans les deux sens (§ 3.3).
 
+13. *(Ajoutée après Q2.)* **Règle de lecture de Q2 non éprouvée sur de vraies réponses.** Testée seulement sur des chaînes synthétiques où la confiance suit le verdict, sans pilote. Elle a mal lu 420 tirages de Haiku ; la correction est postérieure à l'analyse et exploratoire (§ 3.5).
+14. *(Ajoutée après Q2.)* **Chiffre montré en Q2 = enveloppe annotée.** Le chiffre jugé est la plage la plus large relevée par le premier annotateur, pas toujours la phrase principale du modèle ; dans 111 éléments, les deux annotateurs ne relèvent pas les mêmes bornes (sensibilité dans `results/q2.md`).
+
 ## 5. Reproduire
 
 Depuis un clone, sans appel API :
@@ -103,6 +126,8 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.lock
 .venv/bin/python scripts/score.py test v2        # régénère scores.jsonl, identique au commit de gel
 .venv/bin/python scripts/detectors.py test
 .venv/bin/python scripts/analyze.py test         # régénère results/q1.json et results/q1.md
+.venv/bin/python scripts/q2_analyze.py           # Q2 pré-inscrite : results/q2.*
+.venv/bin/python scripts/q2_lecture_corrigee.py  # Q2 exploratoire : results/q2_lecture_corrigee.*
 git diff --stat                                  # aucune différence attendue
 ```
 
