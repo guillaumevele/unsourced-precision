@@ -47,6 +47,16 @@ A patient asks "how long does the swelling last after X". If the literature give
 | Annotation | Two annotators from other families (`mistral-large-4`, `gemini-3.6-flash`) extract fields. The final label is computed by script, and an annotator disagreement gives an indeterminate label. Claude neither annotates nor arbitrates its own outputs. |
 | Analysis | Rates per question, then per model. Cluster bootstrap over questions (10,000 resamples, seed 20261106). Paired model comparisons are descriptive. Five preregistered sensitivity analyses. Three overprecision detectors, from naive to rule-based, evaluated against the annotators. |
 
+## Related work
+
+Parts of the Q1 design exist elsewhere, on their own:
+
+- **MedHalu** (Agarwal et al., [arXiv:2409.19492](https://arxiv.org/abs/2409.19492)) includes real consumer health queries, but its answers are written by GPT-3.5 to contain a given hallucination, and the task is to detect them.
+- **MHB** (Lu et al., AAAI-26, [doi:10.1609/aaai.v40i45.41243](https://doi.org/10.1609/aaai.v40i45.41243)) inserts hallucination traps (invented entities, non-existent guidelines, questions the given case report cannot answer) into dialogues and questions rewritten by an LLM, and has an LLM judge score answers against physician-validated rubrics.
+- **MedAbstain** (Machcha et al., EACL 2026, [doi:10.18653/v1/2026.eacl-long.291](https://doi.org/10.18653/v1/2026.eacl-long.291)) measures medical abstention on multiple-choice questions and leaves free-form tasks to future work.
+
+Among the works we read (a targeted, not systematic, search; reading depth per entry in [`RELATED.md`](RELATED.md)), we found no study with this design: free-text answers to real patient queries, with the absence of any published number found by the search protocol as reference, preregistered. **Q2 is not new in principle.** Kadavath et al. 2022 ([arXiv:2207.05221](https://arxiv.org/abs/2207.05221)) introduced P(True), where a model judges its own samples, and already ran a cross-model control on P(IK) (§ 5.5). Q2 applies this idea to clinical numbers, contrasting numbers inside a published range with numbers no source supports.
+
 ## Verifiable chronology
 
 Every step that could bias the result was committed **before** the data it could be tuned on. The fingerprints are anchored in Bitcoin through [OpenTimestamps](https://opentimestamps.org).
