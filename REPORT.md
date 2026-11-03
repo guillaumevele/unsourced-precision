@@ -98,6 +98,16 @@ Lecture :
 
 En résumé : les modèles discriminent en partie leurs chiffres sourcés de leurs chiffres non sourcés quand on le leur demande, mais rien sur ce jeu ne montre un accès privilégié à **leurs propres** chiffres, et chez Opus, le seul modèle au verdict concluant, l'effet ne se sépare pas nettement de ce que la question seule explique.
 
+### 3.6 Pilote sur un modèle ouvert (extension exploratoire)
+
+Plan : `PREREG-AMENDEMENT-4.md`, commité et horodaté avant toute extraction (commits `0a3d3e1`, `fff75fe`). Activations commitées avant l'analyse (`292e3ba`). Source : `results/pilot.md`.
+
+- Question : l'état interne de `Qwen2.5-1.5B-Instruct` à la fin d'une question permet-il de prédire linéairement si la littérature publie un chiffre (`SOURCED`) ou non (`NOT_FOUND`) ? C'est l'analogue interne du témoin « question seule » de Q2, pas la question du chiffre lui-même.
+- 49 questions, 38 plis par procédure, régression logistique L2 fixée d'avance, couche principale 14.
+- **Verdict pré-inscrit : non concluant.** Couche 14 : AUROC 0,487 [0,323 ; 0,655], p de permutation 0,523. Témoin texte : 0,412 ; témoin plongements lexicaux : 0,397 ; différences avec la couche 14 : +0,075 [−0,082 ; +0,228] et +0,090 [−0,068 ; +0,254].
+- Les autres couches sont descriptives et non corrigées pour les comparaisons multiples ; des valeurs sous 0,5 ne sont pas lues comme un signal inverse.
+- Un audit fait avant toute donnée a trouvé un défaut de calcul du score (l'intercept propre à chaque pli faisait tomber à 0,05 l'AUROC d'un jeu sans signal) ; il a été corrigé avant le gel du plan.
+
 ## 4. Limites
 
 1. **Un modèle évalué a filtré et étiqueté les questions.** `claude-opus-5-5` a écrit le filtre, examiné les candidats, attribué les actes, cherché les sources et proposé les étiquettes. Le texte des questions ne vient d'aucun LLM, mais leur sélection et leur étiquetage passent par l'un des modèles mesurés. Ce qui le contient : chaque étiquette est publiée avec son passage mot pour mot et sa source ; deux modèles d'autres familles ont réétiqueté les 60 questions à l'aveugle (kappa 0,90 et 0,92 avec Claude) ; trois étiquettes ont été remplacées par l'étiquette majoritaire. Mais ces relecteurs lisaient les passages et les notes de Claude : leur accord mesure la cohérence, pas un étiquetage indépendant des sources brutes.

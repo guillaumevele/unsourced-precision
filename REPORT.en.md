@@ -100,6 +100,16 @@ Reading:
 
 In summary: when asked, the models partly discriminate their sourced numbers from their unsourced ones, but nothing on this set shows privileged access to **their own** numbers, and for Opus, the only model with a conclusive verdict, the effect does not clearly separate from what the question alone explains.
 
+### 3.6 Pilot on an open model (exploratory extension)
+
+Plan: `PREREG-AMENDEMENT-4.md`, committed and timestamped before any extraction (commits `0a3d3e1`, `fff75fe`). Activations committed before the analysis (`292e3ba`). Source: `results/pilot.md`.
+
+- Question: does the internal state of `Qwen2.5-1.5B-Instruct` at the end of a question linearly predict whether the literature publishes a number (`SOURCED`) or not (`NOT_FOUND`)? This is the internal counterpart of Q2's question-only control, not the question about the number itself.
+- 49 questions, 38 procedure-grouped folds, L2 logistic regression fixed in advance, main layer 14.
+- **Preregistered verdict: inconclusive.** Layer 14: AUROC 0.487 [0.323, 0.655], permutation p 0.523. Text baseline: 0.412; token-embedding baseline: 0.397; differences with layer 14: +0.075 [−0.082, +0.228] and +0.090 [−0.068, +0.254].
+- Other layers are descriptive and not corrected for multiple comparisons; values below 0.5 are not read as an inverse signal.
+- An audit run before any data found a scoring bug (the per-fold intercept pushed a no-signal AUROC down to 0.05); it was fixed before the plan was frozen.
+
 ## 4. Limitations
 
 1. **An evaluated model filtered and labelled the questions.** `claude-opus-5-5` wrote the filter, screened the candidates, assigned the procedures, searched the sources and proposed the labels. The text of the questions comes from no LLM, but their selection and labelling go through one of the measured models. What contains it: each label is published with its verbatim passage and its source; two models from other families relabelled the 60 questions blind (kappa 0.90 and 0.92 with Claude); three labels were replaced by the majority label. But these relabellers read Claude's passages and notes: their agreement measures consistency, not labelling independent of the raw sources.

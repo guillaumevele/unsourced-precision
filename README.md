@@ -28,6 +28,11 @@ A preregistered, timestamped evaluation of three Claude models on 60 real patien
 - **Nothing here shows privileged access to a model's own numbers.** Opus separates its in-range numbers from its unsourced ones (AUROC 0.82, 95% CI [0.66, 0.93]), but not beyond what the question alone explains (lower bound of the difference −0.002), and Sonnet judges Opus's numbers almost as well as Opus does. Sonnet is inconclusive (lower bound 0.495); its preregistered "beyond the question alone" flag is technically true (difference +0.35, lower bound +0.08), but only because its question-only score is below chance (0.35), and it is not read as a result since the main criterion is not met.
 - **A measurement defect was found after the analysis and is reported, not hidden.** The preregistered parser read the first integer after the verdict. Haiku writes its confidence at the end of the answer, so 420 of its 590 answers were misread. Haiku's preregistered verdict is therefore an invalid measurement. A corrected parser, written after the defect was found and committed before it was run, is exploratory, not preregistered: it changes no Opus or Sonnet answer, and its Haiku result is exploratory only ([`results/q2_lecture_corrigee.md`](results/q2_lecture_corrigee.md)).
 
+**Pilot on an open model** (Qwen2.5-1.5B-Instruct, preregistered in [`PREREG-AMENDEMENT-4.md`](PREREG-AMENDEMENT-4.md), committed and timestamped before any extraction; [`results/pilot.md`](results/pilot.md)):
+
+- Question: does the model's internal state at the end of a question linearly encode whether the literature publishes a number for it? This is the internal counterpart of Q2's question-only control, a first step toward the research question, not an answer to it.
+- **Preregistered verdict: inconclusive.** A linear probe on the middle layer reaches AUROC 0.487, 95% CI [0.323, 0.655], permutation p 0.52, no better than a bag-of-words baseline (0.412) or token embeddings (0.397), across 49 questions and 38 procedure-grouped folds. An audit before any data caught a scoring bug that would have pushed a no-signal AUROC down to 0.05; it was fixed before the plan was frozen.
+
 Full write-up, with all CIs and limitations: [`REPORT.en.md`](REPORT.en.md) (English, non-binding translation); French original, which prevails: [`REPORT.md`](REPORT.md).
 
 ## Why this is an honesty problem
