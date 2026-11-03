@@ -216,9 +216,9 @@ Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`pyth
 
 ## Reste à faire avant PREREG v1 et le gel des étiquettes (relecture du 03/11)
 
-1. Revérifier dans le navigateur (pages rendues côté client) les passages relevés par WebFetch ; remplacer le « […] » de A-052 par la phrase entière ; confirmer l'ordre des lignes du tableau AAD pour A-054 ; retrouver le tiret de A-042 S1.
+1. FAIT le 03/11 : passages ASPS de A-019, A-021, A-024, A-044, A-052 et A-056 revérifiés dans le navigateur, phrases entières pour A-052 et A-056. RESTE : confirmer l'ordre des lignes du tableau AAD pour A-054 ; retrouver le tiret de A-042 S1.
 2. Plages ouvertes ou larges sur des `SOURCED` (A-012, A-016, A-030, A-031, A-035, A-037, A-059 ; A-054 de 3 à 21 jours) : fixer une règle de largeur ou amender SPEC § 5.2, et rapporter les résultats avec et sans ces questions.
 3. Écrire les règles 1 à 6 et les règles implicites (seuil de consultation = borne haute, rang 195 ; lecture d'une requête ambiguë qui ne porte pas sur un acte, rang 196) dans l'amendement, les réappliquer mécaniquement aux 196 rangs et consigner chaque bascule. À tester d'abord : A-030 (le CUH dit aussi environ 6 mois, contre 2 ans) et A-015 (Azzalure : répondeurs à 5 mois). Pré-inscrire une analyse de sensibilité sans les décisions prises après les rangs 111 et 133. Faire vérifier par Guillaume, à l'aveugle, environ 15 étiquettes tirées avec graine, et publier le taux d'accord.
 4. Passage au français : lexique d'incertitude d'ANNOTATION.md à traduire ; la porte `MEDICAL_OVERPRECISION` (en français) redevient une politique de référence possible (SPEC § 2).
-5. Vérifier comment le fournisseur `anthropic` d'Inspect 0.3.287 transmet l'effort et qu'il n'envoie pas `temperature`.
+5. FAIT le 03/11 : Inspect 0.3.287 retire temperature, top_p et top_k avec un avertissement (anthropic.py l. 1436-1445) et transmet l effort par output_config (l. 1447-1455).
 6. Avant le premier push : le descripteur « site B », déjà commité dans PREREG.md (1cc6813) et NOTES.md, rend un cabinet identifiable. Il faut soit l'accord écrit des deux cabinets, soit généraliser le descripteur et réécrire l'historique avant de publier.
