@@ -211,5 +211,5 @@ Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`pyth
   - lectures retenues pour des requêtes ambiguës : A-002 (lifting), A-025 (blépharoplastie), A-053 (hyménoplastie), A-060 (rasage avant laser), A-011 (« botox lèvre » peut désigner un filler en français courant) ;
   - `CONTESTED` à contextes différents : A-047 (étude nez et menton ensemble), A-055 (plaie collée chez l'enfant contre points résorbables) ;
   - avis de chirurgiens publiés par l'ASPS comptés comme sources : A-021, A-052 ;
-  - citations relevées par WebFetch sur des pages rendues côté client, non revérifiées dans le HTML brut : A-019 (S2), A-021, A-040 et A-052 (fragments), A-044 (S2), A-056.
+  - citations relevées par WebFetch sur des pages rendues côté client, non revérifiées dans le HTML brut : A-019 (S2), A-021, A-024 (S2), A-044 (S2), A-052 (fragments), A-056.
 - Correction en cours de parcours : A-010 (filtre trop étroit, règle 5) et A-008 (recherche officielle, règle 2).
