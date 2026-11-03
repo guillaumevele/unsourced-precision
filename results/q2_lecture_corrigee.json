@@ -1,0 +1,303 @@
+{
+  "statut": "exploratoire, lecture corrigée après l'analyse pré-inscrite",
+  "lecture": {
+    "anthropic/claude-opus-5-5": {
+      "tirages": 770,
+      "lisibles": 770
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "tirages": 770,
+      "lisibles": 770
+    },
+    "anthropic/claude-haiku-5-5": {
+      "tirages": 590,
+      "lisibles": 590
+    }
+  },
+  "changements": {
+    "anthropic/claude-opus-5-5": {
+      "tirages": 770,
+      "lecture_changee": 0,
+      "illisibles_corrigee": 0
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "tirages": 770,
+      "lecture_changee": 0,
+      "illisibles_corrigee": 0
+    },
+    "anthropic/claude-haiku-5-5": {
+      "tirages": 590,
+      "lecture_changee": 420,
+      "illisibles_corrigee": 0
+    }
+  },
+  "modeles": {
+    "anthropic/claude-haiku-5-5": {
+      "elements": {
+        "a": 69,
+        "b": 40,
+        "ecartes_sans_tirage_lisible": 0
+      },
+      "auto": {
+        "auroc": 0.7388,
+        "ic95": [
+          0.5548,
+          0.893
+        ],
+        "reechantillonnages_ignores": 0
+      },
+      "verdict": "discrimine",
+      "question_seule": {
+        "auroc": {
+          "auroc": 0.4812,
+          "ic95": [
+            0.2636,
+            0.7107
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "auto_moins_temoin": {
+          "difference": 0.2576,
+          "ic95": [
+            0.0588,
+            0.4585
+          ]
+        }
+      },
+      "dispersion_q1": {
+        "auroc": {
+          "auroc": 0.5199,
+          "ic95": [
+            0.2679,
+            0.7515
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "auto_moins_temoin": {
+          "difference": 0.2188,
+          "ic95": [
+            -0.0728,
+            0.5121
+          ]
+        }
+      },
+      "au_dela_de_la_question": true,
+      "b_contre_c": {
+        "auroc": 0.9986,
+        "ic95": [
+          0.9905,
+          1.0
+        ],
+        "reechantillonnages_ignores": 0
+      },
+      "sensibilite": {
+        "a_surprecis_seulement": {
+          "auroc": 0.7617,
+          "ic95": [
+            0.5066,
+            0.9518
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "bornes_identiques": {
+          "auroc": 0.7175,
+          "ic95": [
+            0.508,
+            0.9036
+          ],
+          "reechantillonnages_ignores": 0
+        }
+      }
+    },
+    "anthropic/claude-opus-5-5": {
+      "elements": {
+        "a": 78,
+        "b": 52,
+        "ecartes_sans_tirage_lisible": 0
+      },
+      "auto": {
+        "auroc": 0.819,
+        "ic95": [
+          0.6637,
+          0.9327
+        ],
+        "reechantillonnages_ignores": 0
+      },
+      "verdict": "discrimine",
+      "question_seule": {
+        "auroc": {
+          "auroc": 0.6638,
+          "ic95": [
+            0.4454,
+            0.8473
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "auto_moins_temoin": {
+          "difference": 0.1552,
+          "ic95": [
+            -0.0015,
+            0.3406
+          ]
+        }
+      },
+      "dispersion_q1": {
+        "auroc": {
+          "auroc": 0.619,
+          "ic95": [
+            0.4145,
+            0.8082
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "auto_moins_temoin": {
+          "difference": 0.2001,
+          "ic95": [
+            0.0005,
+            0.3994
+          ]
+        }
+      },
+      "au_dela_de_la_question": false,
+      "croise": {
+        "evaluateur": "anthropic/claude-sonnet-5-5",
+        "auroc": {
+          "auroc": 0.7205,
+          "ic95": [
+            0.51,
+            0.8909
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "auto_moins_croise": {
+          "difference": 0.0985,
+          "ic95": [
+            -0.0528,
+            0.2874
+          ]
+        }
+      },
+      "b_contre_c": {
+        "auroc": 0.9989,
+        "ic95": [
+          0.9942,
+          1.0
+        ],
+        "reechantillonnages_ignores": 0
+      },
+      "sensibilite": {
+        "a_surprecis_seulement": {
+          "auroc": 0.6904,
+          "ic95": [
+            0.4312,
+            0.8896
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "bornes_identiques": {
+          "auroc": 0.7804,
+          "ic95": [
+            0.5843,
+            0.9259
+          ],
+          "reechantillonnages_ignores": 0
+        }
+      }
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "elements": {
+        "a": 79,
+        "b": 59,
+        "ecartes_sans_tirage_lisible": 0
+      },
+      "auto": {
+        "auroc": 0.6953,
+        "ic95": [
+          0.4953,
+          0.8824
+        ],
+        "reechantillonnages_ignores": 0
+      },
+      "verdict": "non concluant",
+      "question_seule": {
+        "auroc": {
+          "auroc": 0.3498,
+          "ic95": [
+            0.1631,
+            0.5597
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "auto_moins_temoin": {
+          "difference": 0.3455,
+          "ic95": [
+            0.0841,
+            0.6033
+          ]
+        }
+      },
+      "dispersion_q1": {
+        "auroc": {
+          "auroc": 0.7246,
+          "ic95": [
+            0.5229,
+            0.8967
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "auto_moins_temoin": {
+          "difference": -0.0293,
+          "ic95": [
+            -0.3101,
+            0.266
+          ]
+        }
+      },
+      "au_dela_de_la_question": true,
+      "croise": {
+        "evaluateur": "anthropic/claude-opus-5-5",
+        "auroc": {
+          "auroc": 0.8093,
+          "ic95": [
+            0.6564,
+            0.9251
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "auto_moins_croise": {
+          "difference": -0.1139,
+          "ic95": [
+            -0.2914,
+            0.0585
+          ]
+        }
+      },
+      "b_contre_c": {
+        "auroc": 0.9755,
+        "ic95": [
+          0.9363,
+          0.998
+        ],
+        "reechantillonnages_ignores": 0
+      },
+      "sensibilite": {
+        "a_surprecis_seulement": {
+          "auroc": 0.7052,
+          "ic95": [
+            0.4699,
+            0.9023
+          ],
+          "reechantillonnages_ignores": 0
+        },
+        "bornes_identiques": {
+          "auroc": 0.6948,
+          "ic95": [
+            0.4735,
+            0.9028
+          ],
+          "reechantillonnages_ignores": 0
+        }
+      }
+    }
+  }
+}
