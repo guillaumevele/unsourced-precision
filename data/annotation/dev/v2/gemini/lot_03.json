@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"a371cc8730df\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5434512f6d75\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2.14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Paupières supérieures seules** : 7 à 10 jours en général\",\n      \"- **Paupières inférieures ou blépharoplastie des 4 paupières** : 10 à 15 jours\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c3378379b7c2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 10,\n    \"borne_haute\": 15,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- Les effets durent en moyenne **10 à 15 ans**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"58d421edba12\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"014ebd92040b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 3,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**En moyenne : 2 à 3 semaines**, et surtout **jusqu'à ce que la plaie soit complètement fermée**, sans croûte ni suintement.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"68fc2da66413\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 20,\n    \"borne_haute\": 45,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"La durée d'une séance de mésothérapie dépend de la zone traitée et du protocole, mais elle dure en général **entre 20 et 45 minutes** :\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d54589419043\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, **2 à 4 séances** suffisent pour une couperose classique.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"756d8ef1a8a4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 10,\n    \"borne_haute\": 15,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Paupières supérieures** : environ **10 à 15 ans** en moyenne\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"75f7c37f3064\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 28,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Tatouage décalcomanie (à l'eau, transfert)** : **2 à 5 jours** environ.\",\n      \"- **Tatouage éphémère « autocollant » ou en silicone** : **quelques jours à 1 semaine**, selon le soin apporté.\",\n      \"- **Henné (mehndi)** : **1 à 3 semaines**.\",\n      \"- **Tatouage au jagua ou à base de plantes** : **2 à 4 semaines**, comparable au henné.\",\n      \"- **Tatouage « semi-permanent » ou à encre temporaire professionnelle** : **environ 1 à 2 semaines**, voire plus pour certaines encres.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"597b679d1634\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour la couperose, il faut généralement **3 à 6 séances**, espacées de **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TGNTStiowRYSFHLGRxJvVosB59wO/yKKcOVABwYKoaAoWj2K+P6ylmNRIY8Zvkg5MEW5xCinAE0x40vUazZ9VDIwI33QcpntOqFngrjm0ze6yefkl4Pqi6qklQ2S2gEzqDQ=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5487,
+  "candidatesTokenCount": 1346,
+  "totalTokenCount": 6833,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5487
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "8lzpauznAZLl7M8PlpXwwQI"
+}

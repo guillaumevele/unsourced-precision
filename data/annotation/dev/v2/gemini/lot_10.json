@@ -1,0 +1,34 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\"id\": \"0d56b9652107\", \"chiffre_present\": true, \"borne_basse\": 10, \"borne_haute\": 15, \"unite\": \"ans\", \"phrases_chiffre\": [\"- Les effets durent en moyenne **10 à 15 ans**.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"d7589102b4ee\", \"chiffre_present\": true, \"borne_basse\": 1, \"borne_haute\": 2, \"unite\": \"semaines\", \"phrases_chiffre\": [\"En général, il faut attendre **1 à 2 semaines** après une opération de la cataracte avant de remettre du maquillage sur les yeux.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"38aa3de84bfc\", \"chiffre_present\": true, \"borne_basse\": 15, \"borne_haute\": 45, \"unite\": \"minutes\", \"phrases_chiffre\": [\"Une séance dure en général **entre 15 et 45 minutes**, selon la zone traitée et l'indication.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"d6d663144a6f\", \"chiffre"
+     },
+     {
+      "text": "_present\": true, \"borne_basse\": 3, \"borne_haute\": 24, \"unite\": \"mois\", \"phrases_chiffre\": [\"- **Au minimum 3 à 6 mois**.\", \"- **Jusqu'à 12 mois, voire 18 à 24 mois** pour les cicatrices épaisses, tendues ou sur une zone de mouvement (articulation, abdomen).\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"61a2ab55082b\", \"chiffre_present\": true, \"borne_basse\": 1, \"borne_haute\": 21, \"unite\": \"jours\", \"phrases_chiffre\": [\"| **Tatouage transfert (décalcomanie)**, comme ceux pour enfants | 1 à 5 jours |\", \"| **Henné naturel** | 1 à 3 semaines (généralement 7 à 14 jours) |\"], \"renvoi\": \"aucun\", \"citations\": []},\n  {\"id\": \"de4068f89dd8\", \"chiffre_present\": true, \"borne_basse\": 12, \"borne_haute\": 24, \"unite\": \"semaines\", \"phrases_chiffre\": [\"| **3 à 6 mois** | Disparition complète de l'œdème et résultat définitif. Les cicatrices continuent de s'estomper jusqu'à 1 an. |\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"114207b33712\", \"chiffre_present\": true, \"borne_basse\": 8, \"borne_haute\": 15, \"unite\": \"ans\", \"phrases_chiffre\": [\"Les résultats sont durables, en général **entre 8 et 15 ans**.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"fba34379bc44\", \"chiffre_present\": true, \"borne_basse\": 12, \"borne_haute\": 24, \"unite\": \"semaines\", \"phrases_chiffre\": [\"- **3 à 6 mois :** le résultat définitif se stabilise. Pour les paupières inférieures, la fin de la résorption peut prendre jusqu'à 6 mois, voire un an.\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"8f3a04b62270\", \"chiffre_present\": true, \"borne_basse\": 5, \"borne_haute\": 10, \"unite\": \"ans\", \"phrases_chiffre\": [\"- **Paupières supérieures** : souvent 5 à 10 ans, voire plus\"], \"renvoi\": \"consultation\", \"citations\": []},\n  {\"id\": \"f48b176e66ae\", \"chiffre_present\": true, \"borne_basse\": 0.5, \"borne_haute\": 1, \"unite\": \"semaines\", \"phrases_chiffre\": [\"- **Au début (environ 2 à 3 premiers mois) :** une séance toutes les 1 à 2 semaines.\"], \"renvoi\": \"source\", \"citations\": [\"Ulike\"]}\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TmDlYPIxVZ+C5Tf64jkdqIv8GMzzV7AG5dYTUYfh8IM/lhpY3+hjda5apwwFt9z2V3jSpqIEa6VR5+aFUk7nLNTnwzxxwgaLxZzj3uoymkbAHAPT0afFN3Dt+ZrY6r/QwMQ=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6142,
+  "candidatesTokenCount": 1103,
+  "totalTokenCount": 7245,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6142
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "T13papWTJd3cxs0PuOPL2AY"
+}

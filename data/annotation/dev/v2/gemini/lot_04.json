@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"2de25d814c98\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 2,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre **environ 2 semaines** avant de remettre du maquillage autour des yeux (mascara, eye-liner, fard).\"\n    ],\n    \"renvoi\": \"les_deux\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"d8086b126b5c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Phase initiale (environ 2 à 3 mois) :** une séance toutes les **1 à 2 semaines**, idéalement toutes les 2 semaines pour les jambes et toutes les 1 à 2 semaines pour le visage, le maillot et les aisselles.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f0989a4921de\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 10,\n    \"borne_haute\": 15,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- Les effets durent généralement **10 à 15 ans**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"aefb5f09d14d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| **Maquillage des yeux** (mascara, eye-liner, fard à paupières, crayon) | Au moins **1 à 2 semaines**, parfois jusqu'à **4 semaines** selon le chirurgien |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c461d7b675ed\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Décalcomanie classique** (à l'eau, type enfant) | 2 à 7 jours |\",\n      \"| **Tatouage semi-permanent** (encre à base de jagua, ex. Inkbox, Ephemeral) | 1 à 3 semaines |\",\n      \"| **Henné naturel** (rouge-brun) | 1 à 3 semaines |\",\n      \"| **Tatouage à l'aérographe** (airbrush) | 3 à 10 jours |\",\n      \"| **Tatouage métallique / doré** (flash tattoo) | 3 à 6 jours |\",\n      \"| **Feutre/stylo spécial peau** | 1 à 3 jours |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": [\n      \"Inkbox\",\n      \"Ephemeral\"\n    ]\n  },\n  {\n    \"id\": \"aa6662963616\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Décalcomanie classique** (transfert à l'eau) | 2 à 7 jours |\",\n      \"| **Tatouage au henné naturel** (rouge-brun) | 1 à 3 semaines |\",\n      \"| **Jagua** (encre végétale bleu-noir) | 1 à 2 semaines |\",\n      \"| **Aérographe** (airbrush) | 3 à 7 jours |\",\n      \"| **Tatouages \\\"semi-permanents\\\"** (type Inkbox, Ephemeral) | 1 à 3 semaines (jusqu'à plusieurs mois pour certains) |\",\n      \"| **Paillettes / glitter** | 3 à 7 jours |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": [\n      \"Inkbox\",\n      \"Ephemeral\"\n    ]\n  },\n  {\n    \"id\": \"ad873d9b9ac3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 4,\n    \"borne_haute\": 6,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Cicatrice chirurgicale** (appendicite, césarienne, etc.) : en règle générale, **4 à 6 semaines** sans baignade, le temps que la peau soit bien refermée et que la croûte soit tombée.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"798193e84a32\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- Pendant **3 à 6 mois**, parfois jusqu'à **12 mois** si la cicatrice reste épaisse, rouge ou adhérente\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0557a58eec71\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 8,\n    \"borne_haute\": 12,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- En général **8 à 12 ans**, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7d5016ca58ac\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 10,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Reprise du travail** possible vers J7-J10 (bureau), parfois plus tard selon l'aspect\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TZNPqVeG3S9Bmg9eSONgsEyilX1XKrp3TqjgAkFFBHbdNM7JFuxZgExh7dDx4lgE9g48xSMWn1J3r3amZuKAi28RNl5SWz/avCvF1/srTWKBsBoD52QuEyFiHwZxtk3lZeA=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5894,
+  "candidatesTokenCount": 1643,
+  "totalTokenCount": 7537,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5894
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "-FzpasGaKefkkdUPrsOE4AU"
+}

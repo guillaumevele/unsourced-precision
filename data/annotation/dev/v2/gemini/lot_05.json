@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"26bcb4c2507f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre **1 à 2 semaines** avant de remettre du maquillage sur les yeux après une opération de la cataracte.\",\n      \"- **Maquillage des yeux (mascara, eye-liner, fard à paupières, crayon)** : généralement après **7 à 15 jours**, parfois jusqu'à **3-4 semaines** selon la cicatrisation et l'avis du chirurgien.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"245c1aeced73\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 21.0,\n    \"borne_haute\": 42.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Souvent **3 à 6 semaines**, parfois plus selon l'intervention (césarienne, chirurgie abdominale, etc.).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"ce3a945fdea2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 15.0,\n    \"borne_haute\": 45.0,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance dure généralement **entre 15 et 45 minutes**, selon la zone traitée et l'objectif.\",\n      \"| **Visage** (éclat, hydratation, rides fines) | 20 à 30 min |\",\n      \"| **Cuir chevelu** (chute de cheveux) | 15 à 30 min |\",\n      \"| **Corps** (cellulite, graisse localisée) | 30 à 45 min |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"c66759dd48f2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En règle générale, il faut attendre **1 à 2 semaines** avant de remettre du maquillage sur les yeux après une opération de la cataracte.\",\n      \"- **1 à 2 semaines** (parfois jusqu'à 3 à 4 semaines selon le chirurgien) : mascara, eye-liner, fard à paupières et crayon, une fois que l'œil est bien cicatrisé et que le chirurgien a donné son accord.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9520c5ff96ee\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 10.0,\n    \"borne_haute\": 15.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Environ 10 à 15 ans** d'effet visible en moyenne.\"\n    ],\n    \"renvoi\": \"source\",\n    \"citations\": [\n      \"SOFCPRE\"\n    ]\n  },\n  {\n    \"id\": \"697ba95fe4cc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 15.0,\n    \"borne_haute\": 45.0,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance dure généralement **entre 15 et 45 minutes**, selon la zone traitée et l'indication.\",\n      \"| Visage (éclat, rajeunissement) | 15 à 30 min |\",\n      \"| Cuir chevelu (chute de cheveux) | 20 à 30 min |\",\n      \"| Cellulite / graisse localisée | 30 à 45 min |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"63f76e38923e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **2 à 4 séances** de laser pour traiter une couperose, espacées de **4 à 6 semaines**.\",\n      \"- **L'étendue de la couperose** : quelques vaisseaux isolés sur les ailes du nez demandent parfois 1 à 2 séances, alors qu'une couperose diffuse sur les joues en demande souvent 3 à 4, voire plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"99eb30766a7c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| **Maquillage des yeux** (mascara, eye-liner, fard à paupières, crayon) | Environ **1 à 2 semaines**, parfois jusqu'à **4 semaines** selon le chirurgien |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"24d77494803d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 6.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour la **couperose** (couperose, télangiectasies, rougeurs liées aux petits vaisseaux), il faut en général **3 à 6 séances**, espacées de **4 à 6 semaines**.\",\n      \"- **Quelques petits vaisseaux visibles :** 1 à 3 séances suffisent souvent.\",\n      \"- **Rougeurs diffuses ou couperose importante :** 4 à 6 séances, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6cddbaca441f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 15.0,\n    \"borne_haute\": 40.0,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de mésothérapie dure généralement **entre 15 et 30 minutes**, selon la zone traitée et l'objectif.\",\n      \"- **Visage / cou / décolleté (anti-âge, éclat)** : environ 20 à 30 minutes\",\n      \"- **Cuir chevelu (chute de cheveux)** : environ 20 à 30 minutes\",\n      \"- **Corps (cellulite, graisses localisées)** : environ 20 à 40 minutes\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0Tfk137VYDvC646DspzwNSIRgp1hKeJ+4UkDYXhn4UBKaJ0Dy3T2v47n972iH2mkWr8t8DK2Pp6pM2pZq7xb+U4pxCjeOGusxdze4q2/dAskObhzaqCK2UmyeBEwBfOrT6NQ=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5794,
+  "candidatesTokenCount": 1835,
+  "totalTokenCount": 7629,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5794
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "AV3paub6J6S5nsEPj4Ss6QY"
+}

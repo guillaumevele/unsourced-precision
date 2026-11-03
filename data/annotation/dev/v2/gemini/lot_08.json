@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"c2607f44258b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Première semaine (environ 1 semaine)** : évitez tout maquillage autour des yeux, y compris le mascara, l'eyeliner et le fard.\",\n      \"- **Entre 1 et 2 semaines** : vous pouvez souvent reprendre le maquillage des yeux, en commençant par des produits légers, appliqués loin du bord des cils et de l'intérieur de l'œil.\",\n      \"- **Après 2 à 4 semaines** : la plupart des patients peuvent reprendre leur routine normale, sauf indication contraire.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8daaae439464\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Environ 1 à 2 semaines :** les fards à paupières peuvent souvent être réutilisés, en appliquant le produit sur la paupière mobile sans le faire tomber dans l'œil.\",\n      \"- **Environ 2 à 4 semaines :** mascara et eyeliner peuvent être repris.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"86627df1574a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 5,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"## En général : **1 à 3 séances**\",\n      \"- **Couperose légère** (quelques vaisseaux visibles) : souvent **1 à 2 séances**\",\n      \"- **Couperose modérée à étendue** : **2 à 4 séances**\",\n      \"- **Rougeurs diffuses** (érythrose) : parfois **3 à 5 séances**, avec un résultat plus progressif\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"6c4959f4f529\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 10,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"- **Pas de temps de pose** : on l'applique sur peau humide, on **masse doucement 30 secondes à 1 minute** en petits cercles, puis on rince.\",\n      \"- Généralement **5 à 10 minutes** de pose, sans frotter, puis rinçage.\",\n      \"- Souvent **5 à 10 minutes**, parfois moins pour les formules concentrées.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e065ce572b5c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 24,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **1 à 2 semaines** : le gonflement diminue nettement et les bleus virent au jaune puis disparaissent.\",\n      \"- **2 à 4 semaines** : la plupart des gens retrouvent un aspect presque normal, mais un léger œdème persiste souvent, surtout le matin.\",\n      \"- **1 à 3 mois** : il reste parfois un gonflement discret, plus marqué pour la paupière inférieure.\",\n      \"- **3 à 6 mois, voire jusqu'à 1 an** : le résultat final se stabilise.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"03b6901b087a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- Plusieurs **mois** : souvent 3 à 6 mois, parfois jusqu'à 12 mois, car la cicatrice continue de se remodeler longtemps après l'opération.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"dee488239c15\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 24,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **2 à 3 semaines :** environ 70 à 80 % de l'œdème a disparu.\",\n      \"- **4 à 6 semaines :** le visage a l'air naturel pour l'entourage.\",\n      \"- **3 à 6 mois :** résorption complète de l'œdème résiduel, assouplissement de la cicatrice, résultat plus net.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"bdf06b17ec5f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Reprise possible du travail de bureau et de la vie sociale, avec un maquillage correcteur si besoin\",\n      \"| Retour au travail | 7 à 14 jours |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"020eaf40496e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 10,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Pour un gommage du visage, **1 à 3 minutes** suffisent en général, y compris le temps du massage.\",\n      \"- Massez en petits mouvements circulaires pendant **30 secondes à 1 minute**, sans appuyer.\",\n      \"- Laissez poser **5 à 10 minutes**, ou suivez les indications du fabricant.\",\n      \"- Selon la concentration, cela va de **1 à 10 minutes** pour les masques, ou le produit se laisse sur la peau s'il s'agit d'un sérum ou d'une lotion.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"edb26c614d42\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 10,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Il ne se laisse **pas poser**. On l'applique sur peau humide, on masse doucement en petits cercles pendant **30 secondes à 1 minute**, puis on rince à l'eau tiède.\",\n      \"Celui-ci se laisse poser, généralement **5 à 10 minutes**, puis on rince.\",\n      \"- **Masque ou peeling à rincer** : en général **5 à 10 minutes**.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TNif8pP6CrdW7zJ4e8Qtp6Tfc0S33Sk33B24WtZASsd59ilgBRZ5zLTZ/1Ayph9od/ZxAcycZk1sCBpd8kneERGQhYbnm/1ZkhWG1kMXQhl5yysL4JXWoRvHy+CWdEvY/dw=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6193,
+  "candidatesTokenCount": 1857,
+  "totalTokenCount": 8050,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6193
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "K13patjeCauvvdIP0ISc4QU"
+}

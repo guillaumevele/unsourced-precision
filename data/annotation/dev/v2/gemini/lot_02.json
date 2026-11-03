@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"51ae8e1b96fc\",\n    \"chiffre_present\": false,\n    \"borne_basse\": null,\n    \"borne_haute\": null,\n    \"unite\": null,\n    \"phrases_chiffre\": [],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"fcbd0036bc5c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 6,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Pour la couperose, il faut en général **entre 2 et 6 séances**, espacées de **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"47880d7e10e5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"fois par semaine\",\n    \"phrases_chiffre\": [\n      \"- **2 à 3 fois par semaine**, en espaçant les séances de 2 à 3 jours.\",\n      \"- **1 fois par semaine**, à mesure que la repousse diminue.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1e6cee75897c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 1,\n    \"unite\": \"par semaine\",\n    \"phrases_chiffre\": [\n      \"- Une séance **par semaine**, sur chaque zone.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cc4d7231ebb7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.28,\n    \"borne_haute\": 26.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Les 48 premières heures** : le gonflement et les ecchymoses (bleus) augmentent et atteignent leur maximum.\",\n      \"- **Jours 3 à 7** : l'œdème commence à diminuer.\",\n      \"- **Après 10 à 15 jours** : la plus grande partie de l'œdème et des bleus a disparu.\",\n      \"- **Après 3 à 4 semaines** : l'aspect est nettement amélioré, avec un léger gonflement résiduel, surtout le matin.\",\n      \"- **De 2 à 3 mois** : l'œdème résiduel s'efface presque complètement.\",\n      \"- **Jusqu'à 6 mois** : l'affinement final des paupières et des cicatrices.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"0687598103c8\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 1,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Phase initiale (environ 2 à 3 mois) :** une séance toutes les **1 à 2 semaines**, soit 6 à 12 séances.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"732856a59a76\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 12,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- En général **3 à 6 mois**\",\n      \"- Parfois jusqu'à **12 mois**, voire plus si la cicatrice reste épaisse, adhérente ou sensible\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"45123f507ee5\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 3,\n    \"unite\": \"séances par semaine\",\n    \"phrases_chiffre\": [\n      \"- **2 à 3 séances par semaine**, en espaçant d'au moins un jour entre chaque séance sur une même zone.\",\n      \"- **1 séance par semaine**, à mesure que la repousse ralentit.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"247fc83b3b0e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 7,\n    \"borne_haute\": 42,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Petite plaie ou coupure superficielle** : 1 à 2 semaines, jusqu'à ce que la peau soit complètement refermée, sans croûte ni suintement.\",\n      \"- **Plaie suturée (points ou fils)** : 2 à 3 semaines, et seulement après le retrait des fils et la cicatrisation complète.\",\n      \"- **Colle cutanée ou Steri-Strips** : environ 1 à 2 semaines, selon l'avis du médecin.\",\n      \"- **Chirurgie (par exemple appendicite, césarienne, chirurgie esthétique)** : en général 3 à 6 semaines.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"93ba0c59451a\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 21,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Décalcomanie** (transfert à l'eau) | 2 à 7 jours |\",\n      \"| **Tatouage semi-permanent** (ex. Inkbox, à base de jagua) | 1 à 2 semaines |\",\n      \"| **Henné naturel** (rouge-brun) | 1 à 3 semaines |\",\n      \"| **Jagua** (encre bleu-noir naturelle) | 1 à 2 semaines |\",\n      \"| **Aérographe** (airbrush) | 3 à 7 jours |\",\n      \"| **Paillettes** (glitter tattoo) | 3 à 7 jours |\",\n      \"| **Feutre ou stylo pour la peau** | 1 à 3 jours |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0Tc/Irt3A4w4FJmsuilewRgsz0JVAxqiJaPXrXJDroxXSxUZ+7pUJ361ZW8Izl1UvAweJHwc6X3lvnknvsjpaQEXWwvxtuuG6mevLcxhXNOmRJf9kv35VhuYx4SKNHuSNG/g=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5663,
+  "candidatesTokenCount": 1689,
+  "totalTokenCount": 7352,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5663
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "51zparWVN_mJ7M8Pkbe5uQQ"
+}

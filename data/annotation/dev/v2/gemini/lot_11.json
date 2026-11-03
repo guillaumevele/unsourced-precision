@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"f1003776b419\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Au minimum 3 mois**, idéalement **6 mois à 1 an**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"803ede16247f\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 4.0,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut **2 à 4 séances** de laser pour traiter la couperose, espacées de **4 à 6 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"119c86181e06\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 14.0,\n    \"borne_haute\": 21.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"**En règle générale, il faut attendre que la plaie soit complètement fermée et sèche, soit environ 2 à 3 semaines.**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"91baaa1c8ff7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.5,\n    \"borne_haute\": 1.0,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Une séance toutes les **1 à 2 semaines**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"82e8fa0eb761\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Au minimum 2 à 3 mois**, idéalement **6 mois à 1 an**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a652fd7a28ef\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1.0,\n    \"borne_haute\": 21.0,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **1 à 5 jours** en général\",\n      \"- **2 à 5 jours**\",\n      \"- **1 à 3 semaines** selon l'endroit du corps et l'entretien\",\n      \"- **1 à 3 semaines** (environ 2 semaines en moyenne)\",\n      \"- **1 à 3 jours**\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b80bb5f9d077\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 30.0,\n    \"borne_haute\": 120.0,\n    \"unite\": \"secondes\",\n    \"phrases_chiffre\": [\n      \"- **Durée : 30 secondes à 1-2 minutes** de massage doux, puis rincer.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f2b87be3cfb2\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 15.0,\n    \"borne_haute\": 30.0,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de mésothérapie dure généralement **entre 15 et 30 minutes**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9e1844f080bf\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3.0,\n    \"borne_haute\": 12.0,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Au minimum 3 mois**, idéalement **6 mois à 1 an**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"8afcd59a5a35\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5.0,\n    \"borne_haute\": 10.0,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Paupières supérieures** : souvent 5 à 10 ans, parfois plus.\",\n      \"- **Paupières inférieures** : souvent 10 ans ou plus, parfois définitif.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TNDflt/xdscP6BQ/WudpWsi40VVscvFLtlFdPiGBcpQnH+NUoNZ0n7NDtpUvdZDuoCoOQiL91T8Vg7JDEr8QiVQE2iDJBW3j16gmlH268K24ZKQJ3MpPiyy58uaiKGycnCA=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6516,
+  "candidatesTokenCount": 1333,
+  "totalTokenCount": 7849,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6516
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "VV3pasW6HIupkdUP3qfg8AQ"
+}

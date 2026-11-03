@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"9069ddfe1ea4\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.14,\n    \"borne_haute\": 26,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Jours 1 à 3** | Pic de l'œdème et des ecchymoses (bleus). Gonflement souvent plus marqué au réveil. |\",\n      \"| **3 à 6 mois** | Résorption de l'œdème fin. Résultat définitif, cicatrices estompées. |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"b62045168734\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"En général, il faut compter **2 à 4 séances** de laser pour traiter une couperose, parfois un peu plus selon les cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"92b6de85a6f0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 10,\n    \"borne_haute\": 15,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Paupières supérieures** : en moyenne **10 à 15 ans**, car le vieillissement naturel continue (relâchement cutané, chute du sourcil).\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"faaa5d495b49\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 30,\n    \"borne_haute\": 600,\n    \"unite\": \"secondes\",\n    \"phrases_chiffre\": [\n      \"Appliquez-le sur peau humide, massez doucement pendant **30 à 60 secondes** en évitant le contour des yeux, puis rincez à l'eau tiède.\",\n      \"En général, un masque se laisse **5 à 10 minutes**, et un sérum ou un tonique exfoliant ne se rince pas.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"92e62c19cddd\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 15,\n    \"borne_haute\": 30,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de mésothérapie dure généralement **entre 15 et 30 minutes**, selon la zone traitée et l'objectif.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"1f558759a1b1\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 365,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| **Décalcomanie (transfert à l'eau)** | 2 à 7 jours |\",\n      \"| **Tatouage semi-permanent (type Inkbox, Ephemeral)** | 1 à 3 semaines (jusqu'à environ 1 an pour certaines encres spéciales) |\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"cc17d810cdfc\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 10,\n    \"borne_haute\": 15,\n    \"unite\": \"Jours\",\n    \"phrases_chiffre\": [\n      \"**Jours 10 à 15**\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"68bde9bc8478\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 20,\n    \"borne_haute\": 45,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"Une séance de mésothérapie dure en général **environ 20 à 45 minutes**, selon la zone traitée et le protocole :\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a336693b335c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 0.04,\n    \"borne_haute\": 28,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Tatouage décalcomanie (transfert à l'eau ou autocollant)** : 2 à 5 jours en général. Il s'use par frottement, l'eau, le savon et les vêtements.\",\n      \"- **Tatouage semi-permanent ou éphémère (encre spéciale)** : environ 1 à 2 semaines, parfois jusqu'à 4 semaines.\",\n      \"- **Maquillage corporel ou airbrush** : quelques heures, jusqu'à un jour, à enlever avec de l'eau et du savon ou un démaquillant.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"78469921a5a3\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 14,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **J7 à J14 :** la plupart des gens peuvent reprendre une vie sociale, avec un maquillage couvrant si besoin (après accord du chirurgien).\",\n      \"- Un arrêt de travail de 5 à 10 jours est courant selon le métier.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0T/3sT1/WIqC+bw6eqbC7r5erS557ABFAVe05v6O8Oi3zYShw4Bu17JS8Kn7w9sgw5hCUUkoK4ukEtzZdLmbDjwZDYKfILRnPfVsh/43Uc8NW66o0ATqgPZgHXaNJOXIYLqw=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6091,
+  "candidatesTokenCount": 1555,
+  "totalTokenCount": 7646,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6091
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "M13paqT7LKuvvdIP0ISc4QU"
+}

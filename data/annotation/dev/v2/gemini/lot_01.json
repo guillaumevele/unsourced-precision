@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"6d5bc016ef0c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"0.5\",\n    \"borne_haute\": \"1\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Phase initiale (environ 8 à 12 semaines)** : une séance toutes les **1 à 2 semaines** sur la même zone. C'est la période où la repousse est la plus réduite.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"84a91ec6d241\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"14\",\n    \"borne_haute\": \"42\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- Environ **2 à 3 semaines**, et seulement quand la plaie est **complètement fermée** : plus de croûte, plus de suintement, plus de zone ouverte.\",\n      \"- En général **3 à 4 semaines**, parfois **6 semaines ou plus** pour les chirurgies importantes (abdominale, orthopédique, césarienne, etc.).\",\n      \"- Pour une petite chirurgie cutanée (grain de beauté, kyste) : souvent **2 à 3 semaines**.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e4bfb57dae73\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"30\",\n    \"borne_haute\": \"900\",\n    \"unite\": \"secondes\",\n    \"phrases_chiffre\": [\n      \"- **Massez 30 secondes à 1 minute maximum**, puis rincez.\",\n      \"- Laissez poser **5 à 10 minutes** en général (parfois jusqu'à 15 selon le produit).\",\n      \"- Généralement **5 à 10 minutes**, en suivant strictly la notice.\"\n    ],\n    \"renvoi\": \"source\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"957b818e6915\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"0.25\",\n    \"borne_haute\": \"1\",\n    \"unite\": \"semaine\",\n    \"phrases_chiffre\": [\n      \"- **1 séance par semaine** sur chaque zone\",\n      \"- Certains modèles recommandent plutôt toutes les 1 à 2 semaines pour les zones sensibles ou si la peau réagit\",\n      \"- **1 séance toutes les 4 semaines** environ, voire moins selon la repousse\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"75f117afd026\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"30\",\n    \"borne_haute\": \"600\",\n    \"unite\": \"secondes\",\n    \"phrases_chiffre\": [\n      \"En général, **1 à 3 minutes** suffisent pour un gommage du visage. Il n'est pas nécessaire de le laisser poser : l'action vient du massage, pas du temps de pause.\",\n      \"- Massez en petits mouvements circulaires doux pendant 30 secondes à 1 minute.\",\n      \"- Suivez les indications du produit, généralement **3 à 10 minutes**.\",\n      \"- Comptez 5 à 10 minutes, en rinçant avant que le produit ne sèche complètement.\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"4b8e4539ee45\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"4\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"En général, il faut attendre **environ 2 semaines** avant de remettre du maquillage autour des yeux (mascara, eye-liner, fards). Certains chirurgiens demandent 1 semaine, d'autres jusqu'à 4 semaines. Le plus sûr est de suivre les consignes de votre ophtalmologue, qui peut adapter le délai selon votre cas.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"f88f627a3f2b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"1\",\n    \"borne_haute\": \"5\",\n    \"unite\": \"séances\",\n    \"phrases_chiffre\": [\n      \"Une couperose légère à modérée nécessite le plus souvent **1 à 3 séances**, espacées de **4 à 6 semaines**.\",\n      \"| Quelques petits vaisseaux isolés | 1 à 2 |\",\n      \"| Couperose modérée (joues, nez) | 2 à 3 |\",\n      \"| Couperose étendue / rougeurs diffuses (érythrose) | 3 à 5, parfois plus |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"5d0d2f8a355d\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"6\",\n    \"borne_haute\": \"18\",\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"Le massage d'une cicatrice se fait en général **2 à 3 fois par jour, pendant 5 à 10 minutes** à chaque séance, et sur une durée de **plusieurs mois (6 à 12 mois, parfois jusqu'à 18 mois)**, le temps que la cicatrice arrive à maturation.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a68cc267cd5c\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"2\",\n    \"borne_haute\": \"2\",\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"- **Maquillage des yeux** (mascara, eye-liner, fards, crayon sur la ligne des cils) : attendez **environ 2 semaines**, ou jusqu'à la visite de contrôle où le médecin vous donne le feu vert.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"49572304a671\",\n    \"chiffre_present\": true,\n    \"borne_basse\": \"5\",\n    \"borne_haute\": \"10\",\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Paupières supérieures** : souvent 5 à 10 ans, voire plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0TJ1yyipZZN0epcwcUCYdaFvS+NmgsQb3DpfCc+EoJRyRkfHA0ObdHxkPi78fq88ICXdTLLR3BJSMKUzQcxN7+c4EURLlXh9HuU/orEC3AvM3PzVwsA31QQhQISUj4hLTyRw=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 5341,
+  "candidatesTokenCount": 1723,
+  "totalTokenCount": 7064,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 5341
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "4FzpaqSwDvOfvdIP996W6AI"
+}

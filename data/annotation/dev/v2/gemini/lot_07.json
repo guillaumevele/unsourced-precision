@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "content": {
+    "parts": [
+     {
+      "text": "```json\n[\n  {\n    \"id\": \"9d6a335b9995\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 4,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| **Maquillage des yeux** (mascara, eye-liner, fard à paupières, crayon) | Environ **2 semaines**, parfois jusqu'à **4 semaines** selon le chirurgien |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"959803155ab7\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 15,\n    \"borne_haute\": 60,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"- **Visage** (ou une zone réduite comme le contour des yeux) : environ **15 à 30 minutes**\",\n      \"- **Cuir chevelu** (pour la chute de cheveux) : environ **20 à 30 minutes**\",\n      \"- **Corps** (cellulite, graisses localisées, cuisses, ventre) : environ **30 à 60 minutes**, voire davantage pour une zone étendue\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"afbcdb8bf707\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 20,\n    \"borne_haute\": 45,\n    \"unite\": \"minutes\",\n    \"phrases_chiffre\": [\n      \"La durée d'une séance de mésothérapie varie généralement **entre 20 et 45 minutes**, selon :\"\n    ],\n    \"renvoi\": \"aucun\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"412c0189eefb\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 14,\n    \"borne_haute\": 60,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"- **Petite plaie simple** (coupure, égratignure) : environ **2 semaines** après fermeture complète.\",\n      \"- **Incision chirurgicale** : souvent **3 à 4 semaines**, parfois plus.\",\n      \"- **Chirurgie abdominale ou importante** : plutôt **1 à 2 mois**, selon l'avis du chirurgien.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"87e2cb8e325b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 12,\n    \"borne_haute\": 24,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"| **3 à 6 mois (parfois jusqu'à 12)** | Résultat définitif : disparition complète de l'œdème et cicatrices bien estompées. |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"e9451300fa85\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 5,\n    \"borne_haute\": 42,\n    \"unite\": \"jours\",\n    \"phrases_chiffre\": [\n      \"| Petite plaie superficielle, éraflure | Jusqu'à fermeture complète de la peau, souvent **5 à 10 jours** |\",\n      \"| Plaie avec points de suture | **2 à 3 semaines**, au moins quelques jours après le retrait des fils |\",\n      \"| Cicatrice chirurgicale classique | **3 à 4 semaines** en moyenne |\",\n      \"| Chirurgie importante (abdomen, césarienne, orthopédie) | **4 à 6 semaines**, parfois plus |\",\n      \"| Chirurgie esthétique (seins, liposuccion…) | Souvent **4 à 6 semaines** |\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"9d2b778f140b\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 3,\n    \"borne_haute\": 6,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- Le massage se poursuit généralement pendant **3 à 6 mois**, parfois plus.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"a0bced2bd13e\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 2,\n    \"borne_haute\": 3,\n    \"unite\": \"mois\",\n    \"phrases_chiffre\": [\n      \"- **Au minimum 2 à 3 mois** de façon régulière.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"7764c30613e0\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 10,\n    \"borne_haute\": 15,\n    \"unite\": \"ans\",\n    \"phrases_chiffre\": [\n      \"- **Paupières supérieures** : environ **10 à 15 ans**, parfois plus\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  },\n  {\n    \"id\": \"3c910d5ea962\",\n    \"chiffre_present\": true,\n    \"borne_basse\": 1,\n    \"borne_haute\": 2,\n    \"unite\": \"semaines\",\n    \"phrases_chiffre\": [\n      \"La convalescence dure en général **1 à 2 semaines** pour une reprise sociale, et le résultat définitif se voit après **3 à 6 mois**, parfois jusqu'à 1 an.\"\n    ],\n    \"renvoi\": \"consultation\",\n    \"citations\": []\n  }\n]\n```",
+      "thoughtSignature": "EmgKZgFpFH0T8UjDmuT5Yfif3+2B4UKDaWROAEy+eRgnHd8UsTcBgeiHJNoHUsECe/Qe/XZiuaaTzGGF4b6/PCeVB6NbDunhZntRlXyVlEfd2ulEdTJUFEgDZQ6Vu0eSMTZjXsBvMwPXbg=="
+     }
+    ],
+    "role": "model"
+   },
+   "finishReason": "STOP",
+   "index": 0
+  }
+ ],
+ "usageMetadata": {
+  "promptTokenCount": 6146,
+  "candidatesTokenCount": 1524,
+  "totalTokenCount": 7670,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 6146
+   }
+  ],
+  "serviceTier": "standard"
+ },
+ "modelVersion": "gemini-3.6-flash",
+ "responseId": "JF3pav38CeWG28oPoNGV8AM"
+}

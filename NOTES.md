@@ -291,3 +291,9 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 - Unités : minutes contre cible en secondes sur `SOURCED`, 3 cas Mistral et 1 Gemini ; unités inconvertibles, 1 Mistral (« par semaine ») et 4 Gemini.
 - Conséquence : `PREREG-AMENDEMENT-1.md` (citations ancrées, lexique appliqué par script, unités, invalides, lots de 10). Claude n'a tranché aucune des 38 indéterminées.
 - `scripts/score.py dev v1` relancé après la réécriture du script : `scores.jsonl` identique ligne à ligne au commit `273bdc9` (`git diff --quiet`). 34 tests OK (`python -m unittest discover -s tests`).
+
+## Annotation du dev en v2 : quota Gemini (03/11/2026)
+
+- Mistral v2 : 18 lots sur 18, 180 éléments (`data/annotation/dev/v2/mistral.jsonl`), quelques HTTP 429 par minute absorbés par les relances.
+- Gemini v2 : 11 lots sur 18, puis HTTP 429 persistant. Détail de l'erreur (appel de contrôle) : quota `GenerateRequestsPerDayPerProjectPerModel-FreeTier`, valeur 20, `retryDelay` 12 562 s. L'offre gratuite donne **20 requêtes par jour** pour `gemini-3.6-flash`.
+- Conséquence : il manque 7 lots au dev v2 ; le test demandera 720 réponses, soit 72 lots de 10, soit au moins 4 jours au rythme gratuit. Passer le projet Google en offre payante lèverait le quota et la réserve sur l'usage des données ; décision à Guillaume.
