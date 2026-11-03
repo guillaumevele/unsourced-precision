@@ -251,3 +251,15 @@ Requêtes de lecture seulement (liste des modèles, solde), aucune génération,
 - Accord de Guillaume pour utiliser les API de `~/.hermes/.env`. Appel minimal (« Réponds seulement : OK ») : `mistral-large-4` HTTP 200, 21 tokens en entrée, 5 en sortie dont 4 de raisonnement ; `openai/gpt-oss-120b` (Groq) HTTP 200, 77 en entrée, 39 en sortie, réponse « OK ».
 - Clé Gemini : celle d'Hermes est refusée (HTTP 400, API_KEY_INVALID) ; les trois clés Google distinctes trouvées sur le VPS (`/root/warren/.env`, sauvegardes de `/root/.openclaw/.env`) aussi ; aucune autre dans `~`, `~/Projects`, le SSD d'archive, ni dans les dossiers Verdict et Acuence (`rg -l "AIza…"`, `rg -l -i gemini`, noms de fichiers seulement). L'entrée « gemini » du trousseau appartient au compte « antigravity » (connexion de l'éditeur, pas une clé d'API). Le CLI Gemini est connecté par compte Google (`~/.gemini/oauth_creds.json`), un accès grand public.
 - Le champ `provenance.site` et le champ `site` du journal de parcours sont retirés des données publiques et gardés dans `data/private/site_by_id.json` (option protectrice appliquée faute de réponse, cohérente avec la décision de ne pas nommer les sites ; réversible avant publication).
+
+## Empreintes de la v1 (commit 872c98fefc5f1e157ddbdd949f93e962e8561725, 03/11/2026 03:00 +0100)
+
+```
+0760dea2582638a1e7fd81aa6c5f212011b72b54643fab421f62de07647dc67e  PREREG.md
+6fd5b17d4b2c3513259641b5a58029ee293a9f186c5dde17b7a8dd53dc664e25  ANNOTATION.md
+08d797217322630235a40e842e76fd00505868f313c921782d889b10abcfb89e  data/stratum_a.jsonl
+e8835a289ed81744d0245556b19a938e156109da8c619828011ec973ffa2ccb1  data/split.json
+120b44ee1452616b9eba54c311257517338f08b379af2b6045db84dcff7c6c49  data/annotation/prompt.md
+```
+
+Ancrage hors de git (OpenTimestamps) : en attente de l'accord de Guillaume.
