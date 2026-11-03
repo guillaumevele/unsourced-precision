@@ -273,3 +273,10 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 - Même contrôle pour les deux : `output_config.effort = "medium"`, raisonnement adaptatif demandé, pas de `system`, pas de `temperature`, `max_tokens` 8000 ; modèles renvoyés `claude-sonnet-5-5` et `claude-opus-5-5` pour les 60 réponses chacun ; `stop_reason = stop` partout ; aucun texte vide ; longueurs médianes 1 755 (Sonnet) et 1 676 (Opus) caractères.
 - **Sonnet n'a produit aucun bloc de raisonnement** sur ses 60 réponses (Opus : 60 sur 60 ; Haiku : 15 976 tokens de raisonnement), bien que la requête soit identique. À effort `medium`, le raisonnement adaptatif laisse le modèle décider ; c'est un comportement à rapporter, pas un écart de paramètre.
 - Coût du dev, calculé aux tarifs du 03/11 avec la remise Batch : environ 0,78 $ (Haiku 0,01 $, Sonnet 0,23 $, Opus 0,53 $).
+
+## Annotation du dev (03/11/2026) : en cours, bloquée sur le second annotateur
+
+- `scripts/annotate.py` (lots de 20, graine 20261105, température 0, `top_p` 1 exigé par Mistral à température 0). Réglages de raisonnement ajoutés après deux lots où chaque annotateur a dépensé ses 16 000 tokens à raisonner sans rendre de JSON (gardés dans `data/annotation/dev/essais_rejetes/`) : `reasoning_effort: "low"` pour Mistral Large 4 (« none » refusé) et pour GLM-5.3 (« désactivé » refusé : « ce modèle raisonne toujours »). Précision procédurale à porter dans l'amendement.
+- Second annotateur : `openai/gpt-oss-120b` (Groq) refusé par l'offre gratuite (8 000 tokens par minute, un lot en demande 10 628) ; Cohere : clé d'essai, quota mensuel de 1 000 appels atteint ; remplacé par `glm-5.3` (Zhipu), autorisé par Guillaume (« mistral et d'autres »). Écart avec la v1, qui nommait gpt-oss-120b : à dater dans l'amendement.
+- Règle ajoutée : un lot incomplet ou illisible est gardé comme rejeté et redemandé tel quel, au plus 3 essais (GLM, lot 3 : 19 éléments sur 20 au premier essai).
+- Mistral : 180 réponses annotées (9 lots). GLM : 7 lots sur 9, puis HTTP 429 code 1113, « 余额不足或无可用资源包,请充值 » (solde insuffisant). Annotation du dev incomplète, aucun score calculé.

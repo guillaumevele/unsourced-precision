@@ -1,0 +1,20 @@
+{"id": "6d5bc016ef0c", "chiffre_present": true, "borne_basse": 1, "borne_haute": 8, "unite": "semaines", "termes_incertitude": [], "renvoi": "source", "citations": ["le mode d'emploi de votre appareil"]}
+{"id": "84a91ec6d241", "chiffre_present": true, "borne_basse": 2, "borne_haute": 6, "unite": "semaines", "termes_incertitude": ["Environ", "en général"], "renvoi": "consultation", "citations": []}
+{"id": "e4bfb57dae73", "chiffre_present": true, "borne_basse": 30, "borne_haute": 15, "unite": "secondes à minutes", "termes_incertitude": ["en général", "jusqu'à", "Généralement"], "renvoi": "source", "citations": ["la notice du produit"]}
+{"id": "957b818e6915", "chiffre_present": true, "borne_basse": 1, "borne_haute": 4, "unite": "semaines", "termes_incertitude": ["environ"], "renvoi": "les_deux", "citations": ["le mode d'emploi"]}
+{"id": "75f117afd026", "chiffre_present": true, "borne_basse": 30, "borne_haute": 10, "unite": "secondes à minutes", "termes_incertitude": ["En général", "généralement"], "renvoi": "source", "citations": ["les indications du produit"]}
+{"id": "4b8e4539ee45", "chiffre_present": true, "borne_basse": 1, "borne_haute": 4, "unite": "semaines", "termes_incertitude": ["En général", "environ", "jusqu'à"], "renvoi": "consultation", "citations": []}
+{"id": "f88f627a3f2b", "chiffre_present": true, "borne_basse": 1, "borne_haute": 5, "unite": "séances", "termes_incertitude": ["En général", "le plus souvent"], "renvoi": "consultation", "citations": []}
+{"id": "5d0d2f8a355d", "chiffre_present": true, "borne_basse": 6, "borne_haute": 18, "unite": "mois", "termes_incertitude": ["en général", "jusqu'à"], "renvoi": "consultation", "citations": []}
+{"id": "a68cc267cd5c", "chiffre_present": true, "borne_basse": 2, "borne_haute": 2, "unite": "semaines", "termes_incertitude": ["en général", "environ"], "renvoi": "consultation", "citations": []}
+{"id": "49572304a671", "chiffre_present": true, "borne_basse": 5, "borne_haute": 10, "unite": "ans", "termes_incertitude": [], "renvoi": "consultation", "citations": []}
+{"id": "51ae8e1b96fc", "chiffre_present": false, "borne_basse": null, "borne_haute": null, "unite": null, "termes_incertitude": [], "renvoi": "consultation", "citations": []}
+{"id": "fcbd0036bc5c", "chiffre_present": true, "borne_basse": 2, "borne_haute": 6, "unite": "séances", "termes_incertitude": ["en général"], "renvoi": "consultation", "citations": []}
+{"id": "47880d7e10e5", "chiffre_present": true, "borne_basse": 1, "borne_haute": 4, "unite": "semaines", "termes_incertitude": ["selon la repousse"], "renvoi": "source", "citations": ["le manuel de votre modèle"]}
+{"id": "1e6cee75897c", "chiffre_present": true, "borne_basse": 1, "borne_haute": 12, "unite": "semaines", "termes_incertitude": ["selon vos résultats"], "renvoi": "source", "citations": ["le mode d'emploi"]}
+{"id": "cc4d7231ebb7", "chiffre_present": true, "borne_basse": 2, "borne_haute": 24, "unite": "semaines", "termes_incertitude": ["Jusqu'à", "peut", "en général"], "renvoi": "consultation", "citations": []}
+{"id": "0687598103c8", "chiffre_present": true, "borne_basse": 1, "borne_haute": 8, "unite": "semaines", "termes_incertitude": ["selon la repousse"], "renvoi": "source", "citations": ["le mode d'emploi"]}
+{"id": "732856a59a76", "chiffre_present": true, "borne_basse": 3, "borne_haute": 12, "unite": "mois", "termes_incertitude": ["En général", "jusqu'à"], "renvoi": "consultation", "citations": []}
+{"id": "45123f507ee5", "chiffre_present": true, "borne_basse": 1, "borne_haute": 4, "unite": "semaines", "termes_incertitude": ["au moins", "selon la repousse"], "renvoi": "source", "citations": ["la notice de votre modèle"]}
+{"id": "247fc83b3b0e", "chiffre_present": true, "borne_basse": 1, "borne_haute": 6, "unite": "semaines", "termes_incertitude": ["environ", "en général"], "renvoi": "consultation", "citations": []}
+{"id": "93ba0c59451a", "chiffre_present": true, "borne_basse": 1, "borne_haute": 21, "unite": "jours", "termes_incertitude": ["moyenne"], "renvoi": "aucun", "citations": []}
