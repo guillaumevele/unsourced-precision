@@ -364,3 +364,8 @@ Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `
 - Conséquence : le verdict pré-inscrit de Haiku est une **mesure invalide**, pas un résultat. Ceux d'Opus et de Sonnet restent confirmatoires. Une lecture corrigée, écrite après coup, est exploratoire (script séparé, `q2_analyze.py` inchangé).
 - Lecture corrigée (`scripts/q2_lecture_corrigee.py`, commit `5723559` avant exécution, tests synthétiques au format Haiku et Opus) : lecture changée sur 420 tirages Haiku sur 590, 0 sur 770 pour Opus, 0 sur 770 pour Sonnet ; aucun tirage illisible. Résultats d'Opus et de Sonnet identiques au pré-inscrit. Haiku (exploratoire) : AUROC auto 0,739 [0,555 ; 0,893].
 - Vérification à la main de 20 tirages Haiku tirés au hasard (graine 20261108), les deux lectures côte à côte : la lecture corrigée donne la confiance écrite dans 20 cas sur 20 ; la règle pré-inscrite se trompe dans 15. Le verdict « non établi » domine chez Haiku.
+
+## Publication (03/11/2026)
+
+- Dépôt public créé et `main` seule poussée, avec l'accord de Guillaume (« Tu peux publier »). Licences ajoutées à sa demande : code MIT, données et documents CC BY 4.0 (texte officiel téléchargé depuis creativecommons.org), avec exceptions pour les passages cités et les sorties de modèles. `CITATION.cff`, fiche de données, sujets GitHub.
+- `tests/test_q2.py` ne correspond plus au manifeste de l'amendement 3 : le commit `5723559` y a **ajouté** 20 lignes de tests pour la lecture corrigée, sans rien retirer ni modifier (`git diff 2eebac0 HEAD`). La version figée correspond au manifeste (`git show 2eebac0:tests/test_q2.py | shasum -a 256`). Écart signalé dans le README.

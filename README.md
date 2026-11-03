@@ -56,18 +56,22 @@ Every step that could bias the result was committed **before** the data it could
 | Amendment 2: grid for test, detector frozen after dev tuning | `09f5241` | `timestamps/amendement-2.manifest.txt.ots` |
 | Test runs (`logs/test/`), first appearance | `d84aa75` | git history |
 | Analysis code, written and unit-tested before any test score | `9b89dd0` | `timestamps/analyse.manifest.txt.ots` |
+| Amendment 3: Q2 probes, parser and analysis, before any Q2 call | `2eebac0` | `timestamps/amendement-3.manifest.txt.ots` |
 
 Check it yourself:
 
 ```bash
-git log --format='%h %ci %s' -- PREREG.md logs/test scripts/analyze.py
-for m in prereg-v1 amendement-1 amendement-2 analyse; do      # files unchanged since they were frozen
+git log --format='%h %ci %s' -- PREREG.md logs/test scripts/analyze.py logs/q2
+for m in prereg-v1 amendement-1 amendement-2 analyse amendement-3; do   # files unchanged since they were frozen
   grep -E '^[0-9a-f]{64}  ' timestamps/$m.manifest.txt | shasum -a 256 -c --quiet && echo "$m OK"
 done
+git show 2eebac0:tests/test_q2.py | shasum -a 256             # expected mismatch above, see below
 ots verify timestamps/prereg-v1.manifest.txt.ots              # needs a Bitcoin node, or use opentimestamps.org
 ```
 
-Every deviation from the plan is written down rather than hidden: the annotator replaced, the grid revised after dev, the API changed mid-annotation. See `PREREG-AMENDEMENT-1.md`, `PREREG-AMENDEMENT-2.md` and the dated log in `NOTES.md`.
+One mismatch is expected: `tests/test_q2.py`. Its frozen version matches the amendment-3 manifest at commit `2eebac0`. Commit `5723559` later **added** 20 lines of tests for the exploratory corrected parser and removed or changed none (`git diff 2eebac0 HEAD -- tests/test_q2.py`).
+
+Every deviation from the plan is written down rather than hidden: the annotator replaced, the grid revised after dev, the API changed mid-annotation, the Q2 parser defect. See the three `PREREG-AMENDEMENT-*.md` files and the dated log in `NOTES.md`.
 
 ## Limitations (written before seeing the test)
 
