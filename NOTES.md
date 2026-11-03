@@ -263,3 +263,9 @@ e8835a289ed81744d0245556b19a938e156109da8c619828011ec973ffa2ccb1  data/split.jso
 ```
 
 Ancrage hors de git (OpenTimestamps, accord de Guillaume le 03/11) : manifeste `timestamps/prereg-v1.manifest.txt` (commit, arbre et sha256 relus dans le commit 872c98f) soumis le 03/11/2026 à 03:06 aux quatre calendriers publics par `ots stamp` (opentimestamps-client 0.8.0). Preuve : `timestamps/prereg-v1.manifest.txt.ots`, en attente de confirmation Bitcoin (quelques heures) ; à compléter par `ots upgrade`, puis vérifier par `ots verify`.
+
+## Runs dev (03/11/2026)
+
+- `scripts/run_stratum_a.sh dev claude-haiku-5-5` : 60 réponses (12 questions × 5), 6 min 29 en Batch API, 50 023 tokens (1 375 en entrée, 48 648 en sortie dont 15 976 de raisonnement). Journal : `logs/dev/2026-11-03T02-13-32-00-00_stratum-a_eRRjNsSnRhc3PupmGUN6WR.eval`.
+- **Contrôle pré-inscrit (PREREG § 4)**, relu dans les événements du journal : la requête porte `output_config: {"effort": "medium"}`, aucun champ `system`, aucune `temperature`, `max_tokens` 8000, `thinking: {"type": "adaptive"}` (réglage d'Inspect par défaut, avec `block_binding`), `tools: []`, et `cache_control: {"type": "ephemeral"}` ajouté par Inspect. Modèle renvoyé : `claude-haiku-5-5` pour les 60 réponses. `stop_reason` : `stop` pour les 60 ; aucun texte vide ; longueur médiane 1 066 caractères.
+- Observation à garder pour l'annotation, sans conséquence sur la v1 : sur A-002 (lifting cervico-facial), Haiku répond sur la durée de l'opération (2 à 4 heures), la lecture non ciblée de la requête ambiguë.
