@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "split": null,
+  "n": 49,
+  "couches": 29,
+  "dimension": 1536,
+  "torch": "2.9.1",
+  "transformers": "4.57.1",
+  "gabarit_sha256": "ad7c2f7b5ac3f1088d731546815c99a81073633506ead75bd39509767b83ea0f"
+}
