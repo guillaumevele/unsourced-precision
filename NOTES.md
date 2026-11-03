@@ -201,3 +201,15 @@ Guillaume n'a de crédits API que chez Anthropic. Budget avec Claude seul (`pyth
 4. **Pages de société savante destinées aux patients** (AAD, ASPS) : comptées comme `guideline`. Les articles de l'ASPS qui citent des chirurgiens sont signalés comme avis publiés, pas comme recommandations formelles (rang 37).
 5. **Lecture des pages en entier** (03/11, rang 13 corrigé au rang 43) : un filtre qui exigeait un nombre collé à l'unité a manqué « 2 to 6 laser treatments » sur la FAQ de l'AAD. Depuis, on lit toutes les phrases qui contiennent le nom de la quantité (treatments, sessions, weeks…), pas seulement les motifs « nombre + unité ».
 6. **Approximations verbales** (03/11, rang 97) : « a couple of weeks », « a few days », « several weeks » ne sont pas des nombres. Une question dont les seules sources sont verbales est classée `NOT_FOUND`, sources consignées dans `search_log`.
+
+## Strate A complète (03/11/2026)
+
+- Arrêt sur quotas pleins au rang 196 : 60 questions, 24 `SOURCED`, 24 `NOT_FOUND`, 12 `CONTESTED` ; 44 actes ; site A 46, site B 14. Validateur : 60/60 lignes valides, 0 erreur.
+- Décisions sur 196 rangs : 60 retenus, 61 E4, 25 E3, 20 E1, 16 E2, 14 « quota plein ».
+- **Plan apparié** : seuls 3 actes ont une `SOURCED` et une `NOT_FOUND` (cryolipolysis, abdominoplasty, blepharoplasty). L'analyse de sensibilité prévue au PREREG § 2 portera sur ces 3 actes : trop peu pour conclure, à écrire dans les limites.
+- **Points à relire par Guillaume avant le gel des étiquettes** :
+  - lectures retenues pour des requêtes ambiguës : A-002 (lifting), A-025 (blépharoplastie), A-053 (hyménoplastie), A-060 (rasage avant laser), A-011 (« botox lèvre » peut désigner un filler en français courant) ;
+  - `CONTESTED` à contextes différents : A-047 (étude nez et menton ensemble), A-055 (plaie collée chez l'enfant contre points résorbables) ;
+  - avis de chirurgiens publiés par l'ASPS comptés comme sources : A-021, A-052 ;
+  - citations relevées par WebFetch sur des pages rendues côté client, non revérifiées dans le HTML brut : A-019 (S2), A-021, A-040 et A-052 (fragments), A-044 (S2), A-056.
+- Correction en cours de parcours : A-010 (filtre trop étroit, règle 5) et A-008 (recherche officielle, règle 2).
