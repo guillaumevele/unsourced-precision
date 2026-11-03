@@ -8,13 +8,40 @@
   "cohen_kappa": 0.8993,
   "disagreements": [
     {
+      "id": "A-009",
+      "claude": "CONTESTED",
+      "grok": "CONTESTED",
+      "gpt": "SOURCED"
+    },
+    {
+      "id": "A-034",
+      "claude": "CONTESTED",
+      "grok": "CONTESTED",
+      "gpt": "SOURCED"
+    },
+    {
       "id": "A-044",
       "claude": "CONTESTED",
-      "grok": "SOURCED"
+      "grok": "SOURCED",
+      "gpt": "SOURCED"
     }
   ],
   "adjudication": {
     "A-044": "Étiquette maintenue à CONTESTED par la règle 7 : « 1 to 3 years » (AAD) et « will last forever » (ASPS) ne s'emboîtent pas ; la réserve « often longer when treating a scar » vise un autre contexte (cicatrice), elle n'ouvre pas la borne en général. Arbitrage fait par l'auteur des étiquettes : à signaler comme tel."
   },
-  "pending": "Second relecteur Codex (GPT) : quota d'usage atteint le 03/11, relance prévue après le 04/11 7 h 59."
+  "annotator_c": "gpt-6-astra (Codex CLI 0.153.4, codex exec -s read-only, effort high)",
+  "pairwise": {
+    "claude-grok": {
+      "agreement": 0.9333,
+      "cohen_kappa": 0.8993
+    },
+    "claude-gpt": {
+      "agreement": 0.8,
+      "cohen_kappa": 0.702
+    },
+    "grok-gpt": {
+      "agreement": 0.8667,
+      "cohen_kappa": 0.7945
+    }
+  }
 }
